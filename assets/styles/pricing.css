@@ -1,0 +1,62 @@
+[data-pricing=toggle].pricing-monthly {
+  background:#d9d7e0;
+  border-radius:9999px;
+  cursor:pointer;
+  display:inline-block;
+  height:24px;
+  padding:3px;
+  transition:all .3s ease 0s,background .5s ease 0s;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  width:48px;
+  flex-shrink:0;
+  margin-left:.5rem;
+  margin-right:.5rem
+}
+[data-pricing=toggle].pricing-monthly:after {
+  background:#ffffff;
+  position:relative;
+  display:block;
+  content:"";
+  width:18px;
+  height:18px;
+  border-radius:9999px;
+  transition:all .1s ease 0s;
+  left:0px
+}
+[data-pricing=toggle].pricing-yearly {
+  border-radius:9999px;
+  cursor:pointer;
+  display:inline-block;
+  height:24px;
+  padding:3px;
+  transition:all .3s ease 0s,background .5s ease 0s;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  user-select:none;
+  width:48px;
+  flex-shrink:0;
+  margin-left:.5rem;
+  margin-right:.5rem;
+  background:rgb(55,182,53) none repeat scroll 0% 0%
+}
+[data-pricing=toggle].pricing-yearly:after {
+  background:#ffffff;
+  position:relative;
+  display:block;
+  content:"";
+  width:18px;
+  height:18px;
+  border-radius:9999px;
+  transition:all .1s ease 0s;
+  left:calc(100% - 18px)
+}
+.pricing-toggle {
+  display:flex;
+  justify-content:center;
+  align-items:center
+}
+.pricing-toggle label {
+  margin-bottom:0
+}

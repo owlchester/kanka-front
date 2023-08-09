@@ -1,0 +1,213 @@
+<template>
+  <table>
+    <thead class="">
+    <tr>
+      <th></th>
+      <th>
+        <h3>Standard campaign</h3>
+      </th>
+      <th>
+        <h3>Premium campaigns</h3>
+      </th>
+    </tr>
+    </thead>
+    <tbody class="text-nav">
+    <tr>
+      <td>
+        Maximum number of entities per campaign
+      </td>
+      <td>
+        <i class="fa-solid fa-infinity" aria-hidden="true" />
+      </td>
+      <td>
+        <i class="fa-solid fa-infinity" aria-hidden="true" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Maximum number of members  per campaign
+      </td>
+      <td>10</td>
+      <td>
+        <i class="fa-solid fa-infinity" aria-hidden="true" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Maximum number of roles per campaign
+      </td>
+      <td>3</td>
+      <td>
+        <i class="fa-solid fa-infinity" aria-hidden="true" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Maximum number of quick links per campaign
+        <PricingMore url="https://docs.kanka.io/en/latest/advanced/quick-links.html" />
+      </td>
+      <td>3</td>
+      <td>
+        <i class="fa-solid fa-infinity" aria-hidden="true" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Maximum number of file assets per entity
+        <PricingMore url="https://docs.kanka.io/en/latest/features/assets.html?highlight=asset" />
+      </td>
+      <td>3</td>
+      <td>
+        <i class="fa-solid fa-infinity" aria-hidden="true" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Minimum file and image upload size for members
+      </td>
+      <td>1 MB</td>
+      <td>
+        8 MB
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Ad-free experience for all campaign members
+        <PricingMore url="https://docs.kanka.io/en/latest/articles/ads.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Install plugins from the <a href="https://marketplace.kanka.io" class="link-blue mr-1">Marketplace</a>
+        <PricingMore url="https://docs.kanka.io/en/latest/marketplace/marketplace.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Force the campaign theme for all members
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Access to full customization with theme builder and custom CSS
+        <PricingMore url="https://docs.kanka.io/en/latest/guides/dashboard.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Write custom tooltips for entities
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Upload large header images on entities
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Create multiple dashboards and assign them to roles
+        <PricingMore url="https://docs.kanka.io/en/latest/guides/dashboard.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Upload custom thumbnails for entities
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/default-thumbnails.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Set easy access links to outside sources on entities
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Define aliases on entities that work with search and mentions
+        <PricingMore url="https://docs.kanka.io/en/latest/features/aliases.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>Beautiful maps with access to thousands of icons for map markers and polygon markers</td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Rename and reorder the sidebar
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/sidebar.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Rename and change the icon of modules
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/modules.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Create complex family trees
+        <PricingMore url="https://docs.kanka.io/en/latest/entities/families/family-trees.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>Full integration with the campaign gallery to easily organize and reuse images
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Full logs of changes made on entities for up to 30 days
+        <PricingMore url="https://docs.kanka.io/en/latest/features/history.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Recover deleted entities for up to 30 days
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/recovery.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    <tr>
+      <td>
+        Feel good with campaign achievements
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/achievements.html" />
+      </td>
+      <td class="text-light">—</td>
+      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+    </tr>
+    </tbody>
+  </table>
+</template>
+
+<script>
+</script>
