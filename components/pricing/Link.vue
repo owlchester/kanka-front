@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink to="to" v-if="to" class="text-blue flex gap-2 items-center font-medium">
+  <NuxtLink :to="to" v-if="to" class="text-blue flex gap-2 items-center font-medium">
     <i v-bind:class="iconCss()" aria-hidden="true"></i>
     <span>{{ title }}</span>
   </NuxtLink>
@@ -13,7 +13,7 @@
 export default {
   props: {
     access: Boolean,
-    to: undefined,
+    to: String,
     title: String,
   },
 

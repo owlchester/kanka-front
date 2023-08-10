@@ -1,6 +1,6 @@
 <template>
-  <a v-bind:href="link" class="flex flex-col gap-5 text-left block w-72">
-    <img v-bind:src="img" v-bind:alt="title" class="w-fit">
+  <a v-bind:href="link" v-bind:class="boxCss()">
+    <img v-bind:src="img" v-bind:alt="title" class="w-80 h-60">
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
         <h3 class="grow">{{ title }}</h3>
@@ -26,7 +26,11 @@ export default {
     iconCss() {
       let css = 'w-4 ';
       return css + (this.access ? 'fa-solid fa-check' : 'fa-solid fa-times');
-    }
+    },
+    boxCss() {
+      let css = 'flex flex-col gap-5 text-left block ';
+      return css + (this.featured ? 'w-72' : 'w-80');
+    },
   }
 }
 </script>

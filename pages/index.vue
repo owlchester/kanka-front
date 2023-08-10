@@ -11,7 +11,7 @@
     </div>
   </BaseHero>
 
-  <Section>
+  <Section id="features">
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark">
       <Feature
         icon="fa-solid fa-dollar"
@@ -45,10 +45,10 @@
     <PricingOverview></PricingOverview>
   </Section>
 
-  <Section>
+  <Section id="featured">
     <div class="flex flex-col gap-4">
-    <h2 class="text-purple">Featured campaigns</h2>
-    <p class="lg:max-w-xl lg:mx-auto">Our community builds amazing things that we love to showcase as Featured Campaigns. Be sure to come back every now and then for more featured campaigns to check out.</p>
+      <h2 class="text-purple">Featured campaigns</h2>
+      <p class="lg:max-w-xl lg:mx-auto">Our community builds amazing things that we love to showcase as Featured Campaigns. Be sure to come back every now and then for more featured campaigns to check out.</p>
     </div>
 
     <div class="overflow-x-auto">
@@ -86,8 +86,6 @@
         </Campaign>
       </div>
     </div>
-
-
   </Section>
 </template>
 <script setup lang="ts">

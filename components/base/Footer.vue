@@ -44,7 +44,6 @@
           <a href="//blog.kanka.io/category/news">What's new</a>
           <a href="//blog.kanka.io">Blog</a>
           <a href="//status.kanka.io">Service status</a>
-          <NuxtLink to="newsletter">Newsletter</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Community">
           <NuxtLink to="/campaigns">Public campaigns</NuxtLink>
