@@ -146,14 +146,14 @@ async function filter(pagination: number) {
 }
 
 function hasPages() {
-  return this.campaigns.pagination.total_pages > 0;
+  return campaigns.value.pagination.total_pages > 0;
 }
 function previous() {
-  let page = this.campaigns.pagination.current_page-1;
+  let page = campaigns.value.pagination.current_page-1;
   filter(page);
 }
 function next() {
-  let page = this.campaigns.pagination.current_page+1;
+  let page = campaigns.value.pagination.current_page+1;
   filter(page);
 }
 
