@@ -16,8 +16,8 @@
     </div>
 
     <div class="gap-2.5 items-center hidden lg:flex">
-      <NuxtLink to="https://app.kanka.io/login" class="btn-login transition-all duration-200">Sign in</NuxtLink>
-      <NuxtLink to="https://app.kanka.io/register" class="btn-register transition-all duration-200">Register</NuxtLink>
+      <NuxtLink :to="`${runtimeConfig.public.app}/login`" class="btn-login transition-all duration-200">Sign in</NuxtLink>
+      <NuxtLink :to="`${runtimeConfig.public.app}/register`" class="btn-register transition-all duration-200">Register</NuxtLink>
     </div>
     <div class="block lg:hidden" @click="toggle()">
       <i class="fa-thin fa-bars text-5xl text-blue cursor-pointer" v-if="!open"></i>
@@ -42,13 +42,14 @@
           Public campaigns
         </NuxtLink>
 
-        <NuxtLink to="https://app.kanka.io/login" class="btn-login transition-all duration-200">Sign in</NuxtLink>
-        <NuxtLink to="https://app.kanka.io/register" class="btn-register transition-all duration-200">Register</NuxtLink>
+        <NuxtLink :to="`${runtimeConfig.public.app}/login`" class="btn-login transition-all duration-200">Sign in</NuxtLink>
+        <NuxtLink :to="`${runtimeConfig.public.app}/register`" class="btn-register transition-all duration-200">Register</NuxtLink>
       </div>
     </div>
   </nav>
 </template>
 <script setup type="ts">
+const runtimeConfig = useRuntimeConfig()
 const open = ref(false);
 
 function toggle() {

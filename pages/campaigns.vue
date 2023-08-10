@@ -66,6 +66,9 @@
                     :system="campaign.system"
           >
           </Campaign>
+          <p v-if="campaigns.campaigns.length === 0" class="text-light text-sm">
+            No campaigns match the selected filters. Please try again with different ones.
+          </p>
         </div>
         <div v-if="hasPages()" class="flex items-center justify-center gap-5">
           <a href="#campaigns" class="link cursor-pointer" @click="previous()" v-if="campaigns.pagination.previous">
@@ -122,9 +125,7 @@ function filterTo(filterKey: string, optionKey: string, option: any) {
   let key = filterKey + '_' + optionKey;
 
   if (activeFilters.value[key]) {
-    console.log('already has');
     removeFilter(key);
-    filter();
     return;
   }
   activeFilters.value[key] = option;
@@ -134,6 +135,7 @@ function filterTo(filterKey: string, optionKey: string, option: any) {
 function removeFilter(filterKey: string) {
   //console.log('remove', filterKey);
   delete activeFilters.value[filterKey];
+  filter();
 }
 
 async function filter(pagination: number) {

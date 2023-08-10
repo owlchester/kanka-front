@@ -4,11 +4,11 @@ const route = useRoute()
 useHead({
   title: 'Kanka',
   meta: [
-    { name: 'description', content: 'My amazing site.' }
+    { name: 'description', content: 'Are you a game master, worldbuilder, or a storyteller? We offer a tabletop campaign manager and worldbuilding tool that makes it easy to organise, plan, and enjoy your TTRPG campaigns. We are community driven, and best of all, our core features are free!' }
   ],
 })
 useSeoMeta({
-  ogImage: 'https://kanka-users-assets.s3.amazonaws.com/app/front/preview-background.png',
+  ogImage: 'https://kanka-user-assets.s3.amazonaws.com/app/front/preview-background.png',
   ogImageType: 'image/png',
   ogImageWidth: 1920,
   ogImageHeight: 1024,
