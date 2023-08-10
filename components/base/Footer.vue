@@ -40,7 +40,7 @@
         <BaseFooterSection title="Resources">
           <NuxtLink to="/kb">Knowledge base</NuxtLink>
           <a href="//docs.kanka.io">Documentation</a>
-          <a href="//app.kanka.io/en/api-docs/1.0/overview">API docs</a>
+          <a href="//app.kanka.io/en-US/api-docs/1.0/overview">API docs</a>
           <a href="//blog.kanka.io/category/news">What's new</a>
           <a href="//blog.kanka.io">Blog</a>
           <a href="//status.kanka.io">Service status</a>

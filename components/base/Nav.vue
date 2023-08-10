@@ -19,10 +19,44 @@
       <a href="//app.kanka.io/login" class="btn-login transition-all duration-200">Sign in</a>
       <a href="//app.kanka.io/register" class="btn-register transition-all duration-200">Register</a>
     </div>
-    <div class="block md:hidden">
-      <i class="fa-thin fa-bars text-5xl text-blue cursor-pointer"></i>
+    <div class="block lg:hidden" @click="toggle()">
+      <i class="fa-thin fa-bars text-5xl text-blue cursor-pointer" v-if="!open"></i>
+      <i class="fa-thin fa-times text-5xl text-blue cursor-pointer" v-else></i>
+    </div>
+    <div class="fixed top-0 bottom-0 left-0 right-0 px-5 w-full bg-white" v-if="open" @click="toggle()">
+
+      <div class="h-32 flex justify-end items-center">
+        <i class="fa-thin fa-times text-5xl text-blue cursor-pointer"></i>
+      </div>
+      <div class="px-16 flex flex-col gap-6 items-center">
+        <NuxtLink to="/" class="link text-nav">
+          Home
+        </NuxtLink>
+        <NuxtLink to="/features" class="link text-nav">
+          Features
+        </NuxtLink>
+        <NuxtLink to="/pricing" class="link  text-nav">
+          Pricing
+        </NuxtLink>
+        <NuxtLink to="/campaigns" class="link  text-nav">
+          Public campaigns
+        </NuxtLink>
+
+        <a href="//app.kanka.io/login" class="btn-login transition-all duration-200">Sign in</a>
+        <a href="//app.kanka.io/register" class="btn-register transition-all duration-200">Register</a>
+      </div>
     </div>
   </nav>
 </template>
-<script>
+<script setup type="ts">
+const open = ref(false);
+
+function toggle() {
+  this.open = !this.open;
+  if (this.open) {
+    document.body.classList.add("overflow-hidden", "h-screen");
+  } else {
+    document.body.classList.remove("overflow-hidden", "h-screen");
+  }
+}
 </script>

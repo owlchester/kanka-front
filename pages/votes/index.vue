@@ -1,17 +1,22 @@
 <template>
-  <BaseHeading
+  <BaseHero
       :title="title"
       :lead="lead" />
 
-  <div class="rounded border p-5 mb-5" v-for="vote in votes.data" :id="vote.id">
-    <NuxtLink :to="`/votes/${vote.slug}`" class="text-2xl">{{ vote.name }}</NuxtLink>
-    <p class="text-gray-500">{{ vote.published }}</p>
+  <Section>
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
+    <div class="rounded border flex flex-col gap-3 p-4" v-for="vote in votes.data" :id="vote.id">
+      <NuxtLink :to="`/votes/${vote.slug}`" class="link">
+        <h2 class="text-purple">{{ vote.name }}</h2>
+      </NuxtLink>
+      <p class="text-light">{{ vote.published }}</p>
 
-    <p v-html="vote.excerpt" class="my-5"></p>
+      <p v-html="vote.excerpt" class="grow"></p>
 
-    <a v-if="vote.voting">Vote now</a>
-    <a v-else>See ballot results</a>
-  </div>
+      <NuxtLink :to="`/votes/${vote.slug}`" class="btn-round rounded-full">See ballot results</NuxtLink>
+    </div>
+    </div>
+  </Section>
 </template>
 
 <script setup lang="ts">
