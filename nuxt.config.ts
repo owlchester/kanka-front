@@ -32,4 +32,6 @@ export default defineNuxtConfig({
         '~/assets/scss/colors.scss',
         '~/assets/scss/fonts.scss',
     ],
+    preset: 'netlify',
+    target: 'static',
 })
