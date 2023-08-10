@@ -17,10 +17,10 @@
         Maximum number of entities per campaign
       </td>
       <td>
-        <i class="fa-solid fa-infinity" aria-hidden="true" />
+        <IconsInfinity css="w-8 h-8" />
       </td>
       <td>
-        <i class="fa-solid fa-infinity" aria-hidden="true" />
+        <IconsInfinity css="w-8 h-8" />
       </td>
     </tr>
     <tr>
@@ -29,7 +29,7 @@
       </td>
       <td>10</td>
       <td>
-        <i class="fa-solid fa-infinity" aria-hidden="true" />
+        <IconsInfinity css="w-8 h-8" />
       </td>
     </tr>
     <tr>
@@ -38,7 +38,7 @@
       </td>
       <td>3</td>
       <td>
-        <i class="fa-solid fa-infinity" aria-hidden="true" />
+        <IconsInfinity css="w-8 h-8" />
       </td>
     </tr>
     <tr>
@@ -48,7 +48,7 @@
       </td>
       <td>3</td>
       <td>
-        <i class="fa-solid fa-infinity" aria-hidden="true" />
+        <IconsInfinity css="w-8 h-8" />
       </td>
     </tr>
     <tr>
@@ -58,7 +58,7 @@
       </td>
       <td>3</td>
       <td>
-        <i class="fa-solid fa-infinity" aria-hidden="true" />
+        <IconsInfinity css="w-8 h-8" />
       </td>
     </tr>
     <tr>
@@ -76,7 +76,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/articles/ads.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -84,14 +84,14 @@
         <PricingMore url="https://docs.kanka.io/en/latest/marketplace/marketplace.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
         Force the campaign theme for all members
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -99,21 +99,21 @@
         <PricingMore url="https://docs.kanka.io/en/latest/guides/dashboard.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
         Write custom tooltips for entities
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
         Upload large header images on entities
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -121,7 +121,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/guides/dashboard.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -129,14 +129,14 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/default-thumbnails.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
         Set easy access links to outside sources on entities
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -144,12 +144,12 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/aliases.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Beautiful maps with access to thousands of icons for map markers and polygon markers</td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -157,7 +157,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/sidebar.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -165,7 +165,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/modules.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -173,13 +173,13 @@
         <PricingMore url="https://docs.kanka.io/en/latest/entities/families/family-trees.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Full integration with the campaign gallery to easily organize and reuse images
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -187,7 +187,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/history.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -195,7 +195,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/recovery.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -203,7 +203,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/achievements.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     </tbody>
   </table>

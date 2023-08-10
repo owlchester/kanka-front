@@ -9,22 +9,8 @@
             <img class="inline-block" src="https://th.kanka.io/tNmf0YlrJqMPrQE7iPW5bdcsPtQ=/103x103/smart/src/app/logos/logo-white.png" title="Kanka logo" alt="Kanka logo" />
           </div>
 
-          <div class="flex items-center gap-5 text-3xl">
-            <NuxtLink :to="runtimeConfig.public.discordLink">
-              <i class="fa-brands fa-discord" aria-hidden="true"></i>
-            </NuxtLink>
-            <NuxtLink to="https://www.facebook.com/kanka.io.ch">
-              <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-            </NuxtLink>
-            <NuxtLink to="https://www.instagram.com/kanka.io/">
-              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-            </NuxtLink>
-            <NuxtLink to="https://www.youtube.com/c/kankaio/videos">
-              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-            </NuxtLink>
-            <NuxtLink to="https://twitter.com/kankaio">
-              <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-            </NuxtLink>
+          <div class="flex items-center gap-5 text-3xl flex-wrap">
+            <BaseFooterSocials />
           </div>
 
           <div class="text-xs">
@@ -66,21 +52,7 @@
         </div>
 
         <div class="flex justify-center gap-5 text-3xl">
-          <NuxtLink :to="runtimeConfig.public.discordLink">
-            <i class="fa-brands fa-discord" aria-hidden="true"></i>
-          </NuxtLink>
-          <NuxtLink to="https://www.facebook.com/kanka.io.ch">
-            <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-          </NuxtLink>
-          <NuxtLink to="https://www.instagram.com/kanka.io/">
-            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-          </NuxtLink>
-          <NuxtLink to="https://www.youtube.com/c/kankaio/videos">
-            <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-          </NuxtLink>
-          <NuxtLink to="https://twitter.com/kankaio">
-            <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-          </NuxtLink>
+          <BaseFooterSocials />
         </div>
 
         <div class="text-center text-sm">
@@ -90,6 +62,3 @@
     </div>
   </footer>
 </template>
-<script setup type="ts">
-const runtimeConfig = useRuntimeConfig()
-</script>

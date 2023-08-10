@@ -69,51 +69,51 @@
         <PricingMore url="https://docs.kanka.io/en/latest/articles/ads.html" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Access to a private <NuxtLink to="https://discord.gg/rhsyZJ4" class=" link-blue">Discord</NuxtLink> channel</td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Participate in regular community votes</td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Nicer default thumbnails for entities</td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Name in the <NuxtLink to="/hall-of-fame" class="link-blue">Hall of Fame</NuxtLink></td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Up to 90 API requests per minute</td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>More elements shown on each page</td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -121,16 +121,16 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/bragi.html?highlight=bragi" />
       </td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Help curate options on the community vote</td>
       <td class="text-light">—</td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
-      <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     </tbody>
   </table>

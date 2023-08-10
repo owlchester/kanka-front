@@ -2,11 +2,11 @@
   <div v-bind:id="id" class="flex flex-col gap-5 text-dark qa">
     <div class="flex items-center gap-2 cursor-pointer" @click="toggle()">
       <p class="grow text-nav">{{ q }}</p>
-      <i class="fa-solid fa-close" aria-hidden="true" v-if="expanded()"></i>
-      <i class="fa-solid fa-plus" aria-hidden="true" v-else></i>
+      <IconsClose v-if="expanded()" css="w-8 h-8" />
+      <IconsPlus v-else css="w-8 h-8" />
     </div>
     <div class="flex gap-2 " v-if="expanded()">
-      <i class="fa-solid fa-link mt-1 cursor-pointer" aria-hidden="true" @click="copy(id)" title="Copy link to question to the clipboard" />
+      <span class="fa-solid fa-link mt-1 cursor-pointer" aria-hidden="true" @click="copy(id)" title="Copy link to question to the clipboard" />
       <p class="grow">
         <slot />
       </p>

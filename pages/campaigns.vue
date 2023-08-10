@@ -59,7 +59,12 @@
                     :id="campaign.id"
                     :justify="campaign.justify"
                     :link="campaign.link"
-                    :title="campaign.name">
+                    :title="campaign.name"
+                    :entities="campaign.entities"
+                    :followers="campaign.followers"
+                    :locale="campaign.locale"
+                    :system="campaign.system"
+          >
           </Campaign>
         </div>
         <div v-if="hasPages()" class="flex items-center justify-center gap-5">
