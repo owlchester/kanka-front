@@ -39,10 +39,10 @@
 
 <script setup type="ts">
 
-const runtimeConfig = useRuntimeConfig()
-const Tier = resolveComponent('Tier')
+const runtimeConfig = useRuntimeConfig().public
 
-const props = defineProps({tier: String,
+const props = defineProps({
+  tier: String,
   currency: String,
   monthly: undefined,
   yearly: undefined,
@@ -66,6 +66,6 @@ function yearlyPrice() {
   return (props.monthly * 11 / 12).toFixed(2);
 }
 function registerUrl() {
-  return runtimeConfig.public.app + '/en-US/register?from=pricing';
+  return runtimeConfig.app + '/en-US/register?from=pricing';
 }
 </script>

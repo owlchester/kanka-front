@@ -26,7 +26,7 @@
         <BaseFooterSection title="Resources">
           <NuxtLink to="/kb">Knowledge base</NuxtLink>
           <NuxtLink to="https://docs.kanka.io">Documentation</NuxtLink>
-          <NuxtLink :to="`${runtimeConfig.public.app}/en-US/api-docs/1.0/overview`">API docs</NuxtLink>
+          <NuxtLink :to="`${runtimeConfig.app}/en-US/api-docs/1.0/overview`">API docs</NuxtLink>
           <NuxtLink to="https://blog.kanka.io/category/news">What's new</NuxtLink>
           <NuxtLink to="https://blog.kanka.io">Blog</NuxtLink>
           <NuxtLink to="https://status.kanka.io">Service status</NuxtLink>
@@ -64,5 +64,5 @@
 </template>
 
 <script setup type="ts">
-const runtimeConfig = useRuntimeConfig()
+const runtimeConfig = useRuntimeConfig().public
 </script>

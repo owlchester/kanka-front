@@ -12,6 +12,8 @@ export default defineNuxtConfig({
         public: {
             api: process.env.API_DOMAIN || '',
             app: process.env.APP_DOMAIN || '',
+            gtmKey: process.env.GTM_KEY || '',
+            gtmDebug: process.env.GTM_DEBUG || false,
             discordLink: process.env.DISCORD_LINK || '',
             email: process.env.EMAIL || 'hello@kanka.io',
             emailLink: process.env.EMAIL_LINK || 'mailto:hello@kanka.io',

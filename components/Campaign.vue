@@ -3,7 +3,7 @@
     <img v-bind:src="img" v-bind:alt="title" class="w-80 h-60">
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
-        <h3 class="grow">{{ title }}</h3>
+        <h3 class="grow" v-html="title"></h3>
         <span v-if="featured" title="This campaign is featured">
           <svg class="w-7 h-7" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  aria-label="Featured campaign">
               <g id="add" fill="currentcolor" transform="translate(18.640071, 18.640071)">
@@ -14,7 +14,7 @@
         </span>
       </div>
 
-      <p class="text-sm text-light" v-if="justify">{{ justify }}</p>
+      <p class="text-sm text-light" v-if="justify" v-html="justify"></p>
 
       <div class="flex flex-wrap gap-6 text-sm">
         <span v-if="entities > 0">

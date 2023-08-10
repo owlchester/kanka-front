@@ -19,6 +19,7 @@
     "sass-loader": "10"
   },
   "dependencies": {
+    "@gtm-support/vue-gtm": "^2.1.0",
     "@nuxtjs/google-fonts": "^3.0.2"
   }
 }
