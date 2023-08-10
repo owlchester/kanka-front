@@ -74,7 +74,7 @@
       <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
     </tr>
     <tr>
-      <td>Access to a private <a href="https://discord.gg/rhsyZJ4" class=" link-blue">Discord</a> channel</td>
+      <td>Access to a private <NuxtLink to="https://discord.gg/rhsyZJ4" class=" link-blue">Discord</NuxtLink> channel</td>
       <td class="text-light">—</td>
       <td><i class="fa-solid fa-check" aria-hidden="true" /></td>
       <td><i class="fa-solid fa-check" aria-hidden="true" /></td>

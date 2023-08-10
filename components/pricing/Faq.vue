@@ -29,7 +29,7 @@
         id="refund"
         q="What is your refund policy?"
         :open="false">
-      We offer a no questions asked 14 day refund policy for yearly subscriptions. Simply drop us an email at <a href="mailto:hello@kanka.io">hello@kanka.io</a>.
+      We offer a no questions asked 14 day refund policy for yearly subscriptions. Simply drop us an email at <NuxtLink to="mailto:hello@kanka.io">hello@kanka.io</NuxtLink>.
     </FaqQA>
     <FaqQA
         id="gift"

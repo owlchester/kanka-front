@@ -10,21 +10,21 @@
           </div>
 
           <div class="flex items-center gap-5 text-3xl">
-            <a v-bind:href="runtimeConfig.public.discordLink">
+            <NuxtLink :to="runtimeConfig.public.discordLink">
               <i class="fa-brands fa-discord" aria-hidden="true"></i>
-            </a>
-            <a href="//www.facebook.com/kanka.io.ch">
+            </NuxtLink>
+            <NuxtLink to="https://www.facebook.com/kanka.io.ch">
               <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-            </a>
-            <a href="//www.instagram.com/kanka.io/">
+            </NuxtLink>
+            <NuxtLink to="https://www.instagram.com/kanka.io/">
               <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-            </a>
-            <a href="//www.youtube.com/c/kankaio/videos">
+            </NuxtLink>
+            <NuxtLink to="https://www.youtube.com/c/kankaio/videos">
               <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-            </a>
-            <a href="//twitter.com/kankaio">
+            </NuxtLink>
+            <NuxtLink to="https://twitter.com/kankaio">
               <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-            </a>
+            </NuxtLink>
           </div>
 
           <div class="text-xs">
@@ -35,15 +35,15 @@
           <NuxtLink to="/features" class="">Features</NuxtLink>
           <NuxtLink to="/premium" class="">Premium campaigns</NuxtLink>
           <NuxtLink to="/pricing" class="">Pricing</NuxtLink>
-          <a href="//marketplace.kanka.io" class="">Marketplace</a>
+          <NuxtLink to="https://marketplace.kanka.io" class="">Marketplace</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Resources">
           <NuxtLink to="/kb">Knowledge base</NuxtLink>
-          <a href="//docs.kanka.io">Documentation</a>
-          <a href="//app.kanka.io/en-US/api-docs/1.0/overview">API docs</a>
-          <a href="//blog.kanka.io/category/news">What's new</a>
-          <a href="//blog.kanka.io">Blog</a>
-          <a href="//status.kanka.io">Service status</a>
+          <NuxtLink to="https://docs.kanka.io">Documentation</NuxtLink>
+          <NuxtLink to="https://app.kanka.io/en-US/api-docs/1.0/overview">API docs</NuxtLink>
+          <NuxtLink to="https://blog.kanka.io/category/news">What's new</NuxtLink>
+          <NuxtLink to="https://blog.kanka.io">Blog</NuxtLink>
+          <NuxtLink to="https://status.kanka.io">Service status</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Community">
           <NuxtLink to="/campaigns">Public campaigns</NuxtLink>
@@ -66,21 +66,21 @@
         </div>
 
         <div class="flex justify-center gap-5 text-3xl">
-          <a v-bind:href="runtimeConfig.public.discordLink">
+          <NuxtLink :to="runtimeConfig.public.discordLink">
             <i class="fa-brands fa-discord" aria-hidden="true"></i>
-          </a>
-          <a href="//www.facebook.com/kanka.io.ch">
+          </NuxtLink>
+          <NuxtLink to="https://www.facebook.com/kanka.io.ch">
             <i class="fa-brands fa-facebook" aria-hidden="true"></i>
-          </a>
-          <a href="//www.instagram.com/kanka.io/">
+          </NuxtLink>
+          <NuxtLink to="https://www.instagram.com/kanka.io/">
             <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-          </a>
-          <a href="//www.youtube.com/c/kankaio/videos">
+          </NuxtLink>
+          <NuxtLink to="https://www.youtube.com/c/kankaio/videos">
             <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-          </a>
-          <a href="//twitter.com/kankaio">
+          </NuxtLink>
+          <NuxtLink to="https://twitter.com/kankaio">
             <i class="fa-brands fa-twitter" aria-hidden="true"></i>
-          </a>
+          </NuxtLink>
         </div>
 
         <div class="text-center text-sm">

@@ -1,5 +1,5 @@
 <template>
-  <a v-bind:href="link" v-bind:class="boxCss()">
+  <NuxtLink :to="link" :class="boxCss()">
     <img v-bind:src="img" v-bind:alt="title" class="w-80 h-60">
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
@@ -9,7 +9,7 @@
 
       <p class="text-sm text-light" v-if="justify">{{ justify }}</p>
     </div>
-  </a>
+  </NuxtLink>
 </template>
 
 <script>

@@ -30,9 +30,9 @@
         <slot />
       </div>
 
-      <a href="//app.kanka.io/en-US/register" class="btn btn-primary">
+      <NuxtLink to="https://app.kanka.io/en-US/register" class="btn btn-primary">
         {{ cta }}
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>
