@@ -2,7 +2,7 @@
 const route = useRoute()
 
 useHead({
-  title: 'Kanka',
+  title: 'Kanka - Online tabletop RPG campaign manager and worldbuilding tool',
   meta: [
     { name: 'description', content: 'Are you a game master, worldbuilder, or a storyteller? We offer a tabletop campaign manager and worldbuilding tool that makes it easy to organise, plan, and enjoy your TTRPG campaigns. We are community driven, and best of all, our core features are free!' }
   ],

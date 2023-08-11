@@ -53,6 +53,9 @@
         </div>
       </div>
       <div class="flex flex-col gap-6" v-else>
+        <p v-if="campaigns.campaigns.length === 0" class="text-light text-sm">
+          No campaigns match the selected filters. Please try again with different ones.
+        </p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           <Campaign v-for="campaign in campaigns.campaigns"
                     :img="campaign.thumb"
@@ -66,9 +69,6 @@
                     :system="campaign.system"
           >
           </Campaign>
-          <p v-if="campaigns.campaigns.length === 0" class="text-light text-sm">
-            No campaigns match the selected filters. Please try again with different ones.
-          </p>
         </div>
         <div v-if="hasPages()" class="flex items-center justify-center gap-5">
           <a href="#campaigns" class="link cursor-pointer" @click="previous()" v-if="campaigns.pagination.previous">

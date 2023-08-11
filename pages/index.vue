@@ -87,7 +87,20 @@
       </div>
     </div>
   </Section>
+  <img v-if="hasGclid()" v-bind:src="prepareUrl()" width="1" height="1" />
 </template>
 <script setup lang="ts">
-import Feature from "~/components/Feature.vue";
+const route = useRoute()
+const runtimeConfig = useRuntimeConfig()
+
+function hasGclid(): Boolean {
+  return route.query.gclid !== undefined;
+}
+
+// If a user has a gclid, we want the backend to know to properly add their bonuses
+function prepareUrl(): String {
+  return runtimeConfig.public.app +
+      '/frontend-prepare?gclid=' +
+      route.query.gclid
+}
 </script>
