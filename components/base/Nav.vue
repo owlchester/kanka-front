@@ -19,7 +19,7 @@
       <NuxtLink :to="`${runtimeConfig.app}/login`" class="btn-login transition-all duration-200">Sign in</NuxtLink>
       <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-register transition-all duration-200">Register</NuxtLink>
     </div>
-    <div class="block lg:hidden" @click="toggle()">
+    <div class="block lg:hidden border border-red" @click="toggle()">
       <i class="fa-thin fa-bars text-5xl text-blue cursor-pointer" v-if="!open"></i>
       <i class="fa-thin fa-times text-5xl text-blue cursor-pointer" v-else></i>
     </div>

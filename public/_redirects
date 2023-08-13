@@ -1,31 +1,40 @@
-# Redirect go
-/go/* https://app.kanka.io/go/:splat
+# Social redirects
+/go/discord https://discord.gg/rhsyZJ4
+/go/instagram https://www.instagram.com/kanka.io/
+/go/reddit https://www.reddit.com/r/kanka
+/go/twitter https://twitter.com/kankaio
+/go/facebook https://www.facebook.com/kanka.io.ch
+/go/youtube https://www.youtube.com/c/kankaio/videos
+/go/twitch https://twitch.tv/kankaio
 
 # Api docs
 /en-US/api-docs/* https://app.kanka.io/api-docs/:splat
 /en/api-docs/* https://app.kanka.io/api-docs/:splat
 
-/de/invitation/* https://app.kanka.io/de/invitation/:splat
-/en-US/invitation/* https://app.kanka.io/en-US/invitation/:splat
-/en/invitation/* https://app.kanka.io/en/invitation/:splat
-/es/invitation/* https://app.kanka.io/es/invitation/:splat
-/fr/invitation/* https://app.kanka.io/fr/invitation/:splat
-/it/invitation/* https://app.kanka.io/it/invitation/:splat
-/nl/invitation/* https://app.kanka.io/nl/invitation/:splat
-/pl/invitation/* https://app.kanka.io/pl/invitation/:splat
-/pt-BR/invitation/* https://app.kanka.io/pt-BR/invitation/:splat
-/sk/invitation/* https://app.kanka.io/sk/invitation/:splat
-/ru/invitation/* https://app.kanka.io/ru/invitation/:splat
+/de/invitation/* https://app.kanka.io/invitation/:splat
+/en-US/invitation/* https://app.kanka.io/invitation/:splat
+/en/invitation/* https://app.kanka.io/invitation/:splat
+/es/invitation/* https://app.kanka.io/invitation/:splat
+/fr/invitation/* https://app.kanka.io/invitation/:splat
+/it/invitation/* https://app.kanka.io/invitation/:splat
+/nl/invitation/* https://app.kanka.io/invitation/:splat
+/pl/invitation/* https://app.kanka.io/invitation/:splat
+/pt-BR/invitation/* https://app.kanka.io/invitation/:splat
+/sk/invitation/* https://app.kanka.io/invitation/:splat
+/ru/invitation/* https://app.kanka.io/invitation/:splat
 
 # Campaigns
-/de/campaign/* https://app.kanka.io/de/c/:splat
-/en-US/campaign/* https://app.kanka.io/en-US/c/:splat
-/en/campaign/* https://app.kanka.io/en/c/:splat
-/es/campaign/* https://app.kanka.io/es/c/:splat
-/fr/campaign/* https://app.kanka.io/fr/c/:splat
-/it/campaign/* https://app.kanka.io/it/c/:splat
-/nl/campaign/* https://app.kanka.io/nl/c/:splat
-/pl/campaign/* https://app.kanka.io/pl/c/:splat
-/pt-BR/campaign/* https://app.kanka.io/pt-BR/c/:splat
-/sk/campaign/* https://app.kanka.io/sk/c/:splat
-/ru/campaign/* https://app.kanka.io/ru/c/:splat
+/de/campaign/* https://app.kanka.io/w/:splat
+/en-US/campaign/* https://app.kanka.io/w/:splat
+/en/campaign/* https://app.kanka.io/w/:splat
+/es/campaign/* https://app.kanka.io/w/:splat
+/fr/campaign/* https://app.kanka.io/w/:splat
+/it/campaign/* https://app.kanka.io/w/:splat
+/nl/campaign/* https://app.kanka.io/w/:splat
+/pl/campaign/* https://app.kanka.io/w/:splat
+/pt-BR/campaign/* https://app.kanka.io/w/:splat
+/sk/campaign/* https://app.kanka.io/w/:splat
+/ru/campaign/* https://app.kanka.io/w/:splat
+/hu/campaign/* https://app.kanka.io/w/:splat
+/ca/campaign/* https://app.kanka.io/w/:splat
+/gl/campaign/* https://app.kanka.io/w/:splat
