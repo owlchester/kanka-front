@@ -1,8 +1,4 @@
 <template>
-  <BaseHeading
-      :title="title"
-      :lead="lead" />
-
   <BaseHero
     title="We're here for you"
     lead="Need help, have a suggestion, or just want to share your love for Kanka? Our team will reply whatever the occasion!"
