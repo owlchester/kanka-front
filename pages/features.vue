@@ -324,15 +324,17 @@
   <Section>
     <h2 class="text-purple">Like what you see? Create a free account now</h2>
     <p>
-    <a href="https://app.kanka.io/register" class="btn-round rounded-full">
+    <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-round rounded-full">
       Register a free account
-    </a>
+    </NuxtLink>
     </p>
   </Section>
 
 </template>
 
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig().public
+
 useHead({
   title: 'Features - Kanka',
   meta: [

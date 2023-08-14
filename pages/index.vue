@@ -5,9 +5,9 @@
     :big="true"
   >
     <div>
-      <a href="https://app.kanka.io/register" class="btn-round rounded-full ">
+      <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-round rounded-full ">
         Register a free account
-      </a>
+      </NuxtLink>
     </div>
   </BaseHero>
 
@@ -91,7 +91,7 @@
 </template>
 <script setup lang="ts">
 const route = useRoute()
-const runtimeConfig = useRuntimeConfig()
+const runtimeConfig = useRuntimeConfig().public
 
 function hasGclid(): Boolean {
   return route.query.gclid !== undefined;
@@ -99,7 +99,7 @@ function hasGclid(): Boolean {
 
 // If a user has a gclid, we want the backend to know to properly add their bonuses
 function prepareUrl(): String {
-  return runtimeConfig.public.app +
+  return runtimeConfig.app +
       '/frontend-prepare?gclid=' +
       route.query.gclid
 }
