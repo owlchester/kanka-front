@@ -10,7 +10,7 @@
     </div>
     <div class="grid grid-cols-2 gap-10">
       <h2 class="text-purple">Next</h2>
-      <p class="text-light">This Trello board contains all the features, improvements, and bugs that are currently being worked on following the latest <NuxtLink to="/vote" class="link">community vote</NuxtLink></p>
+      <p class="text-light">This Trello board contains all the features, improvements, and bugs that are currently being worked on following the latest <NuxtLink to="/votes" class="link">community vote</NuxtLink></p>
     </div>
   </Section>
 </template>

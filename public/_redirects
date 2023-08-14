@@ -6,6 +6,7 @@
 /go/facebook https://www.facebook.com/kanka.io.ch
 /go/youtube https://www.youtube.com/c/kankaio/videos
 /go/twitch https://twitch.tv/kankaio
+/go/github https://github.com/owlchester/kanka
 
 # Api docs
 /en-US/api-docs/* https://app.kanka.io/api-docs/:splat

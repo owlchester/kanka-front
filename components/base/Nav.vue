@@ -19,13 +19,13 @@
       <NuxtLink :to="`${runtimeConfig.app}/login`" class="btn-login transition-all duration-200">Sign in</NuxtLink>
       <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-register transition-all duration-200">Register</NuxtLink>
     </div>
-    <div class="block lg:hidden border border-red" @click="toggle()">
+    <div class="block lg:hidden" @click="toggle()">
       <i class="fa-thin fa-bars text-5xl text-blue cursor-pointer" v-if="!open"></i>
       <i class="fa-thin fa-times text-5xl text-blue cursor-pointer" v-else></i>
     </div>
-    <div class="fixed top-0 bottom-0 left-0 right-0 px-5 w-full bg-white" v-if="open" @click="toggle()">
+    <div class="fixed top-0 bottom-0 left-0 right-0 px-5 w-full bg-white" v-if="open">
 
-      <div class="h-32 flex justify-end items-center">
+      <div class="h-32 flex justify-end items-center" @click="toggle()">
         <i class="fa-thin fa-times text-5xl text-blue cursor-pointer"></i>
       </div>
       <div class="px-16 flex flex-col gap-6 items-center">
@@ -52,9 +52,9 @@
 const runtimeConfig = useRuntimeConfig().public
 const open = ref(false);
 
-function toggle() {
-  this.open = !this.open;
-  if (this.open) {
+const toggle = () => {
+  open.value = !open.value;
+  if (open) {
     document.body.classList.add("overflow-hidden", "h-screen");
   } else {
     document.body.classList.remove("overflow-hidden", "h-screen");

@@ -324,7 +324,7 @@
   <Section>
     <h2 class="text-purple">Like what you see? Create a free account now</h2>
     <p>
-    <a href="https://app.kanka.io/en-US/register" class="btn-round rounded-full">
+    <a href="https://app.kanka.io/register" class="btn-round rounded-full">
       Register a free account
     </a>
     </p>

@@ -55,7 +55,7 @@ export default {
 
   methods: {
     boxCss() {
-      let css = 'flex flex-col gap-5 text-left block ';
+      let css = 'flex flex-col gap-5 text-left ';
       return css + (this.featured ? 'w-72' : 'w-80');
     },
   }

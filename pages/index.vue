@@ -5,7 +5,7 @@
     :big="true"
   >
     <div>
-      <a href="https://app.kanka.test:8081/en-US/register" class="btn-round rounded-full ">
+      <a href="https://app.kanka.io/register" class="btn-round rounded-full ">
         Register a free account
       </a>
     </div>
