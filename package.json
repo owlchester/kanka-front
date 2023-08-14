@@ -1,4 +1,26 @@
 {
   "name": "kanka-front",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxtjs/style-resources": "^1.2.1",
+    "@nuxtjs/tailwindcss": "^6.8.0",
+    "@types/node": "^18.17.0",
+    "node-sass": "^9.0.0",
+    "nuxt": "^3.6.5",
+    "sass": "^1.64.2",
+    "sass-loader": "10"
+  },
+  "dependencies": {
+    "@gtm-support/vue-gtm": "^2.1.0",
+    "@nuxtjs/google-fonts": "^3.0.2"
+  },
   "packageManager": "yarn@3.6.1"
 }
