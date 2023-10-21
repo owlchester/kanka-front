@@ -3,8 +3,7 @@
     <FaqQA
         id="payments"
         q="What are the available payment methods?"
-        a=""
-        :open="true">
+        :open="false">
       We accept most credit and debit cards like Visa, Mastercard and American Express. We also accept Giropay, Sofort, and PayPal for yearly subscriptions.
     </FaqQA>
     <FaqQA
@@ -35,7 +34,7 @@
         id="gift"
         q="Can I gift subscriptions?"
         :open="false">
-      Gifting subscriptions isn't possible, but you can upgrade any campaign you have access to campaign to premium status, even if you aren't the campaign's admin.
+      While gifting subscriptions isn't possible, you can upgrade to premium status any campaign you have access to. This includes campaigns you aren't an admin of, or even a member of.
     </FaqQA>
   </div>
 </template>

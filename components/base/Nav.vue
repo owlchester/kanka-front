@@ -1,7 +1,7 @@
 <template>
   <nav class="flex items-center justify-between gap-16 lg:gap-20 h-32 px-5 max-w-7xl mx-auto">
     <NuxtLink to="/">
-      <img src="https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png" title="Kanka logo" alt="Kanka" />
+      <img src="https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png" title="Kanka logo" alt="Kanka" width="103" height="103" />
     </NuxtLink>
     <div class="gap-8 lg:gap-12 items-center grow hidden lg:flex">
       <NuxtLink to="/features" class="link text-nav">

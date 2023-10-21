@@ -51,7 +51,7 @@
     </div>
 
     <div class="text-center">
-      <NuxtLink to="/features" class="block-btn btn">Learn more</NuxtLink>
+      <NuxtLink to="/features" class="block-btn btn">Learn more about Kanka's features</NuxtLink>
     </div>
   </Section>
 

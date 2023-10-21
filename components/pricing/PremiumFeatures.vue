@@ -63,6 +63,14 @@
     </tr>
     <tr>
       <td>
+        Storage for images in the gallery
+        <PricingMore url="https://docs.kanka.io/en/latest/campaigns/gallery.html" />
+      </td>
+      <td>50 MB</td>
+      <td>5 GB</td>
+    </tr>
+    <tr>
+      <td>
         Minimum file and image upload size for members
       </td>
       <td>1 MB</td>

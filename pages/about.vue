@@ -11,7 +11,7 @@
       <AboutMember member="Jon" img="https://th.kanka.io/qj6BEWMKrn4D-9f5GMP_REpzsyQ=/200x200/smart/src/app/team/jon.jpg" role="Co-Founder & Business manager"></AboutMember>
       <AboutMember member="Itzamná" img="https://th.kanka.io/qlJ3ZQdiRCM51HLtiQYckGqMHDU=/200x200/smart/src/app/team/itzamna.png" role="Junior developer"></AboutMember>
 
-      <AboutMember member="Laura" img="https://th.kanka.io/rPvAAWbnqad8U25cosP47m1Zcc0=/200x200/smart/src/app/team/laura.jpeg" role="Social Media"></AboutMember>
+<!--      <AboutMember member="Laura" img="https://th.kanka.io/rPvAAWbnqad8U25cosP47m1Zcc0=/200x200/smart/src/app/team/laura.jpeg" role="Social Media"></AboutMember>-->
       <AboutMember member="Kaz" img="https://th.kanka.io/CIfzUDCGbm9dxpwUZImdaEw8mx0=/200x200/smart/src/app/team/kaz.jpeg" role="Security 🐶"></AboutMember>
     </div>
   </Section>
@@ -24,9 +24,9 @@
     <div class="grid grid-cols-2 xl:grid-cols-4 gap-5 w-full">
       <AboutStat amount="200,000+" text="users" />
       <AboutStat amount="90+" text="countries" />
-      <AboutStat amount="4 million +" text="entities" />
+      <AboutStat amount="5 million +" text="entities" />
       <AboutStat amount="100,000+" text="missed plot hooks" />
-      <AboutStat amount="175,000+" text="campaigns" />
+      <AboutStat amount="200,000+" text="campaigns" />
       <AboutStat amount="100+" text="marketplace plugins" />
       <AboutStat amount="15,000+" text="daily API calls" />
       <AboutStat amount="0" text="ruined sessions" />

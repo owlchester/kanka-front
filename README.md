@@ -29,7 +29,7 @@ npm run dev
 pnpm run dev
 
 # yarn
-yarn dev
+yarn dev -o
 ```
 
 ## Production
