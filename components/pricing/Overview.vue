@@ -55,7 +55,7 @@
 
 
     <PricingTier
-        tier="Wyern"
+        tier="Wyvern"
         thumbnail="https://th.kanka.io/rQqsnYqn57mdCPdloEOulgB9EAc=/71x71/smart/src/app/tiers/wyvern.png"
         monthly="10"
         yearly="110"

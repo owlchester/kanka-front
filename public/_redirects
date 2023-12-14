@@ -1,3 +1,5 @@
+
+
 # Social redirects
 /go/discord https://discord.gg/rhsyZJ4
 /go/instagram https://www.instagram.com/kanka.io/
@@ -12,7 +14,8 @@
 /en-US/api-docs/* https://app.kanka.io/api-docs/:splat
 /en/api-docs/* https://app.kanka.io/api-docs/:splat
 
-/api/1.0/* https://api.kanka.io/1.0/:splat
+/api/1.0/* https://kanka.io/api/1.0/:splat
+
 
 /de/invitation/* https://app.kanka.io/invitation/:splat
 /en-US/invitation/* https://app.kanka.io/invitation/:splat
@@ -154,3 +157,5 @@
 /ru/security /security
 /ru/privacy-policy /privacy-policy
 /ru/terms-and-conditions /terms-and-conditions
+
+/*  /index.html  200

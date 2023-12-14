@@ -12,7 +12,7 @@
         <p class="text-light">{{ currencySymbol() }}5/month</p>
       </th>
       <th>
-        <h3>Wyverb</h3>
+        <h3>Wyvern</h3>
         <p class="text-light">{{ currencySymbol() }}10/month</p>
       </th>
       <th>

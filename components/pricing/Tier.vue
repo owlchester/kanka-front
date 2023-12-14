@@ -66,6 +66,6 @@ function yearlyPrice() {
   return (props.monthly * 11 / 12).toFixed(2);
 }
 function registerUrl() {
-  return runtimeConfig.app + '/en-US/register?from=pricing';
+  return runtimeConfig.app + '/register?from=pricing';
 }
 </script>

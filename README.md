@@ -61,3 +61,11 @@ yarn preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+
+## PROD
+
+```bash
+yarn generate
+```
+
+Then deploy the `.output/public` folder to netlify
