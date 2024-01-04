@@ -1,7 +1,7 @@
 <template>
   <BaseHero
-    title="Worldbuilding, tabletop RPG campaign management, storytelling. All in one."
-    lead="Kanka is a community driven worldbuilding and tabletop RPG campaign management tool perfect for worldbuilders and game masters alike. We help you create and organise your campaigns and worlds with our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with!"
+    title="Create worlds with our easy to use, intuitive and flexible world building tool."
+    lead="Kanka is a worldbuilding and TTRPG campaign building tool perfect for worldbuilders and storytellers. We help you organise your worlds with our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with! You can also toggle modules on or off to suit your needs, customize your dashboards, and dive deep into the permissions system. "
     :big="true"
   >
     <div>

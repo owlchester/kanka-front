@@ -71,17 +71,17 @@
           </Campaign>
         </div>
         <div v-if="hasPages()" class="flex items-center justify-center gap-5">
-          <a href="#campaigns" class="link cursor-pointer" @click="previous()" v-if="campaigns.pagination.previous">
+          <span class="link cursor-pointer" @click="previous()" v-if="campaigns.pagination.previous">
             <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
-          </a>
+          </span>
           <span v-else>
             <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
           </span>
 
-          <a href="#campaigns" class="link cursor-pointer" @click="next()" v-if="campaigns.pagination.next">
+          <span class="link cursor-pointer" @click="next()" v-if="campaigns.pagination.next">
             Next page
             <i class="fa-solid fa-chevron-right" aria-hidden="true" />
-          </a>
+          </span>
           <span v-else>
             Next page
             <i class="fa-solid fa-chevron-right" aria-hidden="true" />
@@ -141,7 +141,7 @@ function removeFilter(filterKey: string) {
 async function filter(pagination: number) {
   let filters = '';
   for (let key in activeFilters.value) {
-    console.log('a filter for key', key);
+    //console.log('a filter for key', key);
 
     let split = key.split('_', 2);
     filters += split[0] + '=' + split[1] + '&';
@@ -150,6 +150,7 @@ async function filter(pagination: number) {
     filters += 'page=' + pagination;
   }
   filterUrl.value = runtimeConfig.public.api + 'campaigns?' + filters;
+  console.log(filterUrl.value);
 }
 
 function hasPages() {
