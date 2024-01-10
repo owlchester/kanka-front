@@ -17,13 +17,9 @@
         </a>
       </div>
 
-      <div class="rounded-full text-black btn flex items-center bg-switcher">
-        <a @click="switchCurrency()" v-bind:class="usdCss()">
-          <span>USD</span>
-        </a>
-        <a @click="switchCurrency()" v-bind:class="eurCss()">
-          <p>EUR</p>
-        </a>
+      <div class="text-nav cursor-pointer rounded-full bg-switcher h-16 w-32 flex items-center justify-center" @click="switchCurrency()">
+        <span v-if="currency === 'eur'">EUR</span>
+        <span v-else>USD</span>
       </div>
     </div>
 
@@ -86,15 +82,6 @@ function monthlyCss() {
 function yearlyCss() {
   let css = 'rounded-full h-16 w-32 flex justify-center flex-col cursor-pointer transition-all duration-200';
   return yearly.value ? css + ' bg-purple text-white' : css;
-}
-
-function eurCss() {
-  let css = 'rounded-full h-16 w-32 flex  justify-center items-center cursor-pointer  transition-all duration-200';
-  return currency.value === 'eur' ? css + ' bg-purple text-white' : css;
-}
-function usdCss() {
-  let css = 'rounded-full h-16 w-32 flex justify-center flex-col cursor-pointer transition-all duration-200';
-  return currency.value == 'usd' ? css + ' bg-purple text-white' : css;
 }
 
 useHead({
