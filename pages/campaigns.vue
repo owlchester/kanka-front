@@ -3,7 +3,7 @@
       :title="title"
       :lead="lead" />
 
-  <Section id="featured" >
+  <Section v-if="setup.featured" id="featured" >
     <div class="flex flex-col gap-4">
       <h2 class="text-purple">Featured campaigns</h2>
       <p class="lg:max-w-xl lg:mx-auto">Our community builds amazing things that we love to showcase as Featured Campaigns. Be sure to come back every now and then for more featured campaigns to check out.</p>
@@ -15,7 +15,8 @@
                   :id="campaign.id"
                   :justify="campaign.justify"
                   :link="campaign.link"
-                  :title="campaign.name">
+                  :title="campaign.name"
+                  :system="campaign.system">
         </Campaign>
       </div>
     </div>
