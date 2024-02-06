@@ -63,7 +63,7 @@ function boxCss() {
   return classes;
 }
 function yearlyPrice() {
-  return (props.monthly * 11 / 12).toFixed(2);
+  return (props.monthly * 10 / 12).toFixed(2);
 }
 function registerUrl() {
   return runtimeConfig.app + '/register?from=pricing';

@@ -24,8 +24,8 @@
     <PricingTier
         tier="Owlbear"
         thumbnail="https://th.kanka.io/kRTwwVJ-WTQSlFKvIdPtNz4Hmdk=/71x71/smart/src/app/tiers/owlbear.png"
-        monthly="5"
-        yearly="55"
+        monthly="4.99"
+        yearly="49.90"
         :popular="true"
         :discounted="discounted()"
         :currency="currencySymbol()"
@@ -57,8 +57,8 @@
     <PricingTier
         tier="Wyvern"
         thumbnail="https://th.kanka.io/rQqsnYqn57mdCPdloEOulgB9EAc=/71x71/smart/src/app/tiers/wyvern.png"
-        monthly="10"
-        yearly="110"
+        monthly="9.99"
+        yearly="99.90"
         :best="true"
         :discounted="discounted()"
         :currency="currencySymbol()"
@@ -89,8 +89,8 @@
     <PricingTier
         tier="Elemental"
         thumbnail="https://th.kanka.io/iZq5GQZDb30NnH0WVelS1oavqkE=/71x71/smart/src/app/tiers/elemental.png"
-        monthly="25"
-        yearly="225"
+        monthly="24.99"
+        yearly="249.90"
         :discounted="discounted()"
         :currency="currencySymbol()"
         cta="Register for free"

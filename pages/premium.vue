@@ -4,7 +4,7 @@
       lead="Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more.">
     <div>
       <NuxtLink :to="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
-        Starting at USD 5.<small>00</small> per month
+        Starting at USD 4.<small>99</small> per month
       </NuxtLink>
     </div>
   </BaseHero>

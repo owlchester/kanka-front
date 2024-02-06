@@ -33,6 +33,9 @@
           <a href="#how-to-manage">How to manage your cookies</a>
         </li>
         <li>
+          <a href="#how-to-delete">How to have your data deleted</a>
+        </li>
+        <li>
           <a href="#privacy-policies-of-others">Privacy policies of other websites</a>
         </li>
         <li>
@@ -123,6 +126,12 @@
       <h2 class="text-purple mb-5" id="how-to-manage">How to manage your cookies</h2>
 
       <p class="">You can set your browser not to accept cookies. However, some of our website features may not function as a result.</p>
+    </div>
+
+    <div>
+      <h2 class="text-purple mb-5" id="how-to-delete">How to have your data deleted</h2>
+
+      <p class="">If you would like to exercise your data protection rights and have your data removed, you can delete your account and all associated data by going to your account settings and scrolling down to the last option here: <NuxtLink :to="`${runtimeConfig.app}/settings/account`" class="link link-blue">https://app.kanka.io/settings/account</NuxtLink></p>
     </div>
 
     <div>

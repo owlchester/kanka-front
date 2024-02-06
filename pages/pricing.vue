@@ -13,7 +13,7 @@
         </a>
         <a @click="switchPeriod()" v-bind:class="yearlyCss()">
           <p>Yearly</p>
-          <p class="text-sm">save 10%</p>
+          <p class="text-sm">save 17%</p>
         </a>
       </div>
 
