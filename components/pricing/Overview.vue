@@ -39,7 +39,7 @@
                   title="Big map size (10 MB)" />
       <PricingLink
                   :access="true"
-                  title="Participate in community votes" />
+                  title="Vote on the roadmap" />
       <PricingLink
                   :access="true"
                   title="Private Discord channel" />
@@ -73,7 +73,7 @@
           title="Huge map size (20 MB)" />
       <PricingLink
           :access="true"
-          title="Participate in community votes" />
+          title="Vote on the roadmap" />
       <PricingLink
           :access="true"
           title="Private Discord channel" />
@@ -103,7 +103,7 @@
           title="Gigantic map size (50 MB)" />
       <PricingLink
           :access="true"
-          title="Participate in community votes" />
+          title="Vote on the roadmap" />
       <PricingLink
           :access="true"
           title="Private Discord channel" />

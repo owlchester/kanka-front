@@ -9,15 +9,15 @@
       </th>
       <th>
         <h3>Owlbear</h3>
-        <p class="text-light">{{ currencySymbol() }}5/month</p>
+        <p class="text-light">{{ currencySymbol() }}4.99/month</p>
       </th>
       <th>
         <h3>Wyvern</h3>
-        <p class="text-light">{{ currencySymbol() }}10/month</p>
+        <p class="text-light">{{ currencySymbol() }}9.99/month</p>
       </th>
       <th>
         <h3>Elemental</h3>
-        <p class="text-light">{{ currencySymbol() }}25/month</p>
+        <p class="text-light">{{ currencySymbol() }}24.99/month</p>
       </th>
     </tr>
     </thead>
@@ -81,7 +81,7 @@
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Participate in regular community votes</td>
+      <td>Upvote ideas on the roadmap</td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -121,14 +121,7 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/bragi.html?highlight=bragi" />
       </td>
       <td class="text-light">—</td>
-      <td><IconsCheck css="w-8 h-8" /></td>
-      <td><IconsCheck css="w-8 h-8" /></td>
-      <td><IconsCheck css="w-8 h-8" /></td>
-    </tr>
-    <tr>
-      <td>Help curate options on the community vote</td>
-      <td class="text-light">—</td>
-      <td><IconsCheck css="w-8 h-8" /></td>
+        <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>

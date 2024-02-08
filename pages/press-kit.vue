@@ -10,7 +10,7 @@
 
     <p> Kanka is a worldbuilding and tabletop RPG campaign management tool perfect for worldbuilders and game masters alike. It helps you create and organise your campaigns and worlds with a whole range of features such as calendars, interactive maps, timelines, organisations, families, and as many characters as you can come up with!</p>
 
-      <p>Community is in their DNA, and you can look forward to regular Community votes to determine the direction that Kanka takes, as well as their Community Marketplace, where creators can showcase their creativity and make their content useable by others.</p>
+      <p>Community is in their DNA, and you can vote on community ideas to determine the direction that Kanka takes, as well as their Community Marketplace, where creators can showcase their creativity and make their content useable by others.</p>
 
     <h2 class="text-purple">Logos</h2>
 
