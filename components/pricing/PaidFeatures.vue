@@ -118,7 +118,7 @@
     <tr>
       <td>
         Campaign importer
-        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/import.htmli" />
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/import.html" />
       </td>
       <td class="text-light">—</td>
       <td class="text-light">—</td>

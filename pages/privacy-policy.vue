@@ -131,7 +131,8 @@
     <div>
       <h2 class="text-purple mb-5" id="how-to-delete">How to have your data deleted</h2>
 
-      <p class="">If you would like to exercise your data protection rights and have your data removed, you can delete your account and all associated data by going to your account settings and scrolling down to the last option here: <NuxtLink :to="`${runtimeConfig.app}/settings/account`" class="link link-blue">https://app.kanka.io/settings/account</NuxtLink></p>
+      <p class="">If you would like to exercise your data protection rights and have your data removed, you can delete your account and all associated data by going to your account settings and scrolling down to the last option here:
+          <NuxtLink :to="`${runtimeConfig.app}/settings/account`" class="link link-blue">https://app.kanka.io/settings/account</NuxtLink></p>
     </div>
 
     <div>
@@ -157,7 +158,7 @@
 </template>
 
 <script setup lang="ts">
-const runtimeConfig = useRuntimeConfig()
+const runtimeConfig = useRuntimeConfig().public
 useHead({
   title: 'Privacy Policy - Kanka',
   meta: [
