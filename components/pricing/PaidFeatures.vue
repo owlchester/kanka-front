@@ -117,8 +117,18 @@
     </tr>
     <tr>
       <td>
+        Campaign importer
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/import.htmli" />
+      </td>
+      <td class="text-light">—</td>
+      <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+    </tr>
+    <tr>
+      <td>
         Access to Bragi, Kanka's worldbuilding AI
-        <PricingMore url="https://docs.kanka.io/en/latest/features/bragi.html?highlight=bragi" />
+        <PricingMore url="https://docs.kanka.io/en/latest/features/bragi.html" />
       </td>
       <td class="text-light">—</td>
         <td class="text-light">—</td>
