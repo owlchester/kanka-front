@@ -7,12 +7,12 @@
       <div class="flex gap-10">
         <div class="grow flex flex-col gap-2">
           <h3 class="text-dark">{{ tier }}</h3>
-          <div v-if="currency && !discounted">
-            <p class="text-light font-medium">{{ currency }}{{ monthly }}/month
+          <div v-if="defaultCurrency() && !discounted">
+            <p class="text-light font-medium">{{ defaultCurrency() }}{{ monthly }}/month
             </p>
           </div>
-          <div v-else-if="currency && discounted">
-            <p class="text-light font-medium">{{ currency }}{{ yearlyPrice() }}/month
+          <div v-else-if="defaultCurrency() && discounted">
+            <p class="text-light font-medium">{{ defaultCurrency() }}{{ yearlyPrice() }}/month
             </p>
             <p class="text-light text-sm">billed yearly</p>
           </div>
@@ -52,7 +52,18 @@ const props = defineProps({
   popular: Boolean,
   discounted: Boolean,
 })
+const country = useCookie('front_currency');
+country.value = country.value || await $fetch(runtimeConfig.location, {
+    headers: useRequestHeaders(['location'])
+});
+const euCodes = ['BE','EL','LT','PT','BG','ES','LU','RO','CZ','FR','HU','SI','DK','HR','MT','SK','DE','IT','NL','FI','EE','CY','AT','SE','IE','LV','PL'];
 
+function defaultCurrency() {
+  if (euCodes.includes(country.value.country)) {
+    return '€';
+  }
+  return '$';
+}
 function boxCss() {
   let classes = 'flex flex-col gap-8 p-8 border rounded-md text-left grow';
   if (props.best) {

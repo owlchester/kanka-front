@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     runtimeConfig: {
         public: {
             api: process.env.API_DOMAIN || '',
+            location: process.env.LOCATION_API || '',
             app: process.env.APP_DOMAIN || '',
             gtmKey: process.env.GTM_KEY || '',
             gtmDebug: process.env.GTM_DEBUG || false,

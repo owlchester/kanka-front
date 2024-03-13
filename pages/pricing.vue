@@ -68,10 +68,23 @@
 </template>
 
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig();
+const country = useCookie('front_currency');
+country.value = country.value || await $fetch(runtimeConfig.public.location, {
+    headers: useRequestHeaders(['location'])
+});
+const euCodes = ['CH','BE','EL','LT','PT','BG','ES','LU','RO','CZ','FR','HU','SI','DK','HR','MT','SK','DE','IT','NL','FI','EE','CY','AT','SE','IE','LV','PL'];
+const currency = ref(defaultCurrency());
 const monthly = ref(true);
 const yearly = ref(false);
-const currency = ref('usd');
 
+function defaultCurrency() {
+  console.log(country.value.country);
+  if (euCodes.includes(country.value.country)) {
+    return 'eur';
+  }
+  return 'usd';
+}
 function switchPeriod() {
   monthly.value = !monthly.value;
   yearly.value = !yearly.value;

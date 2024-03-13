@@ -4,7 +4,7 @@
       lead="Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more.">
     <div>
       <NuxtLink :to="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
-        Starting at USD 4.<small>99</small> per month
+        Starting at {{ defaultCurrency() }} 4.<small>99</small> per month
       </NuxtLink>
     </div>
   </BaseHero>
@@ -41,6 +41,18 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
+const country = useCookie('front_currency');
+country.value = country.value || await $fetch(runtimeConfig.location, {
+    headers: useRequestHeaders(['location'])
+});
+const euCodes = ['BE','EL','LT','PT','BG','ES','LU','RO','CZ','FR','HU','SI','DK','HR','MT','SK','DE','IT','NL','FI','EE','CY','AT','SE','IE','LV','PL'];
+
+function defaultCurrency() {
+  if (euCodes.includes(country.value.country)) {
+    return 'EUR';
+  }
+  return 'USD';
+}
 
 useHead({
   title: 'Premium campaigns - Kanka',
