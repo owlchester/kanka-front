@@ -43,8 +43,8 @@
     </tr>
     <tr>
       <td>
-        Maximum number of quick links per campaign
-        <PricingMore url="https://docs.kanka.io/en/latest/advanced/quick-links.html" />
+        Maximum number of bookmarks per campaign
+        <PricingMore url="https://docs.kanka.io/en/latest/advanced/bookmarks.html" />
       </td>
       <td>3</td>
       <td>
@@ -54,7 +54,7 @@
     <tr>
       <td>
         Maximum number of file assets per entity
-        <PricingMore url="https://docs.kanka.io/en/latest/features/assets.html?highlight=asset" />
+        <PricingMore url="https://docs.kanka.io/en/latest/features/assets.html" />
       </td>
       <td>3</td>
       <td>

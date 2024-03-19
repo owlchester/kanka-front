@@ -28,7 +28,7 @@
         title="Unlimited"
         icon="fa-solid fa-infinity">
       <p>
-        Get rid of limits to the number of members, roles, and quick links in the campaign.
+        Get rid of limits to the number of members, roles, and bookmarks in the campaign.
       </p>
     </PremiumCard>
 
