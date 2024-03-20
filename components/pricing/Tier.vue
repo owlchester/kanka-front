@@ -7,12 +7,12 @@
       <div class="flex gap-10">
         <div class="grow flex flex-col gap-2">
           <h3 class="text-dark">{{ tier }}</h3>
-          <div v-if="currency && !discounted">
-            <p class="text-light font-medium">{{ currency }}{{ monthly }}/month
+          <div v-if="defaultCurrency() && !discounted">
+            <p class="text-light font-medium">{{ defaultCurrency() }}{{ monthly }}/month
             </p>
           </div>
-          <div v-else-if="currency && discounted">
-            <p class="text-light font-medium">{{ currency }}{{ yearlyPrice() }}/month
+          <div v-else-if="defaultCurrency() && discounted">
+            <p class="text-light font-medium">{{ defaultCurrency() }}{{ yearlyPrice() }}/month
             </p>
             <p class="text-light text-sm">billed yearly</p>
           </div>
@@ -53,6 +53,14 @@ const props = defineProps({
   discounted: Boolean,
 })
 
+const { state } = asyncCurrency();
+
+function defaultCurrency() {
+  if (state.value == 'EUR') {
+    return '€';
+  }
+  return '$';
+}
 function boxCss() {
   let classes = 'flex flex-col gap-8 p-8 border rounded-md text-left grow';
   if (props.best) {

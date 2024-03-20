@@ -68,10 +68,18 @@
 </template>
 
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig();
+const { state } = asyncCurrency();
+const currency = ref(defaultCurrency());
 const monthly = ref(true);
 const yearly = ref(false);
-const currency = ref('usd');
 
+function defaultCurrency() {
+  if (state.value == 'EUR') {
+    return 'eur';
+  }
+  return 'usd';
+}
 function switchPeriod() {
   monthly.value = !monthly.value;
   yearly.value = !yearly.value;
