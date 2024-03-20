@@ -52,14 +52,11 @@ const props = defineProps({
   popular: Boolean,
   discounted: Boolean,
 })
-const country = useCookie('front_currency');
-country.value = country.value || await $fetch(runtimeConfig.location, {
-    headers: useRequestHeaders(['location'])
-});
-const euCodes = ['BE','EL','LT','PT','BG','ES','LU','RO','CZ','FR','HU','SI','DK','HR','MT','SK','DE','IT','NL','FI','EE','CY','AT','SE','IE','LV','PL'];
+
+const { state } = asyncCurrency();
 
 function defaultCurrency() {
-  if (euCodes.includes(country.value.country)) {
+  if (state.value == 'EUR') {
     return '€';
   }
   return '$';
