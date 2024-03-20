@@ -41,10 +41,10 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
-const { state } = asyncCurrency();
+const { country } = asyncCurrency();
 
 function defaultCurrency() {
-  return state.value;
+  return country.value;
 }
 
 useHead({
