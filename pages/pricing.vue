@@ -75,7 +75,6 @@ const monthly = ref(true);
 const yearly = ref(false);
 
 function defaultCurrency() {
-  console.log(state.value);
   if (state.value == 'EUR') {
     return 'eur';
   }
