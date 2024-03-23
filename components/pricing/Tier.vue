@@ -53,10 +53,10 @@ const props = defineProps({
   discounted: Boolean,
 })
 
-const { state } = asyncCurrency();
+const { state, country } = asyncCurrency();
 
 function defaultCurrency() {
-  if (state.value == 'EUR') {
+  if (country.value == 'EUR') {
     return '€';
   }
   return '$';

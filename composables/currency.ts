@@ -3,6 +3,8 @@ export function asyncCurrency() {
   const isReady = ref(false);
   const isLoading = ref(false);
   const error = ref(undefined);
+  const country = useCookie('front_currency');
+  const euCodes = ['MX','BE','EL','LT','PT','BG','ES','LU','RO','CZ','FR','HU','SI','DK','HR','MT','SK','DE','IT','NL','FI','EE','CY','AT','SE','IE','LV','PL'];
 
   async function execute() {
     error.value = undefined;
@@ -13,16 +15,17 @@ export function asyncCurrency() {
       isReady.value = true;
 
       const runtimeConfig = useRuntimeConfig().public
-      const country = useCookie('front_currency');
-      country.value = country.value || await $fetch(runtimeConfig.location, {
+      if (country.value == 'USD' || country.value == 'EUR') {
+        return;
+      }
+      const location = await $fetch(runtimeConfig.location, {
           headers: useRequestHeaders(['location'])
       });
-      const euCodes = ['BE','EL','LT','PT','BG','ES','LU','RO','CZ','FR','HU','SI','DK','HR','MT','SK','DE','IT','NL','FI','EE','CY','AT','SE','IE','LV','PL'];
-      
-        if (euCodes.includes(country.value.country)) {
-          state.value = 'EUR';
-        }
-        state.value = 'USD';
+
+      if (euCodes.includes(location.value.country)) {
+        country.value = 'EUR';
+      }
+      country.value = 'USD';
     }
     catch (e) {
       error.value = e;
@@ -37,5 +40,6 @@ export function asyncCurrency() {
     isReady,
     isLoading,
     error,
+    country,
   };
 }
