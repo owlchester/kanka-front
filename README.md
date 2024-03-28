@@ -69,3 +69,13 @@ yarn generate
 ```
 
 Then deploy the `.output/public` folder to netlify
+
+
+# Starlink issues
+
+If you are connected to the internet through a Starlink device, NPM will be blocked by default due to some IPV4-V6 shenanigans.
+
+Before running any commands, you first need to tell node to prioritize ipv4.
+
+> NODE_OPTIONS=--dns-result-order=ipv4first yarn generate  
+
