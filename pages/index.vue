@@ -72,14 +72,14 @@
             :featured="true"
             img="https://th.kanka.io/YKtg9EzWOn9T_3gQSzU5oiZtDSA=/283x212/smart/src/campaigns/2XJDh5zOxFe1DCiqtmXzo20WWJeb1Q2dvav8OQhH.jpeg"
             justify="Beautiful visuals and deep lore"
-            link="https://app.kanka.io/en/campaign/36205"
+            link="https://app.kanka.io/w/36205"
             title="The Odyssey">
         </Campaign>
 
         <Campaign
             :featured="true"
             img="https://th.kanka.io/UrqJb-7gR5k8_XB4qXO7cWVmjxg=/283x212/smart/src/campaigns/gDhOPs8kCuwjv8JWfUNm7S7pqzHFAJ9oiMKSzzQq.jpg"
-            link="https://app.kanka.io/en/campaign/52637"
+            link="https://app.kanka.io/w/52637"
             justify="Incredible worldbuilding craftmanship"
             title="What Lies Beneath">
         </Campaign>
@@ -88,14 +88,14 @@
             :featured="true"
             img="https://th.kanka.io/G4WdG8U8_GC744xwNHQI4okr4Tk=/283x212/smart/src/campaigns/wY5eKlMDdQLJ5GIV99V0fN7zIjiU9mXyhAHWcLN4.jpeg"
             justify="Kanka's creator's world, the home of Adam Morley"
-            link="https://app.kanka.io/en/campaign/2"
+            link="https://app.kanka.io/w/thaelia"
             title="Thaelia">
         </Campaign>
 
         <Campaign
             :featured="true"
             img="https://th.kanka.io/a4Pf49HUCryzVRllLWt08VyW8LM=/283x212/smart/src/campaigns/107_XtmEC4V.png"
-            link="https://app.kanka.io/en/campaign/107"
+            link="https://app.kanka.io/w/107"
             title="Devils and Dragons"
             justify="A campaign which has been going on for many years">
         </Campaign>
