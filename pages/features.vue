@@ -40,6 +40,7 @@
         <a href="#marketplace" class="text-purple">Marketplace</a>
         <a href="#theming" class="text-purple">Theming</a>
         <a href="#family-trees" class="text-purple">Family trees</a>
+        <a href="#webhooks" class="text-purple">Webhooks</a>
       </div>
     </div>
   </Section>
@@ -321,7 +322,7 @@
       <div id="webhooks" class="flex flex-col gap-5">
         <h3>Webhooks</h3>
         <p>
-          Users of premium campaigns can create custom webhook updates that notify them on a third party application like Discord whenever changes to the campaign are made.
+          Premium campaigns can define workflows that send updates to Discord and other tools through webhooks when changes to entities are made.
         </p>
       </div>
     </div>
