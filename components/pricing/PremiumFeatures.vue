@@ -216,6 +216,7 @@
     <tr>
       <td>
         Send updates to Discord and other tools through webhooks.
+          <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/webhooks.html" />
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
