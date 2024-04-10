@@ -213,6 +213,13 @@
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
+    <tr>
+      <td>
+        Send updates to Discord and other tools through webhooks.
+      </td>
+      <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+    </tr>
     </tbody>
   </table>
 </template>

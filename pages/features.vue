@@ -40,6 +40,7 @@
         <a href="#marketplace" class="text-purple">Marketplace</a>
         <a href="#theming" class="text-purple">Theming</a>
         <a href="#family-trees" class="text-purple">Family trees</a>
+        <a href="#webhooks" class="text-purple">Webhooks</a>
       </div>
     </div>
   </Section>
@@ -285,7 +286,7 @@
       <a href="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></a>
     </h2>
 
-    <div class="grid grid-cols-2 xl:grid-cols-4 gap-8 mb-10 text-left">
+    <div class="grid grid-cols-2 xl:grid-cols-5 gap-8 mb-10 text-left">
       <div id="" class="flex flex-col gap-5">
         <h3>Premium campaigns</h3>
         <p>
@@ -316,6 +317,12 @@
         <h3>Family trees</h3>
         <p>
           Families in premium campaign have access to beautiful family trees.
+        </p>
+      </div>
+      <div id="webhooks" class="flex flex-col gap-5">
+        <h3>Webhooks</h3>
+        <p>
+          Premium campaigns can define workflows that send updates to Discord and other tools through webhooks when changes to entities are made.
         </p>
       </div>
     </div>
