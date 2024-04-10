@@ -11,7 +11,7 @@
                    :access="false"
                    title="No premium campaigns" />
 
-      <PricingLink :access="true" title="Unlimited campagns & uploads" />
+      <PricingLink :access="true" title="Unlimited campaigns & uploads" />
       <PricingLink :access="true" title="Access to all core features" />
       <PricingLink :access="true" title="Frequent updates" />
 

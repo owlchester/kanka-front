@@ -85,8 +85,8 @@ function switchPeriod() {
   yearly.value = !yearly.value;
 }
 function switchCurrency() {
-  country.value = country.value === 'USD' ? 'EUR' : 'USD';
   currency.value = currency.value === 'usd' ? 'eur' : 'usd';
+  country.value = currency.value.toUpperCase();
 }
 function monthlyCss() {
   let css = 'rounded-full h-16 w-32 flex  justify-center items-center cursor-pointer  transition-all duration-200';
