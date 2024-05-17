@@ -34,7 +34,7 @@ export default {
       this.isOpen = !this.isOpen;
     },
     copy(id) {
-      let link = window.location.host + this.$route.path + '#' + id;
+      let link = 'https://' + window.location.host + this.$route.path + '#' + id;
       navigator.clipboard.writeText(link)
     }
   },
