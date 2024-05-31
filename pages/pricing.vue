@@ -31,9 +31,9 @@
                      :period="yearly" />
 
     <div class="text-center">
-      <a href="#features" class="btn btn-round rounded-full">
+      <NuxtLink to="#features" class="btn btn-round rounded-full">
         Compare plans <i class="fa-solid fa-arrow-down" aria-hidden="true" />
-      </a>
+      </NuxtLink>
     </div>
   </Section>
 
@@ -56,6 +56,13 @@
     <PricingPremiumFeatures />
 
   </Section>
+
+    <Section id="comparison">
+        <h2 class="text-purple">
+            Still unsure?
+        </h2>
+        <p>Check out <NuxtLink to="/comparison" class="link link-blue">how we compare</NuxtLink> against our competitors.</p>
+    </Section>
 
 
   <Section id="faq">

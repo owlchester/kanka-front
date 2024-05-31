@@ -91,7 +91,7 @@
   <Section>
     <h2 class="text-purple bg-white top-0 sticky py-2" id="rpgs">
       RPGs
-      <a href="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></a>
+        <NuxtLink to="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></NuxtLink>
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10 text-left">
@@ -193,7 +193,7 @@
   <Section>
     <h2 class="text-purple bg-white top-0 sticky py-2" id="worldbuilding">
       Worldbuilding
-      <a href="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></a>
+      <NuxtLink to="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></NuxtLink>
     </h2>
 
     <div class="grid grid-cols-3 gap-8 text-left" id="relations">
@@ -283,7 +283,7 @@
   <Section>
     <h2 class="text-purple bg-white top-0 sticky py-2" id="premium">
       Premium
-      <a href="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></a>
+      <NuxtLink to="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></NuxtLink>
     </h2>
 
     <div class="grid grid-cols-2 xl:grid-cols-5 gap-8 mb-10 text-left">

@@ -4,7 +4,7 @@
         id="payments"
         q="What are the available payment methods?"
         :open="false">
-      We accept most credit and debit cards like Visa, Mastercard and American Express. We also accept Giropay, Sofort, and PayPal for yearly subscriptions.
+      We accept most credit and debit cards like Visa, Mastercard and American Express. We also accept PayPal for yearly subscriptions.
     </FaqQA>
     <FaqQA
         id="info"

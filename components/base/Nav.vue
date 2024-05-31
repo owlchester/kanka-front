@@ -54,7 +54,7 @@ const open = ref(false);
 
 const toggle = () => {
   open.value = !open.value;
-  if (open) {
+  if (open.value) {
     document.body.classList.add("overflow-hidden", "h-screen");
   } else {
     document.body.classList.remove("overflow-hidden", "h-screen");
