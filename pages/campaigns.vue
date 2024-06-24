@@ -112,6 +112,11 @@ useHead({
     { name: 'description', content: lead }
   ],
 })
+useSeoMeta({
+    ogTitle: title,
+    ogDescription: lead,
+    ogUrl: 'https://kanka.io/campaigns',
+})
 
 function filterCss(filterKey: String, optionKey: String) {
   let css = 'cursor-pointer link ';

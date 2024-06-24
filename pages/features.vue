@@ -348,4 +348,9 @@ useHead({
     { name: 'description', content: 'Kanka is constantly being updated with new features and improvements, but here are some of the most important ones we think you’ll love.' }
   ],
 })
+useSeoMeta({
+    ogTitle: 'Features',
+    ogDescription: 'Kanka is constantly being updated with new features and improvements, but here are some of the most important ones we think you’ll love.',
+    ogUrl: 'https://kanka.io/features',
+})
 </script>

@@ -50,7 +50,12 @@ function defaultCurrency() {
 useHead({
   title: 'Premium campaigns - Kanka',
   meta: [
-    { name: 'description', content: '' }
+    { name: 'description', content: 'Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more' }
   ],
+})
+useSeoMeta({
+    ogTitle: 'Premium campaigns',
+    ogDescription: 'Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more',
+    ogUrl: 'https://kanka.io/premium',
 })
 </script>

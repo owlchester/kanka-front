@@ -119,5 +119,10 @@ useHead({
     { name: 'description', content: 'The obvious choice for collaborative worldbuilding and ttrpg campaign management, at an affordable rate.' }
   ],
 })
+useSeoMeta({
+    ogTitle: 'Pricing',
+    ogDescription: 'The obvious choice for collaborative worldbuilding and ttrpg campaign management, at an affordable rate.',
+    ogUrl: 'https://kanka.io/pricing',
+})
 </script>
 <style lang="css" scoped src="~/assets/styles/pricing.css"></style>

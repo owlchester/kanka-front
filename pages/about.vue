@@ -75,4 +75,9 @@ useHead({
     { name: 'description', content: lead }
   ],
 })
+useSeoMeta({
+    ogTitle: 'About us - Kanka',
+    ogDescription: lead,
+    ogUrl: 'https://kanka.io/about',
+})
 </script>

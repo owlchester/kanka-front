@@ -22,7 +22,7 @@
     </div>
 
     <div class="text-center">
-      <img src="https://th.kanka.io/Vg8GkfblEvh1Z4HhO2Cwr4hzuCs=/900x562/smart/src/app/front/devices-preview-hd.png" class="inline" loading="lazy" alt="Kanka tabletop rpg campaign management and worldbuilding dashboard">
+      <img src="https://th.kanka.io/Vg8GkfblEvh1Z4HhO2Cwr4hzuCs=/900x562/smart/src/app/front/devices-preview-hd.png" class="inline" loading="lazy" alt="Kanka tabletop rpg campaign management and worldbuilding dashboard" width="900" height="562">
     </div>
   </Section>
 
