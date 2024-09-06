@@ -69,7 +69,7 @@
 
       <PricingLink to="/premium"
                    :access="true"
-                   title="3 premium campaign" />
+                   title="3 premium campaigns" />
       <PricingLink
           :access="true"
           title="Huge map size (20 MB)" />
@@ -99,7 +99,7 @@
     >
       <PricingLink to="/premium"
                    :access="true"
-                   title="7 premium campaign" />
+                   title="7 premium campaigns" />
       <PricingLink
           :access="true"
           title="Gigantic map size (50 MB)" />

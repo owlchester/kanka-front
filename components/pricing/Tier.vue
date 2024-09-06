@@ -8,8 +8,11 @@
         <div class="grow flex flex-col gap-2">
           <h3 class="text-dark">{{ tier }}</h3>
           <div v-if="defaultCurrency() && !discounted">
-            <p class="text-purple font-medium">{{ defaultCurrency() }}{{ monthly }}/month
+            <p class="text-purple font-medium" v-if="monthly == 'Free'">{{ monthly }}
             </p>
+              <p class="text-purple front-medium" v-else>
+                  {{ defaultCurrency() }}{{ monthly }}/month
+              </p>
           </div>
           <div v-else-if="defaultCurrency() && discounted">
             <p class="text-light font-medium">{{ defaultCurrency() }}{{ yearlyPrice() }}/month
