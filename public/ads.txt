@@ -1,0 +1,3 @@
+google.com, pub-3605257360853185, RESELLER, f08c47fec0942fa0
+
+google.com, pub-2318854337682975, RESELLER, f08c47fec0942fa0
