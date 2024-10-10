@@ -11,10 +11,10 @@
 /go/github https://github.com/owlchester/kanka
 
 # Api docs
-/en-US/api-docs/* https://app.kanka.io/api-docs/:splat
-/en/api-docs/* https://app.kanka.io/api-docs/:splat
+#/en-US/api-docs/* https://app.kanka.io/api-docs/:splat
+#/en/api-docs/* https://app.kanka.io/api-docs/:splat
 
-/api/1.0/* https://kanka.io/api/1.0/:splat
+#/api/1.0/* https://kanka.io/api/1.0/:splat
 
 
 /de/invitation/* https://app.kanka.io/invitation/:splat
@@ -30,20 +30,20 @@
 /ru/invitation/* https://app.kanka.io/invitation/:splat
 
 # Campaigns
-/de/campaign/* https://app.kanka.io/w/:splat
-/en-US/campaign/* https://app.kanka.io/w/:splat
-/en/campaign/* https://app.kanka.io/w/:splat
-/es/campaign/* https://app.kanka.io/w/:splat
-/fr/campaign/* https://app.kanka.io/w/:splat
-/it/campaign/* https://app.kanka.io/w/:splat
-/nl/campaign/* https://app.kanka.io/w/:splat
-/pl/campaign/* https://app.kanka.io/w/:splat
-/pt-BR/campaign/* https://app.kanka.io/w/:splat
-/sk/campaign/* https://app.kanka.io/w/:splat
-/ru/campaign/* https://app.kanka.io/w/:splat
-/hu/campaign/* https://app.kanka.io/w/:splat
-/ca/campaign/* https://app.kanka.io/w/:splat
-/gl/campaign/* https://app.kanka.io/w/:splat
+#/de/campaign/* https://app.kanka.io/w/:splat
+#/en-US/campaign/* https://app.kanka.io/w/:splat
+#/en/campaign/* https://app.kanka.io/w/:splat
+#/es/campaign/* https://app.kanka.io/w/:splat
+#/fr/campaign/* https://app.kanka.io/w/:splat
+#/it/campaign/* https://app.kanka.io/w/:splat
+#/nl/campaign/* https://app.kanka.io/w/:splat
+#/pl/campaign/* https://app.kanka.io/w/:splat
+#/pt-BR/campaign/* https://app.kanka.io/w/:splat
+#/sk/campaign/* https://app.kanka.io/w/:splat
+#/ru/campaign/* https://app.kanka.io/w/:splat
+#/hu/campaign/* https://app.kanka.io/w/:splat
+#/ca/campaign/* https://app.kanka.io/w/:splat
+#/gl/campaign/* https://app.kanka.io/w/:splat
 
 # Old to new front
 /en /

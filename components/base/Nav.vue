@@ -1,9 +1,9 @@
 <template>
-  <nav class="flex items-center justify-between gap-16 lg:gap-20 h-32 px-5 max-w-7xl mx-auto">
+  <nav class="flex items-center justify-between gap-16 xl:gap-20 h-32 px-5 max-w-7xl mx-auto">
     <NuxtLink to="/" @click="closeSidebar()">
       <img src="https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png" title="Kanka logo" alt="Kanka" width="103" height="103" />
     </NuxtLink>
-    <div class="gap-8 lg:gap-12 items-center grow hidden lg:flex">
+    <div class="gap-8 xl:gap-12 items-center grow hidden lg:flex">
       <NuxtLink to="/features" class="link text-nav" @click="closeSidebar()">
         Features
       </NuxtLink>
@@ -12,6 +12,9 @@
       </NuxtLink>
       <NuxtLink to="/campaigns" class="link  text-nav" @click="closeSidebar()">
         Public campaigns
+      </NuxtLink>
+      <NuxtLink to="/about" class="link  text-nav" @click="closeSidebar()">
+        About us
       </NuxtLink>
     </div>
 
@@ -40,6 +43,9 @@
         </NuxtLink>
         <NuxtLink to="/campaigns" class="link  text-nav" @click="closeSidebar()">
           Public campaigns
+        </NuxtLink>
+        <NuxtLink to="/about" class="link  text-nav" @click="closeSidebar()">
+          About us
         </NuxtLink>
 
         <NuxtLink :to="`${runtimeConfig.app}/login`" class="btn-login transition-all duration-200">Sign in</NuxtLink>

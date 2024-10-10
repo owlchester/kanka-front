@@ -10,7 +10,6 @@
       <AboutMember member="Jay" img="https://th.kanka.io/3gGetooEqoGcA-NFOPvu2xYX980=/200x200/smart/src/app/team/jay2.jpeg" role="Founder & Lead developer"></AboutMember>
       <AboutMember member="Jon" img="https://th.kanka.io/qj6BEWMKrn4D-9f5GMP_REpzsyQ=/200x200/smart/src/app/team/jon.jpg" role="Co-Founder & Business manager"></AboutMember>
       <AboutMember member="Itzamná" img="https://th.kanka.io/qlJ3ZQdiRCM51HLtiQYckGqMHDU=/200x200/smart/src/app/team/itzamna.png" role="Junior developer"></AboutMember>
-      <AboutMember member="Rossy" img="https://th.kanka.io/Lmz-NhrVPPShI59BMEMJhv-Ezgo=/200x200/smart/src/app/team/Rossy.jpeg" role="UI/UX Designer"></AboutMember>
 
 <!--      <AboutMember member="Laura" img="https://th.kanka.io/rPvAAWbnqad8U25cosP47m1Zcc0=/200x200/smart/src/app/team/laura.jpeg" role="Social Media"></AboutMember>-->
       <AboutMember member="Kaz" img="https://th.kanka.io/CIfzUDCGbm9dxpwUZImdaEw8mx0=/200x200/smart/src/app/team/kaz.jpeg" role="Security 🐶"></AboutMember>
