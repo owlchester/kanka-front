@@ -3,6 +3,7 @@
     title="Worldbuilding, tabletop RPG campaign management, storytelling. All in one."
     lead="Kanka is the passion project of a DM and his players who wanted a better way to organize our campaigns. We believe worldbuilding should be easy to approach, feature rich, and affordable. So we created the best worldbuilding and TTRPG campaign management tool. At our core we are community driven, and encourage our users to submit ideas, vote on future improvements, and create and share user made plugins. Forget about losing track of your scattered notes, in Kanka everything is in one place, easy to find, and accessible at the tip of your fingers."
     :big="true"
+    :video="true"
   >
     <div>
       <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-round rounded-full ">

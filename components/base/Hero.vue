@@ -1,9 +1,12 @@
 <template>
-  <div class="bg-purple text-white gap-16">
-    <div v-bind:class="css()">
+  <div :class="blockCss()">
+    <div :class="textCss()">
       <h2 class="">{{ title }}</h2>
-      <p v-if="lead" class="lg:max-w-2xl mx-auto text-center">{{ lead }}</p>
+      <p v-if="lead" class="lg:max-w-2xl text-center">{{ lead }}</p>
       <slot/>
+    </div>
+    <div v-if="video" :class="videoCss()">
+        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hoXHTKjobek?si=GU3PjbAU5sdvh6aF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
   </div>
 </template>
@@ -14,6 +17,7 @@ export default {
     title: String,
     lead: String,
     big: Boolean,
+    video: Boolean,
   },
   data() {
     return {
@@ -21,12 +25,27 @@ export default {
     }
   },
   methods: {
-    css() {
-      let base = 'px-6 py-20 lg:max-w-7xl mx-auto text-center flex flex-col gap-8';
+      blockCss() {
+          let base = 'px-6 py-20 bg-purple text-white flex flex-col xl:flex-row items-center justify-center gap-16';
+          // if (this.video) {
+          //     base += ' gap-8';
+          // } else {
+          //     base += ' gap-16';
+          // }
+          if (this.big) {
+              return base + ' lg:py-36';
+          }
+          return base + ' lg:py-24';
+      },
+    textCss() {
+      let base = 'lg:max-w-7xl text-center flex flex-col gap-8 items-center';
       if (this.big) {
-        return base + ' lg:py-36';
+        return base + ' ';
       }
-      return base + ' lg:py-24';
+      return base + ' ';
+    },
+    videoCss() {
+        return '';
     }
   }
 }
