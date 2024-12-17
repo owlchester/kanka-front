@@ -68,7 +68,7 @@
     </div>
 
     <div class="overflow-x-auto">
-      <div class=" flex gap-3 min-w-fit mb-5">
+      <div class=" flex justify-center gap-3 min-w-fit mb-5">
         <Campaign
             :featured="true"
             img="https://th.kanka.io/YKtg9EzWOn9T_3gQSzU5oiZtDSA=/283x212/smart/src/campaigns/2XJDh5zOxFe1DCiqtmXzo20WWJeb1Q2dvav8OQhH.jpeg"

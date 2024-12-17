@@ -83,7 +83,9 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
           </div>
 
           <div class="text-xs">
-            Kanka - Copyright &copy; 2023 Owlchester SNC
+              <p>Made with ❤️ in Geneva, Switzerland</p>
+              <p>Only possible thanks to our subscribers.</p>
+              <p>Copyright © 2024 Owlchester SNC</p>
           </div>
         </div>
         <BaseFooterSection title="Platform">
@@ -96,11 +98,11 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
           <NuxtLink to="/kb">Knowledge base</NuxtLink>
           <NuxtLink to="https://docs.kanka.io">Documentation</NuxtLink>
           <NuxtLink :to="`${runtimeConfig.app}/api-docs/1.0/overview`">API docs</NuxtLink>
-          <NuxtLink to="https://blog.kanka.io/category/news">What's new</NuxtLink>
           <NuxtLink to="https://blog.kanka.io">Blog</NuxtLink>
           <NuxtLink to="https://status.kanka.io">Service status</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Community">
+            <NuxtLink to="https://blog.kanka.io/category/news">What's new</NuxtLink>
           <NuxtLink to="/campaigns">Public campaigns</NuxtLink>
           <NuxtLink to="https://app.kanka.io/roadmap">Roadmap</NuxtLink>
           <NuxtLink to="/hall-of-fame">Hall of fame</NuxtLink>
@@ -108,10 +110,10 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
         <BaseFooterSection title="Company">
           <NuxtLink to="/about">About us</NuxtLink>
           <NuxtLink to="/contact">Contact</NuxtLink>
-          <NuxtLink to="/press-kit">Press kit</NuxtLink>
-          <NuxtLink to="/security">Security</NuxtLink>
           <NuxtLink to="/privacy-policy">Privacy</NuxtLink>
           <NuxtLink to="/terms-and-conditions">Terms</NuxtLink>
+            <NuxtLink to="/security">Security</NuxtLink>
+            <NuxtLink to="/press-kit">Press kit</NuxtLink>
         </BaseFooterSection>
       </div>
 
@@ -125,7 +127,9 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
         </div>
 
         <div class="text-center text-sm">
-          Kanka - Copyright &copy; 2023 Owlchester SNC
+            <p>Made with ❤️ in Geneva, Switzerland</p>
+            <p>Only possible thanks to our subscribers.</p>
+            <p>Copyright © 2024 Owlchester SNC</p>
         </div>
       </div>
     </div>
