@@ -24,19 +24,19 @@
     <tbody class="text-nav">
     <tr>
       <td>
-        Upload sizes
+        File and image upload sizes
       </td>
       <td>
-        1 MB
+        3 MiB
       </td>
       <td>
-        8 MB
+        8 MiB
       </td>
       <td>
-        15 MB
+        15 MiB
       </td>
       <td>
-        25 MB
+        25 MiB
       </td>
     </tr>
     <tr>
@@ -44,16 +44,16 @@
         Map upload sizes
       </td>
       <td>
-        3  MB
+        5 MiB
       </td>
       <td>
-        10 MB
+        10 MiB
       </td>
       <td>
-        20 MB
+        20 MiB
       </td>
       <td>
-        50 MB
+        50 MiB
       </td>
     </tr>
     <tr>

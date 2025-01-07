@@ -53,30 +53,30 @@
     </tr>
     <tr>
       <td>
-        Maximum number of file assets per entity
-        <PricingMore url="https://docs.kanka.io/en/latest/features/assets.html" />
-      </td>
-      <td>3</td>
-      <td>
-        <IconsInfinity css="w-8 h-8" />
-      </td>
-    </tr>
-    <tr>
-      <td>
         Storage for images in the gallery
-        <PricingMore url="https://docs.kanka.io/en/latest/campaigns/gallery.html" />
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/gallery.html" />
       </td>
-      <td>50 MB</td>
-      <td>1 GB</td>
+      <td>150 MiB</td>
+      <td>3 GiB</td>
     </tr>
     <tr>
       <td>
         Maximum file and image upload size for members
       </td>
-      <td>1 MB</td>
+      <td>3 MiB</td>
       <td>
-        8 MB
+        8 MiB
       </td>
+    </tr>
+    <tr>
+        <td>
+            Maximum number of file assets per entity
+            <PricingMore url="https://docs.kanka.io/en/latest/features/assets.html" />
+        </td>
+        <td>3</td>
+        <td>
+            20
+        </td>
     </tr>
     <tr>
       <td>
@@ -184,12 +184,6 @@
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Full integration with the campaign gallery to easily organize and reuse images
-      </td>
-      <td class="text-light">—</td>
-      <td><IconsCheck css="w-8 h-8" /></td>
-    </tr>
-    <tr>
       <td>
         Full logs of changes made on entities for up to 30 days
         <PricingMore url="https://docs.kanka.io/en/latest/features/history.html" />
@@ -199,7 +193,7 @@
     </tr>
     <tr>
       <td>
-        Recover deleted entities for up to 30 days
+        Recover deleted entities and posts for up to 30 days
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/recovery.html" />
       </td>
       <td class="text-light">—</td>
