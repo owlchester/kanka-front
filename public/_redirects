@@ -14,7 +14,7 @@
 #/en-US/api-docs/* https://app.kanka.io/api-docs/:splat
 #/en/api-docs/* https://app.kanka.io/api-docs/:splat
 
-#/api/1.0/* https://kanka.io/api/1.0/:splat
+#/api/1.0/* https://kanka.io/api/1.0/:splata
 
 
 /de/invitation/* https://app.kanka.io/invitation/:splat

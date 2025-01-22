@@ -1,9 +1,8 @@
 <template>
   <BaseHero
-    title="Worldbuilding, tabletop RPG campaign management, storytelling. All in one."
-    lead="Kanka is the passion project of a DM and his players who wanted a better way to organize our campaigns. We believe worldbuilding should be easy to approach, feature rich, and affordable. So we created the best worldbuilding and TTRPG campaign management tool. At our core we are community driven, and encourage our users to submit ideas, vote on future improvements, and create and share user made plugins. Forget about losing track of your scattered notes, in Kanka everything is in one place, easy to find, and accessible at the tip of your fingers."
-    :big="true"
-    :video="true"
+      title="Worldbuilding, tabletop RPG campaign management, storytelling. All in one."
+      lead="Kanka is a community driven worldbuilding and tabletop RPG campaign management tool perfect for worldbuilders and game masters alike. We help you create and organise your campaigns and worlds with our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with!"
+      :big="true"
   >
     <div>
       <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-round rounded-full ">
@@ -18,7 +17,7 @@
         A novel way to keep track of your worldbuilding and RPG campaigns
       </h2>
       <p>
-          We'll help you create and organise your campaigns and worlds with our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with!
+        Access Kanka from all of your devices, with your data always up to date. Forget about losing track of your scattered notes, in Kanka everything is in one place, easy to find, and accessible on the go.
       </p>
     </div>
 
@@ -30,25 +29,25 @@
   <Section id="features">
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
-        icon="fa-duotone fa-sack"
-        title="Free to use"
-        lead="Our free tier isn't just a trial, it includes all of our core features and unlimited elements."
-        />
+          icon="fa-duotone fa-solid fa-sack"
+          title="Free to use"
+          lead="Our free tier isn't just a trial, it includes all of our core features and unlimited elements."
+      />
       <Feature
-        icon="fa-duotone fa-users"
-        title="Collaborative"
-        lead="Collaborate with your friends by inviting them to the campaign and easily keep track of what they can interact with."
-        />
+          icon="fa-duotone fa-solid fa-users"
+          title="Collaborative"
+          lead="Collaborate with your friends by inviting them to the campaign and easily keep track of what they can interact with."
+      />
       <Feature
-        icon="fa-duotone fa-palette"
-        title="Customizable"
-        lead="Customize every last detail of a campaign. This can be accomplished by changing the built-in modules, or writing custom CSS."
-        />
+          icon="fa-duotone fa-solid fa-palette"
+          title="Customizable"
+          lead="Customize every last detail of a campaign. This can be accomplished by changing the built-in modules, or writing custom CSS."
+      />
       <Feature
-        icon="fa-duotone fa-rocket"
-        title="Frequent updates"
-        lead="We prioritize features our community loves, frequently updating Kanka and keeping your data safe."
-        />
+          icon="fa-duotone fa-solid fa-rocket"
+          title="Frequent updates"
+          lead="We prioritize features our community loves, frequently updating Kanka and keeping your data safe."
+      />
     </div>
 
     <div class="text-center">
@@ -68,7 +67,7 @@
     </div>
 
     <div class="overflow-x-auto">
-      <div class=" flex justify-center gap-3 min-w-fit mb-5">
+      <div class=" flex gap-3 min-w-fit mb-5 justify-center ">
         <Campaign
             :featured="true"
             img="https://th.kanka.io/YKtg9EzWOn9T_3gQSzU5oiZtDSA=/283x212/smart/src/campaigns/2XJDh5zOxFe1DCiqtmXzo20WWJeb1Q2dvav8OQhH.jpeg"

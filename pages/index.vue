@@ -1,7 +1,7 @@
 <template>
   <BaseHero
     title="Worldbuilding, tabletop RPG campaign management, storytelling. All in one."
-    lead="Kanka is a community driven worldbuilding and tabletop RPG campaign management tool perfect for worldbuilders and game masters alike. We help you create and organise your campaigns and worlds with our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with!"
+    lead="Kanka is a community driven worldbuilding tool and RPG campaign manager. Whether you're creating your own D&D homebrew or using any other ruleset, our fantasy world builder helps you create and organize your campaigns and worlds. Bring your creation to life with our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with!"
     :big="true"
   >
     <div>
@@ -17,7 +17,7 @@
         A novel way to keep track of your worldbuilding and RPG campaigns
       </h2>
       <p>
-        Access Kanka from all of your devices, with your data always up to date. Forget about losing track of your scattered notes, in Kanka everything is in one place, easy to find, and accessible on the go.
+        We believe that this is the only world building website that you'll ever need to get organized. Forget about losing track of your scattered notes, in Kanka everything is in one place, easy to find, and accessible on the go.
       </p>
     </div>
 
@@ -29,22 +29,22 @@
   <Section id="features">
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
-        icon="fa-duotone fa-sack"
+        icon="fa-duotone fa-solid fa-sack"
         title="Free to use"
         lead="Our free tier isn't just a trial, it includes all of our core features and unlimited elements."
         />
       <Feature
-        icon="fa-duotone fa-users"
+        icon="fa-duotone fa-solid fa-users"
         title="Collaborative"
         lead="Collaborate with your friends by inviting them to the campaign and easily keep track of what they can interact with."
         />
       <Feature
-        icon="fa-duotone fa-palette"
+        icon="fa-duotone fa-solid fa-palette"
         title="Customizable"
         lead="Customize every last detail of a campaign. This can be accomplished by changing the built-in modules, or writing custom CSS."
         />
       <Feature
-        icon="fa-duotone fa-rocket"
+        icon="fa-duotone fa-solid fa-rocket"
         title="Frequent updates"
         lead="We prioritize features our community loves, frequently updating Kanka and keeping your data safe."
         />
