@@ -12,6 +12,14 @@
     </div>
   </BaseHero>
 
+
+  <Testimonial
+      user="Charalampos"
+      title="Professional DM"
+      img="/partners/babis.png">
+    "Kanka has genuinely brought my games to the next level and have made me a better DM."
+  </Testimonial>
+
   <Section id="pitch">
     <div class="mx-auto lg:max-w-4xl flex flex-col gap-4">
       <h2 class="text-purple">
@@ -56,10 +64,18 @@
     </div>
   </Section>
 
+  <Testimonial
+      user="Steve D"
+      title="Community member">
+    "As a DM, Kanka makes it so easy to organize a campaign and look up information quickly in a session."
+  </Testimonial>
+
   <Section>
     <h2 class="text-purple">Pricing</h2>
     <PricingOverview></PricingOverview>
   </Section>
+
+
 
   <Section id="featured">
     <div class="flex flex-col gap-4">
@@ -103,6 +119,12 @@
       </div>
     </div>
   </Section>
+
+  <Testimonial
+      user="Anonymous"
+      title="Satisfaction survey responder">
+    "It's easy and straightforward to use, and is the best way to keep track of the details of my campaign. I love the ability to link entities to each other"
+  </Testimonial>
 
   <Section id="register">
     <h2 class="text-purple">Like what you see?</h2>

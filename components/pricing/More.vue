@@ -1,6 +1,7 @@
 <template>
-  <NuxtLink :to="url" class="text-light text-sm" target="_blank" title="Learn more about this feature in our documentation">
-    <i class="fa-thin fa-exclamation-circle" aria-hidden="true" />
+  <NuxtLink :to="url" class="text-blue text-sm " target="_blank" title="Learn more about this feature in our documentation">
+    <i class="fa-thin fa-book" aria-hidden="true" />
+    Learn more
   </NuxtLink>
 </template>
 
