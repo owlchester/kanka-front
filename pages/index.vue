@@ -76,6 +76,11 @@
   </Section>
 
 
+  <Testimonial
+      user="Azukai"
+      title="Community member">
+    "I am obsessed with creating stories and Kanka was perfect to help keep track of everything."
+  </Testimonial>
 
   <Section id="featured">
     <div class="flex flex-col gap-4">
