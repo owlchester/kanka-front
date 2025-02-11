@@ -14,7 +14,7 @@
     <tbody class="text-nav">
     <tr>
       <td>
-        Maximum number of entities per campaign
+        Maximum number of entities
       </td>
       <td>
         <IconsInfinity css="w-8 h-8" />
@@ -25,7 +25,19 @@
     </tr>
     <tr>
       <td>
-        Maximum number of members  per campaign
+        Maximum number of custom modules
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/modules.html" />
+      </td>
+      <td>
+        0
+      </td>
+      <td>
+        5
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Maximum number of members
       </td>
       <td>10</td>
       <td>
@@ -34,7 +46,7 @@
     </tr>
     <tr>
       <td>
-        Maximum number of roles per campaign
+        Maximum number of roles
       </td>
       <td>3</td>
       <td>
@@ -43,7 +55,7 @@
     </tr>
     <tr>
       <td>
-        Maximum number of bookmarks per campaign
+        Maximum number of bookmarks
         <PricingMore url="https://docs.kanka.io/en/latest/advanced/bookmarks.html" />
       </td>
       <td>3</td>
@@ -53,7 +65,7 @@
     </tr>
     <tr>
       <td>
-        Storage for images in the gallery
+        Storage for images and files in the gallery
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/gallery.html" />
       </td>
       <td>150 MiB</td>
@@ -80,7 +92,7 @@
     </tr>
     <tr>
       <td>
-        Ad-free experience for all campaign members
+        Ad-free experience for all members
         <PricingMore url="https://docs.kanka.io/en/latest/articles/ads.html" />
       </td>
       <td class="text-light">—</td>
@@ -96,7 +108,7 @@
     </tr>
     <tr>
       <td>
-        Force the campaign theme for all members
+        Force a specific theme for all members and viewers
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
