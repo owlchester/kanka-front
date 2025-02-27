@@ -79,7 +79,7 @@
   <Testimonial
       user="Azukai"
       title="Community member">
-    "I am obsessed with creating stories and Kanka was perfect to help keep track of everything."
+    "I am obsessed with creating stories and Kanka is perfect to help keep track of everything."
   </Testimonial>
 
   <Section id="featured">
@@ -147,13 +147,15 @@ const route = useRoute()
 const runtimeConfig = useRuntimeConfig().public
 
 function hasGclid(): Boolean {
-  return route.query.gclid !== undefined;
+  return route.query.utm_id !== undefined && route.query.utm_campaign !== undefined  && route.query.utm_source !== undefined;
 }
 
 // If a user has a gclid, we want the backend to know to properly add their bonuses
 function prepareUrl(): String {
-  return runtimeConfig.app +
-      '/frontend-prepare?gclid=' +
-      route.query.gclid
+  return runtimeConfig.app
+      + '/frontend-prepare'
+      + '?utm_id=' + route.query.utm_id
+      + '&utm_medium=' + route.query.utm_medium +
+      + '&utm_source=' + route.query.utm_source;
 }
 </script>
