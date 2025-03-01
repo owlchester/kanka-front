@@ -11,8 +11,6 @@
                    :access="false"
                    title="No premium campaigns" />
 
-        <PricingLink :access="true" title="Best free tier on the market" to="/comparison" />
-
       <PricingLink :access="true" title="Unlimited campaigns & uploads" />
       <PricingLink :access="true" title="Access to all core features" />
       <PricingLink :access="true" title="Frequent updates" />

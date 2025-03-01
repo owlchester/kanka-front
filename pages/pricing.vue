@@ -57,14 +57,6 @@
 
   </Section>
 
-    <Section id="comparison">
-        <h2 class="text-purple">
-            Still unsure?
-        </h2>
-        <p>Check out <NuxtLink to="/comparison" class="link link-blue">how we compare</NuxtLink> against our competitors.</p>
-    </Section>
-
-
   <Section id="faq">
     <h2 class="text-purple">FAQ</h2>
 

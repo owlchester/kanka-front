@@ -17,7 +17,7 @@
       user="Charalampos"
       title="Professional DM"
       img="/partners/babis.png">
-    "Kanka has genuinely brought my games to the next level and have made me a better DM."
+    "Kanka has genuinely brought my games to the next level and has made me a better DM."
   </Testimonial>
 
   <Section id="pitch">
