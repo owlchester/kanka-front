@@ -1,7 +1,6 @@
 <template>
   <BaseHero
-    title="Worldbuilding, RPG campaign manager, storytelling. All in one.
-"
+    title="Worldbuilding, RPG campaign manager, storytelling. All in one."
     lead="Kanka is a community driven world building website. Whether you're creating your own D&D homebrew or tinkering with other rulesets, our system agnostic tool helps you manage and organize your creativity. Make use of our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with!"
     :big="true"
   >

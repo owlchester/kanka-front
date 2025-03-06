@@ -19,7 +19,7 @@
             :q="question.q"
             :open="isOpen(question.slug)"
         >
-          <p v-html="question.a"></p>
+          <div v-html="question.a" class="flex flex-col gap-3 kb-answer"></div>
         </FaqQA>
       </div>
     </Section>
@@ -46,6 +46,14 @@
     </div>
   </Section>
 </template>
+
+<style>
+.kb-answer {
+  & a {
+    text-decoration: underline;
+  }
+}
+</style>
 
 <script setup lang="ts">
 

@@ -1,7 +1,7 @@
 <template>
   <div :class="blockCss()">
     <div :class="textCss()">
-      <h2 class="">{{ title }}</h2>
+      <h1 class="">{{ title }}</h1>
       <p v-if="lead" class="lg:max-w-2xl text-center">{{ lead }}</p>
       <slot/>
     </div>

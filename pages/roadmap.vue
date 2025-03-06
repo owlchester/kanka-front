@@ -24,7 +24,7 @@
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig()
 useHead({
-  title: 'Press Kit - Kanka',
+  title: 'Roadmap - Kanka',
   meta: [
     { name: 'description', content: 'Thanks for your interest in Kanka! Please use the following resources when talking about us.' }
   ],

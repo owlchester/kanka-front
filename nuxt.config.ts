@@ -14,7 +14,7 @@ export default defineNuxtConfig({
             location: process.env.LOCATION_API || '',
             app: process.env.APP_DOMAIN || '',
             gtmKey: process.env.GTM_KEY || '',
-            gtmDebug: process.env.GTM_DEBUG || false,
+            gtmDebug: process.env.GTM_DEBUG || '',
             discordLink: process.env.DISCORD_LINK || '',
             email: process.env.EMAIL || 'hello@kanka.io',
             emailLink: process.env.EMAIL_LINK || 'mailto:hello@kanka.io',
@@ -36,4 +36,7 @@ export default defineNuxtConfig({
     ],
     preset: 'netlify',
     target: 'static',
+    nitro: {
+        compressPublicAssets: true,
+    },
 })

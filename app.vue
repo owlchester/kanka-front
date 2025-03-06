@@ -2,17 +2,17 @@
 const route = useRoute()
 
 useHead({
-  title: 'Kanka - Online tabletop RPG campaign manager and worldbuilding tool',
+  title: 'Worldbuilding tool and RPG campaign manager - Kanka',
   meta: [
-    { name: 'description', content: 'Are you a game master, worldbuilder, or a storyteller? We offer a tabletop campaign manager and worldbuilding tool that makes it easy to organise, plan, and enjoy your TTRPG campaigns. We are community driven, and best of all, our core features are free!' }
+    { name: 'description', content: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds' }
   ],
   link: [
     {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
   ]
 })
 useSeoMeta({
-  ogTitle: 'Kanka - Online tabletop RPG campaign manager and worldbuilding tool',
-  ogDescription: 'Are you a game master, worldbuilder, or a storyteller? We offer a tabletop campaign manager and worldbuilding tool that makes it easy to organise, plan, and enjoy your TTRPG campaigns. We are community driven, and best of all, our core features are free!',
+  ogTitle: 'Worldbuilding tool and RPG campaign manager - Kanka',
+  ogDescription: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds',
   ogUrl: 'https://kanka.io',
   ogImage: 'https://d3a4xjr8r2ldhu.cloudfront.net/app/front/preview-background.png',
   ogImageType: 'image/png',
@@ -21,7 +21,7 @@ useSeoMeta({
   ogImageAlt: 'Kanka showcase of a character view',
   twitterCard: 'summary_large_image',
   twitterSite: 'https://kanka.io',
-  twitterTitle: 'Kanka - Online tabletop RPG campaign manager and worldbuilding tool',
+  twitterTitle: 'Worldbuilding tool and RPG campaign manager - Kanka',
 })
 
 </script>
