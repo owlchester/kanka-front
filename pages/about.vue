@@ -22,13 +22,13 @@
     <p>Community has and always will be big part of Kanka's DNA. We frequently survey our users for changes to features, designs, and incorporate feedback into every big decision. Our community is what drives us to endlessly improve Kanka. </p>
 
     <div class="grid grid-cols-2 xl:grid-cols-4 gap-5 w-full">
-      <AboutStat amount="200,000+" text="users" />
+      <AboutStat amount="300,000+" text="users" />
       <AboutStat amount="90+" text="countries" />
-      <AboutStat amount="5 million +" text="entities" />
-      <AboutStat amount="100,000+" text="missed plot hooks" />
-      <AboutStat amount="200,000+" text="campaigns" />
+      <AboutStat amount="6 million +" text="entities" />
+      <AboutStat amount="125,000+" text="missed plot hooks" />
+      <AboutStat amount="300,000+" text="campaigns" />
       <AboutStat amount="100+" text="marketplace plugins" />
-      <AboutStat amount="15,000+" text="daily API calls" />
+      <AboutStat amount="20,000+" text="daily API calls" />
       <AboutStat amount="0" text="ruined sessions" />
     </div>
   </Section>
@@ -36,7 +36,7 @@
   <Section>
     <h2 class="text-purple">Our history</h2>
 
-    <p class="max-w-xl mx-auto">Kanka was first created in October 2017 by Jay as a hobby project for a weekend, and work seriously began in 2020 when Jon joined.</p>
+    <p class="max-w-xl mx-auto">Kanka was first created in October 2017 by Jay as a hobby project over a weekend, and work seriously began in 2020 when Jon joined.</p>
 
     <AboutHistory />
   </Section>
