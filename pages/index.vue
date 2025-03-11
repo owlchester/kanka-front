@@ -1,8 +1,10 @@
 <template>
   <BaseHero
     title="Worldbuilding, RPG campaign manager, storytelling. All in one."
-    lead="Kanka is a community driven world building website. Whether you're creating your own D&D homebrew or tinkering with other rulesets, our system agnostic tool helps you manage and organize your creativity. Make use of our @mentions system and a whole range of features such as calendars, interactive maps, timelines, organizations, families, and as many characters as you can come up with!"
+    lead="Kanka is a community driven world building website. Are you making your own D&D homebrew campaign or using other TTRPG systems? We help you manage, organize, and keep track of your ideas, your creations, and your world."
+    trailing="Make full use of our @mentions system and all our other features to bring your world to life. This includes calendars, interactive maps, timelines, organizations, and families. You can also create as many characters as you want! We even have custom modules so you can do things your way."
     :big="true"
+    :video="true"
   >
     <div>
       <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-round rounded-full ">
@@ -22,10 +24,15 @@
   <Section id="pitch">
     <div class="mx-auto lg:max-w-4xl flex flex-col gap-4">
       <h2 class="text-purple">
-        A novel way to keep track of your worldbuilding and RPG campaigns
+        A better way to keep track of your worldbuilding and RPG campaigns
       </h2>
       <p>
-        We believe that this is the only fantasy world builder that you'll ever need to get organized. Forget about losing track of your scattered notes, in Kanka everything is in one place, easy to find, and accessible on the go.
+        As passionate DMs ourselves, we believe this is the only world building tool you’ll need to stay organized. No more losing track of scattered notes. In Kanka, everything is in one place, easy to find and accessible on the go.
+      </p>
+
+      <p>
+        Just as importantly, we believe in the power of community. All our users can suggest new features for the <NuxtLink :to="`${runtimeConfig.app}/roadmap`" class="link link-blue">roadmap</NuxtLink>. Our subscribers can then vote on what they want to see implemented!
+
       </p>
     </div>
 
@@ -38,23 +45,23 @@
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
         icon="fa-duotone fa-solid fa-sack"
-        title="Free to use"
-        lead="Our free tier isn't just a trial, it includes all of our core features and unlimited elements."
+        title="Free core features"
+        lead="We want you to put Kanka through its paces when trying it out. Our free tier isn't just a trial, it includes all our core features and unlimited elements. Everything you need to start worldbuilding."
         />
       <Feature
         icon="fa-duotone fa-solid fa-users"
         title="Collaborative"
-        lead="Collaborate with your friends by inviting them to the campaign and easily keep track of what they can interact with."
+        lead="Collaborate with your friends by inviting them to your campaign. You can easily keep track of what they can see and contribute to with our extensive permissions system."
         />
       <Feature
         icon="fa-duotone fa-solid fa-palette"
         title="Customizable"
-        lead="Customize every last detail of a campaign. This can be accomplished by changing the built-in modules, or writing custom CSS."
+        lead="Customize every last detail of the world you are building. Rename built-in modules, write your own CSS, or install plugins created by the team and other users. Everything you need to make it yours."
         />
       <Feature
         icon="fa-duotone fa-solid fa-rocket"
-        title="Frequent updates"
-        lead="We prioritize features our community loves, frequently updating Kanka and keeping your data safe."
+        title="Modular"
+        lead="We have focused on creating about 20 different modules in Kanka. Every module targets an aspect of TTRPG gameplay or overall worldbuilding. We also have custom modules for more granular control."
         />
     </div>
 
@@ -84,7 +91,7 @@
   <Section id="featured">
     <div class="flex flex-col gap-4">
       <h2 class="text-purple">Featured campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">Our community builds amazing things that we love to showcase as Featured Campaigns. Be sure to come back every now and then for more featured campaigns to check out.</p>
+      <p class="lg:max-w-xl lg:mx-auto">Our community builds amazing things that we love to showcase as Featured Campaigns. These are great examples of worldbuilding that we recommend you check out. They can also showcase what other users have done with Kanka, and give you some inspiration!</p>
     </div>
 
     <div class="overflow-x-auto">

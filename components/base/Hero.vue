@@ -3,6 +3,7 @@
     <div :class="textCss()">
       <h1 class="">{{ title }}</h1>
       <p v-if="lead" class="lg:max-w-2xl text-center">{{ lead }}</p>
+      <p v-if="trailing" class="lg:max-w-2xl text-center">{{ trailing }}</p>
       <slot/>
     </div>
     <div v-if="video" :class="videoCss()">
@@ -16,6 +17,7 @@ export default {
   props: {
     title: String,
     lead: String,
+    trailing: String,
     big: Boolean,
     video: Boolean,
   },
