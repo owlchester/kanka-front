@@ -72,5 +72,17 @@
         <loc>https://kanka.io/v2/</loc>
         <changefreq>daily</changefreq>
     </url>
+    <url>
+        <loc>https://kanka.io/use-cases/worldbuilders</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://kanka.io/use-cases/players</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://kanka.io/use-cases/game-masters</loc>
+        <changefreq>daily</changefreq>
+    </url>
 </urlset>
 

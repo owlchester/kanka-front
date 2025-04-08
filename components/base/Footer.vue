@@ -82,17 +82,24 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
             <BaseFooterSocials />
           </div>
 
-          <div class="text-xs">
-              <p>Made with ❤️ in Geneva, Switzerland</p>
-              <p>Only possible thanks to our subscribers.</p>
-              <p>Copyright © 2025 Owlchester SNC</p>
+          <div>
+              <p class="text-xs">Made with ❤️ in Geneva, Switzerland</p>
+              <p class="text-xs">Only possible thanks to our subscribers.</p>
+              <p class="text-xs">Copyright © 2025 Owlchester SNC</p>
           </div>
         </div>
         <BaseFooterSection title="Platform">
           <NuxtLink to="/features" class="">Features</NuxtLink>
           <NuxtLink to="/premium" class="">Premium campaigns</NuxtLink>
           <NuxtLink to="/pricing" class="">Pricing</NuxtLink>
-          <NuxtLink to="https://marketplace.kanka.io" class="">Marketplace</NuxtLink>
+          <NuxtLink to="https://plugins.kanka.io" class="">Plugins</NuxtLink>
+
+          <span class="block text-nav uppercase mt-3">Use-cases</span>
+          <NuxtLink to="/use-cases/game-masters">For game masters</NuxtLink>
+          <NuxtLink to="/use-cases/players" class="">For players</NuxtLink>
+          <NuxtLink to="/use-cases/worldbuilders" class="">For worldbuilders</NuxtLink>
+          <NuxtLink to="/use-cases/writers" class="">For writers</NuxtLink>
+          <NuxtLink to="/use-cases/content-creators" class="">For content creators</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Resources">
           <NuxtLink to="/kanka-vs-worldanvil">Kanka vs WorldAnvil</NuxtLink>

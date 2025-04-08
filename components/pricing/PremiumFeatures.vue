@@ -100,7 +100,7 @@
     </tr>
     <tr>
       <td>
-        Install plugins from the <NuxtLink to="https://marketplace.kanka.io" class="link-blue mr-1">Marketplace</NuxtLink>
+        Install plugins from the <NuxtLink to="https://plugins.kanka.io" class="link-blue mr-1">Plugins library</NuxtLink>
         <PricingMore url="https://docs.kanka.io/en/latest/marketplace/marketplace.html" />
       </td>
       <td class="text-light">—</td>

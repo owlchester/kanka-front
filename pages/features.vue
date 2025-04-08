@@ -81,9 +81,10 @@
           <a href="" class="btn-round rounded-full">Lean more</a>
         </div>
       </div>
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/dashboard-hd.jpg">
-        <img src="https://th.kanka.io/LHtW9Y-sacXRTNVAczRdXv5-kJo=/685x386/smart/src/app/features/dashboard-hd.jpg" alt="dashboards" class="rounded-sm"/>
-        </a>
+
+      <Preview url="app/features/dashboard-hd.jpg" alt="Campaign dashboard">
+        Fully customisable dashboards for your worlds
+      </Preview>
     </div>
   </Section>
 
@@ -96,10 +97,10 @@
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10 text-left">
       <div class="flex flex-col gap-8">
-      <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/adam-morley-hd.jpg">
-        <img src="https://th.kanka.io/54F9O5C82G3aK5nt_2swnENA388=/447x280/smart/src/app/features/adam-morley-hd.jpg
-" alt="entities" class="rounded-sm"/>
-      </a>
+
+        <Preview url="app/features/adam-morley-hd.jpg" alt="Adam morley preview">
+          An example character, legendary Adam Morley
+        </Preview>
       <div id="entities" class="flex flex-col gap-5">
         <h3>Entities in Kanka</h3>
         <p>
@@ -108,9 +109,9 @@
       </div>
 
       <div class="flex flex-col gap-8">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/sarah-inventory-hd.jpg">
-          <img src="https://th.kanka.io/iCDtQ0IJGmB_DN1X0zExV3GljsM=/447x280/smart/src/app/features/sarah-inventory-hd.jpg" alt="inventory" class="rounded-sm"/>
-        </a>
+        <Preview url="app/features/inventory.png" alt="Entity inventory">
+          Full a character's inventory to the brim
+        </Preview>
 
         <div id="inventory" class="flex flex-col gap-5">
           <h3>Inventory</h3>
@@ -127,9 +128,10 @@
 
 
       <div class="flex flex-col gap-8">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/ludwig-abilities-hd.jpg">
-          <img src="https://th.kanka.io/O0R51QYUHV8RSZL-cy74aytC4HQ=/447x280/smart/src/app/features/ludwig-abilities-hd.jpg" alt="abilities" class="rounded-sm"/>
-        </a>
+
+        <Preview url="app/features/abilities.png" alt="Entity abilities">
+          Add powers and special abilities to any entity
+        </Preview>
         <div id="abilities" class="flex flex-col gap-5">
           <h3>Abilities</h3>
           <p>
@@ -144,9 +146,9 @@
       </div>
 
       <div class="flex flex-col gap-8">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/attributes.png">
-          <img src="https://th.kanka.io/MLJU1n2vnGRlL9YuleXFkWkRLtc=/447x280/smart/src/app/features/attributes.png" alt="attributes" class="rounded-sm"/>
-        </a>
+        <Preview url="app/features/attributes.png" alt="Entity attributes">
+          Track HP, Level, Strengh and more
+        </Preview>
         <div id="attributes" class="flex flex-col gap-5">
           <h3>Attributes</h3>
           <p>
@@ -164,9 +166,9 @@
       </div>
 
       <div class="flex flex-col gap-8">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/journals.png">
-          <img src="https://th.kanka.io/5PIw68RYlXQmGGLCMWXyLPphcW8=/447x280/smart/src/app/features/journals.png" alt="journals" class="rounded-sm"/>
-        </a>
+        <Preview url="app/features/journals.png" alt="Journal preview">
+          Record what happened last session
+        </Preview>
         <div id="journals" class="flex flex-col gap-5">
           <h3>Journals</h3>
           <p>
@@ -176,9 +178,9 @@
       </div>
 
       <div class="flex flex-col gap-8">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/kanka-quest.jpg">
-          <img src="https://th.kanka.io/AxxblmsL3GXAjCFABfG8gmjvL74=/447x280/smart/src/app/features/kanka-quest.jpg" alt="quests" class="rounded-sm"/>
-        </a>
+        <Preview url="app/features/quest-elements.png" alt="Quest preview">
+          Track starting conditions, rewards, and more
+        </Preview>
         <div id="quests" class="flex flex-col gap-5">
           <h3>Quests</h3>
           <p>
@@ -197,9 +199,9 @@
     </h2>
 
     <div class="grid grid-cols-3 gap-8 text-left" id="relations">
-      <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/relations-table.png">
-        <img src="https://th.kanka.io/3JB5an21GKbK0ZrlUeF1oDW8CkA=/447x280/smart/src/app/features/relations-table.png" alt="abilities" class="rounded-sm"/>
-      </a>
+      <Preview url="app/features/relations-table.png" alt="Entity relations and connections">
+        Track connections and relations between entities
+      </Preview>
       <div class="flex flex-col gap-5">
         <h3>Relations</h3>
         <p>
@@ -214,15 +216,15 @@
           </a>
         </p>
       </div>
-      <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/relations-map.png">
-        <img src="https://th.kanka.io/o_Rwu6F0qxj8G2nbIH8hAaf-3-w=/447x280/smart/src/app/features/relations-map.png" alt="abilities" class="rounded-sm"/>
-      </a>
+      <Preview url="app/features/relations-map.png" alt="Connection map">
+        Explore how elements of your world are connected
+      </Preview>
       </div>
 
     <div class="grid grid-cols-2 gap-8 text-left" id="timelines">
-      <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/timelines.png">
-        <img src="https://th.kanka.io/lXqBSxTku5NZ9daMokigYrobr-I=/447x280/smart/src/app/features/timelines.png" alt="timelines" class="rounded-sm"/>
-      </a>
+      <Preview url="app/features/timelines.png" alt="Timeline preview">
+        Interactive timelines to explore how history unfolds
+      </Preview>
       <div  class="flex flex-col gap-5">
         <h3>Timelines</h3>
         <p>
@@ -238,9 +240,9 @@
 
     <div class="grid grid-cols-3 gap-8 text-left">
       <div id="calendars" class="flex flex-col gap-5">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/calendars.png">
-          <img src="https://th.kanka.io/hYKvwdH_8Xo4-s2y5OFX2JurBLg=/447x280/smart/src/app/features/calendars.png" alt="calendars" class="rounded-sm"/>
-        </a>
+        <Preview url="app/features/calendars.png" alt="Calendar preview">
+          Track time and important events
+        </Preview>
         <h3>Calendars</h3>
         <p>
           Create one or several calendars of your world, fully controlling the number of days in a year, the months, length of weeks, seasons, moons and their phases, and more. Attach events to your calendars linked to other entities, such as automatically calculating a character's age based on the calendar.
@@ -253,9 +255,9 @@
       </div>
 
       <div id="maps" class="flex flex-col gap-5">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/maps.png">
-          <img src="https://th.kanka.io/_VKXnJwnuE-Cry5TzppIrl5q1xY=/447x280/smart/src/app/features/maps.png" alt="calendars" class="rounded-sm"/>
-        </a>
+        <Preview url="app/features/maps.png" alt="Map preview">
+          Interactive maps with pins
+        </Preview>
         <h3>Maps</h3>
         <p>
           Upload your beautiful maps to your Kanka campaign, and add layers and pins to them. Control who can see which pin, to avoid revealing the secret location of an infamous city to your players.
@@ -268,9 +270,9 @@
       </div>
 
       <div id="editor" class="flex flex-col gap-5">
-        <a href="https://kanka-user-assets.s3.amazonaws.com/app/features/editor.jpg">
-          <img src="https://th.kanka.io/lUQFLqVJ_5Fs1cKSogrxDdfogrY=/447x280/smart/src/app/features/editor.jpg" alt="editor" class="rounded-sm"/>
-        </a>
+        <Preview url="app/features/editor.jpg" alt="Rich text editor">
+          Use easy @ mentions to link to other entities
+        </Preview>
         <h3>Editor</h3>
         <p>
           You won't need to learn programming to create beautiful texts. Thanks to <a href="https://summernote.org" target="_blank">Summernote</a>, you can create rich text for all your texts. Best of all, we've added support for mentions to other entities by using the <code>@</code> symbol.

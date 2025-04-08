@@ -4,7 +4,7 @@
       title="Look & feel"
       img="https://th.kanka.io/WGO396lwHDadYV2wJBJXynz9eH0=/120x120/smart/src/app/features/boosted/look-n-feel.jpg">
       <p>
-        Customise the campaign's sidebar, change the campaign's design via custom CSS, and install amazing and beautiful plugins from the <NuxtLink to="https://marketplace.kanka.io" class="link-light" target="_blank">Marketplace</NuxtLink>.
+        Customise the campaign's sidebar, change the campaign's design via custom CSS, and install amazing and beautiful plugins from the <NuxtLink to="https://plugins.kanka.io" class="link-light">Plugins library</NuxtLink>.
       </p>
     </PremiumCard>
 
