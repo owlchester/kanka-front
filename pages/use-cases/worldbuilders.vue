@@ -70,7 +70,7 @@
       </ul>
     </div>
 
-    <Preview url="app/features/map.png" alt="Map view">
+    <Preview url="app/features/maps.png" alt="Map view">
       Explore maps and their interactive pins
     </Preview>
 

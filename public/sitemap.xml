@@ -84,5 +84,13 @@
         <loc>https://kanka.io/use-cases/game-masters</loc>
         <changefreq>daily</changefreq>
     </url>
+    <url>
+        <loc>https://kanka.io/use-cases/writers</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://kanka.io/use-cases/content-creators</loc>
+        <changefreq>daily</changefreq>
+    </url>
 </urlset>
 
