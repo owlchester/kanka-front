@@ -8,7 +8,7 @@ useHead({
   ],
 })
 useSeoMeta({
-  ogImage: 'https://kanka-user-assets.s3.amazonaws.com/app/front/preview-background.png',
+  ogImage: 'https://d3a4xjr8r2ldhu.cloudfront.net/app/front/preview-background.png',
   ogImageType: 'image/png',
   ogImageWidth: 1920,
   ogImageHeight: 1024,
