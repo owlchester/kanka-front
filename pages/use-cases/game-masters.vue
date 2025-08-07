@@ -223,8 +223,8 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
-const title = 'Effortless Campaign Management with Kanka'
-const lead = 'Sound familiar? Your tabletop world has outgrown your notes and it's starting to show.'
+const title = 'Effortless campaign management'
+const lead = 'Sound familiar? Your tabletop world has outgrown your notes and it\'s starting to show.'
 
 useHead({
   title: title + ' - Kanka',

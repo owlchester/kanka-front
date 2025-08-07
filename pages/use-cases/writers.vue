@@ -121,7 +121,7 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
-const title = 'Plot and Track Your Story Arcs with Kanka'
+const title = 'Plot and track your story arcs'
 const lead = 'Every great story starts as a mess of ideas. A few characters in your head, a world that\'s only half-built, and a plot that keeps twisting away from you. As things grow, keeping track of it all can feel impossible. That\'s where Kanka helps: turning your creative chaos into something tidy, trackable, and actually fun to manage.'
 
 useHead({

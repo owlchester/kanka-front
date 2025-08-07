@@ -59,9 +59,9 @@
     <p>Talking with others, sharing ideas, and learning from different perspectives can keep your creativity flowing. Whether you're stuck on a detail or just want to show off a cool idea, having a community makes it easier and more fun.</p>
 
     <div>
-      <NuxtLink to="/go/discord" class="link ">
+      <a href="https://kanka.io/go/discord" class="link-light">
         <i class="fa-regular fa-chevron-right" aria-hidden="true"></i> Join the Kanka Discord and connect with worldbuilders like you
-      </NuxtLink>
+      </a>
     </div>
   </Section>
 <Section align="left">
