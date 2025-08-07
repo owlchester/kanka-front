@@ -1,7 +1,7 @@
 <template>
   <BaseHero
       :title="title"
-      lead="In the vibrant universe of tabletop roleplaying games, your creativity knows no bounds. You've crafted intricate worlds, designed compelling NPCs that aren’t all named Bob or Adam Morley, and written adventures that captivate players. But what happens to all that brilliance once your campaign ends? How can you share your creations with others—and potentially connect them to your existing monetization channels?"
+      lead="In the vibrant universe of tabletop roleplaying games, your creativity knows no bounds. You've crafted intricate worlds, designed compelling NPCs that aren't all named Bob or Adam Morley, and written adventures that captivate players. But what happens to all that brilliance once your campaign ends? How can you share your creations with others—and potentially connect them to your existing monetization channels?"
     :trailing="lead"/>
 
   <Section align="left">

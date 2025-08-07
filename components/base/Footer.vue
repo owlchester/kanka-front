@@ -108,6 +108,11 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
           <NuxtLink :to="`${runtimeConfig.app}/api-docs/1.0/overview`">API docs</NuxtLink>
           <NuxtLink to="https://blog.kanka.io">Blog</NuxtLink>
           <NuxtLink to="https://status.kanka.io">Service status</NuxtLink>
+
+
+          <span class="block text-nav uppercase mt-3">Worldbuilding guides</span>
+          <NuxtLink to="/worldbuilding-guides/start-creating-your-world">Start creating your world</NuxtLink>
+          <NuxtLink to="/worldbuilding-guides/how-much-worldbuilding-do-you-really-need">How much worldbuilding do you need</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Community">
             <NuxtLink to="https://blog.kanka.io/category/news">What's new</NuxtLink>
