@@ -92,5 +92,13 @@
         <loc>https://kanka.io/use-cases/content-creators</loc>
         <changefreq>daily</changefreq>
     </url>
+    <url>
+        <loc>https://kanka.io/worldbuilding-guides/start-creating-your-world</loc>
+        <changefreq>daily</changefreq>
+    </url>
+    <url>
+        <loc>https://kanka.io/worldbuilding-guides/how-much-worldbuilding-do-you-really-need</loc>
+        <changefreq>daily</changefreq>
+    </url>
 </urlset>
 
