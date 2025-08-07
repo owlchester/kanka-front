@@ -5,20 +5,20 @@
 
   <Section align="left">
     <h2 class="text-purple">The Adventurer's Dilemma</h2>
-    <p>You're six months into an epic campaign. The party enters a tavern, and a familiar face approaches—someone you met 15 sessions ago. Your Game Master looks at you expectantly, waiting for recognition to dawn. But your mind draws a blank.</p>
+    <p>You're six months into an epic campaign. The party enters a tavern, and a familiar face approaches. Someone you met 15 sessions ago. Your Game Master looks at you expectantly, waiting for recognition to dawn. But your mind draws a blank.</p>
     <blockquote><em>"Remember me? We met in Owlchester..."</em> the NPC says with a knowing smile.</blockquote>
     <p>You nod politely while frantically flipping through dog-eared notebook pages, searching for any mention of this apparently crucial character or elusive location.</p>
-    <p>Sound familiar? For tabletop roleplaying game enthusiasts, this scenario plays out all too often. In long-running campaigns spanning months or even years, keeping track of the intricate web of NPCs, locations, quests, and plot points becomes increasingly challenging—especially when you're meeting just once every few weeks.</p>
+    <p>Sound familiar? For tabletop roleplaying game enthusiasts, this scenario plays out all too often. In long-running campaigns spanning months or even years, keeping track of the intricate web of NPCs, locations, quests, and plot points becomes increasingly challenging, especially when you're meeting just once every few weeks.</p>
   </Section>
 
   <Section align="left">
-    <h2 class="text-purple">The Player's Solution: Kanka.io</h2>
+    <h2 class="text-purple">The Player's Solution: Kanka</h2>
 
-    <p>While Game Masters have long recognized Kanka.io as a powerful world-building tool, players are discovering it's equally valuable from their perspective. This comprehensive campaign management platform gives players the tools to organize, track, and immerse themselves in their adventures like never before.</p>
+    <p>While Game Masters have long recognized Kanka as a powerful world-building tool, players are discovering it's equally valuable from their perspective. This comprehensive campaign management platform gives players the tools to organize, track, and immerse themselves in their adventures like never before.</p>
 
     <h3>Your Campaign at Your Fingertips</h3>
 
-    <p>No more desperately searching through session notes or trying to remember that crucial detail from ten sessions ago. With Kanka.io, everything about your campaign is organized, searchable, and accessible whenever you need it.
+    <p>No more desperately searching through session notes or trying to remember that crucial detail from ten sessions ago. With Kanka, everything about your campaign is organized, searchable, and accessible whenever you need it.
     </p>
 
     <h3>Stay Connected to Your World</h3>
@@ -30,7 +30,7 @@
   <Section align="left">
     <h2 class="text-purple">Key Features for Players</h2>
     <h3>Campaign Logs & Timeline Events</h3>
-    <p>Kanka.io's journal and timeline features transform how players track their adventures.</p>
+    <p>Kanka's journal and timeline features transform how players track their adventures.</p>
 
     <h4>Session Journals</h4>
     <p>Easily review past sessions with chronological entries that capture key moments, decisions, and revelations. Whether created by your GM or collaboratively by the group, these journals serve as the definitive record of your shared story.</p>
@@ -49,7 +49,7 @@
     </Preview>
 
     <h3>Character Development Hub</h3>
-    <p>Your character is more than just stats on a sheet—they're a living, evolving persona with goals, relationships, and personal history.</p>
+    <p>Your character is more than just stats on a sheet, they're a living, evolving persona with goals, relationships, and personal history.</p>
     <h4>Personal Journals</h4>
     <p>Keep private notes about your character's thoughts, fears, and ambitions. Record reactions to major events and plan character development arcs that add depth to your roleplaying.</p>
     <h4>Custom Character Sheets</h4>
@@ -61,7 +61,7 @@
     <h4>Annotated Campaign Maps</h4>
       <p>Access GM-shared maps with locations you've discovered marked and annotated. Add your own notes and markers for places of personal interest to your character.</p>
     <h4>Location Details</h4>
-    <p>Click on any discovered location to reveal information about its inhabitants, history, and significance to your quest—all organized in an intuitive interface.</p>
+    <p>Click on any discovered location to reveal information about its inhabitants, history, and significance to your quest all organized in an intuitive interface.</p>
 
 
     <Preview url="app/features/maps.png" alt="Map exploration">
@@ -79,7 +79,7 @@
 
   <Section align="left">
     <h2 class="text-purple">Seamless Integration with Game Sessions</h2>
-    <p>Kanka.io enhances your tabletop experience without replacing the social joys of gaming together.</p>
+    <p>Kanka enhances your tabletop experience without replacing the social joys of gaming together.</p>
 
     <h3>Between-Session Engagement</h3>
     <p>Stay connected to the campaign between game nights by reviewing notes, updating character journals, or discussing theories with fellow players through Kanka's commenting features.</p>
@@ -94,9 +94,9 @@
   <Section align="left">
     <h2 class="text-purple">Getting Started as a Player</h2>
     <div class="flex flex-col gap-3">
-      <p>Even if your GM hasn't adopted Kanka.io yet, you can still use it as a personal campaign tracker. Here's how to get started:</p>
+      <p>Even if your GM hasn't adopted Kanka yet, you can still use it as a personal campaign tracker. Here's how to get started:</p>
       <ul class="list-numeral ml-4">
-        <li>Create a free account at Kanka.io</li>
+        <li>Create a free account at Kanka</li>
         <li>Start a campaign to organize your notes</li>
         <li>Begin with basic entities like NPCs and locations</li>
         <li>Gradually build your knowledge base as your campaign progresses</li>
@@ -112,12 +112,12 @@
 
   <Section id="cta" css="">
     <h2 class="text-purple">Never Miss a Detail Again</h2>
-    <p>From tracking complex political intrigues to remembering the name of that one blacksmith in the starting village, Kanka.io ensures you never lose track of important campaign elements again.</p>
+    <p>From tracking complex political intrigues to remembering the name of that one blacksmith in the starting village, Kanka ensures you never lose track of important campaign elements again.</p>
     <p>Stop interrupting the flow of gameplay with questions like "Wait, who was that again?" or "Didn't we already find a clue about this three sessions ago?" With Kanka, you'll navigate your campaign world with confidence and focus on what truly matters: creating an unforgettable story with friends.</p>
 
     <h3>Ready to elevate your player experience?</h3>
 
-    <p>Use Kanka.io to create your free account and begin building your world—one that your players will remember for years to come.</p>
+    <p>Use Kanka to create your free account and begin building your world, one that your players will remember for years to come.</p>
 
     <div>
       <NuxtLink :to="`${runtimeConfig.app}/register?utm_source=kanka&utm_medium=players&utm_campaign=use-cases`" class="btn-round rounded-full ">
@@ -132,7 +132,7 @@
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
 const title = 'Seamlessly Track Your Campaign Adventures'
-const lead = 'Never forget an NPC or quest detail again—track your adventure with ease.'
+const lead = 'Never forget an NPC or quest detail again: track your adventure with ease.'
 
 useHead({
   title: title + ' - Kanka',

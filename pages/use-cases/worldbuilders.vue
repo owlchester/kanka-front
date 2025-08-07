@@ -6,11 +6,11 @@
   <Section align="left">
     <h2 class="text-purple">The Worldbuilder's Challenge</h2>
 
-    <p>Every creative universe begins with a vision, but turning that vision into a cohesive reality demands the right worldbuilding tool. Kanka.io stands as the premier world builder website for writers, game masters, and creators seeking to craft immersive fictional settings with depth and consistency.</p>
+    <p>Every creative universe begins with a vision, but turning that vision into a cohesive reality demands the right worldbuilding tool. Kanka stands as the premier world builder website for writers, game masters, and creators seeking to craft immersive fictional settings with depth and consistency.</p>
 
-    <p>Traditional world building websites often fall short, offering limited connectivity between elements or focusing too narrowly on specific aspects like maps or character sheets. As a comprehensive world builder, Kanka.io addresses these limitations by providing an all-in-one platform where your entire fictional universe can take shape.</p>
+    <p>Traditional world building websites often fall short, offering limited connectivity between elements or focusing too narrowly on specific aspects like maps or character sheets. As a comprehensive world builder, Kanka addresses these limitations by providing an all-in-one platform where your entire fictional universe can take shape.</p>
 
-    <p>For many writers and creators, worldbuilding remains a chaotic process—scattered notes in dozens of documents, hand-drawn maps that never quite scale properly, and character relationships tracked through increasingly complex spreadsheets. The creative vision exists, but the worldbuilding tools to properly organize and visualize it fall short.</p>
+    <p>For many writers and creators, worldbuilding remains a chaotic process, scattered notes in dozens of documents, hand-drawn maps that never quite scale properly, and character relationships tracked through increasingly complex spreadsheets. The creative vision exists, but the worldbuilding tools to properly organize and visualize it fall short.</p>
 
     <div class="flex flex-col gap-3">
     <p>Without a centralized system, worldbuilders face critical challenges:</p>
@@ -24,12 +24,12 @@
   </Section>
 
   <Section align="left">
-    <h2 class="text-purple">Enter Kanka.io: Your World in One Place</h2>
+    <h2 class="text-purple">Enter Kanka: Your World in One Place</h2>
 
-    <p>Kanka.io transforms worldbuilding from a fragmented exercise into a cohesive, visual experience. This comprehensive platform provides writers, game masters, and creative teams with a digital canvas to construct, organize, and bring their fictional universes to life—all in one interconnected ecosystem.</p>
+    <p>Kanka transforms worldbuilding from a fragmented exercise into a cohesive, visual experience. This comprehensive platform provides writers, game masters, and creative teams with a digital canvas to construct, organize, and bring their fictional universes to life, all in one interconnected ecosystem.</p>
 
     <Preview url="app/features/worldbuilders-dashboard.png" alt="Kanka dashboard">
-      Kanka.io dashboard showing a world overview with linked entities
+      Kanka dashboard showing a world overview with linked entities
     </Preview>
 
   </Section>
@@ -56,7 +56,7 @@
   </Section>
 
   <Section align="left" id="map">
-    <h2 class="text-purple">Map Your World—Literally
+    <h2 class="text-purple">Map Your World, Literally
     </h2>
 
 
@@ -74,7 +74,7 @@
       Explore maps and their interactive pins
     </Preview>
 
-    <p>These interactive maps become more than reference material—they're living documents that grow with your narrative, revealing new areas as your characters explore them, or helping you ensure consistency in travel times and geographical relationships.
+    <p>These interactive maps become more than reference material, they're living documents that grow with your narrative, revealing new areas as your characters explore them, or helping you ensure consistency in travel times and geographical relationships.
     </p>
   </Section>
 
@@ -114,14 +114,14 @@
   <Section align="left" id="living-world">
     <h2 class="text-purple">From Isolated Ideas to Living Worlds</h2>
 
-    <p>The true magic of Kanka lies in transformation—taking fragmented concepts and weaving them into cohesive universes where every element feels connected and purposeful.</p>
-    <p>When a character visits an ancient temple, you can instantly access its history, the deity it honors, the architectural style of its civilization, and the current political faction that controls it—all with a few clicks rather than frantic searches through disconnected documents.</p>
+    <p>The true magic of Kanka lies in transformation, taking fragmented concepts and weaving them into cohesive universes where every element feels connected and purposeful.</p>
+    <p>When a character visits an ancient temple, you can instantly access its history, the deity it honors, the architectural style of its civilization, and the current political faction that controls it. All with a few clicks rather than frantic searches through disconnected documents.</p>
   </Section>
 
 
   <Section align="left" id="timeline">
     <h2 class="text-purple">Your Creative Vision, Realized</h2>
-    <p>Worldbuilding should be as exciting as the stories that emerge from it. Kanka provides the structure that liberates your creativity—giving you the tools to develop deeply connected worlds without getting lost in organizational chaos.
+    <p>Worldbuilding should be as exciting as the stories that emerge from it. Kanka provides the structure that liberates your creativity, giving you the tools to develop deeply connected worlds without getting lost in organizational chaos.
     </p>
     <div class="flex flex-col gap-3">
       <p>Whether you're:</p>
@@ -136,8 +136,8 @@
   </Section>
 
   <Section  id="cta">
-    <h2 class="text-purple">Begin Your Worldbuilding Journey</h2>
-    <p>Ready to bring your world to life? Start organizing your creative vision today with Kanka.io</p>
+    <h2 class="text-purple">Begin your worldbuilding journey</h2>
+    <p>Ready to bring your world to life? Start organizing your creative vision today with Kanka</p>
 
     <p class="italic">Turn your scattered notes into a fully realized, interconnected world.</p>
 

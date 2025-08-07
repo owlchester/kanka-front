@@ -4,40 +4,42 @@
       :lead="lead" />
 
   <Section align="left">
-    <h2 class="text-purple">The Writer's Dilemma</h2>
+    <h2 class="text-purple">The writer's dilemma</h2>
 
-    <p>As writers, we've all experienced those moments: struggling to remember a side character's motivation from chapter three, forgetting the exact sequence of events leading to your climax, or losing track of that brilliant plot twist you conceived months ago. Traditional methods like sticky notes, spreadsheets, and scattered documents often fall short, leaving your creative vision fragmented across multiple platforms.</p>
+    <p>We've all been there. That side character you introduced in chapter three. What was their motivation again? Was the big reveal meant to come before or after the fire at the manor? And where did you write down that plot twist you thought of six months ago?</p>
+
+    <p>Sticky notes, half-finished spreadsheets, and twenty open tabs can only get you so far. It's too easy for your story to become scattered and disjointed.</p>
   </Section>
 
   <Section align="left">
-    <h2 class="text-purple">Your Complete Story Management Solution</h2>
+    <h2 class="text-purple">Keep everything in one place</h2>
 
-    <p>Kanka.io provides a centralized hub where every aspect of your story lives and breathes. Unlike traditional writing tools that focus solely on the manuscript, Kanka embraces the entire creative process—from initial concept to final chapter.</p>
+    <p><strong>Kanka</strong> gives you a single space where your whole story lives. It's not just for writing scenes or drafting chapters,  it's for managing all the characters, locations, timelines, and ideas that make up your world.</p>
 
-    <h3>Bring Your Characters to Life</h3>
+    <h3>Bring your characters to life</h3>
     <div class="flex flex-col gap-3">
-      <p>Create detailed character profiles that evolve as your story progresses. Track:</p>
+      <p>Build out proper profiles for your characters that grow with the story. Track:</p>
       <ul class="list-disc ml-4">
-        <li>Personal histories and motivations</li>
-        <li>Relationships with other characters</li>
+        <li>Their motivations and backstories</li>
+        <li>How they're connected to others</li>
         <li>Character arcs and development milestones</li>
         <li>Physical descriptions and personality traits</li>
       </ul>
     </div>
 
-    <p>Link characters directly to the events, locations, and plot points they influence, creating a living web of your narrative.</p>
+    <p>Link characters directly to the events, locations, and arcs they're part of, so that nothing slips through the cracks.</p>
 
     <Preview url="app/features/elise.png" alt="Character view">
       Characters track descriptions, past events, relationships, and more.
     </Preview>
 
-    <h3>Craft Immersive Worlds</h3>
+    <h3>Craft living worlds</h3>
     <div class="flex flex-col gap-3">
-      <p>Your settings are more than just backdrops—they're fundamental elements that shape your story. With Kanka, you can:</p>
+      <p>Your settings are more than just backdrops, they're fundamental elements that shape your story. With Kanka, you can:</p>
       <ul class="list-disc ml-4">
         <li>Create detailed location hierarchies (continents, countries, cities, buildings)</li>
-        <li>Attach historical events to locations</li>
-        <li>Document how settings change throughout your narrative</li>
+        <li>Attach historical events as they happen</li>
+        <li>Track how places evolve across the story</li>
         <li>Link locations to the characters who inhabit them</li>
       </ul>
     </div>
@@ -46,9 +48,9 @@
       Bring your world to life with detailed locations
     </Preview>
 
-    <h3>Master Your Timeline</h3>
+    <h3>Master your timeline</h3>
     <div class="flex flex-col gap-3">
-      <p>Plot development becomes intuitive with Kanka's dynamic timeline features:</p>
+      <p>Timelines don't have to live in your head (or worse, a Word doc you never open). With Kanka you can:</p>
       <ul class="list-disc ml-4">
         <li>Visualize your entire story arc from beginning to end</li>
         <li>Create parallel timelines for complex narratives</li>
@@ -56,21 +58,21 @@
         <li>Rearrange events and instantly see how they affect your story's flow</li>
       </ul>
     </div>
-    <p>When inspiration strikes for a new scene or plot twist, simply add it to your timeline and watch how it integrates with your existing narrative.</p>
+    <p>When inspiration strikes, just drop the new idea in and see how it lines up.</p>
 
     <Preview url="app/features/timelines.png" alt="Timeline entry">
       An interactive timeline
     </Preview>
 
-    <h3>Secrets, Revelations, and Plot Twists</h3>
+    <h3>Secrets, revelations, and plot twists</h3>
     <div class="flex flex-col gap-3">
-      <p>Great stories thrive on carefully placed revelations. Kanka's permission system allows you to:
+      <p>Keep your mystery elements in order without giving anything away.
       </p>
       <ul class="list-disc ml-4">
-        <li>Create secret notes visible only to you</li>
-        <li>Document foreshadowing elements</li>
-        <li>Plan major plot twists without losing track of clues</li>
-        <li>Ensure consistency in your mystery elements</li>
+        <li>Add secret notes and posts visible only to you</li>
+        <li>Track clues and foreshadowing moments</li>
+        <li>Store plot twists safely until it's time to reveal them</li>
+        <li>Keep everything consistent, even when you write out of order</li>
       </ul>
     </div>
 
@@ -79,31 +81,34 @@
     </Preview>
 
 
-    <h3>Organize Your Research and References</h3>
+    <h3>Organize your research</h3>
     <div class="flex flex-col gap-3">
-      <p>Writers know that research is essential, whether you're crafting historical fiction or building a fantasy world. Kanka helps you:</p>
+      <p>Whether you're researching Victorian slang or designing your own magic system, Kanka helps you stay organised:</p>
       <ul class="list-disc ml-4">
         <li>Create dedicated journals for research notes</li>
-        <li>Upload reference images and materials</li>
-        <li>Organize everything with custom modules and tags</li>
-        <li>Access your references instantly while developing related story elements</li>
+        <li>Upload reference images and documents</li>
+        <li>Tag everything to keep everything organised</li>
+        <li>Jump to your notes when you're writing the scene they belong to</li>
       </ul>
     </div>
+    <p>No more scrolling through screenshots or wondering what folder it's in.</p>
   </Section>
 
   <Section align="left">
-    <h2 class="text-purple">The Kanka Advantage for Writers</h2>
-    <p>What sets Kanka apart from other writing tools is its remarkable flexibility. Whether you're a meticulous planner who outlines every detail before writing your first sentence, or a discovery writer who develops your story as you go, Kanka adapts to your creative process.</p>
-    <p>As your manuscript evolves, Kanka evolves with it. Characters can be deepened, plot points rearranged, and worlds expanded—all without losing the connections that make your story coherent.</p>
+    <h2 class="text-purple">Built for <em>your</em> process</h2>
+    <p>Not every writer works the same way, and Kanka doesn't expect you to. Whether you like to outline everything first or you prefer to discover the story as you go, Kanka gives you the freedom to write your way.</p>
+    <p>As your manuscript evolves, so does your Kanka world. Characters grow, plots shift, worlds deepen. And it all stays connected.</p>
   </Section>
 
   <Section id="cta" css="">
-    <h2 class="text-purple">Start Crafting Your Masterpiece Today</h2>
-    <p>Your story deserves more than scattered notes and fragmented planning tools. Kanka.io provides the comprehensive platform you need to nurture your narrative from initial concept to polished masterpiece.</p>
+    <h2 class="text-purple">Start crafting your masterpiece</h2>
+    <p>Your story deserves better than a pile of scattered notes. With Kanka, you can keep everything in one place, stay on top of the details, and give your story the structure it needs to shine.</p>
 
-    <h3>Organize and track your story arcs with precision.</h3>
+    <h3>Organise your plot.</h3>
+    <h3>Track your arcs.</h3>
+    <h3>Stay focused from start to finish.</h3>
 
-    <p>Begin your journey with Kanka today, and transform the way you create, develop, and perfect your stories.</p>
+    <p>Whether you're writing your first novel or your tenth, Kanka can help you stay on top of your worldbuilding, timelines, characters, and secrets. Start your free account and give your story the foundation it deserves.</p>
 
     <div>
       <NuxtLink :to="`${runtimeConfig.app}/register?utm_source=kanka&utm_medium=writers&utm_campaign=use-cases`" class="btn-round rounded-full ">
@@ -116,8 +121,8 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
-const title = 'Plot and Track Your Story Arcs with Kanka.io'
-const lead = 'Every great story begins as a tangle of ideas—characters waiting to be developed, worlds eager to be built, and plot threads longing to be woven together instead of being ignored. But as your narrative grows, keeping track of all these elements becomes increasingly challenging. That\'s where Kanka.io steps in, transforming the chaos of creation into an organized masterpiece.'
+const title = 'Plot and Track Your Story Arcs with Kanka'
+const lead = 'Every great story starts as a mess of ideas. A few characters in your head, a world that\'s only half-built, and a plot that keeps twisting away from you. As things grow, keeping track of it all can feel impossible. That\'s where Kanka helps: turning your creative chaos into something tidy, trackable, and actually fun to manage.'
 
 useHead({
   title: title + ' - Kanka',
@@ -128,6 +133,6 @@ useHead({
 useSeoMeta({
     ogTitle: title + ' - Kanka',
     ogDescription: lead,
-    ogUrl: 'https://kanka.io/use-cases/worldbuilding',
+    ogUrl: 'https://kanka.io/use-cases/writers',
 })
 </script>
