@@ -14,6 +14,8 @@ useSeoMeta({
   ogTitle: 'Worldbuilding tool and RPG campaign manager - Kanka',
   ogDescription: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds',
   ogUrl: 'https://kanka.io',
+  ogType: 'website',
+  fbAppId: '126711854711743',
   ogImage: 'https://d3a4xjr8r2ldhu.cloudfront.net/app/front/preview-background.png',
   ogImageType: 'image/png',
   ogImageWidth: 1920,
