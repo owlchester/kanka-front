@@ -92,6 +92,14 @@
     </tr>
     <tr>
       <td>
+        Define aliases on entities that work with search and mentions
+        <PricingMore url="https://docs.kanka.io/en/latest/features/aliases.html" />
+      </td>
+      <td>2</td>
+      <td><IconsInfinity css="w-8 h-8" /></td>
+    </tr>
+    <tr>
+      <td>
         Ad-free experience for all members
         <PricingMore url="https://docs.kanka.io/en/latest/articles/ads.html" />
       </td>
@@ -154,14 +162,6 @@
     <tr>
       <td>
         Set easy access links to outside sources on entities
-      </td>
-      <td class="text-light">—</td>
-      <td><IconsCheck css="w-8 h-8" /></td>
-    </tr>
-    <tr>
-      <td>
-        Define aliases on entities that work with search and mentions
-        <PricingMore url="https://docs.kanka.io/en/latest/features/aliases.html" />
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
