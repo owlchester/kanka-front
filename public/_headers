@@ -6,11 +6,13 @@
 /premium
 /press-kit
 /pricing
-/privacy-policy
 /roadmap
 /security
 /terms-and-conditions
   Cache-Control: public, max-age=2592000, stale-while-revalidate=86400
+
+/privacy-policy
+  Cache-Control: no-cache, no-store, must-revalidate
 
 /*
   Access-Control-Allow-Origin: *

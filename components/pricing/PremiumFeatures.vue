@@ -9,12 +9,24 @@
       <th>
         <h3>Premium campaigns</h3>
       </th>
+      <th>
+        <h3>Wyverns *</h3>
+      </th>
+      <th>
+        <h3>Elementals *</h3>
+      </th>
     </tr>
     </thead>
     <tbody class="text-nav">
     <tr>
       <td>
         Maximum number of entities
+      </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
       </td>
       <td>
         <IconsInfinity css="w-8 h-8" />
@@ -34,6 +46,12 @@
       <td>
         5
       </td>
+      <td>
+        10
+      </td>
+      <td>
+        20
+      </td>
     </tr>
     <tr>
       <td>
@@ -43,12 +61,24 @@
       <td>
         <IconsInfinity css="w-8 h-8" />
       </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
     </tr>
     <tr>
       <td>
         Maximum number of roles
       </td>
       <td>3</td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
       <td>
         <IconsInfinity css="w-8 h-8" />
       </td>
@@ -62,6 +92,12 @@
       <td>
         <IconsInfinity css="w-8 h-8" />
       </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
     </tr>
     <tr>
       <td>
@@ -70,6 +106,8 @@
       </td>
       <td>150 MiB</td>
       <td>3 GiB</td>
+      <td>10 GiB</td>
+      <td>25 GiB</td>
     </tr>
     <tr>
       <td>
@@ -77,7 +115,13 @@
       </td>
       <td>3 MiB</td>
       <td>
-        8 MiB
+        10 MiB
+      </td>
+      <td>
+        25 MiB
+      </td>
+      <td>
+        100 MiB
       </td>
     </tr>
     <tr>
@@ -88,6 +132,12 @@
         <td>3</td>
         <td>
             20
+        </td>
+        <td>
+          <IconsInfinity css="w-8 h-8" />
+        </td>
+        <td>
+          <IconsInfinity css="w-8 h-8" />
         </td>
     </tr>
     <tr>
@@ -105,6 +155,8 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -113,12 +165,16 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
         Force a specific theme for all members and viewers
       </td>
       <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
@@ -128,6 +184,8 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -135,12 +193,16 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
         Upload large header images on entities
       </td>
       <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
@@ -150,6 +212,8 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -158,6 +222,10 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -165,10 +233,14 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>Beautiful maps with access to thousands of icons for map markers and polygon markers</td>
       <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
@@ -178,6 +250,8 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -185,6 +259,8 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/modules.html" />
       </td>
       <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
@@ -194,6 +270,8 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -201,6 +279,8 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/history.html" />
       </td>
       <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
@@ -210,6 +290,8 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
       <td>
@@ -217,6 +299,8 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/achievements.html" />
       </td>
       <td class="text-light">—</td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
@@ -226,9 +310,15 @@
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
+      <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     </tbody>
   </table>
+
+  <p>
+    * These perks are unlocked for all members of a campaign if the person unlocking premium features is a subscriber at this tier.
+  </p>
 </template>
 
 <script>

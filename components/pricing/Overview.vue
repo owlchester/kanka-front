@@ -36,7 +36,7 @@
                   title="1 premium campaign" />
       <PricingLink
                   :access="true"
-                  title="Big map size (10 MB)" />
+                  title="Big file and map sizes (8 MiB)" />
       <PricingLink
                   :access="true"
                   title="Vote on the roadmap" />
@@ -70,7 +70,7 @@
                    title="3 premium campaigns" />
       <PricingLink
           :access="true"
-          title="Huge map size (20 MB)" />
+          title="Huge file and map sizes (25 MiB)" />
       <PricingLink
           :access="true"
           title="Vote on the roadmap" />
@@ -100,7 +100,7 @@
                    title="7 premium campaigns" />
       <PricingLink
           :access="true"
-          title="Gigantic map size (50 MB)" />
+          title="Gigantic file and map sizes (50 MiB)" />
       <PricingLink
           :access="true"
           title="Vote on the roadmap" />
