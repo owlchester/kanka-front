@@ -20,11 +20,6 @@ export default defineNuxtConfig({
             emailLink: process.env.EMAIL_LINK || 'mailto:hello@kanka.io',
         }
     },
-    /*styleResources: {
-        scss: [
-            '~assets/scss/colors.scss',
-        ]
-    },*/
     googleFonts: {
         families: {
             Poppins: [400, 500, 700, 800]
@@ -33,6 +28,10 @@ export default defineNuxtConfig({
     css: [
         '~/assets/scss/colors.scss',
         '~/assets/scss/fonts.scss',
+        '~/assets/fontawesome/css/fontawesome.css',
+        '~/assets/fontawesome/css/solid.css',
+        '~/assets/fontawesome/css/thin.css',
+        '~/assets/fontawesome/css/duotone.css',
     ],
     preset: 'netlify',
     target: 'static',
