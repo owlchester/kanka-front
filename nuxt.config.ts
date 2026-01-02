@@ -33,9 +33,13 @@ export default defineNuxtConfig({
         '~/assets/fontawesome/css/thin.css',
         '~/assets/fontawesome/css/duotone.css',
     ],
-    preset: 'netlify',
+    //preset: 'netlify',
     target: 'static',
-    nitro: {
-        compressPublicAssets: true,
-    },
+    ssr: false,
+    // nitro: {
+    //     compressPublicAssets: true,
+    //     prerender: {
+    //         routes: ['/']
+    //     }
+    // },
 })

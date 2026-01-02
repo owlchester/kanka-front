@@ -29,8 +29,19 @@
 /sk/invitation/* https://app.kanka.io/invitation/:splat 301
 /ru/invitation/* https://app.kanka.io/invitation/:splat 301
 
-# Old to new front
+# Old to new front (for cloudflare which supports regex)
 /(en|en-US|fr|de|es|it|pt-BR|ru|sk|gl|hk)/(.*) /$2 301
+
+# Old to new front (for netlify which doesn't support regex)
+/en/*     /:splat 301
+/en-US/*  /:splat 301
+/fr/*     /:splat 301
+/de/*     /:splat 301
+/es/*     /:splat 301
+/it/*     /:splat 301
+/pt-BR/*  /:splat 301
+/ru/*     /:splat 301
+
 
 # Root fallback
 /index.html /index.html 200

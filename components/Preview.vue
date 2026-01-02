@@ -16,6 +16,7 @@
     <div v-if="showFullscreen" class="fixed inset-0 bg-black bg-opacity-80 z-50 flex items-center justify-center cursor-pointer" @click="showFullscreen = false">
       <div class="max-w-full max-h-full p-4">
         <img
+            loading="lazy"
             v-bind:src="imageSource()"
             v-bind:alt="text"
             class="max-h-screen max-w-full object-contain"

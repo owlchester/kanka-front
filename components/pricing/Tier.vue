@@ -25,7 +25,7 @@
 
         </div>
         <div>
-        <img v-bind:src="thumbnail" alt="{{ tier }}" width="71" height="71" />
+        <img v-bind:src="thumbnail" alt="{{ tier }}" width="71" height="71" loading="lazy" />
         </div>
       </div>
 

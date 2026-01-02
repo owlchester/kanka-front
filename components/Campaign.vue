@@ -1,6 +1,6 @@
 <template>
   <NuxtLink :to="link" :class="boxCss()">
-    <img v-bind:src="img" v-bind:alt="title" width="283" height="212">
+    <img v-bind:src="img" v-bind:alt="title" width="283" height="212" loading="lazy">
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
         <h3 class="grow" v-html="title"></h3>

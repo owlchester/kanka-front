@@ -132,7 +132,7 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
 
       <div class="lg:hidden flex flex-col gap-5 text-center">
         <div class="">
-          <img class="inline-block" src="https://th.kanka.io/tNmf0YlrJqMPrQE7iPW5bdcsPtQ=/103x103/smart/src/app/logos/logo-white.png" title="Kanka logo" alt="Kanka logo" />
+          <img class="inline-block" src="https://th.kanka.io/tNmf0YlrJqMPrQE7iPW5bdcsPtQ=/103x103/smart/src/app/logos/logo-white.png" title="Kanka logo" alt="Kanka logo" loading="lazy" />
         </div>
 
         <div class="flex justify-center gap-5 text-3xl">
