@@ -11,151 +11,27 @@
 /go/github https://github.com/owlchester/kanka
 
 # Api docs
-#/en-US/api-docs/* https://app.kanka.io/api-docs/:splat
-#/en/api-docs/* https://app.kanka.io/api-docs/:splat
+#/en-US/api-docs/* https://app.kanka.io/api-docs/:splat 301
+#/en/api-docs/* https://app.kanka.io/api-docs/:splat 301
 
-#/api/1.0/* https://kanka.io/api/1.0/:splata
+#/api/1.0/* https://kanka.io/api/1.0/:splat 301
 
 
-/de/invitation/* https://app.kanka.io/invitation/:splat
-/en-US/invitation/* https://app.kanka.io/invitation/:splat
-/en/invitation/* https://app.kanka.io/invitation/:splat
-/es/invitation/* https://app.kanka.io/invitation/:splat
-/fr/invitation/* https://app.kanka.io/invitation/:splat
-/it/invitation/* https://app.kanka.io/invitation/:splat
-/nl/invitation/* https://app.kanka.io/invitation/:splat
-/pl/invitation/* https://app.kanka.io/invitation/:splat
-/pt-BR/invitation/* https://app.kanka.io/invitation/:splat
-/sk/invitation/* https://app.kanka.io/invitation/:splat
-/ru/invitation/* https://app.kanka.io/invitation/:splat
-
-# Campaigns
-#/de/campaign/* https://app.kanka.io/w/:splat
-#/en-US/campaign/* https://app.kanka.io/w/:splat
-#/en/campaign/* https://app.kanka.io/w/:splat
-#/es/campaign/* https://app.kanka.io/w/:splat
-#/fr/campaign/* https://app.kanka.io/w/:splat
-#/it/campaign/* https://app.kanka.io/w/:splat
-#/nl/campaign/* https://app.kanka.io/w/:splat
-#/pl/campaign/* https://app.kanka.io/w/:splat
-#/pt-BR/campaign/* https://app.kanka.io/w/:splat
-#/sk/campaign/* https://app.kanka.io/w/:splat
-#/ru/campaign/* https://app.kanka.io/w/:splat
-#/hu/campaign/* https://app.kanka.io/w/:splat
-#/ca/campaign/* https://app.kanka.io/w/:splat
-#/gl/campaign/* https://app.kanka.io/w/:splat
+/de/invitation/* https://app.kanka.io/invitation/:splat 301
+/en-US/invitation/* https://app.kanka.io/invitation/:splat 301
+/en/invitation/* https://app.kanka.io/invitation/:splat 301
+/es/invitation/* https://app.kanka.io/invitation/:splat 301
+/fr/invitation/* https://app.kanka.io/invitation/:splat 301
+/it/invitation/* https://app.kanka.io/invitation/:splat 301
+/nl/invitation/* https://app.kanka.io/invitation/:splat 301
+/pl/invitation/* https://app.kanka.io/invitation/:splat 301
+/pt-BR/invitation/* https://app.kanka.io/invitation/:splat 301
+/sk/invitation/* https://app.kanka.io/invitation/:splat 301
+/ru/invitation/* https://app.kanka.io/invitation/:splat 301
 
 # Old to new front
-/en /
-/en/pricing /pricing
-/en/features /features
-/en/public-campaigns /campaigns
-/en/pricing /pricing
-/en/premium /premium
-/en/hall-of-fame /hall-of-fame
-/en/about /about
-/en/contact /contact
-/en/press-kit /press-kit
-/en/security /security
-/en/privacy-policy /privacy-policy
-/en/terms-and-conditions /terms-and-conditions
+/(en|en-US|fr|de|es|it|pt-BR|ru|sk|gl|hk)/(.*) /$2 301
 
-/en-US /
-/en-US/pricing /pricing
-/en-US/features /features
-/en-US/public-campaigns /campaigns
-/en-US/pricing /pricing
-/en-US/premium /premium
-/en-US/hall-of-fame /hall-of-fame
-/en-US/about /about
-/en-US/contact /contact
-/en-US/press-kit /press-kit
-/en-US/security /security
-/en-US/privacy-policy /privacy-policy
-/en-US/terms-and-conditions /terms-and-conditions
-
-/de /
-/de/pricing /pricing
-/de/features /features
-/de/public-campaigns /campaigns
-/de/pricing /pricing
-/de/premium /premium
-/de/hall-of-fame /hall-of-fame
-/de/about /about
-/de/contact /contact
-/de/press-kit /press-kit
-/de/security /security
-/de/privacy-policy /privacy-policy
-/de/terms-and-conditions /terms-and-conditions
-
-/fr /
-/fr/pricing /pricing
-/fr/features /features
-/fr/public-campaigns /campaigns
-/fr/pricing /pricing
-/fr/premium /premium
-/fr/hall-of-fame /hall-of-fame
-/fr/about /about
-/fr/contact /contact
-/fr/press-kit /press-kit
-/fr/security /security
-/fr/privacy-policy /privacy-policy
-/fr/terms-and-conditions /terms-and-conditions
-
-/pt-BR /
-/pt-BR/pricing /pricing
-/pt-BR/features /features
-/pt-BR/public-campaigns /campaigns
-/pt-BR/pricing /pricing
-/pt-BR/premium /premium
-/pt-BR/hall-of-fame /hall-of-fame
-/pt-BR/about /about
-/pt-BR/contact /contact
-/pt-BR/press-kit /press-kit
-/pt-BR/security /security
-/pt-BR/privacy-policy /privacy-policy
-/pt-BR/terms-and-conditions /terms-and-conditions
-
-/it /
-/it/pricing /pricing
-/it/features /features
-/it/public-campaigns /campaigns
-/it/pricing /pricing
-/it/premium /premium
-/it/hall-of-fame /hall-of-fame
-/it/about /about
-/it/contact /contact
-/it/press-kit /press-kit
-/it/security /security
-/it/privacy-policy /privacy-policy
-/it/terms-and-conditions /terms-and-conditions
-
-/es /
-/es/pricing /pricing
-/es/features /features
-/es/public-campaigns /campaigns
-/es/pricing /pricing
-/es/premium /premium
-/es/hall-of-fame /hall-of-fame
-/es/about /about
-/es/contact /contact
-/es/press-kit /press-kit
-/es/security /security
-/es/privacy-policy /privacy-policy
-/es/terms-and-conditions /terms-and-conditions
-
-/ru /
-/ru/pricing /pricing
-/ru/features /features
-/ru/public-campaigns /campaigns
-/ru/pricing /pricing
-/ru/premium /premium
-/ru/hall-of-fame /hall-of-fame
-/ru/about /about
-/ru/contact /contact
-/ru/press-kit /press-kit
-/ru/security /security
-/ru/privacy-policy /privacy-policy
-/ru/terms-and-conditions /terms-and-conditions
-
-/*  /index.html  200
+# Root fallback
+/index.html /index.html 200
+/ /index.html 200

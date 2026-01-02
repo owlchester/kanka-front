@@ -30,13 +30,13 @@
         3 MiB
       </td>
       <td>
-        8 MiB
-      </td>
-      <td>
-        15 MiB
+        10 MiB
       </td>
       <td>
         25 MiB
+      </td>
+      <td>
+        100 MiB
       </td>
     </tr>
     <tr>
@@ -50,10 +50,10 @@
         10 MiB
       </td>
       <td>
-        20 MiB
+        25 MiB
       </td>
       <td>
-        50 MiB
+        100 MiB
       </td>
     </tr>
     <tr>
