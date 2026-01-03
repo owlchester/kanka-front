@@ -44,7 +44,7 @@
 
 
 # www to apex
-https://www.kanka.io/* https://kanka.io/:splat 301
+# https://www.kanka.io/* https://kanka.io/:splat 301
 
 
 # Root fallback
