@@ -1,3 +1,5 @@
+/test-redirect  https://kanka.io/tititoto  301
+/test-redirect-2  /tititoto2  301
 
 
 # Social redirects
