@@ -43,6 +43,11 @@
 /ru/*     /:splat 301
 
 
+# www to apex
+https://www.kanka.io/* https://kanka.io/:splat 301
+
+
 # Root fallback
 /index.html /index.html 200
 / /index.html 200
+
