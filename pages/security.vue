@@ -42,5 +42,8 @@ useHead({
   meta: [
     { name: 'description', content: 'Our small team is commited to providing top notch data protection standards to ensure that your data is safe with us.' }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/security' }
+  ],
 })
 </script>

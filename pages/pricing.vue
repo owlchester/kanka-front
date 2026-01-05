@@ -110,6 +110,9 @@ useHead({
   meta: [
     { name: 'description', content: 'The obvious choice for collaborative worldbuilding and ttrpg campaign management, at an affordable rate.' }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/pricing' }
+  ]
 })
 useSeoMeta({
     ogTitle: 'Pricing',

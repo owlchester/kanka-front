@@ -30,7 +30,7 @@
 
       <h2 class="text-purple">Didn't find what you were looking for?</h2>
       <div class="flex gap-5 justify-center items-center align-center">
-        <a v-bind:href="https://kanka.io/go/discord" class="btn-round">
+        <a href="https://kanka.io/go/discord" class="btn-round">
           <i class="fa-brands fa-discord" aria-hidden="true"></i>
           Join our Discord
         </a>
@@ -70,6 +70,9 @@ useHead({
   title: title + ' - Kanka',
   meta: [
     { name: 'description', content: lead }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/kb' }
   ],
 })
 

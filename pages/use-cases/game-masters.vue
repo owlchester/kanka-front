@@ -231,6 +231,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/use-cases/game-masters' }
+  ],
 })
 useSeoMeta({
     ogTitle: title + ' - Kanka',

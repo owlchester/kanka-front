@@ -114,5 +114,8 @@ useHead({
   meta: [
     { name: 'description', content: 'Effective date: Jul 12, 2023' }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/terms-and-conditions' }
+  ],
 })
 </script>

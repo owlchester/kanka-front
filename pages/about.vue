@@ -73,6 +73,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/about' }
+  ],
 })
 useSeoMeta({
     ogTitle: 'About us - Kanka',

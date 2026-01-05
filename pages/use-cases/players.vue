@@ -139,6 +139,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/use-cases/players' }
+  ],
 })
 useSeoMeta({
     ogTitle: title + ' - Kanka',

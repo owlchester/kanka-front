@@ -70,5 +70,8 @@ useHead({
   meta: [
     { name: 'description', content: 'Choosing your worldbuilding platform.' }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/kanka-vs-worldanvil' }
+  ],
 })
 </script>

@@ -129,6 +129,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/use-cases/writers' }
+  ],
 })
 useSeoMeta({
     ogTitle: title + ' - Kanka',

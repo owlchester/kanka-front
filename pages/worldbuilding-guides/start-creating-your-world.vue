@@ -109,6 +109,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/worldbuilding-guides/start-creating-your-world' }
+  ],
 })
 useSeoMeta({
     ogTitle: title + ' - Kanka',

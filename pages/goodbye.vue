@@ -21,5 +21,8 @@ useHead({
   meta: [
     { name: 'description', content: 'Thank you for being a part of our community.' }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/goodbye' }
+  ],
 })
 </script>

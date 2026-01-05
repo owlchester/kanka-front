@@ -92,6 +92,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/use-cases/content-creators' }
+  ],
 })
 useSeoMeta({
     ogTitle: title + ' - Kanka',

@@ -161,6 +161,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/use-cases/worldbuilders' }
+  ],
 })
 useSeoMeta({
     ogTitle: title + ' - Kanka',

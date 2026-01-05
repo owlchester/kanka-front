@@ -52,6 +52,9 @@ useHead({
   meta: [
     { name: 'description', content: 'Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more' }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/premium' }
+  ],
 })
 useSeoMeta({
     ogTitle: 'Premium campaigns',

@@ -104,6 +104,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/worldbuilding-guides/how-much-worldbuilding-do-you-really-need' }
+  ],
 })
 useSeoMeta({
     ogTitle: title + ' - Kanka',

@@ -111,6 +111,9 @@ useHead({
   meta: [
     { name: 'description', content: lead }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/campaigns' }
+  ],
 })
 useSeoMeta({
     ogTitle: title,
