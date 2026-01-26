@@ -117,6 +117,7 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
         <BaseFooterSection title="Community">
             <NuxtLink to="https://blog.kanka.io/category/news">What's new</NuxtLink>
           <NuxtLink to="/campaigns">Public campaigns</NuxtLink>
+          <NuxtLink to="/showcase">Showcase</NuxtLink>
           <NuxtLink to="https://app.kanka.io/roadmap">Roadmap</NuxtLink>
           <NuxtLink to="/hall-of-fame">Hall of fame</NuxtLink>
         </BaseFooterSection>

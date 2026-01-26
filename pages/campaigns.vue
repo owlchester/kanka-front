@@ -5,18 +5,20 @@
 
   <Section v-if="setup.featured" id="featured" >
     <div class="flex flex-col gap-4">
-      <h2 class="text-purple">Featured campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">Our community builds amazing things that we love to showcase as Featured Campaigns. Be sure to come back every now and then for more featured campaigns to check out.</p>
+      <h2 class="text-purple">Spotlighted campaigns</h2>
+      <p class="lg:max-w-xl lg:mx-auto">A curated selection of campaigns chosen for their worldbuilding, themes, and creativity.</p>
+      <NuxtLink to="/showcase" class="btn">View the showcase</NuxtLink>
     </div>
     <div class="overflow-x-auto">
       <div class=" flex gap-6 min-w-fit mb-5">
-        <Campaign v-for="campaign in setup.featured"
-                  :img="campaign.thumb"
-                  :id="campaign.id"
-                  :justify="campaign.justify"
-                  :link="campaign.link"
-                  :title="campaign.name"
-                  :system="campaign.system">
+        <Campaign
+            v-for="campaign in setup.featured"
+            :img="campaign.thumb"
+            :id="campaign.id"
+            :justify="campaign.justify"
+            :link="campaign.link"
+            :title="campaign.name"
+            :system="campaign.system">
         </Campaign>
       </div>
     </div>
@@ -163,7 +165,7 @@ async function filter(pagination: number) {
 }
 
 function hasPages() {
-  return campaigns.value.pagination.total_pages > 0;
+  return campaigns.value.pagination.has_pages;
 }
 function previous() {
   let page = campaigns.value.pagination.current_page-1;

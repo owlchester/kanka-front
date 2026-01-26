@@ -14,7 +14,7 @@
         </span>
       </div>
 
-      <p class="text-sm text-light" v-if="justify" v-html="justify"></p>
+      <a class="text-sm text-light hover:font-semibold" v-if="justify" :href="justify">View spotlight</a>
 
       <div class="flex flex-wrap gap-6 text-sm">
         <span v-if="entities > 0">
