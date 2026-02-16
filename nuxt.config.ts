@@ -11,9 +11,8 @@ export default defineNuxtConfig({
     modules: [
         '@nuxtjs/tailwindcss',
         '@nuxtjs/google-fonts',
-    ],
-    buildModules: [
-        '@nuxtjs/style-resources'
+        "@nuxt/content",
+        "nuxt-llms"
     ],
     runtimeConfig: {
         public: {
@@ -33,8 +32,8 @@ export default defineNuxtConfig({
         }
     },
     css: [
-        '~/assets/scss/colors.scss',
-        '~/assets/scss/fonts.scss',
+        '~/assets/css/colors.css',
+        '~/assets/css/fonts.css',
         '~/assets/fontawesome/css/fontawesome.css',
         '~/assets/fontawesome/css/solid.css',
         '~/assets/fontawesome/css/thin.css',
@@ -49,5 +48,10 @@ export default defineNuxtConfig({
     //         routes: ['/']
     //     }
     // },
-})
 
+    llms: {
+        domain: 'https://kanka.io',
+        title: 'Kanka',
+        description: 'Collaborative campaign management and worldbuilding software',
+    },
+})

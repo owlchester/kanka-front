@@ -1,30 +1,35 @@
-@import 'colors.scss';
-
 body {
   font-family: 'Poppins', sans-serif;
 }
 
-h1, .text-xl {
+h1,
+.text-xl {
   font-weight: 700;
   font-size: 2.1875rem;
   line-height: 2.89875rem;
 }
-h2, .text-lg {
+h2,
+.text-lg,
+.prose h2 {
   font-weight: 700;
   font-size: 1.8125rem;
   line-height: 2.71875rem;
 }
-h3, .text-md {
+h3,
+.text-md,
+.prose h3 {
   font-weight: 800;
   font-size: 1.375rem;
   line-height: 1.664375rem;
 }
-h4 {
+h4,
+.prose h4 {
   font-weight: 800;
   font-size: 1.25rem;
   line-height: 1.5rem;
 }
-p, li {
+p,
+li {
   font-weight: 400;
   font-size: 0.875rem;
   line-height: 1.413125rem;
@@ -37,23 +42,28 @@ p, li {
 }
 
 @media (min-width: 768px) {
-  h1, .text-xl {
+  h1,
+  .text-xl {
     font-weight: 700;
     font-size: 3.125rem;
     line-height: 4.6875rem;
   }
-  h2, .text-lg {
+  h2,
+  .text-lg,
+  .prose h2 {
     font-weight: 700;
     font-size: 2.8125rem;
     line-height: 4.21875rem;
   }
-  h3, .text-md {
+  h3,
+  .text-md,
+  .prose h3 {
     font-weight: 800;
     font-size: 1.5625rem;
     line-height: 1.89125rem;
   }
-
-  p, li {
+  p,
+  li {
     font-weight: 400;
     font-size: 1rem;
     line-height: 1.615rem;
@@ -66,16 +76,8 @@ p, li {
   line-height: 1.413125rem;
 }
 
-
 .btn {
   font-weight: 500;
   font-size: 1rem;
   line-height: 1.615rem;
-}
-
-code {
-  color: $light;
-}
-html {
-  /*scroll-behavior: smooth;*/
 }

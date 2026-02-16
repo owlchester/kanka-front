@@ -275,7 +275,7 @@
         </Preview>
         <h3>Editor</h3>
         <p>
-          You won't need to learn programming to create beautiful texts. Thanks to <a href="https://summernote.org" target="_blank">Summernote</a>, you can create rich text for all your texts. Best of all, we've added support for mentions to other entities by using the <code>@</code> symbol.
+          You won't need to learn programming to create beautiful texts. Thanks to <a href="https://summernote.org" target="_blank">Summernote</a>, you can create rich text for all your texts. Best of all, we've added support for mentions to other entities by using the <code class="text-light">@</code> symbol.
         </p>
       </div>
     </div>

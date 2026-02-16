@@ -1,0 +1,96 @@
+.link,
+.link-light {
+  @apply text-dark font-medium transition-all duration-200;
+}
+.link:hover,
+.link:focus,
+.link-light:hover,
+.link-light:focus {
+  @apply text-light;
+}
+.link.active,
+.link-light.active {
+  @apply font-bold;
+}
+
+.link-light {
+  @apply text-light;
+}
+.link-light:hover,
+.link-light:focus {
+  @apply text-blue;
+}
+
+.link-blue {
+  @apply text-blue;
+}
+
+.btn-round {
+  @apply px-8 py-4 bg-blue text-white text-base font-medium transition-all duration-200;
+}
+.btn-round:hover,
+.btn-round:focus {
+  @apply bg-dark text-white;
+}
+
+.block-btn {
+  @apply border border-purple text-purple px-8 py-4 transition-all duration-200;
+}
+.block-btn:hover,
+.block-btn:focus {
+  @apply bg-purple text-white;
+}
+
+.btn-register,
+.btn-login {
+  @apply rounded-full text-base;
+  padding: 0.45rem 1.88rem;
+}
+.btn-register {
+  @apply text-white bg-purple;
+}
+.btn-register:hover {
+  @apply bg-dark;
+}
+.btn-login {
+  @apply border border-purple text-purple;
+}
+.btn-login:hover {
+  @apply bg-purple text-white;
+}
+
+.btn-primary {
+  @apply rounded text-white bg-dark text-center;
+  padding: 13px 32px;
+}
+.btn-primary:hover {
+  @apply bg-purple;
+}
+
+nav.text-nav a:hover {
+  @apply text-blue;
+}
+nav.text-nav a.active,
+nav.text-nav a .active {
+  @apply text-light;
+}
+
+table thead tr th {
+  @apply sticky top-0 h-8 bg-white;
+  padding: 1.5rem 0;
+}
+table tbody tr td {
+  border-top: 1px solid #D9D7E0;
+  padding: 1.5rem 0;
+}
+table tbody tr td:first-of-type {
+  @apply text-left;
+}
+
+.faq .qa {
+  @apply border-b border-light;
+  padding-bottom: 1.65rem;
+}
+.faq .qa:last-of-type {
+  @apply border-b-0;
+}
