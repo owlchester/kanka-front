@@ -92,7 +92,7 @@
   <Section>
     <h2 class="text-purple bg-white top-0 sticky py-2" id="rpgs">
       RPGs
-        <NuxtLink to="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></NuxtLink>
+        <a href="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></a>
     </h2>
 
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10 text-left">
@@ -195,7 +195,7 @@
   <Section>
     <h2 class="text-purple bg-white top-0 sticky py-2" id="worldbuilding">
       Worldbuilding
-      <NuxtLink to="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></NuxtLink>
+      <a href="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></a>
     </h2>
 
     <div class="grid grid-cols-3 gap-8 text-left" id="relations">
@@ -285,7 +285,7 @@
   <Section>
     <h2 class="text-purple bg-white top-0 sticky py-2" id="premium">
       Premium
-      <NuxtLink to="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></NuxtLink>
+      <a href="#top" class="link-blue"><i class="fa-regular fa-arrow-up" aria-hidden="true"/></a>
     </h2>
 
     <div class="grid grid-cols-2 xl:grid-cols-5 gap-8 mb-10 text-left">
@@ -333,9 +333,9 @@
   <Section>
     <h2 class="text-purple">Like what you see? Create a free account now</h2>
     <p>
-    <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-round rounded-full">
+    <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full">
       Register a free account
-    </NuxtLink>
+    </a>
     </p>
   </Section>
 

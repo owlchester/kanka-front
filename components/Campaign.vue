@@ -1,5 +1,5 @@
 <template>
-  <NuxtLink :to="link" :class="boxCss()">
+  <a :href="link" :class="boxCss()">
     <img v-bind:src="img" v-bind:alt="title" width="283" height="212" loading="lazy">
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
@@ -35,7 +35,7 @@
         </span>
       </div>
     </div>
-  </NuxtLink>
+  </a>
 </template>
 
 <script>

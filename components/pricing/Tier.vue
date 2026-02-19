@@ -33,9 +33,9 @@
         <slot />
       </div>
 
-      <NuxtLink :to="registerUrl()" class="btn btn-primary">
+      <a :href="registerUrl()" class="btn btn-primary">
         {{ cta }}
-      </NuxtLink>
+      </a>
     </div>
   </div>
 </template>

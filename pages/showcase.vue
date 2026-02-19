@@ -3,9 +3,9 @@
       :title="title"
       :lead="lead">
     <div>
-      <NuxtLink :to="`${runtimeConfig.public.app}/spotlights`" class="btn-round rounded-full ">
+      <a :href="`${runtimeConfig.public.app}/spotlights`" class="btn-round rounded-full ">
         Apply for the spotlight
-      </NuxtLink>
+      </a>
     </div>
   </BaseHero>
 

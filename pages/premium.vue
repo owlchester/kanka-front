@@ -3,9 +3,9 @@
       title="Premium campaigns"
       lead="Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more.">
     <div>
-      <NuxtLink :to="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
+      <a :href="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
         Starting at {{ defaultCurrency() }} 4.<small>99</small> per month
-      </NuxtLink>
+      </a>
     </div>
   </BaseHero>
 
@@ -31,9 +31,9 @@
     Convinced and ready to go premium with your campaigns? Subscribe to Kanka to unlock premium campaigns!
   </p>
   <div>
-    <NuxtLink :to="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
+    <a :href="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
       Take me to the subscription page
-    </NuxtLink>
+    </a>
   </div>
 </Section>
 

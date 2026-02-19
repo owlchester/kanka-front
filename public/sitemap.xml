@@ -5,7 +5,7 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/about/</loc>
+        <loc>https://kanka.io/about</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
@@ -13,39 +13,39 @@
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/contact/</loc>
+        <loc>https://kanka.io/contact</loc>
         <changefreq>yearly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/features/</loc>
+        <loc>https://kanka.io/features</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/goodbye/</loc>
+        <loc>https://kanka.io/goodbye</loc>
         <changefreq>yearly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/hall-of-fame/</loc>
+        <loc>https://kanka.io/hall-of-fame</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/kanka-vs-workanvil/</loc>
+        <loc>https://kanka.io/kanka-vs-workanvil</loc>
         <changefreq>weekly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/kb/</loc>
+        <loc>https://kanka.io/kb</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/partners/</loc>
+        <loc>https://kanka.io/partners</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/premium/</loc>
+        <loc>https://kanka.io/premium</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/press-kit/</loc>
+        <loc>https://kanka.io/press-kit</loc>
         <changefreq>yearly</changefreq>
     </url>
     <url>
@@ -53,24 +53,20 @@
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/privacy-policy/</loc>
+        <loc>https://kanka.io/privacy-policy</loc>
         <changefreq>monthly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/roadmap/</loc>
+        <loc>https://kanka.io/roadmap</loc>
         <changefreq>yearly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/security/</loc>
+        <loc>https://kanka.io/security</loc>
         <changefreq>yearly</changefreq>
     </url>
     <url>
-        <loc>https://kanka.io/terms-and-conditions/</loc>
+        <loc>https://kanka.io/terms-and-conditions</loc>
         <changefreq>monthly</changefreq>
-    </url>
-    <url>
-        <loc>https://kanka.io/v2/</loc>
-        <changefreq>daily</changefreq>
     </url>
     <url>
         <loc>https://kanka.io/use-cases/worldbuilders</loc>

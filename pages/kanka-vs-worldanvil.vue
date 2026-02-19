@@ -56,9 +56,9 @@
 
   <Section>
     <p>
-      <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-round rounded-full">
+      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full">
         Create your free account!
-      </NuxtLink>
+      </a>
     </p>
   </Section>
 </template>

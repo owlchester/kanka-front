@@ -40,8 +40,6 @@ export default defineNuxtConfig({
             autoSubfolderIndex: false,
         }
     },
-})
-
     llms: {
         domain: 'https://kanka.io',
         title: 'Kanka',

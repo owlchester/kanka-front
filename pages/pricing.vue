@@ -31,9 +31,9 @@
                      :period="yearly" />
 
     <div class="text-center">
-      <NuxtLink to="#features" class="btn btn-round rounded-full">
+      <a to="#features" class="btn btn-round rounded-full">
         Compare plans <i class="fa-solid fa-arrow-down" aria-hidden="true" />
-      </NuxtLink>
+      </a>
     </div>
   </Section>
 

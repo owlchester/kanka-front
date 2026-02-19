@@ -18,6 +18,7 @@ export default defineContentConfig({
                 title: z.string(),
                 target: z.string(),
                 description: z.string(),
+                persona: z.string(),
                 tags: z.array(z.string()).optional(),
             })
         }),

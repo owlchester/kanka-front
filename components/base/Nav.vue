@@ -19,8 +19,8 @@
     </div>
 
     <div class="gap-2.5 items-center hidden lg:flex">
-      <NuxtLink :to="`${runtimeConfig.app}/login`" class="btn-login transition-all duration-200">Sign in</NuxtLink>
-      <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-register transition-all duration-200">Register</NuxtLink>
+      <a :href="`${runtimeConfig.app}/login`" class="btn-login transition-all duration-200">Sign in</a>
+      <a :href="`${runtimeConfig.app}/register`" class="btn-register transition-all duration-200">Register</a>
     </div>
     <div class="block lg:hidden" @click="toggle()">
       <i class="fa-thin fa-bars text-5xl text-blue cursor-pointer" v-if="!open"></i>
@@ -48,8 +48,8 @@
           About us
         </NuxtLink>
 
-        <NuxtLink :to="`${runtimeConfig.app}/login`" class="btn-login transition-all duration-200">Sign in</NuxtLink>
-        <NuxtLink :to="`${runtimeConfig.app}/register`" class="btn-register transition-all duration-200">Register</NuxtLink>
+        <a :href="`${runtimeConfig.app}/login`" class="btn-login transition-all duration-200">Sign in</a>
+        <a :href="`${runtimeConfig.app}/register`" class="btn-register transition-all duration-200">Register</a>
       </div>
     </div>
   </nav>
