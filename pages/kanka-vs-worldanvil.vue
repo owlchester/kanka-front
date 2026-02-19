@@ -68,7 +68,7 @@ const runtimeConfig = useRuntimeConfig().public
 useHead({
   title: 'Kanka vs World Anvil - Choosing Your Worldbuilding Platform',
   meta: [
-    { name: 'description', content: 'Choosing your worldbuilding platform.' }
+    { name: 'description', content: 'Comparing Kanka and World Anvil? Kanka offers a cleaner interface, stornger RPG campaign tools, and a genuinely free tier. See the full feature-by-feature comparison.' }
   ],
   link: [
     { rel: 'canonical', href: 'https://kanka.io/kanka-vs-worldanvil' }

@@ -1,6 +1,6 @@
-/test-redirect  https://kanka.io/tititoto  301
-/test-redirect-2  /tititoto2  301
 
+# Remove trailing slashes
+/*/ /:splat 301
 
 # Social redirects
 /go/discord https://discord.gg/rhsyZJ4

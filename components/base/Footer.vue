@@ -92,7 +92,7 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
           <NuxtLink to="/features" class="">Features</NuxtLink>
           <NuxtLink to="/premium" class="">Premium campaigns</NuxtLink>
           <NuxtLink to="/pricing" class="">Pricing</NuxtLink>
-          <NuxtLink to="https://plugins.kanka.io" class="">Plugins</NuxtLink>
+          <a href="https://plugins.kanka.io" class="">Plugins</a>
 
           <span class="block text-nav uppercase mt-3">Use-cases</span>
           <NuxtLink to="/use-cases/game-masters">For game masters</NuxtLink>
@@ -104,10 +104,10 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
         <BaseFooterSection title="Resources">
           <NuxtLink to="/kanka-vs-worldanvil">Kanka vs WorldAnvil</NuxtLink>
           <NuxtLink to="/kb">Knowledge base</NuxtLink>
-          <NuxtLink to="https://docs.kanka.io">Documentation</NuxtLink>
-          <NuxtLink :to="`${runtimeConfig.app}/api-docs/1.0/overview`">API docs</NuxtLink>
-          <NuxtLink to="https://blog.kanka.io">Blog</NuxtLink>
-          <NuxtLink to="https://status.kanka.io">Service status</NuxtLink>
+          <a href="https://docs.kanka.io">Documentation</a>
+          <a :href="`${runtimeConfig.app}/api-docs/1.0/overview`">API docs</a>
+          <a href="https://blog.kanka.io">Blog</a>
+          <a href="https://status.kanka.io">Service status</a>
 
 
           <span class="block text-nav uppercase mt-3">Worldbuilding guides</span>
@@ -115,10 +115,10 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
           <NuxtLink to="/worldbuilding-guides/how-much-worldbuilding-do-you-really-need">How much worldbuilding do you need</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Community">
-            <NuxtLink to="https://blog.kanka.io/category/news">What's new</NuxtLink>
+            <a href="https://blog.kanka.io/category/news">What's new</a>
           <NuxtLink to="/campaigns">Public campaigns</NuxtLink>
           <NuxtLink to="/showcase">Showcase</NuxtLink>
-          <NuxtLink to="https://app.kanka.io/roadmap">Roadmap</NuxtLink>
+          <a href="https://app.kanka.io/roadmap">Roadmap</a>
           <NuxtLink to="/hall-of-fame">Hall of fame</NuxtLink>
         </BaseFooterSection>
         <BaseFooterSection title="Company">

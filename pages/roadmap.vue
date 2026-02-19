@@ -5,12 +5,12 @@
 
   <Section align="left">
     <div class="grid grid-cols-2 gap-10">
-      <h2 class="text-purple"><NuxtLink to="https://app.kanka.io/roadmap" class="link">Roadmap</NuxtLink></h2>
+      <h2 class="text-purple"><a href="https://app.kanka.io/roadmap" class="link">Roadmap</a></h2>
       <p class="text-light">The roadmap lists all ideas submitted by the community and what we're currently working on, while allowing members to upvote ideas they want to see added to Kanka.
       </p>
     </div>
     <div class="grid grid-cols-2 gap-10">
-      <h2 class="text-purple"><NuxtLink to="https://blog.kanka.io/category/dev-blogs/" class="link">Developer Logs</NuxtLink></h2>
+      <h2 class="text-purple"><a href="https://blog.kanka.io/category/dev-blogs/" class="link">Developer Logs</a></h2>
       <p class="text-light">We publish developer logs every few weeks with updates on our progress and upcoming features, as well as tea from behind the scenes.</p>
     </div>
   </Section>
