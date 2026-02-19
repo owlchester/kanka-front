@@ -65,6 +65,8 @@ const route = useRoute();
 
 const { data: categories, pending, error } = await useFetch(() => runtimeConfig.public.api + 'kb');
 
+const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '')
+
 //console.log(runtimeConfig.public.api)
 useHead({
   title: title + ' - Kanka',
@@ -73,6 +75,22 @@ useHead({
   ],
   link: [
     { rel: 'canonical', href: 'https://kanka.io/kb' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: computed(() => JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: (categories.value ?? []).flatMap((category: any) =>
+          category.questions.map((item: any) => ({
+            '@type': 'Question',
+            name: item.q,
+            acceptedAnswer: { '@type': 'Answer', text: stripHtml(item.a) },
+          }))
+        ),
+      })),
+    },
   ],
 })
 
