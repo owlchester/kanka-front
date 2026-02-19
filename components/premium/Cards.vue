@@ -4,7 +4,7 @@
       title="Look & feel"
       img="https://th.kanka.io/WGO396lwHDadYV2wJBJXynz9eH0=/120x120/smart/src/app/features/boosted/look-n-feel.jpg">
       <p>
-        Customise the campaign's sidebar, change the campaign's design via custom CSS, and install amazing and beautiful plugins from the <NuxtLink to="https://plugins.kanka.io" class="link-light">Plugins library</NuxtLink>.
+        Customise the campaign's sidebar, change the campaign's design via custom CSS, and install amazing and beautiful plugins from the <a href="https://plugins.kanka.io" class="link-light">Plugins library</a>.
       </p>
     </PremiumCard>
 
@@ -52,7 +52,7 @@
         title="Stupid sexy icons"
         img="https://th.kanka.io/Y0GgWUAwBAgYcH1Rkijl_Q7Y1rA=/120x120/smart/src/app/features/boosted/icon.jpg">
       <p>
-        Make maps and timelines pop with access to custom colours and thousands of icons through <NuxtLink to="https://fontawesome.com/search" target="_blank" class="link-light">FontAwesome</NuxtLink> and <NuxtLink to="https://nagoshiashumari.github.io/Rpg-Awesome/" target="_blank" class="link-light">RPGAwesome</NuxtLink>.
+        Make maps and timelines pop with access to custom colours and thousands of icons through <a href="https://fontawesome.com/search" target="_blank" rel="noopener noreferrer" class="link-light">FontAwesome</a> and <a href="https://nagoshiashumari.github.io/Rpg-Awesome/" target="_blank" rel="noopener noreferrer" class="link-light">RPGAwesome</a>.
       </p>
     </PremiumCard>
 

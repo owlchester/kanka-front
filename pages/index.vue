@@ -152,6 +152,22 @@
 const route = useRoute()
 const runtimeConfig = useRuntimeConfig().public
 
+useHead({
+  title: 'Kanka - Free Worldbuilding & RPG Campaign Manager',
+  meta: [
+    {
+      name: 'description',
+      content: 'Kanka is a free worldbuilding and RPG campaign management tool. Organize characters, locations, timelines, maps and more - all in one place. Trusted by 300\'000+ users.'
+    }
+  ],
+  link: [
+    {
+      rel: 'canonical',
+      href: 'https://kanka.io/',
+    }
+  ]
+})
+
 function hasGclid(): Boolean {
   return route.query.utm_id !== undefined && route.query.utm_campaign !== undefined  && route.query.utm_source !== undefined;
 }

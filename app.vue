@@ -2,7 +2,7 @@
 const route = useRoute()
 
 useHead({
-  title: 'Worldbuilding tool and RPG campaign manager - Kanka',
+  title: 'Kanka - Free Worldbuilding RPG campaign manager',
   meta: [
     { name: 'description', content: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds' }
   ],
@@ -11,7 +11,7 @@ useHead({
   ]
 })
 useSeoMeta({
-  ogTitle: 'Worldbuilding tool and RPG campaign manager - Kanka',
+  ogTitle: 'Kanka - Free Worldbuilding & RPG Campaign Manager',
   ogDescription: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds',
   ogUrl: 'https://kanka.io',
   ogType: 'website',

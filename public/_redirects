@@ -1,6 +1,6 @@
-/test-redirect  https://kanka.io/tititoto  301
-/test-redirect-2  /tititoto2  301
 
+# Remove trailing slashes
+/*/ /:splat 301
 
 # Social redirects
 /go/discord https://discord.gg/rhsyZJ4
@@ -11,12 +11,6 @@
 /go/youtube https://www.youtube.com/c/kankaio/videos
 /go/twitch https://twitch.tv/kankaio
 /go/github https://github.com/owlchester/kanka
-
-# Api docs
-#/en-US/api-docs/* https://app.kanka.io/api-docs/:splat 301
-#/en/api-docs/* https://app.kanka.io/api-docs/:splat 301
-
-#/api/1.0/* https://kanka.io/api/1.0/:splat 301
 
 
 /de/invitation/* https://app.kanka.io/invitation/:splat 301

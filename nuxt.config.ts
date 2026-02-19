@@ -1,12 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    app: {
-        head: {
-            link: [
-                { rel: 'canonical', href: 'https://kanka.io' }
-            ]
-        }
-    },
     devtools: { enabled: false },
     modules: [
         '@nuxtjs/tailwindcss',
@@ -41,13 +34,13 @@ export default defineNuxtConfig({
     ],
     //preset: 'netlify',
     target: 'static',
-    ssr: false,
-    // nitro: {
-    //     compressPublicAssets: true,
-    //     prerender: {
-    //         routes: ['/']
-    //     }
-    // },
+    ssr: true,
+    nitro: {
+        prerender: {
+            autoSubfolderIndex: false,
+        }
+    },
+})
 
     llms: {
         domain: 'https://kanka.io',
