@@ -1,0 +1,19 @@
+items:
+  - id: payments
+    q: "What are the available payment methods?"
+    a: "We accept most credit and debit cards like Visa, Mastercard and American Express. We also accept PayPal for yearly subscriptions."
+  - id: info
+    q: "Do you store my payment information?"
+    a: "We use Stripe.com to securely handle your payment information, and we only store limited data regarding your payment method. We use this information to notify you when your card is about to expire, so that you can update it and not lose your subscription."
+  - id: cancel
+    q: "What happens if I cancel my subscription during a billing period?"
+    a: "When cancelling your subscription, your bonuses stay active until the date of your next billing period."
+  - id: resub
+    q: "What happens to my data when I resubscribe?"
+    a: "When your subscription ends, all features and subscription related data is disabled but saved on our servers. This means that when you resubscribe, everything will go right back to the way you left it."
+  - id: refund
+    q: "What is your refund policy?"
+    a: "We offer a no questions asked 14 day refund policy for yearly subscriptions. Simply drop us an email at <a href=\"mailto:hello@kanka.io\" class=\"link link-purple\">hello@kanka.io</a>."
+  - id: gift
+    q: "Can I gift subscriptions?"
+    a: "While gifting subscriptions isn't possible, you can upgrade to premium status any campaign you have access to. This includes campaigns you aren't an admin of, or even a member of."

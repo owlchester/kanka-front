@@ -14,8 +14,11 @@ const { data: related } = await useAsyncData(`use-case-related-${slug}`, () =>
 )
 
 useSeoMeta({
-    title: () => article.value ? `${article.value.title} - Use Case - Kanka` : 'Use Case - Kanka',
-    description: () => article.value?.description,
+  title: () => article.value ? `${article.value.title} - Use Case - Kanka` : 'Use Case - Kanka',
+  description: () => article.value?.description,
+  ogUrl: () => `https://kanka.io/worldbuilding-guides/${slug}`,
+  ogTitle: () => article.value ? `${article.value.title} - Use Cases - Kanka` : 'Use Cases - Kanka',
+  ogDescription: () => article.value?.description,
 })
 </script>
 

@@ -8,6 +8,30 @@ useHead({
   ],
   link: [
     {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      children: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Kanka",
+        "url": "https://kanka.io",
+        "logo": "",
+        "sameAs": [
+            "https://discord.gg/rhsyZJ4",
+            "https://app.kanka.io",
+            "https://blog.kanka.io",
+            "https://plugins.kanka.io",
+            "https://docs.kanka.io",
+        ],
+        "contactPoint": {
+          "@type": "ContactPoint",
+          "email": "hello@kanka.io",
+          "contactType": "customer support"
+        }
+      })
+    }
   ]
 })
 useSeoMeta({

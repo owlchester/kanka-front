@@ -60,7 +60,7 @@
   <Section id="faq">
     <h2 class="text-purple">FAQ</h2>
 
-    <PricingFaq />
+    <PricingFaq :faqs="faq?.items ?? []" />
 
   </Section>
 
@@ -68,6 +68,12 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig();
+
+const { data: faq } = await useAsyncData('pricing-faq', () =>
+    queryCollection('pricingFaq').first()
+)
+
+const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '')
 const { country } = asyncCurrency();
 const currency = ref(defaultCurrency());
 const monthly = ref(true);
@@ -112,7 +118,21 @@ useHead({
   ],
   link: [
     { rel: 'canonical', href: 'https://kanka.io/pricing' }
-  ]
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        '@context': 'https://schema.org',
+        '@type': 'FAQPage',
+        mainEntity: (faq.value?.items ?? []).map(item => ({
+          '@type': 'Question',
+          name: item.q,
+          acceptedAnswer: { '@type': 'Answer', text: stripHtml(item.a) },
+        })),
+      }),
+    },
+  ],
 })
 useSeoMeta({
     ogTitle: 'Pricing',

@@ -64,18 +64,14 @@ Check out the [deployment documentation](https://nuxt.com/docs/getting-started/d
 
 ## PROD
 
-```bash
-yarn generate
-```
-
-Then deploy the `.output/public` folder to netlify
+Comitting to github's main branch automatically deploys to Clouflare Pages.
 
 
 # Starlink issues
 
-If you are connected to the internet through a Starlink device, NPM will be blocked by default due to some IPV4-V6 shenanigans.
+If you are connected to the internet through a Starlink device, NPM might be blocked by default due to some IPV4-V6 shenanigans.
 
-Before running any commands, you first need to tell node to prioritize ipv4.
+Before running any commands, you first need to tell `node` to prioritize ipv4.
 
 > NODE_OPTIONS=--dns-result-order=ipv4first yarn generate  
 

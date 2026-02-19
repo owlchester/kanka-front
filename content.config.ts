@@ -31,5 +31,16 @@ export default defineContentConfig({
                 tags: z.array(z.string()).optional(),
             })
         }),
+        pricingFaq: defineCollection({
+            type: 'data',
+            source: 'pricing/faq.yml',
+            schema: z.object({
+                items: z.array(z.object({
+                    id: z.string(),
+                    q: z.string(),
+                    a: z.string(),
+                }))
+            })
+        }),
     }
 })

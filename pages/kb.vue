@@ -76,6 +76,12 @@ useHead({
   ],
 })
 
+useSeoMeta({
+  ogTitle: title + ' - Kanka',
+  ogDescription: lead,
+  ogUrl: 'https://kanka.io/kb',
+})
+
 function isOpen(id: String) {
   //console.log(this.route.hash)
   return id === route.hash.substring(1);
