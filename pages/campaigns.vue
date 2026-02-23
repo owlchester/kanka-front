@@ -56,25 +56,11 @@
         </div>
       </div>
       <div class="flex flex-col gap-6" v-else>
-        <template v-if="setup?.prioritised?.length && isFirstPage">
-          <h3 class="text-purple">We think these campaigns are extra cool</h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            <Campaign v-for="campaign in setup.prioritised"
-                      :img="campaign.thumb"
-                      :id="campaign.id"
-                      :justify="campaign.justify"
-                      :link="campaign.link"
-                      :title="campaign.name"
-                      :system="campaign.system"
-            />
-          </div>
-          <hr class="border-gray-200 dark:border-gray-700" />
-        </template>
-        <p v-if="regularCampaigns.length === 0 && !setup?.prioritised?.length" class="text-light text-sm">
+        <p v-if="campaigns?.campaigns?.length === 0" class="text-light text-sm">
           No campaigns match the selected filters. Please try again with different ones.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-          <Campaign v-for="campaign in regularCampaigns"
+          <Campaign v-for="campaign in campaigns?.campaigns"
                     :img="campaign.thumb"
                     :id="campaign.id"
                     :justify="campaign.justify"
@@ -111,13 +97,8 @@
 
 <script setup lang="ts">
 
-interface CampaignCard {
-  thumb: string; id: number; justify: string; link: string; name: string; system: string
-}
-
 interface SetupData {
-  featured: CampaignCard[]
-  prioritised: CampaignCard[]
+  featured: { thumb: string; id: number; justify: string; link: string; name: string; system: string }[]
   filters: Record<string, { title: string; options: Record<string, string> }>
 }
 
@@ -189,16 +170,6 @@ async function filter(pagination?: number) {
   filterUrl.value = runtimeConfig.public.api + 'campaigns?' + filters;
   console.log(filterUrl.value);
 }
-
-const isFirstPage = computed(() => (campaigns.value?.pagination?.current_page ?? 1) === 1)
-
-const prioritisedIds = computed(() => new Set((setup.value?.prioritised ?? []).map(c => c.id)))
-
-const regularCampaigns = computed(() =>
-  isFirstPage.value
-    ? (campaigns.value?.campaigns ?? []).filter(c => !prioritisedIds.value.has(c.id))
-    : (campaigns.value?.campaigns ?? [])
-)
 
 function hasPages() {
   return campaigns.value?.pagination?.has_pages;
