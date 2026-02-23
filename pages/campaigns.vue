@@ -3,7 +3,7 @@
       :title="title"
       :lead="lead" />
 
-  <Section v-if="setup.featured" id="featured" >
+  <Section v-if="setup?.featured" id="featured" >
     <div class="flex flex-col gap-4">
       <h2 class="text-purple">Spotlighted campaigns</h2>
       <p class="lg:max-w-xl lg:mx-auto">A curated selection of campaigns chosen for their worldbuilding, themes, and creativity.</p>
@@ -39,7 +39,7 @@
               <i class="fa-solid fa-times text-blue" aria-hidden="true"></i>
             </span>
           </div>
-          <div class="flex flex-col gap-5" v-for="(filter, filterKey) in setup.filters">
+          <div class="flex flex-col gap-5" v-for="(filter, filterKey) in setup?.filters">
             <span class="text-nav">{{ filter.title }}</span>
             <div class="flex flex-col gap-3">
               <span v-bind:class="filterCss(filterKey, optionKey)" v-for="(option, optionKey) in filter.options" @click="filterTo(filterKey, optionKey, option)">
@@ -56,11 +56,25 @@
         </div>
       </div>
       <div class="flex flex-col gap-6" v-else>
-        <p v-if="campaigns.campaigns.length === 0" class="text-light text-sm">
+        <template v-if="setup?.prioritised?.length && isFirstPage">
+          <h3 class="text-purple">We think these campaigns are extra cool</h3>
+          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
+            <Campaign v-for="campaign in setup.prioritised"
+                      :img="campaign.thumb"
+                      :id="campaign.id"
+                      :justify="campaign.justify"
+                      :link="campaign.link"
+                      :title="campaign.name"
+                      :system="campaign.system"
+            />
+          </div>
+          <hr class="border-gray-200 dark:border-gray-700" />
+        </template>
+        <p v-if="regularCampaigns.length === 0 && !setup?.prioritised?.length" class="text-light text-sm">
           No campaigns match the selected filters. Please try again with different ones.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-          <Campaign v-for="campaign in campaigns.campaigns"
+          <Campaign v-for="campaign in regularCampaigns"
                     :img="campaign.thumb"
                     :id="campaign.id"
                     :justify="campaign.justify"
@@ -74,14 +88,14 @@
           </Campaign>
         </div>
         <div v-if="hasPages()" class="flex items-center justify-center gap-5">
-          <span class="link cursor-pointer" @click="previous()" v-if="campaigns.pagination.previous">
+          <span class="link cursor-pointer" @click="previous()" v-if="campaigns?.pagination?.previous">
             <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
           </span>
           <span v-else>
             <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
           </span>
 
-          <span class="link cursor-pointer" @click="next()" v-if="campaigns.pagination.next">
+          <span class="link cursor-pointer" @click="next()" v-if="campaigns?.pagination?.next">
             Next page
             <i class="fa-solid fa-chevron-right" aria-hidden="true" />
           </span>
@@ -97,16 +111,31 @@
 
 <script setup lang="ts">
 
+interface CampaignCard {
+  thumb: string; id: number; justify: string; link: string; name: string; system: string
+}
+
+interface SetupData {
+  featured: CampaignCard[]
+  prioritised: CampaignCard[]
+  filters: Record<string, { title: string; options: Record<string, string> }>
+}
+
+interface CampaignsData {
+  campaigns: { thumb: string; id: number; justify: string; link: string; name: string; entities: string; followers: string; locale: string; system: string }[]
+  pagination: { has_pages: boolean; current_page: number; previous: string | null; next: string | null }
+}
+
 const title = 'Campaigns'
 const lead = 'Many campaigns in Kanka are public for all to see. This page contains a list of all public campaigns, as well as some featured campaigns from the community.'
 const runtimeConfig = useRuntimeConfig()
 
 const filterUrl = ref(runtimeConfig.public.api + 'campaigns');
 
-const { data: setup, pendingSetup, errorSetup } = await useFetch(() => runtimeConfig.public.api + 'campaigns-setup')
-const { data: campaigns, pending, error } = await useFetch(() => filterUrl.value);
+const { data: setup, pending: pendingSetup } = await useFetch<SetupData>(() => runtimeConfig.public.api + 'campaigns-setup')
+const { data: campaigns, pending } = await useFetch<CampaignsData>(() => filterUrl.value);
 
-const activeFilters = ref({})
+const activeFilters = ref<Record<string, string>>({})
 
 useHead({
   title: title + ' - Kanka',
@@ -123,7 +152,7 @@ useSeoMeta({
     ogUrl: 'https://kanka.io/campaigns',
 })
 
-function filterCss(filterKey: String, optionKey: String) {
+function filterCss(filterKey: string, optionKey: string) {
   let css = 'cursor-pointer link ';
   let key = filterKey + '_' + optionKey;
   if (activeFilters.value[key]) {
@@ -132,7 +161,7 @@ function filterCss(filterKey: String, optionKey: String) {
   return css;
 }
 
-function filterTo(filterKey: string, optionKey: string, option: any) {
+function filterTo(filterKey: string, optionKey: string, option: string) {
   let key = filterKey + '_' + optionKey;
 
   if (activeFilters.value[key]) {
@@ -144,16 +173,13 @@ function filterTo(filterKey: string, optionKey: string, option: any) {
 }
 
 function removeFilter(filterKey: string) {
-  //console.log('remove', filterKey);
   delete activeFilters.value[filterKey];
   filter();
 }
 
-async function filter(pagination: number) {
+async function filter(pagination?: number) {
   let filters = '';
   for (let key in activeFilters.value) {
-    //console.log('a filter for key', key);
-
     let split = key.split('_', 2);
     filters += split[0] + '=' + split[1] + '&';
   }
@@ -164,15 +190,25 @@ async function filter(pagination: number) {
   console.log(filterUrl.value);
 }
 
+const isFirstPage = computed(() => (campaigns.value?.pagination?.current_page ?? 1) === 1)
+
+const prioritisedIds = computed(() => new Set((setup.value?.prioritised ?? []).map(c => c.id)))
+
+const regularCampaigns = computed(() =>
+  isFirstPage.value
+    ? (campaigns.value?.campaigns ?? []).filter(c => !prioritisedIds.value.has(c.id))
+    : (campaigns.value?.campaigns ?? [])
+)
+
 function hasPages() {
-  return campaigns.value.pagination.has_pages;
+  return campaigns.value?.pagination?.has_pages;
 }
 function previous() {
-  let page = campaigns.value.pagination.current_page-1;
+  let page = (campaigns.value?.pagination?.current_page ?? 1) - 1;
   filter(page);
 }
 function next() {
-  let page = campaigns.value.pagination.current_page+1;
+  let page = (campaigns.value?.pagination?.current_page ?? 1) + 1;
   filter(page);
 }
 
