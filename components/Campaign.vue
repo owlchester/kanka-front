@@ -3,11 +3,11 @@
     <div class="relative">
       <img v-bind:src="img" v-bind:alt="title" width="283" height="212" loading="lazy">
       <div v-if="justify || prioritised" class="absolute bottom-2 left-2 flex flex-col gap-1">
-        <a v-if="justify" :href="justify" title="View spotlight interview" class="bg-blue hover:bg-purple duration-150 transition-colors text-white text-xs font-semibold px-2 py-1 rounded-full " @click.stop>
+        <span v-if="justify" role="link" title="Read their interview" class="bg-blue hover:bg-purple duration-150 transition-colors text-white text-xs font-semibold px-2 py-1 rounded-full items-center cursor-pointer" @click.stop.prevent="navigateTo(justify, { external: true })">
           <i class="fa-regular fa-star" aria-hidden="true" /> Spotlighted
-        </a>
-        <span v-if="prioritised" class="bg-amber-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
-          <i class="fa-regular fa-star" aria-hidden="true" /> Highlighted
+        </span>
+        <span v-if="prioritised" class="bg-amber-500 text-white text-xs font-semibold px-2 py-1 rounded-full items-center" title="This campaign is promoted by its owner">
+          <i class="fa-regular fa-star" aria-hidden="true" /> Sponsored
         </span>
       </div>
     </div>

@@ -40,12 +40,22 @@
             </span>
           </div>
           <div class="flex flex-col gap-5" v-for="(filter, filterKey) in setup?.filters">
-            <span class="text-nav">{{ filter.title }}</span>
-            <div class="flex flex-col gap-3">
-              <span v-bind:class="filterCss(filterKey, optionKey)" v-for="(option, optionKey) in filter.options" @click="filterTo(filterKey, optionKey, option)">
-                {{ option }}
-              </span>
-            </div>
+            <template v-if="filter.options">
+              <span class="text-nav">{{ filter.title }}</span>
+              <div class="flex flex-col gap-3">
+                <template v-for="(option, optionKey, index) in filter.options">
+                  <span v-if="!isCollapsible(filterKey) || index < 4 || expandedFilters[filterKey]" v-bind:class="filterCss(filterKey, optionKey)" @click="filterTo(filterKey, optionKey, option)">
+                    {{ option }}
+                  </span>
+                </template>
+                <span v-if="isCollapsible(filterKey) && !expandedFilters[filterKey] && Object.keys(filter.options).length > 4" class="cursor-pointer link text-blue text-sm" @click="expandedFilters[filterKey] = true">
+                  View more
+                </span>
+              </div>
+            </template>
+            <span v-else v-bind:class="filterCss(filterKey, '1')" @click="filterTo(filterKey, '1', filter.title)">
+              {{ filter.title }}
+            </span>
           </div>
         </div>
       </div>
@@ -104,7 +114,7 @@ interface CampaignCard {
 
 interface SetupData {
   featured: CampaignCard[]
-  filters: Record<string, { title: string; options: Record<string, string> }>
+  filters: Record<string, { title: string; options?: Record<string, string> }>
 }
 
 interface CampaignsData {
@@ -122,6 +132,12 @@ const { data: setup, pending: pendingSetup } = await useFetch<SetupData>(() => r
 const { data: campaigns, pending } = await useFetch<CampaignsData>(() => filterUrl.value);
 
 const activeFilters = ref<Record<string, string>>({})
+const expandedFilters = ref<Record<string, boolean>>({})
+const collapsibleFilters = ['language', 'system[]', 'genre']
+
+function isCollapsible(filterKey: string) {
+  return collapsibleFilters.includes(filterKey)
+}
 
 useHead({
   title: title + ' - Kanka',
