@@ -28,7 +28,7 @@
   <Section id="campaigns">
     <div class="flex flex-col gap-4">
       <h2 class="text-purple">Public campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">Take a look some public campaigns for inspiration.</p>
+      <p class="lg:max-w-xl lg:mx-auto">Take a look at some public campaigns for inspiration.</p>
     </div>
     <div class="flex gap-6 flex-col md:flex-row text-left">
       <div class="w-90">
@@ -56,21 +56,7 @@
         </div>
       </div>
       <div class="flex flex-col gap-6" v-else>
-        <template v-if="setup?.prioritised?.length && isFirstPage">
-          <h3 class="text-purple">We think these campaigns are extra cool</h3>
-          <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-            <Campaign v-for="campaign in setup.prioritised"
-                      :img="campaign.thumb"
-                      :id="campaign.id"
-                      :justify="campaign.justify"
-                      :link="campaign.link"
-                      :title="campaign.name"
-                      :system="campaign.system"
-            />
-          </div>
-          <hr class="border-gray-200 dark:border-gray-700" />
-        </template>
-        <p v-if="regularCampaigns.length === 0 && !setup?.prioritised?.length" class="text-light text-sm">
+        <p v-if="regularCampaigns.length === 0" class="text-light text-sm">
           No campaigns match the selected filters. Please try again with different ones.
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
@@ -84,6 +70,7 @@
                     :followers="campaign.followers"
                     :locale="campaign.locale"
                     :system="campaign.system"
+                    :prioritised="campaign.is_prioritised"
           >
           </Campaign>
         </div>
@@ -117,12 +104,11 @@ interface CampaignCard {
 
 interface SetupData {
   featured: CampaignCard[]
-  prioritised: CampaignCard[]
   filters: Record<string, { title: string; options: Record<string, string> }>
 }
 
 interface CampaignsData {
-  campaigns: { thumb: string; id: number; justify: string; link: string; name: string; entities: string; followers: string; locale: string; system: string }[]
+  campaigns: { thumb: string; id: number; justify: string; link: string; name: string; entities: string; followers: string; locale: string; system: string; is_prioritised: boolean }[]
   pagination: { has_pages: boolean; current_page: number; previous: string | null; next: string | null }
 }
 
@@ -180,8 +166,8 @@ function removeFilter(filterKey: string) {
 async function filter(pagination?: number) {
   let filters = '';
   for (let key in activeFilters.value) {
-    let split = key.split('_', 2);
-    filters += split[0] + '=' + split[1] + '&';
+    let lastUnderscore = key.lastIndexOf('_');
+    filters += key.substring(0, lastUnderscore) + '=' + key.substring(lastUnderscore + 1) + '&';
   }
   if (pagination) {
     filters += 'page=' + pagination;
@@ -190,15 +176,7 @@ async function filter(pagination?: number) {
   console.log(filterUrl.value);
 }
 
-const isFirstPage = computed(() => (campaigns.value?.pagination?.current_page ?? 1) === 1)
-
-const prioritisedIds = computed(() => new Set((setup.value?.prioritised ?? []).map(c => c.id)))
-
-const regularCampaigns = computed(() =>
-  isFirstPage.value
-    ? (campaigns.value?.campaigns ?? []).filter(c => !prioritisedIds.value.has(c.id))
-    : (campaigns.value?.campaigns ?? [])
-)
+const regularCampaigns = computed(() => campaigns.value?.campaigns ?? [])
 
 function hasPages() {
   return campaigns.value?.pagination?.has_pages;

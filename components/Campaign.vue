@@ -1,6 +1,16 @@
 <template>
   <a :href="link" :class="boxCss()">
-    <img v-bind:src="img" v-bind:alt="title" width="283" height="212" loading="lazy">
+    <div class="relative">
+      <img v-bind:src="img" v-bind:alt="title" width="283" height="212" loading="lazy">
+      <div v-if="justify || prioritised" class="absolute bottom-2 left-2 flex flex-col gap-1">
+        <a v-if="justify" :href="justify" title="View spotlight interview" class="bg-blue hover:bg-purple duration-150 transition-colors text-white text-xs font-semibold px-2 py-1 rounded-full " @click.stop>
+          <i class="fa-regular fa-star" aria-hidden="true" /> Spotlighted
+        </a>
+        <span v-if="prioritised" class="bg-amber-500 text-white text-xs font-semibold px-2 py-1 rounded-full">
+          <i class="fa-regular fa-star" aria-hidden="true" /> Highlighted
+        </span>
+      </div>
+    </div>
     <div class="flex flex-col gap-2">
       <div class="flex gap-2">
         <h3 class="grow" v-html="title"></h3>
@@ -13,8 +23,6 @@
           </svg>
         </span>
       </div>
-
-      <a class="text-sm text-light hover:font-semibold" v-if="justify" :href="justify">View spotlight</a>
 
       <div class="flex flex-wrap gap-6 text-sm">
         <span v-if="entities > 0">
@@ -50,6 +58,7 @@ export default {
     followers: String,
     locale: String,
     system: String,
+    prioritised: Boolean,
 
   },
 
