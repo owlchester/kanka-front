@@ -13,7 +13,7 @@
     "@nuxt/devtools": "latest",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "@tailwindcss/typography": "^0.5.19",
-    "@types/node": "^18.17.0",
+    "@types/node": "^20.11.0",
     "nuxt": "^4.3.1",
     "nuxt-llms": "latest"
   },
@@ -23,5 +23,8 @@
     "better-sqlite3": "^12.6.2",
     "postcss-custom-properties": "^13.3.6"
   },
-  "packageManager": "yarn@3.6.1"
+  "packageManager": "yarn@3.6.1",
+  "engines": {
+    "node": ">=20.11.0"
+  }
 }
