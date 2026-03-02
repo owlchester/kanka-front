@@ -35,6 +35,11 @@ export default defineNuxtConfig({
     //preset: 'netlify',
     target: 'static',
     ssr: true,
+    routeRules: {
+        '/': { prerender: true },
+        '/pricing': { prerender: true },
+        '/features': { prerender: true },
+    },
     nitro: {
         prerender: {
             autoSubfolderIndex: false,
