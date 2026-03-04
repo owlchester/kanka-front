@@ -3,10 +3,13 @@
     title="We're here for you"
     lead="Need help, found a bug, or just want to share your love for Kanka? Our team will reply whatever the occasion!"
   >
+
+    <h2 class="text-md">Email</h2>
     <p>
       Send all inquiries to <a href="mailto:hello@kanka.io" class="link-light">hello@kanka.io</a>
     </p>
 
+    <h2 class="text-md">Discord</h2>
     <p>
       If you want to talk to us directly, hop on our <a href="https://kanka.io/go/discord" class="link-light">Discord server</a>.
     </p>
@@ -14,11 +17,18 @@
 </template>
 
 <script setup lang="ts">
-const title = 'Contact'
+const title = 'Contact Kanka Support | Worldbuilding & RPG Campaign Manager'
 const lead = 'Need help, found a bug, or just want to share your love for Kanka? Our team will reply whatever the occasion!'
 
+useSeoMeta({
+  ogUrl: () => `https://kanka.io/contact`,
+  ogTitle: () => title,
+  ogDescription: () => lead,
+  twitterTitle: () => title,
+  twitterDescription: () => title
+})
 useHead({
-  title: title + ' - Kanka',
+  title: title,
   meta: [
     { name: 'description', content: lead }
   ],
