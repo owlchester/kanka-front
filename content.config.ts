@@ -29,6 +29,8 @@ export default defineContentConfig({
                 title: z.string(),
                 description: z.string(),
                 tags: z.array(z.string()).optional(),
+                author: z.string().optional(),
+                datePublished: z.string().optional(),
             })
         }),
         pricingFaq: defineCollection({

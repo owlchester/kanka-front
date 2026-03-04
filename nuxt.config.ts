@@ -39,12 +39,21 @@ export default defineNuxtConfig({
         '/': { prerender: true },
         '/pricing': { prerender: true },
         '/features': { prerender: true },
-        '/use-cases/**': { ssr: true },
-        '/worldbuilding-guides/**': { ssr: true },
+        '/use-cases/**': { prerender: true },
+        '/worldbuilding-guides/**': { prerender: true },
     },
     nitro: {
         prerender: {
             autoSubfolderIndex: false,
+            routes: [
+                '/use-cases/game-masters',
+                '/use-cases/worldbuilders',
+                '/use-cases/players',
+                '/use-cases/writers',
+                '/use-cases/content-creators',
+                '/worldbuilding-guides/start-creating-your-world',
+                '/worldbuilding-guides/how-much-worldbuilding-do-you-really-need',
+            ],
         }
     },
     llms: {

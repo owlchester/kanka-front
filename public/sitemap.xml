@@ -3,6 +3,7 @@
     <url>
         <loc>https://kanka.io/</loc>
         <changefreq>weekly</changefreq>
+        <lastmod>2026-01-01</lastmod>
     </url>
     <url>
         <loc>https://kanka.io/about</loc>
@@ -12,6 +13,7 @@
     <url>
         <loc>https://kanka.io/campaigns</loc>
         <changefreq>weekly</changefreq>
+        <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>https://kanka.io/contact</loc>
@@ -90,22 +92,22 @@
     </url>
     <url>
         <loc>https://kanka.io/use-cases/players</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>https://kanka.io/use-cases/game-masters</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>https://kanka.io/use-cases/writers</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>https://kanka.io/use-cases/content-creators</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
     <url>
@@ -115,17 +117,17 @@
     </url>
     <url>
         <loc>https://kanka.io/worldbuilding-guides/start-creating-your-world</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>https://kanka.io/worldbuilding-guides/how-much-worldbuilding-do-you-really-need</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
     <url>
         <loc>https://kanka.io/showcase</loc>
-        <changefreq>daily</changefreq>
+        <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
 </urlset>

@@ -18,8 +18,12 @@ useHead({
       innerHTML: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Organization",
+        "@id": "https://kanka.io/#organization",
         "name": "Kanka",
+        "legalName": "Owlchester SNC",
         "url": "https://kanka.io",
+        "foundingDate": "2020-09-03",
+        "foundingLocation": "Geneva, Switzerland",
         "logo": {
           "@type": "ImageObject",
           "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png",
@@ -28,7 +32,8 @@ useHead({
         },
         "sameAs": [
             "https://discord.gg/rhsyZJ4",
-            "https://app.kanka.io",
+            "https://x.com/kankaio",
+            "https://www.instagram.com/kanka.io/",
             "https://blog.kanka.io",
             "https://plugins.kanka.io",
             "https://docs.kanka.io",
