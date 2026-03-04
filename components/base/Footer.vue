@@ -143,7 +143,7 @@ l-195 -327 182 -306 181 -306 17 48 c281 811 433 1233 450 1249 18 19 35 20
         <div class="text-center text-sm">
             <p>Made with ❤️ in Geneva, Switzerland</p>
             <p>Only possible thanks to our subscribers.</p>
-            <p>Copyright © 2025 Owlchester SNC</p>
+            <p>Copyright © 2026 Owlchester SNC</p>
         </div>
       </div>
     </div>
