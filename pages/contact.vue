@@ -18,7 +18,7 @@
 
 <script setup lang="ts">
 const title = 'Contact Kanka Support | Worldbuilding & RPG Campaign Manager'
-const lead = 'Need help, found a bug, or just want to share your love for Kanka? Our team will reply whatever the occasion!'
+const lead = '"Need help, found a bug, or want to share feedback? Reach our team at hello@kanka.io or hop on our Discord community.'
 
 useSeoMeta({
   ogUrl: () => `https://kanka.io/contact`,

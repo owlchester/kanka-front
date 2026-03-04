@@ -4,7 +4,8 @@ const route = useRoute()
 useHead({
   title: 'Kanka - Free Worldbuilding RPG campaign manager',
   meta: [
-    { name: 'description', content: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds' }
+    { name: 'description', content: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds' },
+    { name: 'robots', content: 'index, follow' }
   ],
   link: [
     {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
