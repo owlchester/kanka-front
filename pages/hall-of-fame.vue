@@ -10,7 +10,7 @@
     <Section>
       <div class="flex flex-col gap-4 mb-5 sticky top-0 pt-2 bg-white">
         <div>
-          <img class="inline rounded-full border" src="https://th.kanka.io/21OIoMfZS5EX8NkXJakF9Y4Y6NE=/150x150/smart/src/app/tiers/elemental-750.png" alt="Elemental" />
+          <img class="inline rounded-full border" src="https://th.kanka.io/21OIoMfZS5EX8NkXJakF9Y4Y6NE=/150x150/smart/src/app/tiers/elemental-750.png" alt="Elemental" width="150" height="150" loading="lazy" />
         </div>
         <h2 class="text-purple">Elemental</h2>
       </div>
@@ -24,7 +24,7 @@
     <Section>
       <div class="flex flex-col gap-4 mb-5 sticky top-0 pt-2 bg-white">
         <div>
-          <img class="inline rounded-full border" src="https://th.kanka.io/8tnJjZBCjxZdLU0WdDt7i8wJIV8=/125x125/smart/src/app/tiers/wyvern-750.png" alt="Wyvern" />
+          <img class="inline rounded-full border" src="https://th.kanka.io/8tnJjZBCjxZdLU0WdDt7i8wJIV8=/125x125/smart/src/app/tiers/wyvern-750.png" alt="Wyvern" width="125" height="125" loading="lazy" />
         </div>
         <h2 class="text-purple">
           Wyvern
@@ -43,7 +43,7 @@
     <Section>
       <div class="flex flex-col gap-4 mb-5 sticky top-0 pt-2 bg-white">
         <div>
-          <img class="inline rounded-full border" src="https://th.kanka.io/Xd34omOHLJL3Z0q_n255bJetFfY=/100x100/smart/src/app/tiers/owlbear-750.png" alt="Owlbear" />
+          <img class="inline rounded-full border" src="https://th.kanka.io/Xd34omOHLJL3Z0q_n255bJetFfY=/100x100/smart/src/app/tiers/owlbear-750.png" alt="Owlbear" width="100" height="100" loading="lazy" />
         </div>
         <h2 class="text-purple">
           Owlbear
@@ -61,7 +61,7 @@
 
     <Section>
       <div class="flex items-center justify-center gap-5 mb-5">
-          <img class="inline rounded-full border" src="https://th.kanka.io/T2wgL9xcUyKrZ3q1NI7i3rN95Do=/80x80/smart/src/app/tiers/goblin-750.png" alt="Goblin" />
+          <img class="inline rounded-full border" src="https://th.kanka.io/T2wgL9xcUyKrZ3q1NI7i3rN95Do=/80x80/smart/src/app/tiers/goblin-750.png" alt="Goblin" width="80" height="80" loading="lazy" />
         <div class="text-left">
           <h2 class="text-purple">
             Goblin
