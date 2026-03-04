@@ -149,6 +149,7 @@ useSeoMeta({
     ogTitle: 'Pricing',
     ogDescription: 'The obvious choice for collaborative worldbuilding and ttrpg campaign management, at an affordable rate.',
     ogUrl: 'https://kanka.io/pricing',
+    twitterTitle: 'Pricing | Kanka',
 })
 </script>
 <style lang="css" scoped src="~/assets/styles/pricing.css"></style>
