@@ -24,6 +24,8 @@ useSeoMeta({
     description: () => article.value?.description,
     ogTitle: () => article.value ? `${article.value.title} - Kanka` : 'Worldbuilding Guides - Kanka',
     ogDescription: () => article.value?.description,
+    articleAuthor: () => article.value ? article.value.author : 'The Kanka Team',
+    articlePublishedTime: () => article.value?.datePublished,
     ogUrl: () => `https://kanka.io/worldbuilding-guides/${slug}`,
     ogType: () => 'article',
     twitterTitle: () => article.value ? `${article.value.title} - Kanka` : 'Worldbuilding Guides - Kanka',
@@ -100,7 +102,6 @@ useHead({
                         <span class="text-md text-purple font-semibold">{{ item.title }}</span>
                     </NuxtLink>
                     <p class="grow text-sm">{{ item.description }}</p>
-                    <NuxtLink :to="`${item.path}`" class="btn-round rounded-full">Read guide</NuxtLink>
                 </div>
             </div>
         </Section>

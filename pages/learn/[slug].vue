@@ -25,6 +25,7 @@ useSeoMeta({
   ogTitle: () => article.value ? `${article.value.title} - Kanka` : 'Learn - Kanka',
   ogDescription: () => article.value?.description,
   twitterTitle: () => article.value ? `${article.value.title} - Kanka` : 'Learn - Kanka',
+  twitterDescription: () => article.value?.description
 })
 
 
@@ -99,7 +100,6 @@ useHead({
                         <span class="text-md text-purple font-semibold">{{ item.title }}</span>
                     </NuxtLink>
                     <p class="grow text-sm">{{ item.description }}</p>
-                    <NuxtLink :to="`${item.path}`" class="btn-round rounded-full">Read article</NuxtLink>
                 </div>
             </div>
         </Section>
