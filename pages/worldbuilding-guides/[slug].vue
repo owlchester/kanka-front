@@ -2,8 +2,10 @@
 const route = useRoute()
 const slug = route.params.slug as string
 
-const { data: article } = await useAsyncData(route.path, () =>
-    queryCollection('guides').path(route.path).first()
+const path = `/worldbuilding-guides/${slug}`
+
+const { data: article } = await useAsyncData(`guide-${slug}`, () =>
+    queryCollection('guides').path(path).first()
 )
 
 if (!article.value) {
@@ -12,7 +14,7 @@ if (!article.value) {
 
 const { data: related } = await useAsyncData(`guides-related-${slug}`, () =>
     queryCollection('guides')
-        .where('path', '!=', `/${slug}`)
+        .where('path', '!=', path)
         .limit(3)
         .all()
 )
@@ -23,6 +25,7 @@ useSeoMeta({
     ogTitle: () => article.value ? `${article.value.title} - Kanka` : 'Worldbuilding Guides - Kanka',
     ogDescription: () => article.value?.description,
     ogUrl: () => `https://kanka.io/worldbuilding-guides/${slug}`,
+    ogType: () => 'article',
     twitterTitle: () => article.value ? `${article.value.title} - Kanka` : 'Worldbuilding Guides - Kanka',
 })
 
@@ -94,7 +97,7 @@ useHead({
                     class="rounded border flex flex-col gap-3 p-4"
                 >
                     <NuxtLink :to="`${item.path}`" class="link">
-                        <h3 class="text-purple font-semibold">{{ item.title }}</h3>
+                        <span class="text-md text-purple font-semibold">{{ item.title }}</span>
                     </NuxtLink>
                     <p class="grow text-sm">{{ item.description }}</p>
                     <NuxtLink :to="`${item.path}`" class="btn-round rounded-full">Read guide</NuxtLink>

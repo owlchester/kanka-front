@@ -6,6 +6,10 @@ const { data: article } = await useAsyncData(route.path, () =>
     queryCollection('learn').path(route.path).first()
 )
 
+if (!article.value) {
+  setResponseStatus(useRequestEvent()!, 404)
+}
+
 const { data: related } = await useAsyncData(`learn-related-${slug}`, () =>
     queryCollection('learn')
         .where('path', '!=', route.path)
@@ -14,8 +18,57 @@ const { data: related } = await useAsyncData(`learn-related-${slug}`, () =>
 )
 
 useSeoMeta({
-    title: () => article.value ? `${article.value.title} - Learn - Kanka` : 'Learn - Kanka',
-    description: () => article.value?.description,
+  title: () => article.value ? `${article.value.title} - Kanka` : 'Learn - Kanka',
+  description: () => article.value?.description,
+  ogUrl: () => `https://kanka.io/learn/${slug}`,
+  ogType: () => 'article',
+  ogTitle: () => article.value ? `${article.value.title} - Kanka` : 'Learn - Kanka',
+  ogDescription: () => article.value?.description,
+  twitterTitle: () => article.value ? `${article.value.title} - Kanka` : 'Learn - Kanka',
+})
+
+
+useHead({
+  link: [
+    { rel: 'canonical', href: `https://kanka.io/learn/${slug}` }
+  ],
+  script: article.value ? [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+          { "@type": "ListItem", "position": 2, "name": "Learn", "item": "https://kanka.io/learn" },
+          { "@type": "ListItem", "position": 3, "name": article.value.title, "item": `https://kanka.io/learn/${slug}` },
+        ]
+      })
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Article",
+        "headline": article.value.title,
+        "description": article.value.description,
+        "url": `https://kanka.io/learn/${slug}`,
+        ...(article.value.author ? {
+          "author": { "@type": "Organization", "name": article.value.author, "url": "https://kanka.io/about" }
+        } : {}),
+        ...(article.value.datePublished ? { "datePublished": article.value.datePublished } : {}),
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kanka",
+          "url": "https://kanka.io",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png"
+          }
+        }
+      })
+    }
+  ] : []
 })
 </script>
 
@@ -24,9 +77,14 @@ useSeoMeta({
         <BaseHero :title="article.title" :lead="article.description" />
 
         <Section align="left">
-            <div class="prose max-w-3xl mx-auto">
-                <ContentRenderer :value="article" />
-            </div>
+          <div class="prose max-w-3xl mx-auto">
+            <p v-if="article.author || article.datePublished" class="text-sm text-gray-500 not-prose">
+              <span v-if="article.author">By <NuxtLink to="/about" class="link">{{ article.author }}</NuxtLink></span>
+              <span v-if="article.author && article.datePublished"> · </span>
+              <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
+            </p>
+            <ContentRenderer :value="article" />
+          </div>
         </Section>
 
         <Section v-if="related?.length">
@@ -38,7 +96,7 @@ useSeoMeta({
                     class="rounded border flex flex-col gap-3 p-4"
                 >
                     <NuxtLink :to="`${item.path}`" class="link">
-                        <h3 class="text-purple font-semibold">{{ item.title }}</h3>
+                        <span class="text-md text-purple font-semibold">{{ item.title }}</span>
                     </NuxtLink>
                     <p class="grow text-sm">{{ item.description }}</p>
                     <NuxtLink :to="`${item.path}`" class="btn-round rounded-full">Read article</NuxtLink>

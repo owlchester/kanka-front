@@ -1,6 +1,8 @@
 ---
 title: Lorem Ipsum
 description: This isn't ready yet.
+author: The Kanka Team
+datePublished: "2026-02-19"
 tags:
   - getting-started
   - campaigns
