@@ -1,6 +1,6 @@
 <template>
   <BaseHero
-      title="The obvious choice for collaborative worldbuilding and ttrpg campaign management, at a great price."
+      title="The obvious choice for collaborative worldbuilding and TTRPG campaign management, at a great price."
       lead="With a 14 day refund policy on yearly subscriptions."
   >
   </BaseHero>
@@ -112,9 +112,9 @@ function usdCss() {
 }
 
 useHead({
-  title: 'Pricing - Kanka',
+  title: 'Kanka Pricing - Worldbuilding & TTRPG Campaign Management Plans',
   meta: [
-    { name: 'description', content: 'The obvious choice for collaborative worldbuilding and ttrpg campaign management, at an affordable rate.' }
+    { name: 'description', content: 'Choose from Kanka\'s free Kobold plan or paid tiers from $4.99/month. Unlock premium campaigns, larger file sizes, and an ad-free worldbuilding experience.' }
   ],
   link: [
     { rel: 'canonical', href: 'https://kanka.io/pricing' }
@@ -146,10 +146,10 @@ useHead({
   ],
 })
 useSeoMeta({
-    ogTitle: 'Pricing',
-    ogDescription: 'The obvious choice for collaborative worldbuilding and ttrpg campaign management, at an affordable rate.',
+    ogTitle: 'Kanka Pricing - Worldbuilding & TTRPG Campaign Management Plans',
+    ogDescription: 'Choose from Kanka\'s free Kobold plan or paid tiers from $4.99/month. Unlock premium campaigns, larger file sizes, and an ad-free worldbuilding experience.',
     ogUrl: 'https://kanka.io/pricing',
-    twitterTitle: 'Pricing | Kanka',
+    twitterTitle: 'Kanka Pricing - Worldbuilding & TTRPG Campaign Management Plans',
 })
 </script>
 <style lang="css" scoped src="~/assets/styles/pricing.css"></style>

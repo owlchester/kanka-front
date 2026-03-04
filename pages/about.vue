@@ -7,12 +7,14 @@
     <h2 class="text-purple">Meet the team</h2>
 
     <div class="flex flex-wrap gap-5 items-center justify-center">
-      <AboutMember member="Jay" img="https://th.kanka.io/3gGetooEqoGcA-NFOPvu2xYX980=/200x200/smart/src/app/team/jay2.jpeg" role="Founder & Lead developer"></AboutMember>
-      <AboutMember member="Jon" img="https://th.kanka.io/qj6BEWMKrn4D-9f5GMP_REpzsyQ=/200x200/smart/src/app/team/jon.jpg" role="Co-Founder & Business manager"></AboutMember>
-      <AboutMember member="Itzamná" img="https://th.kanka.io/qlJ3ZQdiRCM51HLtiQYckGqMHDU=/200x200/smart/src/app/team/itzamna.png" role="Web developer"></AboutMember>
-
-<!--      <AboutMember member="Laura" img="https://th.kanka.io/rPvAAWbnqad8U25cosP47m1Zcc0=/200x200/smart/src/app/team/laura.jpeg" role="Social Media"></AboutMember>-->
-      <AboutMember member="Kaz" img="https://th.kanka.io/CIfzUDCGbm9dxpwUZImdaEw8mx0=/200x200/smart/src/app/team/kaz.jpeg" role="Security 🐶"></AboutMember>
+      <AboutMember
+        v-for="member in team"
+        :key="member.name"
+        :member="member.name"
+        :img="member.image"
+        :role="member.role"
+        :experience="member.experience"
+      />
     </div>
   </Section>
 
@@ -68,10 +70,14 @@
 const title = 'Making worldbuilding fun and reliable'
 const lead = 'Kanka was born out of a frustration with worldbuilding and session notes scattered around in various tools, and the difficulty of easily sharing that content with players. Today, Kanka is a small group of friends spread around the world focused on building the best tools for those original needs.'
 
+const { data: team } = await useAsyncData('team', () =>
+    queryCollection('team').order('id', 'ASC').all()
+)
+
 useHead({
-  title: 'About us - Kanka',
+  title: 'About Kanka — The Team Behind the Worldbuilding & TTRPG Platform',
   meta: [
-    { name: 'description', content: lead }
+    { name: 'description', content: "Kanka is a 3-person team from Geneva building the world's best TTRPG campaign manager and worldbuilding platform, used by 375,000+ creators in 90+ countries." }
   ],
   link: [
     { rel: 'canonical', href: 'https://kanka.io/about' }
@@ -88,10 +94,35 @@ useHead({
         ]
       })
     },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "AboutPage",
+        "name": "About Kanka",
+        "url": "https://kanka.io/about",
+        "description": "Kanka is a small team building the best collaborative worldbuilding and TTRPG campaign management platform.",
+        "mainEntity": { "@id": "https://kanka.io/#organization" }
+      })
+    },
+    ...(team.value ?? [])
+      .filter(m => m.schema !== false)
+      .map(m => ({
+        type: 'application/ld+json',
+        innerHTML: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": m.name,
+          "jobTitle": m.role,
+          "worksFor": { "@id": "https://kanka.io/#organization" },
+          "image": m.image,
+        })
+      })),
   ],
 })
 useSeoMeta({
-    ogTitle: 'About us - Kanka',
+    ogTitle: 'About Kanka — The Team Behind the Worldbuilding & TTRPG Platform',
+    twitterTitle: 'About Kanka — The Team Behind the Worldbuilding & TTRPG Platform',
     ogDescription: lead,
     ogUrl: 'https://kanka.io/about',
 })

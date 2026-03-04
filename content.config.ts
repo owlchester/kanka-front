@@ -37,6 +37,17 @@ export default defineContentConfig({
                 datePublished: z.string().optional(),
             })
         }),
+        team: defineCollection({
+            type: 'data',
+            source: 'team/*.yml',
+            schema: z.object({
+                name: z.string(),
+                role: z.string(),
+                image: z.string(),
+                experience: z.string(),
+                schema: z.boolean().optional(),
+            })
+        }),
         pricingFaq: defineCollection({
             type: 'data',
             source: 'pricing/faq.yml',

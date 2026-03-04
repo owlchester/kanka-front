@@ -3,20 +3,20 @@
     <thead class="">
     <tr>
       <th></th>
-      <th>
-        <h3>Kobold</h3>
+      <th class="text-md">
+        Kobold
         <p class="text-light">Free</p>
       </th>
-      <th>
-        <h3>Owlbear</h3>
+      <th class="text-md">
+        Owlbear
         <p class="text-light">{{ currencySymbol() }}4.99/month</p>
       </th>
-      <th>
-        <h3>Wyvern</h3>
+      <th class="text-md">
+        Wyvern
         <p class="text-light">{{ currencySymbol() }}9.99/month</p>
       </th>
-      <th>
-        <h3>Elemental</h3>
+      <th class="text-md">
+          Elemental
         <p class="text-light">{{ currencySymbol() }}24.99/month</p>
       </th>
     </tr>
