@@ -49,7 +49,7 @@
     </PremiumCard>
 
     <PremiumCard
-        title="Stupid sexy icons"
+        title="Icons for maps and timelines"
         img="https://th.kanka.io/Y0GgWUAwBAgYcH1Rkijl_Q7Y1rA=/120x120/smart/src/app/features/boosted/icon.jpg">
       <p>
         Make maps and timelines pop with access to custom colours and thousands of icons through <a href="https://fontawesome.com/search" target="_blank" rel="noopener noreferrer" class="link-light">FontAwesome</a> and <a href="https://nagoshiashumari.github.io/Rpg-Awesome/" target="_blank" rel="noopener noreferrer" class="link-light">RPGAwesome</a>.

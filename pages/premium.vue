@@ -10,7 +10,7 @@
   </BaseHero>
 
 <Section>
-  <h2 class="text-purple">Premium campaigns take your Kanka experience to the next level</h2>
+  <h2 class="text-purple">Everything you love about Kanka, with the limits lifted</h2>
   <p>
     When a campaign goes premium, the following improvements gets unlocked for all members of the campaign.
   </p>
@@ -48,9 +48,9 @@ function defaultCurrency() {
 }
 
 useHead({
-  title: 'Premium campaigns - Kanka',
+  title: 'Premium Worldbuilding Features for Your Kanka Campaigns',
   meta: [
-    { name: 'description', content: 'Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more' }
+    { name: 'description', content: 'Unlock premium Kanka features: custom CSS themes, larger uploads, entry recovery, FontAwesome icons, and more. Starting at $4.99/month.' }
   ],
   link: [
     { rel: 'canonical', href: 'https://kanka.io/premium' }
@@ -70,8 +70,8 @@ useHead({
   ],
 })
 useSeoMeta({
-    ogTitle: 'Premium campaigns',
-    ogDescription: 'Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more',
+    ogTitle: 'Premium Worldbuilding Features for Your Kanka Campaigns',
+    ogDescription: 'Unlock premium Kanka features: custom CSS themes, larger uploads, entry recovery, FontAwesome icons, and more. Starting at $4.99/month.',
     ogUrl: 'https://kanka.io/premium',
 })
 </script>

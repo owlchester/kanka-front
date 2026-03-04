@@ -3,17 +3,17 @@
     <thead class="">
     <tr>
       <th></th>
-      <th>
-        <h3>Standard campaign</h3>
+      <th class="text-md">
+        Standard campaign
       </th>
-      <th>
-        <h3>Premium campaigns</h3>
+      <th class="text-md">
+        Premium campaigns
       </th>
-      <th>
-        <h3>Wyverns *</h3>
+      <th class="text-md">
+        Wyverns *
       </th>
-      <th>
-        <h3>Elementals *</h3>
+      <th class="text-md">
+        Elementals *
       </th>
     </tr>
     </thead>
@@ -147,6 +147,12 @@
       </td>
       <td>2</td>
       <td><IconsInfinity css="w-8 h-8" /></td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
+      <td>
+        <IconsInfinity css="w-8 h-8" />
+      </td>
     </tr>
     <tr>
       <td>
@@ -221,8 +227,6 @@
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/default-thumbnails.html" />
       </td>
       <td class="text-light">—</td>
-      <td><IconsCheck css="w-8 h-8" /></td>
-      <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
