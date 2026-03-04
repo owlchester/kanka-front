@@ -79,6 +79,17 @@ useHead({
   script: [
     {
       type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+          { "@type": "ListItem", "position": 2, "name": "Knowledge Base", "item": "https://kanka.io/kb" },
+        ]
+      })
+    },
+    {
+      type: 'application/ld+json',
       innerHTML: computed(() => JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'FAQPage',

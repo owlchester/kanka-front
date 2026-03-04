@@ -23,5 +23,21 @@ useHead({
   meta: [
     { name: 'description', content: 'Thanks for your interest in Kanka! Please use the following resources when talking about us.' }
   ],
+  link: [
+    { rel: 'canonical', href: 'https://kanka.io/roadmap' }
+  ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+          { "@type": "ListItem", "position": 2, "name": "Roadmap", "item": "https://kanka.io/roadmap" },
+        ]
+      })
+    },
+  ],
 })
 </script>

@@ -18,12 +18,12 @@ const { data: related } = await useAsyncData(`use-case-related-${slug}`, () =>
 )
 
 useSeoMeta({
-  title: () => article.value ? `${article.value.title} - Use Cases - Kanka` : 'Use Cases - Kanka',
+  title: () => article.value ? `${article.value.title} - Kanka` : 'Use Cases - Kanka',
   description: () => article.value?.description,
   ogUrl: () => `https://kanka.io/use-cases/${slug}`,
-  ogTitle: () => article.value ? `${article.value.title} - Use Cases - Kanka` : 'Use Cases - Kanka',
+  ogTitle: () => article.value ? `${article.value.title} - Kanka` : 'Use Cases - Kanka',
   ogDescription: () => article.value?.description,
-  twitterTitle: () => article.value ? `${article.value.title} - Use Cases - Kanka` : 'Use Cases - Kanka',
+  twitterTitle: () => article.value ? `${article.value.title} - Kanka` : 'Use Cases - Kanka',
 })
 
 useHead({
@@ -31,6 +31,18 @@ useHead({
         { rel: 'canonical', href: `https://kanka.io/use-cases/${slug}` }
     ],
     script: article.value ? [
+        {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+                    { "@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://kanka.io/use-cases" },
+                    { "@type": "ListItem", "position": 3, "name": article.value.title, "item": `https://kanka.io/use-cases/${slug}` },
+                ]
+            })
+        },
         {
             type: 'application/ld+json',
             innerHTML: JSON.stringify({
@@ -82,7 +94,7 @@ useHead({
                     class="rounded border flex flex-col gap-3 p-4"
                 >
                     <NuxtLink :to="`${item.path}`" class="link">
-                        <h3 class="text-purple font-semibold">{{ item.title }}</h3>
+                        <span class="text-md text-purple font-semibold">{{ item.title }}</span>
                     </NuxtLink>
                     <p class="grow text-sm">{{ item.description }}</p>
                     <NuxtLink :to="`${item.path}`" class="btn-round rounded-full">Read use case</NuxtLink>

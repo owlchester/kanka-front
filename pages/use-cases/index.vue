@@ -8,6 +8,19 @@ useHead({
     meta: [
         { name: 'description', content: 'Kanka fits the way you already work. Discover how game masters, writers, world builders, players, and creators use it to bring their worlds to life.' }
     ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+                    { "@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://kanka.io/use-cases" },
+                ]
+            })
+        }
+    ],
 })
 </script>
 

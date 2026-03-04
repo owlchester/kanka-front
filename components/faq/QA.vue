@@ -5,7 +5,7 @@
       <IconsClose v-if="expanded()" css="w-8 h-8" />
       <IconsPlus v-else css="w-8 h-8" />
     </div>
-    <div class="flex gap-2 " v-if="expanded()">
+    <div class="flex gap-2 " v-show="expanded()">
       <span class="fa-solid fa-link mt-1 cursor-pointer" aria-hidden="true" @click="copy(id)" title="Copy link to question to the clipboard" />
       <p class="grow">
         <slot />

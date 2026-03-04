@@ -8,6 +8,19 @@ useHead({
     meta: [
         { name: 'description', content: 'Guides to help you start and grow your worldbuilding projects.' }
     ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [
+                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+                    { "@type": "ListItem", "position": 2, "name": "Worldbuilding Guides", "item": "https://kanka.io/worldbuilding-guides" },
+                ]
+            })
+        }
+    ],
 })
 </script>
 

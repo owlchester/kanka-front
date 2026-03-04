@@ -45,5 +45,18 @@ useHead({
   link: [
     { rel: 'canonical', href: 'https://kanka.io/security' }
   ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+          { "@type": "ListItem", "position": 2, "name": "Security", "item": "https://kanka.io/security" },
+        ]
+      })
+    },
+  ],
 })
 </script>

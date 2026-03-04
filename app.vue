@@ -22,13 +22,22 @@ useHead({
         "name": "Kanka",
         "legalName": "Owlchester SNC",
         "url": "https://kanka.io",
-        "foundingDate": "2020-09-03",
-        "foundingLocation": "Geneva, Switzerland",
+        "foundingDate": "2017-10-26",
+        "foundingLocation": {
+          "@type": "Place",
+          "address": {"@type": "PostalAddress", "addressLocality": "Geneva", "addressCountry": "CH"}
+        },
         "logo": {
           "@type": "ImageObject",
           "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png",
           "width": 103,
           "height": 103
+        },
+        "image": {
+          "@type": "ImageObject",
+          "url": "https://d3a4xjr8r2ldhu.cloudfront.net/app/front/preview-background.png",
+          "width": 1920,
+          "height": 1024
         },
         "sameAs": [
             "https://discord.gg/rhsyZJ4",
