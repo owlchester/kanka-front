@@ -19,7 +19,7 @@ export default {
       } else {
         base += 'text-center ';
       }
-      return base + this.css;
+      return base + (this.css ?? '');
     }
   }
 }

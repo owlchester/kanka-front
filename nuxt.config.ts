@@ -39,6 +39,8 @@ export default defineNuxtConfig({
         '/': { prerender: true },
         '/pricing': { prerender: true },
         '/features': { prerender: true },
+        '/use-cases/**': { ssr: true },
+        '/worldbuilding-guides/**': { ssr: true },
     },
     nitro: {
         prerender: {

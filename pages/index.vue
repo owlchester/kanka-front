@@ -37,7 +37,7 @@
     </div>
 
     <div class="text-center">
-      <img src="https://th.kanka.io/Vg8GkfblEvh1Z4HhO2Cwr4hzuCs=/900x562/smart/src/app/front/devices-preview-hd.png" class="inline" loading="lazy" alt="Kanka tabletop rpg campaign management and worldbuilding dashboard" width="900" height="562">
+      <img src="https://th.kanka.io/Vg8GkfblEvh1Z4HhO2Cwr4hzuCs=/900x562/smart/src/app/front/devices-preview-hd.png" class="inline" alt="Kanka tabletop rpg campaign management and worldbuilding dashboard" width="900" height="562">
     </div>
   </Section>
 
@@ -156,10 +156,64 @@ useHead({
       content: 'Kanka is a free worldbuilding and RPG campaign management tool. Organize characters, locations, timelines, maps and more - all in one place. Trusted by 300\'000+ users.'
     }
   ],
+  script: [
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Kanka",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Web, iOS, Android",
+        "url": "https://kanka.io",
+        "offers": [
+          { "@type": "Offer", "name": "Kobold", "price": "0", "priceCurrency": "USD" },
+          { "@type": "Offer", "name": "Owlbear", "price": "4.99", "priceCurrency": "USD" },
+          { "@type": "Offer", "name": "Wyvern", "price": "9.99", "priceCurrency": "USD" },
+          { "@type": "Offer", "name": "Elemental", "price": "24.99", "priceCurrency": "USD" },
+          { "@type": "Offer", "name": "Kobold", "price": "0", "priceCurrency": "EUR" },
+          { "@type": "Offer", "name": "Owlbear", "price": "4.99", "priceCurrency": "EUR" },
+          { "@type": "Offer", "name": "Wyvern", "price": "9.99", "priceCurrency": "EUR" },
+          { "@type": "Offer", "name": "Elemental", "price": "24.99", "priceCurrency": "EUR" },
+          { "@type": "Offer", "name": "Kobold", "price": "0", "priceCurrency": "BRL" },
+          { "@type": "Offer", "name": "Owlbear", "price": "19.99", "priceCurrency": "BRL" },
+          { "@type": "Offer", "name": "Wyvern", "price": "39.99", "priceCurrency": "BRL" },
+          { "@type": "Offer", "name": "Elemental", "price": "99.99", "priceCurrency": "BRL" },
+        ],
+      })
+    },
+    {
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "VideoObject",
+        "name": "Kanka — Worldbuilding & RPG Campaign Manager",
+        "description": "An overview of Kanka's worldbuilding and RPG campaign management features.",
+        "thumbnailUrl": "https://img.youtube.com/vi/hoXHTKjobek/maxresdefault.jpg",
+        "embedUrl": "https://www.youtube-nocookie.com/embed/hoXHTKjobek",
+        "uploadDate": "2023-01-01",
+        "publisher": {
+          "@type": "Organization",
+          "name": "Kanka",
+          "url": "https://kanka.io"
+        }
+      })
+    }
+  ],
   link: [
     {
       rel: 'canonical',
       href: 'https://kanka.io/',
+    },
+    {
+      rel: 'preconnect',
+      href: 'https://www.youtube-nocookie.com',
+    },
+    {
+      rel: 'preload',
+      as: 'image',
+      href: 'https://th.kanka.io/Vg8GkfblEvh1Z4HhO2Cwr4hzuCs=/900x562/smart/src/app/front/devices-preview-hd.png',
+      fetchpriority: 'high',
     }
   ]
 })

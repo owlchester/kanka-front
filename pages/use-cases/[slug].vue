@@ -6,6 +6,10 @@ const { data: article } = await useAsyncData(route.path, () =>
     queryCollection('useCase').path(route.path).first()
 )
 
+if (!article.value) {
+    setResponseStatus(useRequestEvent()!, 404)
+}
+
 const { data: related } = await useAsyncData(`use-case-related-${slug}`, () =>
     queryCollection('useCase')
         .where('path', '!=', route.path)
@@ -16,9 +20,36 @@ const { data: related } = await useAsyncData(`use-case-related-${slug}`, () =>
 useSeoMeta({
   title: () => article.value ? `${article.value.title} - Use Case - Kanka` : 'Use Case - Kanka',
   description: () => article.value?.description,
-  ogUrl: () => `https://kanka.io/worldbuilding-guides/${slug}`,
+  ogUrl: () => `https://kanka.io/use-cases/${slug}`,
   ogTitle: () => article.value ? `${article.value.title} - Use Cases - Kanka` : 'Use Cases - Kanka',
   ogDescription: () => article.value?.description,
+})
+
+useHead({
+    link: [
+        { rel: 'canonical', href: `https://kanka.io/use-cases/${slug}` }
+    ],
+    script: article.value ? [
+        {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": article.value.title,
+                "description": article.value.description,
+                "url": `https://kanka.io/use-cases/${slug}`,
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Kanka",
+                    "url": "https://kanka.io",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png"
+                    }
+                }
+            })
+        }
+    ] : []
 })
 </script>
 

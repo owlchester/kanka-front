@@ -6,6 +6,10 @@ const { data: article } = await useAsyncData(route.path, () =>
     queryCollection('guides').path(route.path).first()
 )
 
+if (!article.value) {
+    setResponseStatus(useRequestEvent()!, 404)
+}
+
 const { data: related } = await useAsyncData(`guides-related-${slug}`, () =>
     queryCollection('guides')
         .where('path', '!=', `/${slug}`)
@@ -24,7 +28,28 @@ useSeoMeta({
 useHead({
     link: [
         { rel: 'canonical', href: `https://kanka.io/worldbuilding-guides/${slug}` }
-    ]
+    ],
+    script: article.value ? [
+        {
+            type: 'application/ld+json',
+            innerHTML: JSON.stringify({
+                "@context": "https://schema.org",
+                "@type": "Article",
+                "headline": article.value.title,
+                "description": article.value.description,
+                "url": `https://kanka.io/worldbuilding-guides/${slug}`,
+                "publisher": {
+                    "@type": "Organization",
+                    "name": "Kanka",
+                    "url": "https://kanka.io",
+                    "logo": {
+                        "@type": "ImageObject",
+                        "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png"
+                    }
+                }
+            })
+        }
+    ] : []
 })
 </script>
 

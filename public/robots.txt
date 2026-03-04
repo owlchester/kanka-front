@@ -3,3 +3,25 @@ Sitemap: https://kanka.io/sitemap.xml
 User-agent: *
 Disallow: /*/campaign/
 Allow: /
+
+# AI crawlers — explicitly welcome for indexing and training
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: GoogleExtendedBot
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: cohere-ai
+Allow: /

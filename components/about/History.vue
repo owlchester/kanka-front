@@ -8,9 +8,11 @@
       <AboutAchievement date="July 2020" text="Jay & Jon quit their jobs to work full time on Kanka" />
       <AboutAchievement date="September 2020" text="Launch of the Plugins Library" />
       <AboutAchievement date="October 2020" text="Owlchester SNC is founded" />
-      <AboutAchievement date="January 2021" text="Launch of Kanka v1.0" />
+      <AboutAchievement date="January 2021" text="Launch of Kanka 1.0" />
       <AboutAchievement date="October 2021" text="100,000th account created" />
       <AboutAchievement date="June 2022" text="Itzamná joins as our first hire" />
+      <AboutAchievement date="January 2025" text="We launch Kanka 3.0 and introduce custom categories" />
+      <AboutAchievement date="Early 2026" text="We introduce a new modern text editor" />
       <AboutAchievement date="Soon" text="Kanka casually takes over the world" />
     </div>
   </div>

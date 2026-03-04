@@ -1,0 +1,30 @@
+# Kanka
+
+> Kanka is a free worldbuilding and RPG campaign manager used by 300,000+ worldbuilders, game masters, writers, and content creators. It helps teams collaboratively create, organize, and share fictional worlds, campaigns, characters, maps, and lore.
+
+Kanka is available at https://kanka.io. The web app is at https://app.kanka.io.
+
+## Key pages
+
+- [Home](https://kanka.io/): Overview of Kanka's features and benefits
+- [Pricing](https://kanka.io/pricing): Free tier and paid plans (Owlbear, Wyvern, Elemental)
+- [Features](https://kanka.io/features): Full list of worldbuilding and campaign management tools
+- [Changelog](https://kanka.io/changelog): Latest updates and new features
+
+## Use cases
+
+- [Game Masters](https://kanka.io/use-cases/game-masters): Managing RPG campaigns, NPCs, quests, and sessions
+- [Worldbuilders](https://kanka.io/use-cases/worldbuilders): Building fictional worlds with locations, history, and lore
+- [Players](https://kanka.io/use-cases/players): Character sheets and campaign notes
+- [Writers](https://kanka.io/use-cases/writers): Organizing novels, characters, and story bibles
+- [Content Creators](https://kanka.io/use-cases/content-creators): Shared universes and collaborative storytelling
+
+## Worldbuilding guides
+
+- [Start Creating Your World](https://kanka.io/worldbuilding-guides/start-creating-your-world)
+- [How Much Worldbuilding Do You Really Need?](https://kanka.io/worldbuilding-guides/how-much-worldbuilding-do-you-really-need)
+- [All guides](https://kanka.io/worldbuilding-guides)
+
+## About
+
+Kanka is built by a small independent team. Community support happens on [Discord](https://discord.gg/rhsyZJ4). Documentation is at https://docs.kanka.io. The blog is at https://blog.kanka.io.

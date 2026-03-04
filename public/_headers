@@ -18,3 +18,7 @@
   Access-Control-Allow-Origin: *
   Access-Control-Allow-Headers: *
   Cache-Control: public, max-age=86400, stale-while-revalidate=3600
+  Strict-Transport-Security: max-age=63072000; includeSubDomains; preload
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+

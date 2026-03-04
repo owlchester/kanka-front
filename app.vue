@@ -7,17 +7,24 @@ useHead({
     { name: 'description', content: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds' }
   ],
   link: [
-    {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'}
+    {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
+    {rel: 'preconnect', href: 'https://th.kanka.io', crossorigin: ''},
+    {rel: 'dns-prefetch', href: 'https://static.cloudflareinsights.com'},
   ],
   script: [
     {
       type: 'application/ld+json',
-      children: JSON.stringify({
+      innerHTML: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Organization",
         "name": "Kanka",
         "url": "https://kanka.io",
-        "logo": "",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png",
+          "width": 103,
+          "height": 103
+        },
         "sameAs": [
             "https://discord.gg/rhsyZJ4",
             "https://app.kanka.io",
@@ -37,7 +44,7 @@ useHead({
 useSeoMeta({
   ogTitle: 'Kanka - Free Worldbuilding & RPG Campaign Manager',
   ogDescription: 'Need help with worldbuilding? We\'re here for you! Kanka is a world building website and RPG campaign manager built to help you create and organize campaigns and worlds',
-  ogUrl: 'https://kanka.io',
+  ogUrl: 'https://kanka.io/',
   ogType: 'website',
   fbAppId: '126711854711743',
   ogImage: 'https://d3a4xjr8r2ldhu.cloudfront.net/app/front/preview-background.png',
@@ -46,7 +53,7 @@ useSeoMeta({
   ogImageHeight: 1024,
   ogImageAlt: 'Kanka showcase of a character view',
   twitterCard: 'summary_large_image',
-  twitterSite: 'https://kanka.io',
+  twitterSite: '@kankaio',
   twitterTitle: 'Worldbuilding tool and RPG campaign manager - Kanka',
 })
 

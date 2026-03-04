@@ -6,8 +6,8 @@
       <p v-if="trailing" class="lg:max-w-2xl text-center">{{ trailing }}</p>
       <slot/>
     </div>
-    <div v-if="video" :class="videoCss()">
-        <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/hoXHTKjobek?si=GU3PjbAU5sdvh6aF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <div v-if="video" class="w-full max-w-lg shrink-0">
+        <YoutubeEmbed video-id="hoXHTKjobek" title="Kanka — Worldbuilding & RPG Campaign Manager" />
     </div>
   </div>
 </template>
