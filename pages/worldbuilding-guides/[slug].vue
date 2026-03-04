@@ -23,6 +23,7 @@ useSeoMeta({
     ogTitle: () => article.value ? `${article.value.title} - Worldbuilding Guides - Kanka` : 'Worldbuilding Guides - Kanka',
     ogDescription: () => article.value?.description,
     ogUrl: () => `https://kanka.io/worldbuilding-guides/${slug}`,
+    twitterTitle: () => article.value ? `${article.value.title} - Worldbuilding Guides - Kanka` : 'Worldbuilding Guides - Kanka',
 })
 
 useHead({

@@ -39,6 +39,10 @@ useHead({
                 "headline": article.value.title,
                 "description": article.value.description,
                 "url": `https://kanka.io/use-cases/${slug}`,
+                ...(article.value.author ? {
+                    "author": { "@type": "Organization", "name": article.value.author, "url": "https://kanka.io/about" }
+                } : {}),
+                ...(article.value.datePublished ? { "datePublished": article.value.datePublished } : {}),
                 "publisher": {
                     "@type": "Organization",
                     "name": "Kanka",
@@ -60,6 +64,11 @@ useHead({
 
         <Section align="left">
             <div class="prose max-w-3xl mx-auto">
+                <p v-if="article.author || article.datePublished" class="text-sm text-gray-500 not-prose">
+                    <span v-if="article.author">By <NuxtLink to="/about" class="link">{{ article.author }}</NuxtLink></span>
+                    <span v-if="article.author && article.datePublished"> · </span>
+                    <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
+                </p>
                 <ContentRenderer :value="article" />
             </div>
         </Section>

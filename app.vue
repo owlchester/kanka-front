@@ -8,7 +8,7 @@ useHead({
   ],
   link: [
     {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
-    {rel: 'alternate', hreflang: 'x-default', href: 'https://kanka.io/'},
+    {rel: 'alternate', hreflang: 'x-default', href: () => `https://kanka.io${route.path}`},
     {rel: 'preconnect', href: 'https://th.kanka.io', crossorigin: ''},
     {rel: 'dns-prefetch', href: 'https://static.cloudflareinsights.com'},
   ],

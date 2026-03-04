@@ -20,6 +20,8 @@ export default defineContentConfig({
                 description: z.string(),
                 persona: z.string(),
                 tags: z.array(z.string()).optional(),
+                author: z.string().optional(),
+                datePublished: z.string().optional(),
             })
         }),
         guides: defineCollection({
