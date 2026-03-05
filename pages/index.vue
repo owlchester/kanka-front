@@ -36,9 +36,11 @@
       </p>
     </div>
 
-    <div class="text-center">
-      <img src="https://th.kanka.io/Vg8GkfblEvh1Z4HhO2Cwr4hzuCs=/900x562/smart/src/app/front/devices-preview-hd.png" class="inline" alt="Kanka tabletop rpg campaign management and worldbuilding dashboard" width="900" height="562">
-    </div>
+    <Preview
+      url="images/screenshots/devices-preview-hd.png"
+      alt="Kanka tabletop rpg campaign management and worldbuilding dashboard"
+      asset
+    />
   </Section>
 
   <Section id="features">

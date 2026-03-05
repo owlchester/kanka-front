@@ -1,12 +1,11 @@
 <template>
-  <div>
     <figure v-bind:class="previewClass()">
       <NuxtPicture
           v-if="asset"
           :src="'/' + url"
           :alt="alt"
           loading="lazy"
-          class="rounded shadow-lg cursor-pointer"
+          class="rounded cursor-pointer overflow-hidden"
           @click="showFullscreen = true"
       />
       <img
@@ -40,8 +39,6 @@
         />
       </div>
     </div>
-
-  </div>
 </template>
 
 <script>
@@ -62,7 +59,7 @@ export default {
   },
   methods: {
     previewClass() {
-      let base = 'max-w-3xl mx-auto p-2 flex flex-col gap-3 overflow-hidden ';
+      let base = 'max-w-3xl mx-auto p-2 flex flex-col gap-3 overflow-hidden justify-center items-center align-center';
       return base + this.css;
     },
 
@@ -80,13 +77,16 @@ export default {
     showFullscreen(newValue) {
       if (newValue) {
         window.addEventListener('keydown', this.handleEscKey);
+        document.body.style.overflow = 'hidden';
       } else {
         window.removeEventListener('keydown', this.handleEscKey);
+        document.body.style.overflow = '';
       }
     }
   },
   beforeDestroy() {
     window.removeEventListener('keydown', this.handleEscKey);
+    document.body.style.overflow = '';
   }
 }
 </script>
