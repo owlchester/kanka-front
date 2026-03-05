@@ -3,6 +3,8 @@ import { createGtm } from '@gtm-support/vue-gtm'
 export default defineNuxtPlugin((nuxtApp) => {
     const runtimeConfig = useRuntimeConfig().public
 
+    if (!runtimeConfig.gtmKey) return
+
     nuxtApp.vueApp.use(createGtm({
         id: runtimeConfig.gtmKey,
         defer: false,

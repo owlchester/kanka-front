@@ -11,21 +11,47 @@
 
     <p>World Anvil offers a more elaborate interface with extensive customization options. While powerful, new users may need more time to learn the system and set up their world effectively.</p>
 
+    <Preview
+        url="images/screenshots/thaelia-dashboard.png"
+        alt="Kanka campaign dashboard showing characters and a calendar integrated in one view"
+        asset
+        >
+        Kanka campaign dashboard showing characters and a calendar integrated in one view
+    </Preview>
+        
     <h2 class="text-purple">Content Organization</h2>
     <p>Kanka uses a flexible entity-based system where everything (characters, locations, organizations, etc.) is treated equally. This allows for natural interconnections between all elements of your world. The relationship system lets you create complex webs of connections while maintaining clarity.</p>
 
     <p>World Anvil takes a more article-centric approach, with a focus on detailed wiki-style entries. This approach particularly benefits writers, offering robust tools for organizing lore, story arcs, and narrative elements. While connections between elements exist, they're structured more like traditional wiki links.</p>
 
+    
+    <Preview
+        url="images/screenshots/ratyn-web.png"
+        alt="Character's web of connections"
+        asset
+        >
+            Characters come alive when they are connected to the rest of your world
+    </Preview>
+    
     <h2 class="text-purple">RPG Campaign Management and Writing Tools</h2>
     <p>Kanka was built from the ground up with tabletop RPG campaigns in mind. The quest system, calendar integration, and character management tools are deeply integrated with each other, making it natural to run ongoing campaigns alongside worldbuilding. The focus is on practical tools for game masters and players.</p>
     <p>World Anvil excels at supporting writers with specialized features like manuscript organization, plot development tools, and detailed character arcs. Their campaign tools are more focused on presenting information to players, with strong features for revealing selective content and managing reading permissions.</p>
 
+    
+    <Preview
+        url="images/screenshots/quest-brothers.png"
+        alt="Kanka quest view to track moving parts"
+        asset
+        >
+            Quests with lots of moving parts can become difficult to keep track of in traditional software.
+    </Preview>
+    
     <h2 class="text-purple">Customization Philosophy</h2>
     <p>Kanka emphasizes extensibility through its community plugin system. Users can enhance their worlds with community-created plugins that add new features and functionality, while maintaining the platform's core ease of use. The platform also supports custom CSS for those who want to personalize their world's appearance.</p>
     <p>World Anvil also offers extensive visual customization through CSS and templates, though this may require more technical knowledge to fully utilize.</p>
 
     <h2 class="text-purple">Collaboration Features</h2>
-    <p>Kanka provides a straightforward permission system that works across all content types. Teams can easily work together with granular access controls that are consistent throughout the platform.</p>
+    <p>Kanka provides a straightforward permission system that works across all content types. Teams can easily work together with granular access controls that are consistent throughout the platform. Kanka also comes with fully collaborative maps and whiteboards with live updates going out to all collaborators.</p>
     <p>World Anvil offers collaboration tools with a focus on community features and content sharing between different worldbuilders.</p>
 
     <h2 class="text-purple">Unique Strengths</h2>
@@ -49,9 +75,21 @@
         <li>Advanced CSS customization options</li>
       </ul>
     </div>
+
     <h2 class="text-purple">Conclusion</h2>
       <p>Choose Kanka if you want a modern, intuitive platform that seamlessly blends worldbuilding with RPG campaign management, and value quick setup with consistent organization tools.</p>
 
+  </Section>
+  
+  <Section>
+      
+      <Preview
+          url="images/screenshots/dashboard-nightprowler.png"
+          alt="Kanka dashboard with intro, calendar, recaps "
+          asset
+          >
+              Focus on your worldbuilding and let Kanka handle the rest.
+      </Preview>
   </Section>
 
   <Section>

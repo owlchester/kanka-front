@@ -4,8 +4,8 @@
     <p class="text-dark text-left" v-else-if="best">Best value</p>
     <div v-else class=""><br /></div>
     <div v-bind:class="boxCss()">
-      <div class="flex gap-10">
-        <div class="grow flex flex-col gap-2">
+      <div class="flex gap-10 justify-between">
+        <div class="flex flex-col gap-2">
           <h2 class="text-dark text-md">{{ tier }}</h2>
           <div v-if="defaultCurrency() && !discounted">
             <p class="text-purple font-medium" v-if="monthly == 'Free'">{{ monthly }}
@@ -24,9 +24,7 @@
           </p>
 
         </div>
-        <div>
-        <img v-bind:src="thumbnail" :alt="tier" width="71" height="71" loading="lazy" />
-        </div>
+        <NuxtImg :src="thumbnail" class="flex-none" :alt="tier" width="71" height="71" loading="lazy" />
       </div>
 
       <div class="flex flex-col gap-3 grow">
