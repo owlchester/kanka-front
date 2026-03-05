@@ -170,12 +170,6 @@ useHead({
         "applicationCategory": "GameApplication",
         "operatingSystem": "Web, iOS, Android",
         "url": "https://kanka.io",
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "300000",
-          "bestRating": "5"
-        },
         "offers": [
           { "@type": "Offer", "@id": "https://kanka.io/#offer-kobold-usd", "name": "Kobold", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
           { "@type": "Offer", "@id": "https://kanka.io/#offer-owlbear-usd", "name": "Owlbear", "price": "4.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
@@ -220,12 +214,6 @@ useHead({
       rel: 'preconnect',
       href: 'https://www.youtube-nocookie.com',
     },
-    {
-      rel: 'preload',
-      as: 'image',
-      href: 'https://th.kanka.io/Vg8GkfblEvh1Z4HhO2Cwr4hzuCs=/900x562/smart/src/app/front/devices-preview-hd.png',
-      fetchpriority: 'high',
-    }
   ]
 })
 

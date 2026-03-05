@@ -26,7 +26,13 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Poppins: [400, 500, 700, 800],
+      display: 'swap',
     },
+    // Optimizations
+    prefetch: true,           // DNS lookup early
+    preconnect: true,         // Establish connection early
+    preload: true,            // Preload font files
+    subset: ['latin'],        // Only Latin characters
   },
   css: [
     "~/assets/css/colors.css",
@@ -48,16 +54,18 @@ export default defineNuxtConfig({
   },
   nitro: {
     prerender: {
-      autoSubfolderIndex: false,
-      routes: [
-        "/use-cases/game-masters",
-        "/use-cases/worldbuilders",
-        "/use-cases/players",
-        "/use-cases/writers",
-        "/use-cases/content-creators",
-        "/worldbuilding-guides/start-creating-your-world",
-        "/worldbuilding-guides/how-much-worldbuilding-do-you-really-need",
-      ],
+        crawlLinks: true,
+        failOnError: false,
+        autoSubfolderIndex: false,
+        routes: [
+            "/use-cases/game-masters",
+            "/use-cases/worldbuilders",
+            "/use-cases/players",
+            "/use-cases/writers",
+            "/use-cases/content-creators",
+            "/worldbuilding-guides/start-creating-your-world",
+            "/worldbuilding-guides/how-much-worldbuilding-do-you-really-need",
+        ],
     },
   },
   llms: {

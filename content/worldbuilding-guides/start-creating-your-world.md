@@ -1,7 +1,7 @@
 ---
 title: Start creating your own world
 description: Whether you're dreaming up a fantasy realm, building a galaxy-spanning sci-fi empire, or just toying with a story idea, worldbuilding is easier and more rewarding than you might think. The best part? You're probably already doing it.
-author: The Kanka Team
+author: Jay
 datePublished: "2026-03-03"
 tags:
   - beginner

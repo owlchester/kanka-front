@@ -1,7 +1,7 @@
 ---
 title: Getting Started with Kanka
 description: Learn how to get started with Kanka and build your first campaign world.
-author: The Kanka Team
+author: Jay
 datePublished: "2026-02-19"
 tags:
   - getting-started

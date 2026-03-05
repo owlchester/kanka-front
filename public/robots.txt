@@ -3,8 +3,6 @@ Sitemap: https://kanka.io/sitemap.xml
 User-agent: *
 Disallow: /*/campaign/
 Disallow: /en/
-Disallow: /en-us/
-Disallow: /en-gb/
 Allow: /
 
 # AI crawlers — explicitly welcome for indexing and training

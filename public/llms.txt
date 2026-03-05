@@ -1,6 +1,6 @@
 # Kanka
 
-> Kanka is a free worldbuilding and RPG campaign manager used by 300,000+ worldbuilders, game masters, writers, and content creators. It helps teams collaboratively create, organize, and share fictional worlds, campaigns, characters, maps, and lore.
+> Kanka is a free worldbuilding and RPG campaign manager used by 375,000+ worldbuilders, game masters, writers, and content creators. It helps teams collaboratively create, organize, and share fictional worlds, campaigns, characters, maps, and lore.
 
 Kanka is available at https://kanka.io. The web app is at https://app.kanka.io.
 

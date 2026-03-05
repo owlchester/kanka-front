@@ -15,7 +15,7 @@ So, you've caught the D&D bug. Maybe you've been a player for a while, or you've
 
 Do I need to invent an entire pantheon of gods? A 10,000 year timeline of historical events? Draw maps? I can barely draw my signature! What about lore explaining why my world has elves? How many NPCs is enough? Do I need to create my own calendar and seasons?
 
-Suddenly, your excitement turns into panic-prep mode. And you're not alone — this happens to all of us when we dive into this wonderful and creative hobby. The internet is full of incredibly detailed homebrew worlds with rich stories, complex political systems, and thousand year mythologies. It's easy to look at these great works of art and think that you need to do the same before you roll your first D20.
+Suddenly, your excitement turns into panic-prep mode. And you're not alone, this happens to all of us when we dive into this wonderful and creative hobby. The internet is full of incredibly detailed homebrew worlds with rich stories, complex political systems, and thousand year mythologies. It's easy to look at these great works of art and think that you need to do the same before you roll your first D20.
 
 But the open secret is that you absolutely don't.
 
