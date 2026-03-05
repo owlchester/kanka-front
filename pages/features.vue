@@ -345,7 +345,7 @@
 const runtimeConfig = useRuntimeConfig().public
 
 useHead({
-  title: 'Kanka Features: Maps, Timelines, Characters & More | Free Worldbuilding Tool',
+  title: 'Kanka Features: Maps, Timelines, Characters & More - Free Worldbuilding Tool',
   meta: [
     { name: 'description', content: 'Kanka is constantly being updated with new features and improvements, but here are some of the most important ones we think you’ll love.' }
   ],
