@@ -44,6 +44,8 @@ useHead({
             "https://discord.gg/rhsyZJ4",
             "https://x.com/kankaio",
             "https://www.instagram.com/kanka.io/",
+            "https://github.com/owlchester/",
+            "https://www.patreon.com/kankaio",
             "https://blog.kanka.io",
             "https://plugins.kanka.io",
             "https://docs.kanka.io",

@@ -39,8 +39,6 @@ export default defineNuxtConfig({
     "~/assets/css/fonts.css",
     "~/assets/fontawesome/css/fontawesome.css",
     "~/assets/fontawesome/css/solid.css",
-    "~/assets/fontawesome/css/thin.css",
-    "~/assets/fontawesome/css/duotone.css",
   ],
   //preset: 'netlify',
   target: "static",
