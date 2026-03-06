@@ -26,13 +26,13 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Poppins: [400, 500, 700, 800],
-      display: 'swap',
     },
     // Optimizations
+    display: 'swap',
     prefetch: true,           // DNS lookup early
     preconnect: true,         // Establish connection early
     preload: true,            // Preload font files
-    subset: ['latin'],        // Only Latin characters
+    subsets: ['latin'],        // Only Latin characters
   },
   css: [
     "~/assets/css/colors.css",

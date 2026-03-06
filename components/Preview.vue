@@ -4,7 +4,8 @@
           v-if="asset"
           :src="'/' + url"
           :alt="alt"
-          loading="lazy"
+          :loading="preload ? 'eager' : 'lazy'"
+          :preload="preload"
           class="rounded cursor-pointer overflow-hidden"
           @click="showFullscreen = true"
       />
@@ -48,6 +49,10 @@ export default {
     url: String,
     alt: String,
     asset: {
+      type: Boolean,
+      default: false,
+    },
+    preload: {
       type: Boolean,
       default: false,
     },

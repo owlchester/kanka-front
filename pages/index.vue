@@ -17,7 +17,7 @@
   <Testimonial
       user="Charalampos"
       title="Professional DM"
-      img="/partners/babis.png">
+      img="/images/members/babis.png">
     "Kanka has genuinely brought my games to the next level and has made me a better DM."
   </Testimonial>
 
@@ -40,6 +40,7 @@
       url="images/screenshots/devices-preview-hd.png"
       alt="Kanka tabletop rpg campaign management and worldbuilding dashboard"
       asset
+      preload
     />
   </Section>
 
