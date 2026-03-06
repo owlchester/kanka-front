@@ -45,6 +45,7 @@ export default defineContentConfig({
                 role: z.string(),
                 image: z.string(),
                 experience: z.string(),
+                bio: z.array(z.string()).optional(),
                 schema: z.boolean().optional(),
             })
         }),

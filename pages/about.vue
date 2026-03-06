@@ -6,7 +6,7 @@
   <Section>
     <h2 class="text-purple">Meet the team</h2>
 
-    <div class="flex flex-wrap gap-5 items-center justify-center">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 w-full items-start">
       <AboutMember
         v-for="member in team"
         :key="member.name"
@@ -14,6 +14,7 @@
         :img="member.image"
         :role="member.role"
         :experience="member.experience"
+        :bio="member.bio"
       />
     </div>
   </Section>

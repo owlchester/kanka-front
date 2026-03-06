@@ -2,19 +2,18 @@
   <BaseHero
           id="top"
       :title="title"
-      lead="Kanka is a community driven project that gets frequent updates thanks to these amazing people who support us. You can find more about what benefits you get by supporting Kanka by visiting our Features page" />
+      lead="Honestly, it's still a little crazy to us that a weekend hobby project turned into a full-time job for our small team. None of that would have happened without these incredible people. Their support means we can deliver frequent updates, skip the morning standups, work on things we're genuinely passionate about, and keep spreading our love of worldbuilding, one campaign at a time." />
 
 
   <Section v-if="pending">Fetching...</Section>
   <div v-else>
     <Section>
-      <div class="flex flex-col gap-4 mb-5 sticky top-0 pt-2 bg-white">
-        <div>
-          <img class="inline rounded-full border" src="https://th.kanka.io/21OIoMfZS5EX8NkXJakF9Y4Y6NE=/150x150/smart/src/app/tiers/elemental-750.png" alt="Elemental" width="150" height="150" loading="lazy" />
-        </div>
+      <div class="flex flex-col gap-4 sticky top-0 bg-white justify-center">
+        <NuxtPicture class="inline-block rounded-full mx-auto" src="images/tiers/elemental.png" alt="Elemental" width="150" height="150" />
         <h2 class="text-purple">Elemental</h2>
       </div>
-      <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-5">
+      <p class="text-light max-w-md mx-auto">These fantastic people let us know we're working on something truly magical.</p>
+      <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-5 ">
         <span v-for="sub in subscribers.elemental" class="truncate">
           {{ sub}}
         </span>
@@ -23,9 +22,7 @@
 
     <Section>
       <div class="flex flex-col gap-4 mb-5 sticky top-0 pt-2 bg-white">
-        <div>
-          <img class="inline rounded-full border" src="https://th.kanka.io/8tnJjZBCjxZdLU0WdDt7i8wJIV8=/125x125/smart/src/app/tiers/wyvern-750.png" alt="Wyvern" width="125" height="125" loading="lazy" />
-        </div>
+        <NuxtPicture class="inline-block rounded-full mx-auto" src="images/tiers/wyvern.png" alt="Wyvern" width="125" height="125" />
         <h2 class="text-purple">
           Wyvern
           <a href="#top">
@@ -33,6 +30,7 @@
           </a>
         </h2>
       </div>
+      <p class="text-light max-w-md mx-auto">These are people who run multiple campaigns across multiple worlds, sometimes with huge groups of players. The serious worldbuilders who couldn't achieve their goals without Kanka.</p>
       <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5">
         <span v-for="sub in subscribers.wyvern" class="truncate">
           {{ sub}}
@@ -42,9 +40,8 @@
 
     <Section>
       <div class="flex flex-col gap-4 mb-5 sticky top-0 pt-2 bg-white">
-        <div>
-          <img class="inline rounded-full border" src="https://th.kanka.io/Xd34omOHLJL3Z0q_n255bJetFfY=/100x100/smart/src/app/tiers/owlbear-750.png" alt="Owlbear" width="100" height="100" loading="lazy" />
-        </div>
+
+        <NuxtPicture class="inline-block rounded-full mx-auto" src="images/tiers/owlbear.png" alt="Owlbear" width="100" height="100" />
         <h2 class="text-purple">
           Owlbear
           <a href="#top">
@@ -52,6 +49,7 @@
           </a>
         </h2>
       </div>
+      <p class="text-light max-w-md mx-auto">The backbone of Kanka's community. Worldbuilding is more than a passing hobby for these people, they wake up with plot hooks ready to add to their worlds. Their projects have long outgrown simple note-taking, and they're building something beautiful.</p>
       <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5">
         <span v-for="sub in subscribers.owlbear" class="truncate">
           {{ sub}}
@@ -61,7 +59,7 @@
 
     <Section>
       <div class="flex items-center justify-center gap-5 mb-5">
-          <img class="inline rounded-full border" src="https://th.kanka.io/T2wgL9xcUyKrZ3q1NI7i3rN95Do=/80x80/smart/src/app/tiers/goblin-750.png" alt="Goblin" width="80" height="80" loading="lazy" />
+          <img class="inline rounded-full" src="https://th.kanka.io/T2wgL9xcUyKrZ3q1NI7i3rN95Do=/80x80/smart/src/app/tiers/goblin-750.png" alt="Goblin" width="80" height="80" loading="lazy" />
         <div class="text-left">
           <h2 class="text-purple">
             Goblin
