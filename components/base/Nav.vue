@@ -24,13 +24,13 @@
         <a :href="`${runtimeConfig.app}/register`" class="btn-register transition-all duration-200">Register</a>
       </div>
       <div class="block lg:hidden" @click="toggle()">
-        <i class="fa-thin fa-bars text-5xl text-blue cursor-pointer" v-if="!open"></i>
-        <i class="fa-thin fa-times text-5xl text-blue cursor-pointer" v-else></i>
+        <i class="fa-regular fa-bars text-5xl text-blue cursor-pointer" v-if="!open"></i>
+        <i class="fa-regular fa-times text-5xl text-blue cursor-pointer" v-else></i>
       </div>
       <div class="fixed top-0 bottom-0 left-0 right-0 px-5 w-full bg-white" v-if="open">
 
         <div class="h-32 flex justify-end items-center" @click="toggle()">
-          <i class="fa-thin fa-times text-5xl text-blue cursor-pointer"></i>
+          <i class="fa-regular fa-times text-5xl text-blue cursor-pointer"></i>
         </div>
         <div class="px-16 flex flex-col gap-6 items-center">
           <NuxtLink to="/" class="link text-nav" @click="closeSidebar()">

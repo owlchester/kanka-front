@@ -46,22 +46,22 @@
   <Section id="features">
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
-        icon="fa-duotone fa-solid fa-sack"
+        icon="fa-regular fa-sack"
         title="Free core features"
         lead="We want you to put Kanka through its paces when trying it out. Our free tier isn't just a trial, it includes all our core features and unlimited elements. Everything you need to start worldbuilding."
         />
       <Feature
-        icon="fa-duotone fa-solid fa-users"
+        icon="fa-regular fa-users"
         title="Collaborative"
         lead="Collaborate with your friends by inviting them to your campaign. You can easily keep track of what they can see and contribute to with our extensive permissions system."
         />
       <Feature
-        icon="fa-duotone fa-solid fa-palette"
+        icon="fa-regular fa-palette"
         title="Customizable"
         lead="Customize every last detail of the world you are building. Rename built-in modules, write your own CSS, or install plugins created by the team and other users. Everything you need to make it yours."
         />
       <Feature
-        icon="fa-duotone fa-solid fa-rocket"
+        icon="fa-regular fa-rocket"
         title="Modular"
         lead="We have focused on creating about 20 different modules in Kanka. Every module targets an aspect of TTRPG gameplay or overall worldbuilding. We also have custom modules for more granular control."
         />
@@ -166,7 +166,7 @@ useHead({
         "@type": "SoftwareApplication",
         "@id": "https://kanka.io/#software",
         "name": "Kanka",
-        "description": "Free worldbuilding and RPG campaign manager. Organize characters, locations, maps, timelines, and lore — all in one place. Trusted by 300,000+ worldbuilders and game masters.",
+        "description": "Free worldbuilding and RPG campaign manager. Organize characters, locations, maps, timelines, and lore — all in one place. Trusted by 375,000+ worldbuilders and game masters.",
         "applicationCategory": "GameApplication",
         "operatingSystem": "Web, iOS, Android",
         "url": "https://kanka.io",

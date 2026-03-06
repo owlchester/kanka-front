@@ -29,22 +29,22 @@
   <Section id="features">
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
-          icon="fa-duotone fa-solid fa-sack"
+          icon="fa-regular fa-sack"
           title="Free to use"
           lead="Our free tier isn't just a trial, it includes all of our core features and unlimited elements."
       />
       <Feature
-          icon="fa-duotone fa-solid fa-users"
+          icon="fa-regular fa-users"
           title="Collaborative"
           lead="Collaborate with your friends by inviting them to the campaign and easily keep track of what they can interact with."
       />
       <Feature
-          icon="fa-duotone fa-solid fa-palette"
+          icon="fa-regular fa-palette"
           title="Customizable"
           lead="Customize every last detail of a campaign. This can be accomplished by changing the built-in modules, or writing custom CSS."
       />
       <Feature
-          icon="fa-duotone fa-solid fa-rocket"
+          icon="fa-regular fa-rocket"
           title="Frequent updates"
           lead="We prioritize features our community loves, frequently updating Kanka and keeping your data safe."
       />
