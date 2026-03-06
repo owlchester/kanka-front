@@ -49,6 +49,19 @@ export default defineContentConfig({
                 schema: z.boolean().optional(),
             })
         }),
+        kbFaq: defineCollection({
+            type: 'data',
+            source: 'faq/kb.yml',
+            schema: z.object({
+                categories: z.array(z.object({
+                    category: z.string(),
+                    faqs: z.array(z.object({
+                        question: z.string(),
+                        answer: z.string(),
+                    })).optional(),
+                }))
+            })
+        }),
         pricingFaq: defineCollection({
             type: 'data',
             source: 'pricing/faq.yml',

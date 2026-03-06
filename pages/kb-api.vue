@@ -1,22 +1,25 @@
 <template>
   <BaseHero
-      title="Kanka Knowledge Base"
-      lead="Quick answers to common questions about campaigns, permissions, maps, calendars, pricing, and more." />
+      :title="title"
+      :lead="lead" />
 
-  <div class="lg:max-w-4xl lg:w-full lg:mx-auto">
+  <Section  v-if="pending">
+    <p>Fetching...</p>
+  </Section>
 
-    <Section align="left" v-for="category in categories" :key="category.category">
-      <h2 class="text-purple">{{ category.category }}</h2>
+  <div v-else class="lg:max-w-4xl lg:w-full lg:mx-auto">
+
+    <Section align="left" v-for="category in categories">
+      <h2 class="text-purple">{{ category.name }}</h2>
 
       <div class="flex flex-col gap-7 text-left faq">
         <FaqQA
-            v-for="faq in category.faqs"
-            :key="faq.slug"
-            :id="faq.slug"
-            :q="faq.question"
-            :open="isOpen(faq.slug)"
+            v-for="question in category.questions"
+            :id="question.slug"
+            :q="question.q"
+            :open="isOpen(question.slug)"
         >
-          <div v-html="faq.html" class="flex flex-col gap-3 kb-answer"></div>
+          <div v-html="question.a" class="flex flex-col gap-3 kb-answer"></div>
         </FaqQA>
       </div>
     </Section>
@@ -53,38 +56,20 @@
 </style>
 
 <script setup lang="ts">
-import { marked } from 'marked'
 
-const title = 'Kanka FAQ - Worldbuilding & TTRPG Campaign Manager Questions Answered'
-const lead = 'Quick answers to common questions about campaigns, permissions, maps, calendars, pricing, and more.'
+const title = 'Knowledge base'
+const lead = 'The Kanka knowledge base, where you can find answers to the most frequently asked questions.'
+const runtimeConfig = useRuntimeConfig()
 
-const route = useRoute()
+const route = useRoute();
 
-const { data: kbData } = await useAsyncData('kb-faq', () =>
-    queryCollection('kbFaq').first()
-)
-
-function slugify(text: string): string {
-  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/(^-|-$)/g, '')
-}
+const { data: categories, pending, error } = await useFetch(() => runtimeConfig.public.api + 'kb');
 
 const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '')
 
-const categories = computed(() =>
-    (kbData.value?.categories ?? [])
-        .filter(c => c.faqs?.length)
-        .map(c => ({
-            ...c,
-            faqs: c.faqs!.map(f => ({
-                ...f,
-                slug: slugify(f.question),
-                html: marked.parse(f.answer) as string,
-            }))
-        }))
-)
-
+//console.log(runtimeConfig.public.api)
 useHead({
-  title: title,
+  title: title + ' - Kanka',
   meta: [
     { name: 'description', content: lead }
   ],
@@ -108,12 +93,12 @@ useHead({
       innerHTML: computed(() => JSON.stringify({
         '@context': 'https://schema.org',
         '@type': 'FAQPage',
-        mainEntity: categories.value.flatMap(c =>
-            c.faqs.map(f => ({
-                '@type': 'Question',
-                name: f.question,
-                acceptedAnswer: { '@type': 'Answer', text: stripHtml(f.html) },
-            }))
+        mainEntity: (categories.value ?? []).flatMap((category: any) =>
+          category.questions.map((item: any) => ({
+            '@type': 'Question',
+            name: item.q,
+            acceptedAnswer: { '@type': 'Answer', text: stripHtml(item.a) },
+          }))
         ),
       })),
     },
@@ -126,7 +111,9 @@ useSeoMeta({
   ogUrl: 'https://kanka.io/kb',
 })
 
-function isOpen(slug: string) {
-  return slug === route.hash.substring(1)
+function isOpen(id: String) {
+  //console.log(this.route.hash)
+  return id === route.hash.substring(1);
 }
+
 </script>
