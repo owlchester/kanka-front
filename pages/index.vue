@@ -197,7 +197,7 @@ useHead({
         "thumbnailUrl": "https://img.youtube.com/vi/hoXHTKjobek/maxresdefault.jpg",
         "embedUrl": "https://www.youtube-nocookie.com/embed/hoXHTKjobek",
         "duration": "PT45S",
-        "uploadDate": "2023-08-04",
+        "uploadDate": "2023-08-04T10:00:01-07:00",
         "publisher": {
           "@type": "Organization",
           "name": "Kanka",
