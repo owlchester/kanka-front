@@ -27,22 +27,23 @@
 /sk/invitation/* https://app.kanka.io/invitation/:splat 301
 /ru/invitation/* https://app.kanka.io/invitation/:splat 301
 
-# Old locale paths are gone
-/en/* 410
-/en-US/* 410
-/fr/* 410
-/de/* 410
-/es/* 410
-/it/* 410
-/pt-BR/* 410
-/ru/* 410
-/sk/* 410
-/nl/* 410
-/gl/* 410
-/hr/* 410
-/he/* 410
-/ca/* 410
-/pl/* 410
+# Old locale paths are gone (Cloudflare Pages doesn't support 410 in _redirects,
+# so we redirect to /gone which sets the 410 status server-side)
+/en/* /gone 301
+/en-US/* /gone 301
+/fr/* /gone 301
+/de/* /gone 301
+/es/* /gone 301
+/it/* /gone 301
+/pt-BR/* /gone 301
+/ru/* /gone 301
+/sk/* /gone 301
+/nl/* /gone 301
+/gl/* /gone 301
+/hr/* /gone 301
+/he/* /gone 301
+/ca/* /gone 301
+/pl/* /gone 301
 
 # www to apex
 # https://www.kanka.io/* https://kanka.io/:splat 301
