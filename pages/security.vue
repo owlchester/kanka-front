@@ -37,25 +37,18 @@
 </template>
 
 <script setup lang="ts">
-useHead({
+useSeo({
   title: 'Security - Kanka',
-  meta: [
-    { name: 'description', content: 'Our small team is commited to providing top notch data protection standards to ensure that your data is safe with us.' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/security' }
-  ],
-  script: [
+  description: 'Our small team is commited to providing top notch data protection standards to ensure that your data is safe with us.',
+  path: '/security',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Security", "item": "https://kanka.io/security" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Security", "item": "https://kanka.io/security" },
+      ]
     },
   ],
 })

@@ -159,13 +159,10 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
-useHead({
+
+useSeo({
   title: 'Privacy Policy - Kanka',
-  meta: [
-    { name: 'description', content: 'Effective date: Jul 12, 2023' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/privacy-policy' }
-  ],
+  description: 'Effective date: Jul 12, 2023',
+  path: '/privacy-policy',
 })
 </script>

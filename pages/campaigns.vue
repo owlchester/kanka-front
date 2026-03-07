@@ -1,6 +1,6 @@
 <template>
   <BaseHero
-      :title="title"
+      title="Public Campaigns"
       :lead="lead" />
 
   <Section v-if="setup?.featured" id="featured" >
@@ -107,8 +107,6 @@ interface CampaignsData {
   pagination: { has_pages: boolean; current_page: number; previous: string | null; next: string | null }
 }
 
-const title = 'Campaigns'
-const lead = 'Many campaigns in Kanka are public for all to see. This page contains a list of all public campaigns, as well as some featured campaigns from the community.'
 const runtimeConfig = useRuntimeConfig()
 
 const filterUrl = ref(runtimeConfig.public.api + 'campaigns');
@@ -118,32 +116,24 @@ const { data: campaigns, pending } = await useFetch<CampaignsData>(() => filterU
 
 const activeFilters = ref<Record<string, string>>({})
 
-useHead({
-  title: title + ' - Kanka',
-  meta: [
-    { name: 'description', content: lead }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/campaigns' }
-  ],
-  script: [
+const title = 'Public Campaigns - Kanka'
+const lead = 'Many campaigns in Kanka are public for all to see. This page contains a list of all public campaigns, as well as some featured campaigns from the community.'
+  
+useSeo({
+  title: title,
+  description: lead,
+  path: '/campaigns',
+  ogTitle: 'Campaigns',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Campaigns", "item": "https://kanka.io/campaigns" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Campaigns", "item": "https://kanka.io/campaigns" },
+      ]
     },
   ],
-})
-useSeoMeta({
-    ogTitle: title,
-    ogDescription: lead,
-    ogUrl: 'https://kanka.io/campaigns',
 })
 
 function filterCss(filterKey: string, optionKey: string) {

@@ -19,28 +19,21 @@
 </template>
 
 <script setup lang="ts">
-const title = 'Partners';
-const lead = 'We\'ve partnered up with a few amazing tools and communities that share our goals and values.';
+const title = 'Partners'
+const lead = 'We\'ve partnered up with a few amazing tools and communities that share our goals and values.'
 
-useHead({
+useSeo({
   title: 'Partners - Kanka',
-  meta: [
-    { name: 'description', content: lead }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/partners' }
-  ],
-  script: [
+  description: 'We\'ve partnered up with a few amazing tools and communities that share our goals and values.',
+  path: '/partners',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Partners", "item": "https://kanka.io/partners" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Partners", "item": "https://kanka.io/partners" },
+      ]
     },
   ],
 })

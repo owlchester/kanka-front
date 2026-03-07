@@ -3,23 +3,19 @@ const { data: articles } = await useAsyncData('useCase', () =>
     queryCollection('useCase').all()
 )
 
-useHead({
-    title: 'Find Your Way to Use Kanka - Kanka',
-    meta: [
-        { name: 'description', content: 'Kanka fits the way you already work. Discover how game masters, writers, world builders, players, and creators use it to bring their worlds to life.' }
-    ],
-    script: [
+useSeo({
+    title: 'Find Your Way to Use Kanka',
+    description: 'Kanka fits the way you already work. Discover how game masters, writers, world builders, players, and creators use it to bring their worlds to life.',
+    path: '/use-cases',
+    schemas: [
         {
-            type: 'application/ld+json',
-            innerHTML: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-                    { "@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://kanka.io/use-cases" },
-                ]
-            })
-        }
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+                { "@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://kanka.io/use-cases" },
+            ]
+        },
     ],
 })
 </script>

@@ -109,25 +109,18 @@
 </template>
 
 <script setup lang="ts">
-useHead({
+useSeo({
   title: 'Terms & Conditions - Kanka',
-  meta: [
-    { name: 'description', content: 'Effective date: Jul 12, 2023' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/terms-and-conditions' }
-  ],
-  script: [
+  description: 'Effective date: Jul 12, 2023',
+  path: '/terms-and-conditions',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Terms & Conditions", "item": "https://kanka.io/terms-and-conditions" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Terms & Conditions", "item": "https://kanka.io/terms-and-conditions" },
+      ]
     },
   ],
 })

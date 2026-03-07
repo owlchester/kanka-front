@@ -148,74 +148,34 @@
   <img v-if="hasGclid()" v-bind:src="prepareUrl()" width="1" height="1" />
 </template>
 <script setup lang="ts">
+import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
+
 const route = useRoute()
 const runtimeConfig = useRuntimeConfig().public
 
-useHead({
+useSeo({
   title: 'Kanka - Free Worldbuilding & RPG Campaign Manager',
-  meta: [
+  description: 'Kanka is a free worldbuilding and RPG campaign management tool. Organize characters, locations, timelines, maps and more - all in one place. Trusted by 300\'000+ users.',
+  path: '/',
+  schemas: [
+    SOFTWARE_APP_SCHEMA,
     {
-      name: 'description',
-      content: 'Kanka is a free worldbuilding and RPG campaign management tool. Organize characters, locations, timelines, maps and more - all in one place. Trusted by 300\'000+ users.'
-    }
+      "@context": "https://schema.org",
+      "@type": "VideoObject",
+      "name": "Kanka — Worldbuilding & RPG Campaign Manager",
+      "description": "An overview of Kanka's worldbuilding and RPG campaign management features.",
+      "thumbnailUrl": "https://img.youtube.com/vi/hoXHTKjobek/maxresdefault.jpg",
+      "embedUrl": "https://www.youtube-nocookie.com/embed/hoXHTKjobek",
+      "duration": "PT45S",
+      "uploadDate": "2023-08-04T10:00:01-07:00",
+      "publisher": { "@type": "Organization", "name": "Kanka", "url": "https://kanka.io" }
+    },
   ],
-  script: [
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "SoftwareApplication",
-        "@id": "https://kanka.io/#software",
-        "name": "Kanka",
-        "description": "Free worldbuilding and RPG campaign manager. Organize characters, locations, maps, timelines, and lore — all in one place. Trusted by 375,000+ worldbuilders and game masters.",
-        "applicationCategory": "GameApplication",
-        "operatingSystem": "Web, iOS, Android",
-        "url": "https://kanka.io",
-        "offers": [
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-kobold-usd", "name": "Kobold", "price": "0", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-owlbear-usd", "name": "Owlbear", "price": "4.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-wyvern-usd", "name": "Wyvern", "price": "9.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-elemental-usd", "name": "Elemental", "price": "24.99", "priceCurrency": "USD", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-kobold-eur", "name": "Kobold", "price": "0", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-owlbear-eur", "name": "Owlbear", "price": "4.99", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-wyvern-eur", "name": "Wyvern", "price": "9.99", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-elemental-eur", "name": "Elemental", "price": "24.99", "priceCurrency": "EUR", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-kobold-brl", "name": "Kobold", "price": "0", "priceCurrency": "BRL", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-owlbear-brl", "name": "Owlbear", "price": "19.99", "priceCurrency": "BRL", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-wyvern-brl", "name": "Wyvern", "price": "39.99", "priceCurrency": "BRL", "availability": "https://schema.org/InStock" },
-          { "@type": "Offer", "@id": "https://kanka.io/#offer-elemental-brl", "name": "Elemental", "price": "99.99", "priceCurrency": "BRL", "availability": "https://schema.org/InStock" },
-        ],
-      })
-    },
-    {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "VideoObject",
-        "name": "Kanka — Worldbuilding & RPG Campaign Manager",
-        "description": "An overview of Kanka's worldbuilding and RPG campaign management features.",
-        "thumbnailUrl": "https://img.youtube.com/vi/hoXHTKjobek/maxresdefault.jpg",
-        "embedUrl": "https://www.youtube-nocookie.com/embed/hoXHTKjobek",
-        "duration": "PT45S",
-        "uploadDate": "2023-08-04T10:00:01-07:00",
-        "publisher": {
-          "@type": "Organization",
-          "name": "Kanka",
-          "url": "https://kanka.io"
-        }
-      })
-    }
-  ],
-  link: [
-    {
-      rel: 'canonical',
-      href: 'https://kanka.io/',
-    },
-    {
-      rel: 'preconnect',
-      href: 'https://www.youtube-nocookie.com',
-    },
-  ]
+})
+
+// Extra preconnect hint for the embedded YouTube video
+useHead({
+  link: [{ rel: 'preconnect', href: 'https://www.youtube-nocookie.com' }],
 })
 
 function hasGclid(): Boolean {

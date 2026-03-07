@@ -3,23 +3,19 @@ const { data: articles } = await useAsyncData('guides', () =>
     queryCollection('guides').all()
 )
 
-useHead({
+useSeo({
     title: 'Worldbuilding Guides - Kanka',
-    meta: [
-        { name: 'description', content: 'Guides to help you start and grow your worldbuilding projects.' }
-    ],
-    script: [
+    description: 'Guides to help you start and grow your worldbuilding projects.',
+    path: '/worldbuilding-guides',
+    schemas: [
         {
-            type: 'application/ld+json',
-            innerHTML: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-                    { "@type": "ListItem", "position": 2, "name": "Worldbuilding Guides", "item": "https://kanka.io/worldbuilding-guides" },
-                ]
-            })
-        }
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+                { "@type": "ListItem", "position": 2, "name": "Worldbuilding Guides", "item": "https://kanka.io/worldbuilding-guides" },
+            ]
+        },
     ],
 })
 </script>

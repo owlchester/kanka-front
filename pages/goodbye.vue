@@ -15,14 +15,9 @@
 </template>
 
 <script setup lang="ts">
-const runtimeConfig = useRuntimeConfig()
-useHead({
+useSeo({
   title: 'Goodbye - Kanka',
-  meta: [
-    { name: 'description', content: 'Thank you for being a part of our community.' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/goodbye' }
-  ],
+  description: 'Thank you for being a part of our community.',
+  path: '/goodbye',
 })
 </script>

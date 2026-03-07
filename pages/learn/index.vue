@@ -3,10 +3,19 @@ const { data: articles } = await useAsyncData('learn', () =>
     queryCollection('learn').all()
 )
 
-useHead({
+useSeo({
     title: 'Learn - Kanka',
-    meta: [
-        { name: 'description', content: 'Guides and articles to help you get the most out of Kanka.' }
+    description: 'Guides and articles to help you get the most out of Kanka.',
+    path: '/learn',
+    schemas: [
+        {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+                { "@type": "ListItem", "position": 2, "name": "Learn", "item": "https://kanka.io/learn" },
+            ]
+        },
     ],
 })
 </script>

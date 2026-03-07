@@ -111,45 +111,32 @@ function usdCss() {
   return currency.value == 'usd' ? css + ' bg-purple text-white' : css;
 }
 
-useHead({
-  title: 'Kanka Pricing - Worldbuilding & TTRPG Campaign Management Plans',
-  meta: [
-    { name: 'description', content: 'Choose from Kanka\'s free Kobold plan or paid tiers from $4.99/month. Unlock premium campaigns, larger file sizes, and an ad-free worldbuilding experience.' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/pricing' }
-  ],
-  script: [
+import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
+
+useSeo({
+  title: 'Free Worldbuilding Website — Kanka Plans & Pricing',
+  description: 'Choose from Kanka\'s free Kobold plan or paid tiers from $4.99/month. Unlock premium campaigns, larger file sizes, and an ad-free worldbuilding experience.',
+  path: '/pricing',
+  schemas: [
+    SOFTWARE_APP_SCHEMA,
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://kanka.io/pricing" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Pricing", "item": "https://kanka.io/pricing" },
+      ]
     },
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: (faq.value?.items ?? []).map(item => ({
-          '@type': 'Question',
-          name: item.q,
-          acceptedAnswer: { '@type': 'Answer', text: stripHtml(item.a) },
-        })),
-      }),
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: (faq.value?.items ?? []).map(item => ({
+        '@type': 'Question',
+        name: item.q,
+        acceptedAnswer: { '@type': 'Answer', text: stripHtml(item.a) },
+      })),
     },
   ],
-})
-useSeoMeta({
-    ogTitle: 'Kanka Pricing - Worldbuilding & TTRPG Campaign Management Plans',
-    ogDescription: 'Choose from Kanka\'s free Kobold plan or paid tiers from $4.99/month. Unlock premium campaigns, larger file sizes, and an ad-free worldbuilding experience.',
-    ogUrl: 'https://kanka.io/pricing',
-    twitterTitle: 'Kanka Pricing - Worldbuilding & TTRPG Campaign Management Plans',
 })
 </script>
 <style lang="css" scoped src="~/assets/styles/pricing.css"></style>

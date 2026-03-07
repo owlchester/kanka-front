@@ -17,26 +17,18 @@
 </template>
 
 <script setup lang="ts">
-const runtimeConfig = useRuntimeConfig()
-useHead({
+useSeo({
   title: 'Roadmap - Kanka',
-  meta: [
-    { name: 'description', content: 'Thanks for your interest in Kanka! Please use the following resources when talking about us.' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/roadmap' }
-  ],
-  script: [
+  description: 'Our community shape our work, so while we don\'t have a multi-month roadmap, it is easy to stay up to date with what has been requested and what is currently being worked on.',
+  path: '/roadmap',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Roadmap", "item": "https://kanka.io/roadmap" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Roadmap", "item": "https://kanka.io/roadmap" },
+      ]
     },
   ],
 })

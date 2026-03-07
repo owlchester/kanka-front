@@ -47,31 +47,22 @@ function defaultCurrency() {
   return country.value;
 }
 
-useHead({
+import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
+
+useSeo({
   title: 'Premium Worldbuilding Features for Your Kanka Campaigns',
-  meta: [
-    { name: 'description', content: 'Unlock premium Kanka features: custom CSS themes, larger uploads, entry recovery, FontAwesome icons, and more. Starting at $4.99/month.' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/premium' }
-  ],
-  script: [
+  description: 'Unlock premium Kanka features: custom CSS themes, larger uploads, entry recovery, FontAwesome icons, and more. Starting at $4.99/month.',
+  path: '/premium',
+  schemas: [
+    SOFTWARE_APP_SCHEMA,
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Premium Campaigns", "item": "https://kanka.io/premium" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Premium Campaigns", "item": "https://kanka.io/premium" },
+      ]
     },
   ],
-})
-useSeoMeta({
-    ogTitle: 'Premium Worldbuilding Features for Your Kanka Campaigns',
-    ogDescription: 'Unlock premium Kanka features: custom CSS themes, larger uploads, entry recovery, FontAwesome icons, and more. Starting at $4.99/month.',
-    ogUrl: 'https://kanka.io/premium',
 })
 </script>

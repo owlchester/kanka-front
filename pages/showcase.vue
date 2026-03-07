@@ -63,40 +63,30 @@
 
 <script setup lang="ts">
 
-const title = 'Showcase'
-const lead = 'Our showcase highlights a curated selection of campaigns built with Kanka. Each Spotlight features a closer look at how a world was created, what drives it, and the stories that emerge at the table.'
 const runtimeConfig = useRuntimeConfig()
 
 const api = ref(runtimeConfig.public.api + 'showcase');
 
 const { data: campaigns, pending, error } = await useFetch(() => api.value);
 
-useHead({
-  title: title + ' - Kanka',
-  meta: [
-    { name: 'description', content: lead }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/showcase' }
-  ],
-  script: [
+const title = 'Showcase'
+const lead = 'Our showcase highlights a curated selection of campaigns built with Kanka. Each Spotlight features a closer look at how a world was created, what drives it, and the stories that emerge at the table.'
+
+useSeo({
+  title: `${title} - Kanka`,
+  description: lead,
+  path: '/showcase',
+  ogTitle: 'Showcase',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Showcase", "item": "https://kanka.io/showcase" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Showcase", "item": "https://kanka.io/showcase" },
+      ]
     },
   ],
-})
-useSeoMeta({
-    ogTitle: title,
-    ogDescription: lead,
-    ogUrl: 'https://kanka.io/showcase',
 })
 
 function hasPages() {

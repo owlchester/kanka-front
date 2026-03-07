@@ -19,58 +19,41 @@ const { data: related } = await useAsyncData(`use-case-related-${slug}`, () =>
         .all()
 )
 
-useSeoMeta({
-  title: () => article.value ? `${article.value.title}` : 'Use Cases - Kanka',
-  description: () => article.value?.description,
-  ogUrl: () => `https://kanka.io/use-cases/${slug}`,
-  ogTitle: () => article.value ? `${article.value.title}` : 'Use Cases - Kanka',
-  ogDescription: () => article.value?.description,
-  twitterTitle: () => article.value ? `${article.value.title}` : 'Use Cases - Kanka',
-  twitterDescription: () => article.value?.description
-})
-
-useHead({
-    link: [
-        { rel: 'canonical', href: `https://kanka.io/use-cases/${slug}` }
-    ],
-    script: article.value ? [
+useSeo({
+    title: article.value?.title ?? 'Use Cases - Kanka',
+    description: article.value?.description ?? '',
+    path: `/use-cases/${slug}`,
+    schemas: article.value ? [
         {
-            type: 'application/ld+json',
-            innerHTML: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "BreadcrumbList",
-                "itemListElement": [
-                    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-                    { "@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://kanka.io/use-cases" },
-                    { "@type": "ListItem", "position": 3, "name": article.value.title, "item": `https://kanka.io/use-cases/${slug}` },
-                ]
-            })
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+                { "@type": "ListItem", "position": 2, "name": "Use Cases", "item": "https://kanka.io/use-cases" },
+                { "@type": "ListItem", "position": 3, "name": article.value.title, "item": `https://kanka.io/use-cases/${slug}` },
+            ]
         },
         {
-            type: 'application/ld+json',
-            innerHTML: JSON.stringify({
-                "@context": "https://schema.org",
-                "@type": "Article",
-                "headline": article.value.title,
-                "description": article.value.description,
-                "url": `https://kanka.io/use-cases/${slug}`,
-                ...(article.value.author ? {
-                    "author": { "@type": "Organization", "name": article.value.author, "url": "https://kanka.io/about" }
-                } : {}),
-                ...(article.value.datePublished ? { "datePublished": article.value.datePublished } : {}),
-                "publisher": {
-                    "@type": "Organization",
-                    "name": "Kanka",
-                    "url": "https://kanka.io",
-                    "logo": {
-                        "@type": "ImageObject",
-                        "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png"
-                    }
-                }
-            })
-        }
-    ] : []
+            "@context": "https://schema.org",
+            "@type": "Article",
+            "headline": article.value.title,
+            "description": article.value.description,
+            "url": `https://kanka.io/use-cases/${slug}`,
+            ...(article.value.author ? {
+                "author": { "@type": "Organization", "name": article.value.author, "url": "https://kanka.io/about" }
+            } : {}),
+            ...(article.value.datePublished ? { "datePublished": article.value.datePublished } : {}),
+            "publisher": {
+                "@type": "Organization",
+                "name": "Kanka",
+                "url": "https://kanka.io",
+                "logo": { "@type": "ImageObject", "url": "https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png" }
+            }
+        },
+    ] : [],
 })
+
+useSeoMeta({ ogType: 'article' })
 </script>
 
 <template>

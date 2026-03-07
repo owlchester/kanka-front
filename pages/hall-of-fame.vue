@@ -6,7 +6,7 @@
 
 
   <Section v-if="pending">Fetching...</Section>
-  <div v-else>
+  <div v-else-if="subscribers">
     <Section>
       <div class="flex flex-col gap-4 sticky top-0 bg-white justify-center">
         <NuxtPicture class="inline-block rounded-full mx-auto" src="images/tiers/elemental.png" alt="Elemental" width="150" height="150" />
@@ -81,32 +81,25 @@
 
 <script setup lang="ts">
 const title = 'Hall of fame'
-const lead = 'Kanka is a community driven project that gets frequent updates thanks to these amazing people who support us.'
+
 const runtimeConfig = useRuntimeConfig()
 
-const { data: subscribers, pending, error } = await useFetch(() => runtimeConfig.public.api + 'hall-of-fame')
-
-useHead({
-  title: 'Hall of fame - Kanka',
-  meta: [
-    { name: 'description', content: lead }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/hall-of-fame' }
-  ],
-  script: [
+useSeo({
+  title: `Hall of Fame - Kanka`,
+  description: 'Kanka is a community driven project that gets frequent updates thanks to these amazing people who support us.',
+  path: '/hall-of-fame',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Hall of Fame", "item": "https://kanka.io/hall-of-fame" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Hall of Fame", "item": "https://kanka.io/hall-of-fame" },
+      ]
     },
   ],
 })
+
+const { data: subscribers, pending } = useFetch(() => runtimeConfig.public.api + 'hall-of-fame')
 
 </script>

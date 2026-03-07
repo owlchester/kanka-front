@@ -83,47 +83,38 @@ const categories = computed(() =>
         }))
 )
 
-useHead({
-  title: title,
-  meta: [
-    { name: 'description', content: lead }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/kb' }
-  ],
-  script: [
+useSeo({
+  title,
+  description: lead,
+  path: '/kb',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Knowledge Base", "item": "https://kanka.io/kb" },
-        ]
-      })
-    },
-    {
-      type: 'application/ld+json',
-      innerHTML: computed(() => JSON.stringify({
-        '@context': 'https://schema.org',
-        '@type': 'FAQPage',
-        mainEntity: categories.value.flatMap(c =>
-            c.faqs.map(f => ({
-                '@type': 'Question',
-                name: f.question,
-                acceptedAnswer: { '@type': 'Answer', text: stripHtml(f.html) },
-            }))
-        ),
-      })),
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Knowledge Base", "item": "https://kanka.io/kb" },
+      ]
     },
   ],
 })
 
-useSeoMeta({
-  ogTitle: title + ' - Kanka',
-  ogDescription: lead,
-  ogUrl: 'https://kanka.io/kb',
+// FAQPage schema is reactive (depends on computed categories)
+useHead({
+  script: [{
+    type: 'application/ld+json',
+    innerHTML: computed(() => JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'FAQPage',
+      mainEntity: categories.value.flatMap(c =>
+          c.faqs.map(f => ({
+              '@type': 'Question',
+              name: f.question,
+              acceptedAnswer: { '@type': 'Answer', text: stripHtml(f.html) },
+          }))
+      ),
+    })),
+  }],
 })
 
 function isOpen(slug: string) {

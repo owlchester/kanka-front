@@ -48,34 +48,28 @@
 
 <script setup lang="ts">
 const title = 'Contact Kanka Support - Worldbuilding & RPG Campaign Manager'
-const lead = '"Need help, found a bug, or want to share feedback? Reach our team at hello@kanka.io or hop on our Discord community.'
+const lead = 'Need help, found a bug, or want to share feedback? Reach our team at hello@kanka.io or hop on our Discord community.'
 
-useSeoMeta({
-  ogUrl: () => `https://kanka.io/contact`,
-  ogTitle: () => title,
-  ogDescription: () => lead,
-  twitterTitle: () => title,
-  twitterDescription: () => title
-})
-useHead({
-  title: title,
-  meta: [
-    { name: 'description', content: lead }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/contact' }
-  ],
-  script: [
+useSeo({
+  title,
+  description: lead,
+  path: '/contact',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://kanka.io/contact" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "url": "https://kanka.io/contact/",
+      "name": title,
+      "description": lead,
+      "mainEntity": { "@id": "https://kanka.io/#organization" }
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "Contact", "item": "https://kanka.io/contact" },
+      ]
     },
   ],
 })

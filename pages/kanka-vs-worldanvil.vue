@@ -103,19 +103,10 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public
-useHead({
-  title: 'Kanka vs World Anvil - Which worldbuilding tool is right for you?',
-  meta: [
-    { name: 'description', content: 'Comparing Kanka and World Anvil? Kanka offers a cleaner interface, stronger RPG campaign tools, and a genuinely free tier. See the full feature-by-feature comparison.' }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/kanka-vs-worldanvil' }
-  ],
-})
 
-useSeoMeta({
-  ogTitle: "Kanka vs World Anvil - Which worldbuilding tool is right for you?",
-  ogDescription: "Comparing Kanka and World Anvil? Kanka offers a cleaner interface, stronger RPG campaign tools, and a genuinely free tier. See the full feature-by-feature comparison.",
-  ogUrl: 'https://kanka.io/kanka-vs-worldanvil',
+useSeo({
+  title: 'Kanka vs World Anvil - Which worldbuilding tool is right for you?',
+  description: 'Comparing Kanka and World Anvil? Kanka offers a cleaner interface, stronger RPG campaign tools, and a genuinely free tier. See the full feature-by-feature comparison.',
+  path: '/kanka-vs-worldanvil',
 })
 </script>

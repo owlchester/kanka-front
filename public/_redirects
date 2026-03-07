@@ -12,6 +12,8 @@
 /go/twitch https://twitch.tv/kankaio
 /go/github https://github.com/owlchester/kanka
 
+/comparison/ /kanka-vs-worldanvil 301
+
 
 /de/invitation/* https://app.kanka.io/invitation/:splat 301
 /en-US/invitation/* https://app.kanka.io/invitation/:splat 301

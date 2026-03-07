@@ -1,6 +1,6 @@
 <template>
   <BaseHero
-      :title="title"
+      title="A tiny team making worldbuilding fun and reliable"
       :lead="lead" />
 
   <Section>
@@ -68,63 +68,51 @@
 </template>
 
 <script setup lang="ts">
-const title = 'Making worldbuilding fun and reliable'
+const title = 'About Kanka — 3-Person Team Behind 375K+ Worldbuilder'
 const lead = 'Kanka was born out of a frustration with worldbuilding and session notes scattered around in various tools, and the difficulty of easily sharing that content with players. Today, Kanka is a small group of friends spread around the world focused on building the best tools for those original needs.'
 
 const { data: team } = await useAsyncData('team', () =>
     queryCollection('team').order('id', 'ASC').all()
 )
 
-useHead({
-  title: 'About Kanka — The Team Behind the Worldbuilding & TTRPG Platform',
-  meta: [
-    { name: 'description', content: "Kanka is a 3-person team from Geneva building the world's best TTRPG campaign manager and worldbuilding platform, used by 375,000+ creators in 90+ countries." }
-  ],
-  link: [
-    { rel: 'canonical', href: 'https://kanka.io/about' }
-  ],
-  script: [
+useSeo({
+  title,
+  description: "Kanka is a 3-person team from Geneva building the world's best TTRPG campaign manager and worldbuilding platform, used by 375,000+ creators in 90+ countries.",
+  path: '/about',
+  schemas: [
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
-          { "@type": "ListItem", "position": 2, "name": "About", "item": "https://kanka.io/about" },
-        ]
-      })
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://kanka.io" },
+        { "@type": "ListItem", "position": 2, "name": "About", "item": "https://kanka.io/about" },
+      ]
     },
     {
-      type: 'application/ld+json',
-      innerHTML: JSON.stringify({
-        "@context": "https://schema.org",
-        "@type": "AboutPage",
-        "name": "About Kanka",
-        "url": "https://kanka.io/about",
-        "description": "Kanka is a small team building the best collaborative worldbuilding and TTRPG campaign management platform.",
-        "mainEntity": { "@id": "https://kanka.io/#organization" }
-      })
+      "@context": "https://schema.org",
+      "@type": "AboutPage",
+      "name": "About Kanka",
+      "url": "https://kanka.io/about",
+      "description": "Kanka is a small team building the best collaborative worldbuilding and TTRPG campaign management platform.",
+      "mainEntity": { "@id": "https://kanka.io/#organization" }
     },
-    ...(team.value ?? [])
-      .filter(m => m.schema !== false)
-      .map(m => ({
-        type: 'application/ld+json',
-        innerHTML: JSON.stringify({
-          "@context": "https://schema.org",
-          "@type": "Person",
-          "name": m.name,
-          "jobTitle": m.role,
-          "worksFor": { "@id": "https://kanka.io/#organization" },
-          "image": m.image,
-        })
-      })),
   ],
 })
-useSeoMeta({
-    ogTitle: 'About Kanka — The Team Behind the Worldbuilding & TTRPG Platform',
-    twitterTitle: 'About Kanka — The Team Behind the Worldbuilding & TTRPG Platform',
-    ogDescription: lead,
-    ogUrl: 'https://kanka.io/about',
+
+// Dynamic Person schemas based on team data
+useHead({
+  script: (team.value ?? [])
+    .filter(m => m.schema !== false)
+    .map(m => ({
+      type: 'application/ld+json',
+      innerHTML: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": m.name,
+        "jobTitle": m.role,
+        "worksFor": { "@id": "https://kanka.io/#organization" },
+        "image": m.image,
+      })
+    })),
 })
 </script>
