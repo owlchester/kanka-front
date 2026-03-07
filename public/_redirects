@@ -40,6 +40,9 @@
 /nl/* 410
 /gl/* 410
 /hr/* 410
+/he/* 410
+/ca/* 410
+/pl/* 410
 
 # www to apex
 # https://www.kanka.io/* https://kanka.io/:splat 301
