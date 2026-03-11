@@ -1,6 +1,8 @@
 <template>
   <Html lang="en"></Html>
-  <BaseNav />
+  <header role="banner">
+      <BaseNav />
+  </header>
   <main>
     <slot />
   </main>

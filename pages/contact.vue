@@ -40,7 +40,7 @@
       </div>
       <div>
         <h3 class="font-semibold mb-2 text-purple">Forgot your password?</h3>
-        <p>Use the lost password feature on the <a href="https://kanka.io/login" class="link">login page</a> to reset it yourself. No need to contact us!</p>
+        <p>Use the lost password feature on the <a href="https://app.kanka.io/login" class="link">login page</a> to reset it yourself. No need to contact us!</p>
       </div>
     </div>
   </section>

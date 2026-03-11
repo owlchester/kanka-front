@@ -503,7 +503,7 @@
         </p>
 
         <NuxtLink
-            to="/worldbuilding-guides/kanka-vs-worldanvil"
+            to="/kanka-vs-worldanvil"
             class="text-purple"
         >
             See how Kanka compares to WorldAnvil
