@@ -17,7 +17,7 @@
 
             <div class="flex flex-col gap-2">
                 <span class="text-nav">RPGs</span>
-                <a href="#entries" class="text-purple">Entities in Kanka</a>
+                <a href="#entries" class="text-purple">Entries in Kanka</a>
                 <a href="#inventory" class="text-purple">Inventory</a>
                 <a href="#abilities" class="text-purple">Abilities</a>
                 <a href="#properties" class="text-purple">Attributes</a>
@@ -146,7 +146,7 @@
                   Craft beautiful pages for your story's protagonists
                 </Preview>
                 <div id="entries" class="flex flex-col gap-5">
-                    <h3>Entities in Kanka</h3>
+                    <h3>Entries in Kanka</h3>
                     <p>
                         Kanka is built around a list of around 20 different
                         entries. These are the pre-defined types of core
@@ -194,7 +194,7 @@
             <div class="flex flex-col gap-8">
                 <Preview
                     url="images/screenshots/abilities.png"
-                    alt="Entity abilities"
+                    alt="Entry abilities"
                     asset
                 >
                     Add powers and special abilities to any entry
