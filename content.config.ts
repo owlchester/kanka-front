@@ -31,7 +31,8 @@ export default defineContentConfig({
             source: 'worldbuilding-guides/*.md',
             schema: z.object({
                 title: z.string(),
-                description: z.string(),
+                lead: z.string(),
+                description: z.string().optional(),
                 tags: z.array(z.string()).optional(),
                 author: z.string().optional(),
                 datePublished: z.string().optional(),

@@ -1,6 +1,7 @@
 ---
-title: How much worldbuilding do you actually need to start a D&D game?
-description: "Spoiler: not a whole lot. You can make it up as you go and that's half the fun."
+title: How Much Worldbuilding Do You Need? A Practical Guide
+description: Skip the 50-page lore document. This guide shows exactly how much worldbuilding you need to run a great first session, and when to stop.
+lead: "Spoiler: not a whole lot. You can make it up as you go and that's half the fun."
 author: The Kanka Team
 datePublished: "2026-03-03"
 tags:

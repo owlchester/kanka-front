@@ -32,7 +32,8 @@ const thumbnail = computed(() =>
                 :src="thumbnail"
                 :alt="title ?? 'Video thumbnail'"
                 class="w-full h-full object-cover rounded"
-                loading="lazy"
+                loading="eager"
+                fetchpriority="high"
             />
             <span class="absolute inset-0 flex items-center justify-center">
                 <span class="bg-red-600 rounded-full w-16 h-16 flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform">

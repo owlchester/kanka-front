@@ -1,6 +1,7 @@
 ---
-title: Start creating your own world
-description: Whether you're dreaming up a fantasy realm, building a galaxy-spanning sci-fi empire, or just toying with a story idea, worldbuilding is easier and more rewarding than you might think. The best part? You're probably already doing it.
+title: "How to Start Worldbuilding: A Beginner's Guide"
+description: Start worldbuilding today - no experience needed. This guide walks you through creating your first fantasy world, from concept to playable setting.
+lead: Whether you're dreaming up a fantasy realm, building a galaxy-spanning sci-fi empire, or just toying with a story idea, worldbuilding is easier and more rewarding than you might think. The best part? You're probably already doing it.
 author: Jay
 datePublished: "2026-03-03"
 tags:

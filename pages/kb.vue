@@ -55,7 +55,7 @@
 <script setup lang="ts">
 import { marked } from 'marked'
 
-const title = 'Kanka FAQ - Worldbuilding & TTRPG Campaign Manager Questions Answered'
+const title = 'Kanka Help Center - FAQ & Worldbuilding Guides'
 const lead = 'Quick answers to common questions about campaigns, permissions, maps, calendars, pricing, and more.'
 
 const route = useRoute()

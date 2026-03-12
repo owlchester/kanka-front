@@ -20,7 +20,7 @@ const { data: related } = await useAsyncData(`use-case-related-${slug}`, () =>
 )
 
 useSeo({
-    title: article.value?.title ?? 'Use Cases - Kanka',
+    title: article.value?.title + ' - Kanka' ?? 'Use Cases - Kanka',
     description: article.value?.description ?? '',
     path: `/use-cases/${slug}`,
     schemas: article.value ? [

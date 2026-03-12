@@ -4,6 +4,7 @@ export default defineNuxtConfig({
   experimental: {
     inlineSSRStyles: true,
   },
+  compatibilityDate: '2026-03-12',
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxtjs/google-fonts",

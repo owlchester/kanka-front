@@ -117,7 +117,7 @@ const { data: campaigns, pending } = await useFetch<CampaignsData>(() => filterU
 const activeFilters = ref<Record<string, string>>({})
 
 const title = 'Public Campaigns - Kanka'
-const lead = 'Many campaigns in Kanka are public for all to see. This page contains a list of all public campaigns, as well as some featured campaigns from the community.'
+const lead = 'Explore thousands of public campaigns built on Kanka. Find D&D homebrew worlds, fantasy settings, and RPG adventures - then start building your own.'
   
 useSeo({
   title: title,
