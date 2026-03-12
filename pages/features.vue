@@ -89,7 +89,7 @@
             </div>
 
             <div id="updates" class="flex flex-col gap-5">
-                <h3>Module</h3>
+                <h3>Frequent updates</h3>
                 <p>
                     Kanka isn't just a
                     <NuxtLink to="/about" class="link">small team</NuxtLink> of
@@ -112,10 +112,6 @@
                     large campaigns with multiple groups, premium campaigns can
                     create multiple dashboards tailored to each role.
                 </p>
-
-                <div>
-                    <a href="" class="btn-round rounded-full">Lean more</a>
-                </div>
             </div>
 
             <Preview
