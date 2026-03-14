@@ -21,7 +21,7 @@ const { data: related } = await useAsyncData(`guides-related-${slug}`, () =>
 
 useSeo({
     title: article.value ? `${article.value.title} - Kanka` : 'Worldbuilding Guides - Kanka',
-    description: article.value?.description ?? '',
+    description: article.value?.description ?? article.value?.lead ?? '',
     path: `/worldbuilding-guides/${slug}`,
     schemas: article.value ? [
         {
@@ -63,7 +63,7 @@ useSeoMeta({
 
 <template>
     <div v-if="article">
-        <BaseHero :title="article.title" :lead="article.description" />
+        <BaseHero :title="article.title" :lead="article.lead" />
 
       <Section align="left">
             <div class="prose max-w-3xl mx-auto">
@@ -87,7 +87,7 @@ useSeoMeta({
                     <NuxtLink :to="`${item.path}`" class="link">
                         <span class="text-md text-purple font-semibold">{{ item.title }}</span>
                     </NuxtLink>
-                    <p class="grow text-sm">{{ item.description }}</p>
+                    <p class="grow text-sm">{{ item.lead }}</p>
                 </div>
             </div>
         </Section>

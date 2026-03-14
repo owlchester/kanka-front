@@ -114,7 +114,7 @@ function usdCss() {
 import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
 
 useSeo({
-  title: 'Free Worldbuilding Website — Kanka Plans & Pricing',
+  title: 'Kanka Plans & Pricing - Worldbuilding Tool Subscriptions ',
   description: 'Choose from Kanka\'s free Kobold plan or paid tiers from $4.99/month. Unlock premium campaigns, larger file sizes, and an ad-free worldbuilding experience.',
   path: '/pricing',
   schemas: [

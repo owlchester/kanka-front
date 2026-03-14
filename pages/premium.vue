@@ -50,7 +50,7 @@ function defaultCurrency() {
 import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
 
 useSeo({
-  title: 'Premium Worldbuilding Features for Your Kanka Campaigns',
+  title: 'Kanka Premium - Advanced Worldbuilding Features & Perks',
   description: 'Unlock premium Kanka features: custom CSS themes, larger uploads, entry recovery, FontAwesome icons, and more. Starting at $4.99/month.',
   path: '/premium',
   schemas: [

@@ -105,8 +105,8 @@
 const runtimeConfig = useRuntimeConfig().public
 
 useSeo({
-  title: 'Kanka vs World Anvil - Which worldbuilding tool is right for you?',
-  description: 'Comparing Kanka and World Anvil? Kanka offers a cleaner interface, stronger RPG campaign tools, and a genuinely free tier. See the full feature-by-feature comparison.',
+  title: 'Kanka vs World Anvil - Worldbuilding Tool Comparison 2026',
+  description: 'Kanka vs World Anvil compared across 15+ features. See why 375,000+ worldbuilders choose Kanka for campaigns, maps, and lore management.',
   path: '/kanka-vs-worldanvil',
 })
 </script>

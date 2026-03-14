@@ -154,10 +154,17 @@ const route = useRoute()
 const runtimeConfig = useRuntimeConfig().public
 
 useSeo({
-  title: 'Kanka - Free Worldbuilding & RPG Campaign Manager',
-  description: 'Kanka is a free worldbuilding and RPG campaign management tool. Organize characters, locations, timelines, maps and more - all in one place. Trusted by 300\'000+ users.',
+  title: 'Worldbuilding & Campaign Management Tool - Kanka',
+  description: 'Organize your RPG campaigns, characters, maps, and timelines in one worldbuilding tool. Trusted by 375,000+ game masters, writers, and worldbuilders.',
   path: '/',
   schemas: [
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "@id": "https://kanka.io/#website",
+      "name": "Kanka",
+      "url": "https://kanka.io",
+    },
     SOFTWARE_APP_SCHEMA,
     {
       "@context": "https://schema.org",
