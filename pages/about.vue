@@ -68,7 +68,7 @@
 </template>
 
 <script setup lang="ts">
-const title = 'About Kanka — 3-Person Team Behind 375K+ Worldbuilder'
+const title = 'About Kanka — 3-Person Team Behind 375K+ Worldbuilders'
 const lead = 'Kanka was born out of a frustration with worldbuilding and session notes scattered around in various tools, and the difficulty of easily sharing that content with players. Today, Kanka is a small group of friends spread around the world focused on building the best tools for those original needs.'
 
 const { data: team } = await useAsyncData('team', () =>

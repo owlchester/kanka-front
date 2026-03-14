@@ -6,7 +6,7 @@
   <Section v-if="setup?.featured" id="featured" >
     <div class="flex flex-col gap-4">
       <h2 class="text-purple">Spotlighted campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">A curated selection of campaigns chosen for their worldbuilding, themes, and creativity.</p>
+      <p class="lg:max-w-xl lg:mx-auto">Each month we spotlight a handful of standout public campaigns from our community, chosen for their depth of worldbuilding, creative themes, and the care their creators put into them.</p>
       <NuxtLink to="/showcase" class="btn">View the showcase</NuxtLink>
     </div>
     <div class="overflow-x-auto">
@@ -28,7 +28,7 @@
   <Section id="campaigns">
     <div class="flex flex-col gap-4">
       <h2 class="text-purple">Public campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">Take a look some public campaigns for inspiration.</p>
+      <p class="lg:max-w-xl lg:mx-auto">Browse campaigns shared by Kanka's community of worldbuilders, game masters, and storytellers. Use the filters to explore by type, whether you're looking for a gritty D&D setting, an intricate fantasy world, or a narrative-driven story campaign. See how other creators structure their work, then take those ideas into your own.</p>
     </div>
     <div class="flex gap-6 flex-col md:flex-row text-left">
       <div class="w-90">
@@ -116,7 +116,7 @@ const { data: campaigns, pending } = await useFetch<CampaignsData>(() => filterU
 
 const activeFilters = ref<Record<string, string>>({})
 
-const title = 'Public Campaigns - Kanka'
+const title = 'Public Worldbuilding Campaigns: D&D, Fantasy & RPG — Kanka'
 const lead = 'Many campaigns in Kanka are public for all to see. This page contains a list of all public campaigns, as well as some featured campaigns from the community.'
   
 useSeo({

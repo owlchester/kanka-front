@@ -1,7 +1,7 @@
 <template>
     <BaseHero
-        title="Powerful features with incredible flexibility"
-        lead="Kanka is constantly being updated with new features and improvements, but here are some of the most important ones we think you’ll love."
+        title="The worldbuilding toolkit for game masters and storytellers"
+        lead="Kanka packs everything a game master or worldbuilder needs into one place: characters, locations, maps, calendars, timelines, and more. Free for the core stuff, with upgrades when you're ready."
     />
 
     <Section>
@@ -55,62 +55,34 @@
                     campaigns, having limits on the number of elements in a
                     campaign, or not being able to control who sees what? We are
                     too, which is why all core features of Kanka are absolutely
-                    free. We also have some
-                    <NuxtLink to="/pricing#paid-features" class="link"
-                        >bonuses for our subscribers</NuxtLink
-                    >
-                    that are nice to have, though not essential.
+                    free. We do offer some <NuxtLink to="/pricing#paid-features" class="link">subscriber</NuxtLink> perks for those who want more, but everything you need to run a great campaign is available without spending a cent.
                 </p>
             </div>
             <div id="collaborative" class="flex flex-col gap-5">
                 <h3>Collaborative</h3>
                 <p>
-                    We've built Kanka to support worlds with multiple members
-                    and multiple campaigns. Add your friends to the campaign,
-                    assign them to one or several roles, and control what
-                    features and information they have access to. You can also
-                    view the campaign as a member at any time, just to make sure
-                    you haven't left content visible that shouldn't be.
+                    Kanka is built for worlds with multiple collaborators and players. Invite your friends, assign them roles, and control exactly what they can see and do. For peace of mind, you can preview your campaign from any member's perspective at any time, so nothing stays visible that shouldn't be.
                 </p>
             </div>
 
             <div id="modular" class="flex flex-col gap-5">
-                <h3>Modular</h3>
+                <h3>Flexibility</h3>
                 <p>
-                    We've focused our efforts on building about 20 different
-                    modules in Kanka that each focus on one aspect of playing a
-                    TTRPG or wordbuilding in general. In each campaign, you can
-                    create characters, locations, families, organisations,
-                    items, quests, journals, calendars, events, abilities and
-                    more. Don't need abilities? No problem, you can disable
-                    modules of your choice in each campaign, simplifying your
-                    setup to focus on what's important to you.
+                    Kanka comes with around 20 built-in categories covering every aspect of worldbuilding and campaign management, including characters, locations, families, organizations, objects, quests, journals, calendars, events, abilities, and more. Don't need all of them? You can disable any category in each campaign, keeping your workspace focused on what actually matters to you. Missing something critical to your worldbuilding needs? You can always add custom categories!
                 </p>
             </div>
 
             <div id="updates" class="flex flex-col gap-5">
                 <h3>Module</h3>
                 <p>
-                    Kanka isn't just a
-                    <NuxtLink to="/about" class="link">small team</NuxtLink> of
-                    passionate worldbuilders. It's a huge community of dedicated
-                    users who help us shape and push frequent updates. We take
-                    pride in focusing on features that our community want and
-                    love. On average, we release two big updates every month to
-                    all users, and some months we spoil our users with more. We
-                    regularly go into detail about these upcoming updates and
-                    collect feedback on our Discord.
+                    Kanka is shaped by a large, active community of worldbuilders and game masters. We take pride in shipping features our users actually want, with on average a big update every few weeks. We share what's coming on our <a href="/go/discord" class="text-purple">Discord</a> and collect feedback before we build, so the community always has a voice in where Kanka goes next.
                 </p>
             </div>
 
             <div id="dashboards" class="flex flex-col gap-5">
                 <h3>Campaign dashboards</h3>
                 <p>
-                    The dashboard is the central hub where you control your
-                    campaign. Each campaign can fully customise the dashboard,
-                    adding widgets from a long list of available options. For
-                    large campaigns with multiple groups, premium campaigns can
-                    create multiple dashboards tailored to each role.
+                    The dashboard is your campaign's home base. Customize it with widgets from a broad selection of options, arranging everything the way your group needs it. Running a large west march style campaign with multiple player groups? <NuxtLink to="/premium" class="link">Premium campaigns</NuxtLink> can set up separate dashboards tailored to each role.
                 </p>
 
                 <div>
@@ -144,15 +116,9 @@
                     An example character, legendary Adam Morley
                 </Preview>
                 <div id="entities" class="flex flex-col gap-5">
-                    <h3>Entities in Kanka</h3>
+                    <h3>Entries in Kanka</h3>
                     <p>
-                        Kanka is built around a list of around 20 different
-                        entities. These are the pre-defined types of core
-                        objects in a campaign. They include characters,
-                        locations, families, items, quests, journals, calendars,
-                        timelines, and more. They all share some functionality
-                        but are unique in their own way and interact with other
-                        elements of your campaign.
+                        Kanka is built around roughly 20 categories — the core building blocks of any campaign. Characters, locations, families, objects, quests, journals, calendars, timelines, and more. Each category has its own purpose and unique features, while sharing a common set of tools that make everything work together seamlessly.
                     </p>
                 </div>
             </div>
