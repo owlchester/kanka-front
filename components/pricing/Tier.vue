@@ -31,7 +31,7 @@
         <slot />
       </div>
 
-      <a :href="registerUrl()" class="btn btn-primary">
+      <a :href="registerUrl()" class="btn btn-primary" @click="trackRegisterClick('pricing')">
         {{ cta }}
       </a>
     </div>
@@ -76,5 +76,4 @@ function yearlyPrice() {
 }
 function registerUrl() {
   return runtimeConfig.app + '/register?from=pricing';
-}
-</script>
+}</script>

@@ -94,8 +94,8 @@
 
   <Section>
     <p>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full">
-        Create your free account!
+      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full" @click="trackRegisterClick('vs_worldanvil')">
+          Join 375,000 worldbuilders who didn't want to pay for complexity they'd never use.
       </a>
     </p>
   </Section>

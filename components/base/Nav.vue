@@ -47,6 +47,7 @@
             <a
                 :href="`${runtimeConfig.app}/register`"
                 class="btn-register transition-all duration-200"
+                @click="trackRegisterClick('nav')"
                 >Register</a
             >
         </div>
@@ -110,6 +111,7 @@
                 <a
                     :href="`${runtimeConfig.app}/register`"
                     class="btn-register transition-all duration-200"
+                    @click="trackRegisterClick('nav_mobile')"
                     >Register</a
                 >
             </div>

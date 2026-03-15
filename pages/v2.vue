@@ -5,7 +5,7 @@
       :big="true"
   >
     <div>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full ">
+      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full " @click="trackRegisterClick('hero_v2')">
         Register a free account
       </a>
     </div>
@@ -102,7 +102,7 @@
   <Section id="register">
     <h2 class="text-purple">Like what you see?</h2>
     <p>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full">
+      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full" @click="trackRegisterClick('cta_v2')">
         Register a free account now
       </a>
     </p>

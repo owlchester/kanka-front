@@ -76,4 +76,4 @@ Start small. Dream big. Build the world with your players, not on your own.
 
 And hey, when your world starts to grow faster or bigger than you expected, **Kanka**'s got your back.
 
-[Create your first world — it's free and takes two minutes](https://kanka.io/register?utm_source=kanka&utm_medium=how-much&utm_campaign=worldbuilding-guides)
+[Start small. Kanka is free however deep you go.](https://app.kanka.io/register?utm_source=kanka&utm_medium=how-much&utm_campaign=worldbuilding-guides)

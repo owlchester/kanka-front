@@ -499,6 +499,7 @@
             <a
                 :href="`${runtimeConfig.app}/register`"
                 class="btn-round rounded-full"
+                @click="trackRegisterClick('features')"
             >
                 Register a free account
             </a>
