@@ -87,4 +87,6 @@ Worldbuilding is about exploration. Every world starts with a single idea and gr
 
 And with the right tools and community behind you, you can go even further.
 
-[Your world needs a home. Kanka is free to get started.](https://app.kanka.io/register?utm_source=kanka&utm_medium=start-worldbuilding&utm_campaign=worldbuilding-guides)
+<a href="https://app.kanka.io/register" class="btn-round rounded-full" @click="trackRegisterClick('guide-start')">
+  SYour world needs a home. Kanka is free to get started.
+</a>

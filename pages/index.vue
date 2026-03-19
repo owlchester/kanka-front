@@ -139,7 +139,7 @@
   <Section id="register">
     <h2 class="text-purple">Like what you see?</h2>
     <p>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full" @click="trackRegisterClick('cta')">
+      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full" @click="trackRegisterClick('index_bottom')">
         Register a free account now
       </a>
     </p>
