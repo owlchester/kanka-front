@@ -7,6 +7,8 @@ datePublished: "2026-03-03"
 tags:
   - beginner
   - worldbuilding
+cta: Your world needs a home. Kanka is free to get started.
+tracking: start
 ---
 
 ## What is worldbuilding (and why you might already be doing it)
@@ -87,6 +89,3 @@ Worldbuilding is about exploration. Every world starts with a single idea and gr
 
 And with the right tools and community behind you, you can go even further.
 
-<a href="https://app.kanka.io/register" class="btn-round rounded-full" @click="trackRegisterClick('guide-start')">
-  SYour world needs a home. Kanka is free to get started.
-</a>

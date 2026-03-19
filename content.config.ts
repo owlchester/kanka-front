@@ -11,6 +11,8 @@ export default defineContentConfig({
                 tags: z.array(z.string()).optional(),
                 author: z.string().optional(),
                 datePublished: z.string().optional(),
+                cta: z.string().optional(),
+                tracking: z.string().optional(),
             })
         }),
         useCase: defineCollection({
@@ -24,6 +26,8 @@ export default defineContentConfig({
                 tags: z.array(z.string()).optional(),
                 author: z.string().optional(),
                 datePublished: z.string().optional(),
+                cta: z.string(),
+                tracking: z.string(),
             })
         }),
         guides: defineCollection({
@@ -36,6 +40,8 @@ export default defineContentConfig({
                 tags: z.array(z.string()).optional(),
                 author: z.string().optional(),
                 datePublished: z.string().optional(),
+                cta: z.string(),
+                tracking: z.string(),
             })
         }),
         team: defineCollection({

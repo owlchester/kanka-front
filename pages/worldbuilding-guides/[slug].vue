@@ -73,6 +73,12 @@ useSeoMeta({
                     <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
                 </p>
                 <ContentRenderer :value="article" />
+                <a 
+                    v-if="article.cta"
+                    href="https://app.kanka.io/register"
+                    class="btn-round rounded-full"
+                    @click="trackRegisterClick('guide_' + article.tracking)" v-html="article.cta">
+                </a>
             </div>
         </Section>
 

@@ -8,6 +8,8 @@ tags:
   - dnd
   - beginner
   - worldbuilding
+cta: Start small. Kanka is free however deep you go.
+tracking: wb
 ---
 
 ## The problem every new DM faces
@@ -75,7 +77,3 @@ You don't need to be Matt Mercer. You just need to start.
 Start small. Dream big. Build the world with your players, not on your own.
 
 And hey, when your world starts to grow faster or bigger than you expected, **Kanka**'s got your back.
-
-<a href="https://app.kanka.io/register" class="btn-round rounded-full" @click="trackRegisterClick('guide-wb')">
-  Start small. Kanka is free however deep you go.
-</a>
