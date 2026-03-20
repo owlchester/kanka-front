@@ -4,7 +4,7 @@ Look at the [Nuxt 4 documentation](https://nuxt.com/docs/getting-started/introdu
 
 ## Setup
 
-Make sure to install the dependencies:
+Make sure to insta  ll the dependencies:
 
 ```bash
 # npm
