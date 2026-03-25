@@ -101,7 +101,7 @@ export default defineNuxtConfig({
   llms: {
     domain: "https://kanka.io",
     title: "Kanka",
-    description: "Collaborative campaign management and worldbuilding software",
+    description: "Collaborative RPG campaign management and worldbuilding software",
   },
   image: {
     format: ["webp", "avif"],

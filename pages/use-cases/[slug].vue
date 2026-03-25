@@ -12,6 +12,8 @@ if (!article.value) {
     setResponseStatus(useRequestEvent()!, 404)
 }
 
+const registerUrl = useRegisterUrl('use_case_' + (article.value?.tracking ?? ''))
+
 const { data: related } = await useAsyncData(`use-case-related-${slug}`, () =>
     queryCollection('useCase')
         .where('path', '!=', path)
@@ -69,9 +71,9 @@ useSeoMeta({ ogType: 'article' })
                 </p>
                 <ContentRenderer :value="article" />
                 
-                <a 
+                <a
                     v-if="article.cta"
-                    href="https://app.kanka.io/register"
+                    :href="registerUrl"
                     class="btn-round rounded-full"
                     @click="trackRegisterClick('use_case_' + article.tracking)" v-html="article.cta">
                 </a>

@@ -45,7 +45,7 @@
                 >Sign in</a
             >
             <a
-                :href="`${runtimeConfig.app}/register`"
+                :href="navRegisterUrl"
                 class="btn-register transition-all duration-200"
                 @click="trackRegisterClick('nav')"
                 >Register</a
@@ -109,7 +109,7 @@
                     >Sign in</a
                 >
                 <a
-                    :href="`${runtimeConfig.app}/register`"
+                    :href="navMobileRegisterUrl"
                     class="btn-register transition-all duration-200"
                     @click="trackRegisterClick('nav_mobile')"
                     >Register</a
@@ -120,6 +120,8 @@
 </template>
 <script setup type="ts">
 const runtimeConfig = useRuntimeConfig().public
+const navRegisterUrl = useRegisterUrl('nav')
+const navMobileRegisterUrl = useRegisterUrl('nav_mobile')
 const open = ref(false);
 
 const toggle = () => {

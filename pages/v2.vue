@@ -5,7 +5,7 @@
       :big="true"
   >
     <div>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full " @click="trackRegisterClick('hero_v2')">
+      <a :href="heroRegisterUrl" class="btn-round rounded-full " @click="trackRegisterClick('hero_v2')">
         Register a free account
       </a>
     </div>
@@ -102,28 +102,16 @@
   <Section id="register">
     <h2 class="text-purple">Like what you see?</h2>
     <p>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full" @click="trackRegisterClick('index_bottom_v2')">
+      <a :href="bottomRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick('index_bottom_v2')">
         Register a free account now
       </a>
     </p>
   </Section>
 
-  <img v-if="hasGclid()" v-bind:src="prepareUrl()" width="1" height="1" />
 </template>
 <script setup lang="ts">
-const route = useRoute()
-const runtimeConfig = useRuntimeConfig().public
-
-function hasGclid(): Boolean {
-  return route.query.gclid !== undefined;
-}
-
-// If a user has a gclid, we want the backend to know to properly add their bonuses
-function prepareUrl(): String {
-  return runtimeConfig.app +
-      '/frontend-prepare?gclid=' +
-      route.query.gclid
-}
+const heroRegisterUrl = useRegisterUrl('hero_v2')
+const bottomRegisterUrl = useRegisterUrl('index_bottom_v2')
 
 
 useSeo({

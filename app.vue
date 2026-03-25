@@ -1,6 +1,7 @@
 <script setup lang="ts">
 const route = useRoute()
 
+
 useHead({
   title: 'Kanka - Free Worldbuilding RPG campaign manager',
   meta: [

@@ -31,7 +31,7 @@
         <slot />
       </div>
 
-      <a :href="registerUrl()" class="btn btn-primary" @click="trackRegisterClick('pricing')">
+      <a :href="registerUrl" class="btn btn-primary" @click="trackRegisterClick('pricing')">
         {{ cta }}
       </a>
     </div>
@@ -40,7 +40,7 @@
 
 <script setup type="ts">
 
-const runtimeConfig = useRuntimeConfig().public
+const registerUrl = useRegisterUrl('pricing')
 
 const props = defineProps({
   tier: String,
@@ -74,6 +74,4 @@ function boxCss() {
 function yearlyPrice() {
   return (props.monthly * 10 / 12).toFixed(2);
 }
-function registerUrl() {
-  return runtimeConfig.app + '/register?from=pricing';
-}</script>
+</script>

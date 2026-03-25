@@ -7,7 +7,7 @@
     :video="true"
   >
     <div>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full " @click="trackRegisterClick('hero')">
+      <a :href="heroRegisterUrl" class="btn-round rounded-full " @click="trackRegisterClick('hero')">
         Register a free account
       </a>
     </div>
@@ -139,19 +139,19 @@
   <Section id="register">
     <h2 class="text-purple">Like what you see?</h2>
     <p>
-      <a :href="`${runtimeConfig.app}/register`" class="btn-round rounded-full" @click="trackRegisterClick('index_bottom')">
+      <a :href="bottomRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick('index_bottom')">
         Register a free account now
       </a>
     </p>
   </Section>
 
-  <img v-if="hasGclid()" v-bind:src="prepareUrl()" width="1" height="1" />
 </template>
 <script setup lang="ts">
 import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
 
-const route = useRoute()
 const runtimeConfig = useRuntimeConfig().public
+const heroRegisterUrl = useRegisterUrl('hero')
+const bottomRegisterUrl = useRegisterUrl('index_bottom')
 
 useSeo({
   title: 'Kanka — Worldbuilding & RPG Campaign Manager',
@@ -185,16 +185,4 @@ useHead({
   link: [{ rel: 'preconnect', href: 'https://www.youtube-nocookie.com' }],
 })
 
-function hasGclid(): Boolean {
-  return route.query.utm_id !== undefined && route.query.utm_campaign !== undefined  && route.query.utm_source !== undefined;
-}
-
-// If a user has a gclid, we want the backend to know to properly add their bonuses
-function prepareUrl(): String {
-  return runtimeConfig.app
-      + '/frontend-prepare'
-      + '?utm_id=' + route.query.utm_id
-      + '&utm_medium=' + route.query.utm_medium +
-      + '&utm_source=' + route.query.utm_source;
-}
 </script>

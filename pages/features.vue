@@ -497,7 +497,7 @@
         </h2>
         <p>
             <a
-                :href="`${runtimeConfig.app}/register`"
+                :href="registerUrl"
                 class="btn-round rounded-full"
                 @click="trackRegisterClick('features')"
             >
@@ -516,6 +516,7 @@
 
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig().public;
+const registerUrl = useRegisterUrl('features')
 
 import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
 

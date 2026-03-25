@@ -12,6 +12,8 @@ if (!article.value) {
     setResponseStatus(useRequestEvent()!, 404)
 }
 
+const registerUrl = useRegisterUrl('guide_' + (article.value?.tracking ?? ''))
+
 const { data: related } = await useAsyncData(`guides-related-${slug}`, () =>
     queryCollection('guides')
         .where('path', '!=', path)
@@ -73,9 +75,9 @@ useSeoMeta({
                     <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
                 </p>
                 <ContentRenderer :value="article" />
-                <a 
+                <a
                     v-if="article.cta"
-                    href="https://app.kanka.io/register"
+                    :href="registerUrl"
                     class="btn-round rounded-full"
                     @click="trackRegisterClick('guide_' + article.tracking)" v-html="article.cta">
                 </a>
