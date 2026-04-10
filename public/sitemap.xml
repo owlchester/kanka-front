@@ -130,5 +130,45 @@
         <changefreq>monthly</changefreq>
         <lastmod>2026-03-01</lastmod>
     </url>
+    <url>
+        <loc>https://kanka.io/learn</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+        <loc>https://kanka.io/learn/worldbuilders</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+        <loc>https://kanka.io/learn/hierarchies</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+        <loc>https://kanka.io/learn/characters</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+        <loc>https://kanka.io/learn/factions</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+        <loc>https://kanka.io/learn/prep</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+        <loc>https://kanka.io/learn/players</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
+    <url>
+        <loc>https://kanka.io/learn/living-web</loc>
+        <changefreq>monthly</changefreq>
+        <lastmod>2026-04-10</lastmod>
+    </url>
 </urlset>
 
