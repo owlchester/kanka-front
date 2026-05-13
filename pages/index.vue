@@ -39,6 +39,8 @@
     <Preview
       url="images/screenshots/devices-preview-hd.png"
       alt="Kanka tabletop rpg campaign management and worldbuilding dashboard"
+      :width="1600"
+      :height="1000"
       asset
       preload
     />

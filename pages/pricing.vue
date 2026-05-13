@@ -94,20 +94,20 @@ function switchCurrency() {
   country.value = currency.value.toUpperCase();
 }
 function monthlyCss() {
-  let css = 'rounded-full h-16 w-32 flex  justify-center items-center cursor-pointer  transition-all duration-200';
+  let css = 'rounded-full h-16 w-32 flex  justify-center items-center cursor-pointer  transition-colors duration-200';
   return monthly.value ? css + ' bg-purple text-white' : css;
 }
 function yearlyCss() {
-  let css = 'rounded-full h-16 w-32 flex justify-center flex-col cursor-pointer transition-all duration-200';
+  let css = 'rounded-full h-16 w-32 flex justify-center flex-col cursor-pointer transition-colors duration-200';
   return yearly.value ? css + ' bg-purple text-white' : css;
 }
 
 function eurCss() {
-  let css = 'rounded-full h-16 w-32 flex  justify-center items-center cursor-pointer  transition-all duration-200';
+  let css = 'rounded-full h-16 w-32 flex  justify-center items-center cursor-pointer  transition-colors duration-200';
   return currency.value === 'eur' ? css + ' bg-purple text-white' : css;
 }
 function usdCss() {
-  let css = 'rounded-full h-16 w-32 flex justify-center flex-col cursor-pointer transition-all duration-200';
+  let css = 'rounded-full h-16 w-32 flex justify-center flex-col cursor-pointer transition-colors duration-200';
   return currency.value == 'usd' ? css + ' bg-purple text-white' : css;
 }
 

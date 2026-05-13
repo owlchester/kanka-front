@@ -3,7 +3,7 @@ export function asyncCurrency() {
   const isReady = ref(false);
   const isLoading = ref(false);
   const error = ref(undefined);
-  const country = useCookie('front_currency');
+  const country = useCookie('front_currency', { default: () => 'USD' });
   const euCodes = ['MX','BE','EL','LT','PT','BG','ES','LU','RO','CZ','FR','HU','SI','DK','HR','MT','SK','DE','IT','NL','FI','EE','CY','AT','SE','IE','LV','PL'];
 
   async function execute() {

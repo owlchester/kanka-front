@@ -1,6 +1,6 @@
 <template>
   <div
-    class="flex flex-col gap-5 justify-center items-center p-4 w-full transition-all duration-300"
+    class="flex flex-col gap-5 justify-center items-center p-4 w-full"
     :class="bio?.length ? 'cursor-pointer' : ''"
     @click="toggle"
   >
@@ -19,7 +19,7 @@
 
       <div v-if="bio?.length" class="relative w-full text-sm text-left mt-2">
         <div
-          class="overflow-hidden transition-all duration-500 flex flex-col gap-2"
+          class="overflow-hidden transition-[max-height] duration-500 flex flex-col gap-2"
           :class="expanded ? 'max-h-[2000px]' : 'max-h-[4.5em]'"
         >
           <p v-for="(paragraph, i) in bio" :key="i">{{ paragraph }}</p>

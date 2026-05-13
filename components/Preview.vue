@@ -6,6 +6,8 @@
           :alt="alt"
           :loading="preload ? 'eager' : 'lazy'"
           :preload="preload"
+          :width="width"
+          :height="height"
           class="rounded cursor-pointer overflow-hidden"
           @click="showFullscreen = true"
       />
@@ -48,6 +50,8 @@ export default {
     css: String,
     url: String,
     alt: String,
+    width: { type: Number, default: undefined },
+    height: { type: Number, default: undefined },
     asset: {
       type: Boolean,
       default: false,

@@ -41,12 +41,12 @@
         <div class="gap-2.5 items-center hidden lg:flex">
             <a
                 :href="`${runtimeConfig.app}/login`"
-                class="btn-login transition-all duration-200"
+                class="btn-login transition-colors duration-200"
                 >Sign in</a
             >
             <a
                 :href="navRegisterUrl"
-                class="btn-register transition-all duration-200"
+                class="btn-register transition-colors duration-200"
                 @click="trackRegisterClick('nav')"
                 >Register</a
             >
@@ -105,12 +105,12 @@
 
                 <a
                     :href="`${runtimeConfig.app}/login`"
-                    class="btn-login transition-all duration-200"
+                    class="btn-login transition-colors duration-200"
                     >Sign in</a
                 >
                 <a
                     :href="navMobileRegisterUrl"
-                    class="btn-register transition-all duration-200"
+                    class="btn-register transition-colors duration-200"
                     @click="trackRegisterClick('nav_mobile')"
                     >Register</a
                 >
