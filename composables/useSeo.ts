@@ -6,7 +6,7 @@ export const SOFTWARE_APP_SCHEMA = {
   "@type": "SoftwareApplication",
   "@id": "https://kanka.io/#software",
   "name": "Kanka",
-  "description": "Free worldbuilding and RPG campaign manager. Organize characters, locations, maps, timelines, and lore — all in one place. Trusted by 375,000+ worldbuilders and game masters.",
+  "description": "Free worldbuilding and RPG campaign manager. Organize characters, locations, maps, timelines, and lore — all in one place. Trusted by 400,000+ worldbuilders and game masters.",
   "applicationCategory": "GameApplication",
   "operatingSystem": "Web, iOS, Android",
   "url": "https://kanka.io",

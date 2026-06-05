@@ -1,8 +1,7 @@
 <template>
-  <Section>
-    <figure class="max-w-screen-md mx-auto text-center flex flex-col gap-4">
+    <figure :class="figureCss()">
       <blockquote>
-        <p class="text-2xl italic font-medium text-purple">
+        <p class="text-2xl italic font-medium text-purple ">
           <slot></slot>
         </p>
       </blockquote>
@@ -21,7 +20,6 @@
         </div>
       </div>
     </figure>
-  </Section>
 </template>
 
 
@@ -32,12 +30,16 @@ export default {
     user: String,
     title: String,
     img: String,
+    css: String,
   },
 
   methods: {
     iconCss() {
       return this.icon + ' text-6xl';
-    }
+    },
+    figureCss() {
+      return this.css + ' max-w-screen-md mx-auto text-center flex flex-col gap-4';
+    },
   }
 }
 </script>

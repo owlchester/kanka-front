@@ -30,7 +30,7 @@
           :class="expanded ? 'opacity-0' : 'opacity-100'"
         />
       </div>
-      <button class="flex items-center gap-1 text-xs text-purple mt-1 hover:underline focus:outline-none">
+      <button class="flex items-center gap-1 text-xs text-purple mt-1 hover:underline focus:outline-none" v-if="bio?.length > 1">
         <span>{{ expanded ? 'Read less' : 'Read more' }}</span>
         <svg
           class="w-3 h-3 transition-transform duration-300"

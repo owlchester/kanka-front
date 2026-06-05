@@ -41,7 +41,7 @@
       <Feature
           icon="fa-regular fa-palette"
           title="Customizable"
-          lead="Customize every last detail of a campaign. This can be accomplished by changing the built-in modules, or writing custom CSS."
+          lead="Customize every last detail of a campaign. This can be accomplished by changing the built-in categories, or writing custom CSS."
       />
       <Feature
           icon="fa-regular fa-rocket"

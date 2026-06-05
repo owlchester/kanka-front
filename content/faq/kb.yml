@@ -8,13 +8,13 @@ categories:
         To switch or create a new campaign, click on **<i class="fa-regular fa-grid" aria-hidden="true"></i> campaign switcher** icon on the top-right of any page inside of Kanka. Below your campaigns, you'll find is a **New Campaign** link.
     - question: "Can I create custom categories?"
       answer: |
-        Kanka comes with a set of predefined categories that interact with each other, but we understand the need for finer organization. This is why [premium campaigns](/premium) can currently create up to 5 [custom categories](https://docs.kanka.io/en/latest/features/campaigns/modules.html).
+        Kanka comes with a set of predefined categories that interact with each other, but we understand the need for finer organization. This is why [premium campaigns](/premium) can currently create up to 5 [custom categories](https://docs.kanka.io/en/latest/features/campaigns/categories.html).
     - question: "Can a campaign be duplicated?"
       answer: |
         Absolutely! Campaigns can be duplicated by generating a whole [campaign export](https://docs.kanka.io/en/latest/features/campaigns/export.html), and then importing that export into a new campaign.
     - question: "How do I link my world together?"
       answer: |
-        Creating references and links to other entities of the campaign is a core feature of Kanka. When writing a description, type `@` followed by at least 3 characters to get a list of entities.
+        Creating references and links to other entries of the campaign is a core feature of Kanka. When writing a description, type `@` followed by at least 3 characters to get a list of entries.
         
         To learn how to change the entity's name in the mention, how to link to an entity's subpage, or how to filter search results, [head over to our documentation](https://docs.kanka.io/en/latest/features/mentions.html).
     - question: "How can I back up or export my campaign?"
@@ -24,31 +24,31 @@ categories:
         Learn how to export your campaign [in our documentation](https://docs.kanka.io/en/latest/features/campaigns/export.html).
     - question: "What are Pins?"
       answer: |
-        Relations and attributes can be pinned to the right of their entity's overview. To pin an element, go and edit the relation or attributes and set the pinned value on those.
+        Relations and properties can be pinned to the right of their entity's overview. To pin an element, go and edit the relation or properties and set the pinned value on those.
         
         You can find out more about this feature in [our documentation](https://docs.kanka.io/en/latest/features/profile-sidebar.html).
     - question: "Can I rename categories? For example Families into Clans, or Organisations into Factions?"
       answer: |
         Absolutely! We know that naming is important for setting theme and tone of a world, so categories in [premium campaigns](/premium) can easily be renamed in **Settings** > **Categories** and clicking on the edit button next to the category name.
         
-        [Learn more about this feature in the docs.](https://docs.kanka.io/en/latest/features/campaigns/modules.html)
+        [Learn more about this feature in the docs.](https://docs.kanka.io/en/latest/features/campaigns/categories.html)
     - question: "Can I sync content across multiple campaigns?"
       answer: |
         Kanka does not have this feature. However, if you're trying to have multiple play groups in the same world consider using the same campaign and separating your groups through a combination of quests, tags, and permissions.
         
-        Alternatively, you can copy one or multiple entities from one campaign to another using the [bulk transform](https://docs.kanka.io/en/latest/guides/bulk.html) action.
+        Alternatively, you can copy one or multiple entries from one campaign to another using the [bulk transform](https://docs.kanka.io/en/latest/guides/bulk.html) action.
     - question: "How can I run multiple groups in the same world?"
       answer: |
         Rather than re-creating your world multiple times in Kanka, manage everything in a single campaign instead. Invite each member of your groups, and instead of giving them all the players role, create multiple roles. That way you can control which group sees what in the campaign.
         
-        Another good practice is to create a tag for each of your groups, so you can quickly filter entities based on specific tags.
+        Another good practice is to create a tag for each of your groups, so you can quickly filter entries based on specific tags.
     - question: "How do I use filters?"
       answer: |
         You can use filters to limit the amount of results shown in lists. Text fields support various options to control in further detail what is filtered out.
         
         * `!...` By placing an `!` before your text, you can search for anything that doesn't contain the text in the field.
         * `...!` By placing an `!`at the end of your text, you can search for every entity with exactly this text in the field.
-        * `!!`Writing `!!` in a field will search for all entities where this field is empty.
+        * `!!`Writing `!!` in a field will search for all entries where this field is empty.
         
         You can combine search options on text fields by writing `;`. For example `Alex;!Smith`.
         
@@ -73,33 +73,33 @@ categories:
   faqs:
     - question: "Where do I create Gods and religions?"
       answer: |
-        We recommend creating Gods as [characters](https://docs.kanka.io/en/latest/entities/characters.html), and creating religions as [organisations](https://docs.kanka.io/en/latest/entities/organisations.html). If you want to quickly find your deities, we recommend tagging them with an appropriate [tag](https://docs.kanka.io/en/latest/entities/tags.html) and/or type combine them with a [bookmark](https://docs.kanka.io/en/latest/advanced/bookmarks.html).
+        We recommend creating Gods as [characters](https://docs.kanka.io/en/latest/entries/characters.html), and creating religions as [organisations](https://docs.kanka.io/en/latest/entries/organisations.html). If you want to quickly find your deities, we recommend tagging them with an appropriate [tag](https://docs.kanka.io/en/latest/entries/tags.html) and/or type combine them with a [bookmark](https://docs.kanka.io/en/latest/advanced/bookmarks.html).
         
-        Or if you don't want to mix and match, you can create a [custom category](https://docs.kanka.io/en/latest/features/campaigns/modules.html) for them.
+        Or if you don't want to mix and match, you can create a [custom category](https://docs.kanka.io/en/latest/features/campaigns/categories.html) for them.
     - question: "Where do I keep track of my classes like Ranger or Cleric?"
       answer: |
         We recommend creating RPG classes as Abilities, and then creating those classes' abilities as sub-abilities.
-    - question: "What are Attributes?"
+    - question: "What are Properties?"
       answer: |
-        Use attributes to represent values attached to an entity that aren't text. You can reference entities in attributes using the advanced mentions syntax `[entity:id]`. You can also reference other attributes by using the `{Level}` syntax.
+        Use properties to represent values attached to an entity that aren't text. You can reference entries in properties using the advanced mentions syntax `[entity:id]`. You can also reference other properties by using the `{Level}` syntax.
         
-        You can also get creative with some basic math options. For example, `{Level}*{Con}` will multiplay the `:level` and `:con` attributes of this entity. If you want to round up or down, you can use `floor({Level}/3)` or `ceil(({Con}*{Level})/2)`
+        You can also get creative with some basic math options. For example, `{Level}*{Con}` will multiplay the `:level` and `:con` properties of this entity. If you want to round up or down, you can use `floor({Level}/3)` or `ceil(({Con}*{Level})/2)`
         
-        When creating or editing an attribute template, you can set random attributes. This can either be a random value between two numbers separated by `-`, or a random value from a list of values separated by `,`. The value for the attribute is determined when the template is applied to an entity, or when an entity is saved.
+        When creating or editing an property kit, you can set random properties. This can either be a random value between two numbers separated by `-`, or a random value from a list of values separated by `,`. The value for the property is determined when the template is applied to an entity, or when an entity is saved.
         
         For example, if you want a number between 1 and 100, use `1-100`. If you want a value from a list of options, use `London, Berlin, Rome, Zürich`.
         
-        You can reference the entity's name with `{name}`. If an attribute exists with that name, the attribute will be used instead.
-    - question: "Can I copy entities across worlds?"
+        You can reference the entity's name with `{name}`. If an property exists with that name, the property will be used instead.
+    - question: "Can I copy entries across worlds?"
       answer: |
-        Absolutely! You can even copy entities from any campaign you have access to (including public campaigns) into yours. Either do it individually from the entity's "..." action menu,  or [in bulk](https://docs.kanka.io/en/latest/guides/bulk.html).
+        Absolutely! You can even copy entries from any campaign you have access to (including public campaigns) into yours. Either do it individually from the entity's "..." action menu,  or [in bulk](https://docs.kanka.io/en/latest/guides/bulk.html).
 - category: "Permissions"
   faqs:
     - question: "Can I limit the information my players see in my campaign?"
       answer: |
         Absolutely, this is why we built Kanka! You can invite all your players to your campaigns, and give them roles and permissions. We built the system to be extremely flexible (you can both use an opt-in and opt-out configuration) to cover as many needs and situations as possible.
         
-        If you only want parts of an entity to be private, for example their goals and plot points, add a `Post` in the entity's overview page.
+        If you only want parts of an entity to be private, for example their goals and plot points, add an `Article` in the entity's overview page.
         
         [Video Explanation](https://www.youtube.com/watch?v=ikNPzNgjYmg&feature=emb_logo)
     - question: "Can anyone see my world?"
@@ -118,14 +118,14 @@ categories:
   faqs:
     - question: "Can I upload maps to Kanka?"
       answer: |
-        The **maps** category supports PNG, JPG, WEBP and SVG images. These maps can have layers, groups, and markers pointing of various shapes and sizes that point to other entities in a campaign.
+        The **maps** category supports PNG, JPG, WEBP and SVG images. These maps can have layers, groups, and markers pointing of various shapes and sizes that point to other entries in a campaign.
         
-        You can learn more about the maps category [in our documentation](https://docs.kanka.io/en/latest/entities/maps.html).
+        You can learn more about the maps category [in our documentation](https://docs.kanka.io/en/latest/entries/maps.html).
     - question: "What can I do with Maps?"
       answer: |
-        Using the maps category, you can create new maps to your campaign. Maps can have layers, groups, and markers. Markers can be individual elements on the map, or linked to entities of the campaign, creating a visual exploration experience to campaigns. Markers can also be made private, and have different rendering options (pin, circle, label, custom polygon).
+        Using the maps category, you can create new maps to your campaign. Maps can have layers, groups, and markers. Markers can be individual elements on the map, or linked to entries of the campaign, creating a visual exploration experience to campaigns. Markers can also be made private, and have different rendering options (pin, circle, label, custom polygon).
         
-        [Learn more about maps in our documentation](https://docs.kanka.io/en/latest/entities/maps.html).
+        [Learn more about maps in our documentation](https://docs.kanka.io/en/latest/entries/maps.html).
 - category: "Account"
   faqs:
     - question: "How can I delete my account?"

@@ -25,9 +25,9 @@
     <p>Community has and always will be big part of Kanka's DNA. We frequently survey our users for changes to features, designs, and incorporate feedback into every big decision. Our community is what drives us to endlessly improve Kanka. </p>
 
     <div class="grid grid-cols-2 xl:grid-cols-4 gap-5 w-full">
-      <AboutStat amount="375,000+" text="users" />
+      <AboutStat amount="400,000+" text="users" />
       <AboutStat amount="90+" text="countries" />
-      <AboutStat amount="9 million +" text="entities" />
+      <AboutStat amount="9 million +" text="entries" />
       <AboutStat amount="150,000+" text="missed plot hooks" />
       <AboutStat amount="350,000+" text="campaigns" />
       <AboutStat amount="200+" text="marketplace plugins" />
@@ -77,7 +77,7 @@ const { data: team } = await useAsyncData('team', () =>
 
 useSeo({
   title,
-  description: "Kanka is a 3-person team from Geneva building the world's best TTRPG campaign manager and worldbuilding platform, used by 375,000+ creators in 90+ countries.",
+  description: "Kanka is a 3-person team from Geneva building the world's best TTRPG campaign manager and worldbuilding platform, used by 400,000+ creators in 90+ countries.",
   path: '/about',
   schemas: [
     {

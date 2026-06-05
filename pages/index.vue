@@ -1,38 +1,26 @@
 <template>
   <BaseHero
-    title="Worldbuilding, RPG campaign manager, storytelling. All in one."
+    title="Run your campaign without losing track of a single detail."
     lead="Kanka is a community driven world building website. Are you making your own D&D homebrew campaign or using other TTRPG systems? We help you manage, organize, and keep track of your ideas, your creations, and your world."
-    trailing="Make full use of our @mentions system and all our other features to bring your world to life. This includes calendars, interactive maps, timelines, organizations, and families. You can also create as many characters as you want! We even have custom modules so you can do things your way."
+    trailing="400,000+ game masters and worldbuilders call Kanka their home."
     :big="true"
     :video="true"
   >
     <div>
-      <a :href="heroRegisterUrl" class="btn-round rounded-full " @click="trackRegisterClick('hero')">
-        Register a free account
-      </a>
+        <a :href="heroRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick('hero')">
+            Start for free
+        </a>
     </div>
   </BaseHero>
 
 
-  <Testimonial
-      user="Charalampos"
-      title="Professional DM"
-      img="/images/members/babis.png">
-    "Kanka has genuinely brought my games to the next level and has made me a better DM."
-  </Testimonial>
-
   <Section id="pitch">
     <div class="mx-auto lg:max-w-4xl flex flex-col gap-4">
       <h2 class="text-purple">
-        A better way to keep track of your worldbuilding and RPG campaigns
+          Everything in one place. Find it in seconds, even mid-session
       </h2>
       <p>
-        As passionate DMs ourselves, we believe this is the only world building tool you’ll need to stay organized. No more losing track of scattered notes. In Kanka, everything is in one place, easy to find and accessible on the go.
-      </p>
-
-      <p>
-        Just as importantly, we believe in the power of community. All our users can suggest new features for the <a :href="`${runtimeConfig.app}/roadmap`" class="link link-blue">roadmap</a>. Our subscribers can then vote on what they want to see implemented!
-
+          Notes scattered across docs, wikis, and napkins don't survive contact with a live session. In Kanka, everything lives in one place and everything connects. @mention a character in a session log and it links automatically, so one click takes you from a city to its ruler to the war they started. When a player asks the question you didn't prep for, the answer is one search away, on any device.
       </p>
     </div>
 
@@ -50,23 +38,23 @@
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
         icon="fa-regular fa-sack"
-        title="Free core features"
-        lead="We want you to put Kanka through its paces when trying it out. Our free tier isn't just a trial, it includes all our core features and unlimited elements. Everything you need to start worldbuilding."
+        title="The free tier isn't a trial"
+        lead="All core features, unlimited campaigns, unlimited entries. Most GMs never need to pay, and we'd rather you stay because you love it, not because a paywall trapped your world."
         />
       <Feature
         icon="fa-regular fa-users"
-        title="Collaborative"
-        lead="Collaborate with your friends by inviting them to your campaign. You can easily keep track of what they can see and contribute to with our extensive permissions system."
+        title="Run it with your whole table"
+        lead="Invite your players and co-GMs, then control exactly what each person sees and edits. Your secrets stay secret until you're ready to reveal them."
         />
       <Feature
         icon="fa-regular fa-palette"
-        title="Customizable"
-        lead="Customize every last detail of the world you are building. Rename built-in modules, write your own CSS, or install plugins created by the team and other users. Everything you need to make it yours."
+        title="Make it yours"
+        lead="Rename categories, restructure to fit your system, or go deep with custom CSS and community plugins. Kanka bends to how you run your game: 5e, a homebrew system, or no system at all."
         />
       <Feature
-        icon="fa-regular fa-rocket"
-        title="Modular"
-        lead="We have focused on creating about 20 different modules in Kanka. Every module targets an aspect of TTRPG gameplay or overall worldbuilding. We also have custom modules for more granular control."
+        icon="fa-regular fa-clipboard"
+        title="A place for every part of your world"
+        lead="Characters, locations, organizations, families, timelines, calendars, maps, 20+ categories, each built for a piece of your world, all linked together."
         />
     </div>
 
@@ -75,11 +63,69 @@
     </div>
   </Section>
 
-  <Testimonial
-      user="Steve D"
-      title="Community member">
-    "As a DM, Kanka makes it so easy to organize a campaign and look up information quickly in a session."
-  </Testimonial>
+  <Section id="social-proof">
+      <h2 class="text-purple">
+          You're in good company
+      </h2>
+      <p>400,000+ game masters and worldbuilders trust Kanka for their worldbuilding needs. We've gathered a few of their testimonials to show what Kanka can do for you.</p>
+
+      <div class="overflow-auto">
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <Testimonial
+                user="Charalampos"
+                title="Professional DM"
+                img="/images/members/babis.png">
+                "Kanka has genuinely brought my games to the next level and has made me a better DM."
+            </Testimonial>
+            <Testimonial
+                user="Steve D"
+                title="Community member">
+                "As a DM, Kanka makes it so easy to organize a campaign and look up information quickly in a session."
+            </Testimonial>
+            <Testimonial
+                user="Azukai"
+                title="Community member">
+                "I am obsessed with creating stories and Kanka is perfect to help keep track of everything."
+            </Testimonial>
+            <Testimonial
+                user="Adam B"
+                title="Member since 2019">
+            "It's easy and straightforward to use, and is the best way to keep track of the details of my campaign. I love the ability to link entries to each other"
+            </Testimonial>
+          </div>
+      </div>
+  </Section>
+
+  <Section id="trust">
+      
+    <h2 class="text-purple">
+        Your world is safe, and it's yours
+    </h2>
+      
+    <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
+      <Feature
+        icon="fa-regular fa-download"
+        title="Export anytime"
+        lead="Download your content anytime. No lock-in, ever."
+        />
+      <Feature
+        icon="fa-regular fa-shield"
+        title="Your data is safe"
+        lead="We use reputable German hosting services, and we back up our servers twice daily,"
+        />
+      <Feature
+        icon="fa-regular fa-magnifying-glass"
+        title="Source available"
+        lead="Kanka's code is public on GitHub, nothing hidden in a black box."
+        />
+      <Feature
+        icon="fa-regular fa-balance-scale"
+        title="Your IP is yours"
+        lead="Campaigns are Private by default."
+        />
+    </div>
+  </Section>
+  
 
   <Section>
     <h2 class="text-purple">Pricing</h2>
@@ -87,11 +133,21 @@
   </Section>
 
 
-  <Testimonial
-      user="Azukai"
-      title="Community member">
-    "I am obsessed with creating stories and Kanka is perfect to help keep track of everything."
-  </Testimonial>
+  <Section id="team">
+      <h2 class="text-purple">Who we are</h2>
+
+      <div class="flex items-center gap-12 justify-center">
+          <LazyNuxtImg src="https://th.kanka.io/3gGetooEqoGcA-NFOPvu2xYX980=/200x200/smart/src/app/team/jay2.jpeg" class="rounded-full w-40 h-40" alt="Jay" />
+          <LazyNuxtImg src="https://th.kanka.io/qj6BEWMKrn4D-9f5GMP_REpzsyQ=/200x200/smart/src/app/team/jon.jpg" class="rounded-full w-40 h-40" alt="Jon" />
+      </div>
+      <p>Kanka is built and run by just two of us: one GM (Jay) and one player (Jon). The initial spark came because Jay needed a better way to keep track of our campaign so that Jon could keep ignoring the main plotline. Even all these years later, it's still just us answering your emails, Discord messages, and carrier pigeons. We're not trying to build the biggest worldbuilding platform, just the one we want to run our own games in.</p>
+      
+      <div class="text-center">
+        <NuxtLink to="/about" class="block-btn btn">Read our story</NuxtLink>
+      </div>
+  </Section>
+
+  
 
   <Section id="featured">
     <div class="flex flex-col gap-4">
@@ -130,26 +186,39 @@
         </Campaign>
       </div>
     </div>
+    
+    <div class="text-center">
+      <NuxtLink to="/campaigns" class="block-btn btn">See what GMs build in Kanka</NuxtLink>
+    </div>
   </Section>
 
-  <Testimonial
-      user="Anonymous"
-      title="Satisfaction survey responder">
-    "It's easy and straightforward to use, and is the best way to keep track of the details of my campaign. I love the ability to link entities to each other"
-  </Testimonial>
+  
 
   <Section id="register">
-    <h2 class="text-purple">Like what you see?</h2>
+    <h2 class="text-purple">Ready to run your best campaign?</h2>
     <p>
       <a :href="bottomRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick('index_bottom')">
-        Register a free account now
+         Start your free campaign
       </a>
     </p>
+  </Section>
+
+  <Section id="faq">
+    <h2 class="text-purple">FAQ</h2>
+    <PricingFaq :faqs="faq?.items ?? []" />
+    <p>
+        <a :href="bottomRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick('index_faq')">
+           Start your free campaign
+        </a></p>
   </Section>
 
 </template>
 <script setup lang="ts">
 import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
+
+const { data: faq } = await useAsyncData('home-faq', () =>
+    queryCollection('homeFaq').first()
+)
 
 const runtimeConfig = useRuntimeConfig().public
 const heroRegisterUrl = useRegisterUrl('hero')
@@ -157,7 +226,7 @@ const bottomRegisterUrl = useRegisterUrl('index_bottom')
 
 useSeo({
   title: 'Kanka — Worldbuilding & RPG Campaign Manager',
-  description: 'Organize your RPG campaigns, characters, maps, and timelines in one worldbuilding tool. Trusted by 375,000+ game masters, writers, and worldbuilders.',
+  description: 'Organize your RPG campaigns, characters, maps, and timelines in one worldbuilding tool. Trusted by 400,000+ game masters, writers, and worldbuilders.',
   path: '/',
   schemas: [
     {

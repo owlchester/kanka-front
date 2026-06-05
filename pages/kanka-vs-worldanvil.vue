@@ -95,7 +95,7 @@
   <Section>
     <p>
       <a :href="registerUrl" class="btn-round rounded-full" @click="trackRegisterClick('vs_worldanvil')">
-          Join 375,000 worldbuilders who didn't want to pay for complexity they'd never use.
+          Join 400,000 worldbuilders who didn't want to pay for complexity they'd never use.
       </a>
     </p>
   </Section>
@@ -107,7 +107,7 @@ const registerUrl = useRegisterUrl('vs_worldanvil')
 
 useSeo({
   title: 'Kanka vs World Anvil - Worldbuilding Tool Comparison 2026',
-  description: 'Kanka vs World Anvil compared across 15+ features. See why 375,000+ worldbuilders choose Kanka for campaigns, maps, and lore management.',
+  description: 'Kanka vs World Anvil compared across 15+ features. See why 400,000+ worldbuilders choose Kanka for campaigns, maps, and lore management.',
   path: '/kanka-vs-worldanvil',
 })
 </script>

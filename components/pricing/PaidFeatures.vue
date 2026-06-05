@@ -88,7 +88,7 @@
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Nicer default thumbnails for entities</td>
+      <td>Nicer placeholder thumbnails for entries</td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>

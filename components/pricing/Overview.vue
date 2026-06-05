@@ -5,14 +5,11 @@
         thumbnail="images/tiers/kobold.png"
         monthly="Free"
         yearly="Free"
-        cta="Register for free"
+        cta="Start for free"
     >
-      <PricingLink to="/premium"
-                   :access="false"
-                   title="No premium campaigns" />
-
-      <PricingLink :access="true" title="Unlimited campaigns & uploads" />
-      <PricingLink :access="true" title="Access to all core features" />
+      <PricingLink :access="true" title="Unlimited entries" />
+      <PricingLink :access="true" title="Unlimited campaigns" />
+      <PricingLink :access="true" title="Everything you need to build free forever." />
       <PricingLink :access="true" title="Frequent updates" />
 
       <NuxtLink to="/features" class="text-sm underline text-purple underline-offset-8">
@@ -29,11 +26,11 @@
         :popular="true"
         :discounted="discounted()"
         :currency="currencySymbol()"
-        cta="Register for free"
+        cta="Start for free"
     >
       <PricingLink to="/premium"
                   :access="true"
-                  title="1 premium campaign" />
+                  title="1 active premium campaign" />
       <PricingLink
                   :access="true"
                   title="Big file and map sizes (10 MiB)" />
@@ -62,12 +59,12 @@
         :best="true"
         :discounted="discounted()"
         :currency="currencySymbol()"
-        cta="Register for free"
+        cta="Start for free"
     >
 
       <PricingLink to="/premium"
                    :access="true"
-                   title="3 premium campaigns" />
+                   title="3 active premium campaigns" />
       <PricingLink
           :access="true"
           title="Huge file and map sizes (25 MiB)" />
@@ -93,11 +90,11 @@
         yearly="249.90"
         :discounted="discounted()"
         :currency="currencySymbol()"
-        cta="Register for free"
+        cta="Start for free"
     >
       <PricingLink to="/premium"
                    :access="true"
-                   title="7 premium campaigns" />
+                   title="7 active premium campaigns" />
       <PricingLink
           :access="true"
           title="Gigantic file and map sizes (100 MiB)" />

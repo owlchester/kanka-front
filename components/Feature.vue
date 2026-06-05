@@ -17,7 +17,7 @@ export default {
 
   methods: {
     iconCss() {
-      return this.icon + ' text-6xl';
+      return this.icon + ' text-6xl mb-3';
     }
   }
 }

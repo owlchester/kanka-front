@@ -20,7 +20,7 @@
     <tbody class="text-nav">
     <tr>
       <td>
-        Maximum number of entities
+        Maximum number of entries
       </td>
       <td>
         <IconsInfinity css="w-8 h-8" />
@@ -37,8 +37,8 @@
     </tr>
     <tr>
       <td>
-        Maximum number of custom modules
-        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/modules.html" />
+        Maximum number of custom categories
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/categories.html" />
       </td>
       <td>
         0
@@ -142,7 +142,7 @@
     </tr>
     <tr>
       <td>
-        Define aliases on entities that work with search and mentions
+        Define aliases on entries that work with search and mentions
         <PricingMore url="https://docs.kanka.io/en/latest/features/aliases.html" />
       </td>
       <td>2</td>
@@ -195,7 +195,7 @@
     </tr>
     <tr>
       <td>
-        Write custom tooltips for entities
+        Write custom tooltips for entries
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -204,7 +204,7 @@
     </tr>
     <tr>
       <td>
-        Upload large header images on entities
+        Upload large header images on entries
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -223,7 +223,7 @@
     </tr>
     <tr>
       <td>
-        Upload custom thumbnails for entities
+        Upload custom placeholder thumbnails for entries
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/default-thumbnails.html" />
       </td>
       <td class="text-light">—</td>
@@ -233,7 +233,7 @@
     </tr>
     <tr>
       <td>
-        Set easy access links to outside sources on entities
+        Set easy access links to outside sources on entries
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -259,8 +259,8 @@
     </tr>
     <tr>
       <td>
-        Rename and change the icon of modules
-        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/modules.html" />
+        Rename and change the icon of categories
+        <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/categories.html" />
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -270,7 +270,7 @@
     <tr>
       <td>
         Create complex family trees
-        <PricingMore url="https://docs.kanka.io/en/latest/entities/families/family-trees.html" />
+        <PricingMore url="https://docs.kanka.io/en/latest/entries/families/family-trees.html" />
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>
-        Full logs of changes made on entities for up to 30 days
+        Full logs of changes made on entries for up to 30 days
         <PricingMore url="https://docs.kanka.io/en/latest/features/history.html" />
       </td>
       <td class="text-light">—</td>
@@ -289,7 +289,7 @@
     </tr>
     <tr>
       <td>
-        Recover deleted entities and posts for up to 30 days
+        Recover deleted entries and articles for up to 30 days
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/recovery.html" />
       </td>
       <td class="text-light">—</td>

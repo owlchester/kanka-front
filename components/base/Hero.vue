@@ -6,8 +6,9 @@
       <p v-if="trailing" class="lg:max-w-2xl text-center">{{ trailing }}</p>
       <slot/>
     </div>
-    <div v-if="video" class="w-full max-w-lg shrink-0">
+    <div v-if="video" class="w-full max-w-lg shrink-0 flex flex-col gap-4">
         <YoutubeEmbed video-id="hoXHTKjobek" title="Kanka — Worldbuilding & RPG Campaign Manager" />
+        <span class="text-xs itatlic text-center">Watch a short 45 second overview of Kanka</span>
     </div>
   </div>
 </template>

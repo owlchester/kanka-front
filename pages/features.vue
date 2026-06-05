@@ -20,7 +20,7 @@
                 <a href="#entries" class="text-purple">Entries in Kanka</a>
                 <a href="#inventory" class="text-purple">Inventory</a>
                 <a href="#abilities" class="text-purple">Abilities</a>
-                <a href="#properties" class="text-purple">Attributes</a>
+                <a href="#properties" class="text-purple">Properties</a>
                 <a href="#journals" class="text-purple">Journals</a>
                 <a href="#quests" class="text-purple">Quests</a>
             </div>
@@ -522,7 +522,7 @@ import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
 
 const title = "Worldbuilding Tool Features: Maps, Timelines & More — Kanka";
 const metaDesc =
-    "Explore Kanka's worldbuilding tool features — maps, timelines, characters, and more. Trusted by 375,000+ creators. Free forever, no credit card required.";
+    "Explore Kanka's worldbuilding tool features — maps, timelines, characters, and more. Trusted by 400,000+ creators. Free forever, no credit card required.";
 
 useSeo({
     title,

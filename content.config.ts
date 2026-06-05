@@ -80,5 +80,16 @@ export default defineContentConfig({
                 }))
             })
         }),
+        homeFaq: defineCollection({
+            type: 'data',
+            source: 'faq/home.yml',
+            schema: z.object({
+                items: z.array(z.object({
+                    id: z.string(),
+                    q: z.string(),
+                    a: z.string(),
+                }))
+            })
+        }),
     }
 })

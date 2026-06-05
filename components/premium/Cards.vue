@@ -9,10 +9,10 @@
     </PremiumCard>
 
     <PremiumCard
-        title="Better entities"
+        title="Better entries"
         img="https://th.kanka.io/FWDwg9fDlvH2MelfYSFWezFwU2g=/120x120/smart/src/app/features/boosted/entity.jpg">
       <p>
-        Set header images for entities, write custom tooltips, give them aliases for search and mentions, and upload more assets on each entity.
+        Set header images for entries, write custom tooltips, give them aliases for search and mentions, and upload more assets on each entity.
       </p>
     </PremiumCard>
 
@@ -20,7 +20,7 @@
         title="Peace of mind"
         icon="fa-solid fa-hourglass">
       <p>
-        Deleted an entity and changed your mind? No problem! Recover deleted entities for up to 30 days.
+        Deleted an entity and changed your mind? No problem! Recover deleted entries for up to 30 days.
       </p>
     </PremiumCard>
 
@@ -36,7 +36,7 @@
         title="Better defaults"
         img="https://th.kanka.io/uqUgX_yxUR3cHpDBi6TowwuK_7k=/120x120/smart/src/app/features/boosted/default.jpg">
       <p>
-        Tired and confused by boring grey circles for entities with no image? Set default custom images for each entity type instead.
+        Tired and confused by boring grey circles for entries with no image? Set default custom images for each entity type instead.
       </p>
     </PremiumCard>
 
@@ -84,7 +84,7 @@
         title="Eyes everywhere"
         icon="fa-solid fa-eye">
       <p>
-        Full logs of changes made to entities available for up to 30 days. Changed a character's family but forgot the old one? This feature will remember for you.
+        Full logs of changes made to entries available for up to 30 days. Changed a character's family but forgot the old one? This feature will remember for you.
       </p>
     </PremiumCard>
   </div>
