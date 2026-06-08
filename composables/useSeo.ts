@@ -30,22 +30,25 @@ interface SeoOptions {
   title: string
   description: string
   path: string
-  /** Override og:title/twitter:title if they differ from the page title */
   ogTitle?: string
-  /** Override og:description/twitter:description if it differs from description */
   ogDescription?: string
-  /** Additional JSON-LD script blocks */
   schemas?: object[]
+  noindex?: boolean
 }
 
-export function useSeo({ title, description, path, ogTitle, ogDescription, schemas = [] }: SeoOptions) {
+export function useSeo({ title, description, path, ogTitle, ogDescription, schemas = [], noindex = false }: SeoOptions) {
   const url = `${BASE_URL}${path}`
   const resolvedOgTitle = ogTitle ?? title
   const resolvedOgDescription = ogDescription ?? description
 
+  const meta: { name: string; content: string }[] = [{ name: 'description', content: description }]
+  if (noindex) {
+    meta.push({ name: 'robots', content: 'noindex' })
+  }
+
   useHead({
     title,
-    meta: [{ name: 'description', content: description }],
+    meta,
     link: [{ rel: 'canonical', href: url }],
     script: schemas.map(schema => ({
       type: 'application/ld+json',
