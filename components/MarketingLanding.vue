@@ -79,7 +79,7 @@
       <Feature
         icon="fa-regular fa-shield"
         title="Your data is safe"
-        lead="We use reputable German hosting services, and we back up our servers twice daily,"
+        lead="We use reputable German hosting services, and we back up our servers twice daily."
       />
       <Feature
         icon="fa-regular fa-magnifying-glass"
