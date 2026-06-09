@@ -43,7 +43,7 @@ export function useSeo({ title, description, path, ogTitle, ogDescription, schem
 
   const meta: { name: string; content: string }[] = [{ name: 'description', content: description }]
   if (noindex) {
-    meta.push({ name: 'robots', content: 'noindex' })
+    meta.push({ name: 'robots', content: 'noindex,follow' })
   }
 
   useHead({
