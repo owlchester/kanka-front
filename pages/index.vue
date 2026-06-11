@@ -73,24 +73,24 @@
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
             <Testimonial
                 user="Charalampos"
-                title="Professional DM"
+                :title="$t('index.testimonials.t1.role')"
                 img="/images/members/babis.png">
-                "Kanka has genuinely brought my games to the next level and has made me a better DM."
+                {{ $t('index.testimonials.t1.quote') }}
             </Testimonial>
             <Testimonial
                 user="Steve D"
-                title="Community member">
-                "As a DM, Kanka makes it so easy to organize a campaign and look up information quickly in a session."
+                :title="$t('index.testimonials.t2.role')">
+                {{ $t('index.testimonials.t2.quote') }}
             </Testimonial>
             <Testimonial
                 user="Azukai"
-                title="Community member">
-                "I am obsessed with creating stories and Kanka is perfect to help keep track of everything."
+                :title="$t('index.testimonials.t3.role')">
+                {{ $t('index.testimonials.t3.quote') }}
             </Testimonial>
             <Testimonial
                 user="Adam B"
-                title="Member since 2019">
-            "It's easy and straightforward to use, and is the best way to keep track of the details of my campaign. I love the ability to link entries to each other"
+                :title="$t('index.testimonials.t4.role')">
+                {{ $t('index.testimonials.t4.quote') }}
             </Testimonial>
           </div>
       </div>

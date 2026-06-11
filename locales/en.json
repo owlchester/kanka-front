@@ -194,6 +194,24 @@
       "title": "You're in good company",
       "lead": "400,000+ game masters and worldbuilders trust Kanka for their worldbuilding needs. We've gathered a few of their testimonials to show what Kanka can do for you."
     },
+    "testimonials": {
+      "t1": {
+        "quote": "\"Kanka has genuinely brought my games to the next level and has made me a better DM.\"",
+        "role": "Professional DM"
+      },
+      "t2": {
+        "quote": "\"As a DM, Kanka makes it so easy to organize a campaign and look up information quickly in a session.\"",
+        "role": "Community member"
+      },
+      "t3": {
+        "quote": "\"I am obsessed with creating stories and Kanka is perfect to help keep track of everything.\"",
+        "role": "Community member"
+      },
+      "t4": {
+        "quote": "\"It's easy and straightforward to use, and is the best way to keep track of the details of my campaign. I love the ability to link entries to each other\"",
+        "role": "Member since 2019"
+      }
+    },
     "trust": {
       "title": "Your world is safe, and it's yours",
       "f1Title": "Export anytime",
