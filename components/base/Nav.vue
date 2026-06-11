@@ -2,7 +2,7 @@
     <nav
         class="flex items-center justify-between gap-16 xl:gap-20 h-32 px-5 max-w-7xl mx-auto"
     >
-        <NuxtLink to="/" @click="closeSidebar()">
+        <NuxtLink :to="localePath('/')" @click="closeSidebar()">
             <img
                 src="https://th.kanka.io/d4ZF6X-TrBX2HwsAYM_fNo8W2PA=/103x103/smart/src/app/logos/logo.png"
                 title="Kanka logo"
@@ -13,28 +13,28 @@
         </NuxtLink>
         <div class="gap-8 xl:gap-12 items-center grow hidden lg:flex">
             <NuxtLink
-                to="/features"
+                :to="localePath('/features')"
                 class="link text-nav"
                 @click="closeSidebar()"
             >
-                Features
+                {{ $t('nav.features') }}
             </NuxtLink>
             <NuxtLink
-                to="/pricing"
+                :to="localePath('/pricing')"
                 class="link text-nav"
                 @click="closeSidebar()"
             >
-                Pricing
+                {{ $t('nav.pricing') }}
             </NuxtLink>
             <NuxtLink
-                to="/campaigns"
+                :to="localePath('/campaigns')"
                 class="link text-nav"
                 @click="closeSidebar()"
             >
-                Public campaigns
+                {{ $t('nav.campaigns') }}
             </NuxtLink>
-            <NuxtLink to="/about" class="link text-nav" @click="closeSidebar()">
-                About us
+            <NuxtLink :to="localePath('/about')" class="link text-nav" @click="closeSidebar()">
+                {{ $t('nav.about') }}
             </NuxtLink>
         </div>
 
@@ -42,13 +42,13 @@
             <a
                 :href="`${runtimeConfig.app}/login`"
                 class="btn-login transition-colors duration-200"
-                >Sign in</a
+                >{{ $t('nav.signin') }}</a
             >
             <a
                 :href="navRegisterUrl"
                 class="btn-register transition-colors duration-200"
                 @click="trackRegisterClick('nav')"
-                >Register</a
+                >{{ $t('nav.register') }}</a
             >
         </div>
         <div class="block lg:hidden" @click="toggle()">
@@ -71,54 +71,55 @@
                 ></i>
             </div>
             <div class="px-16 flex flex-col gap-6 items-center">
-                <NuxtLink to="/" class="link text-nav" @click="closeSidebar()">
-                    Home
+                <NuxtLink :to="localePath('/')" class="link text-nav" @click="closeSidebar()">
+                    {{ $t('nav.home') }}
                 </NuxtLink>
                 <NuxtLink
-                    to="/features"
+                    :to="localePath('/features')"
                     class="link text-nav"
                     @click="closeSidebar()"
                 >
-                    Features
+                    {{ $t('nav.features') }}
                 </NuxtLink>
                 <NuxtLink
-                    to="/pricing"
+                    :to="localePath('/pricing')"
                     class="link text-nav"
                     @click="closeSidebar()"
                 >
-                    Pricing
+                    {{ $t('nav.pricing') }}
                 </NuxtLink>
                 <NuxtLink
-                    to="/campaigns"
+                    :to="localePath('/campaigns')"
                     class="link text-nav"
                     @click="closeSidebar()"
                 >
-                    Public campaigns
+                    {{ $t('nav.campaigns') }}
                 </NuxtLink>
                 <NuxtLink
-                    to="/about"
+                    :to="localePath('/about')"
                     class="link text-nav"
                     @click="closeSidebar()"
                 >
-                    About us
+                    {{ $t('nav.about') }}
                 </NuxtLink>
 
                 <a
                     :href="`${runtimeConfig.app}/login`"
                     class="btn-login transition-colors duration-200"
-                    >Sign in</a
+                    >{{ $t('nav.signin') }}</a
                 >
                 <a
                     :href="navMobileRegisterUrl"
                     class="btn-register transition-colors duration-200"
                     @click="trackRegisterClick('nav_mobile')"
-                    >Register</a
+                    >{{ $t('nav.register') }}</a
                 >
             </div>
         </div>
     </nav>
 </template>
 <script setup type="ts">
+const localePath = useLocalePath()
 const runtimeConfig = useRuntimeConfig().public
 const navRegisterUrl = useRegisterUrl('nav')
 const navMobileRegisterUrl = useRegisterUrl('nav_mobile')

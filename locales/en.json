@@ -1,1 +1,11 @@
-{}
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "campaigns": "Public campaigns",
+    "about": "About us",
+    "home": "Home",
+    "signin": "Sign in",
+    "register": "Register"
+  }
+}
