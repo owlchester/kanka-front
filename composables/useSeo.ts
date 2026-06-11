@@ -1,5 +1,13 @@
 const BASE_URL = 'https://kanka.io'
 
+const OG_LOCALE_MAP: Record<string, string> = {
+  'en': 'en_US',
+  'fr': 'fr_FR',
+  'de': 'de_DE',
+  'es': 'es_ES',
+  'pt-BR': 'pt_BR',
+}
+
 // Shared SoftwareApplication schema reused across index, features, premium, pricing
 export const SOFTWARE_APP_SCHEMA = {
   "@context": "https://schema.org",
@@ -37,7 +45,9 @@ interface SeoOptions {
 }
 
 export function useSeo({ title, description, path, ogTitle, ogDescription, schemas = [], noindex = false }: SeoOptions) {
-  const url = `${BASE_URL}${path}`
+  const { locale } = useI18n()
+  const route = useRoute()
+  const url = `${BASE_URL}${route.path}`
   const resolvedOgTitle = ogTitle ?? title
   const resolvedOgDescription = ogDescription ?? description
 
@@ -60,6 +70,7 @@ export function useSeo({ title, description, path, ogTitle, ogDescription, schem
     ogTitle: resolvedOgTitle,
     ogDescription: resolvedOgDescription,
     ogUrl: url,
+    ogLocale: OG_LOCALE_MAP[locale.value] ?? 'en_US',
     twitterTitle: resolvedOgTitle,
     twitterDescription: resolvedOgDescription,
   })
