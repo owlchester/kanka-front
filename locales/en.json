@@ -56,6 +56,118 @@
       "pressKit": "Press kit"
     }
   },
+  "pricing": {
+    "hero": {
+      "title": "The obvious choice for collaborative worldbuilding and TTRPG campaign management, at a great price.",
+      "lead": "With a 14 day refund policy on yearly subscriptions."
+    },
+    "periodToggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "savePercent": "save 17%"
+    },
+    "currencyToggle": {
+      "usd": "USD",
+      "eur": "EUR"
+    },
+    "comparePlans": "Compare plans",
+    "paidFeatures": {
+      "title": "Paid features",
+      "lead": "Supporting Kanka with a subscription gives you access to the following features and improvements."
+    },
+    "premium": {
+      "title": "Premium campaigns",
+      "lead": "All of our subscriptions allow you to unlock premium features for at least one campaign. Doing so unlocks the following benefits for a campaign. A campaign can be downgraded and upgraded at any time. For example if a campaign is over, you can downgrade it and upgrade another campaign instead. Downgrading a campaign doesn't delete any data related to premium features, but simply hides them until the campaign is upgraded again."
+    },
+    "faqTitle": "FAQ",
+    "overview": {
+      "kobold": {
+        "f1": "Unlimited entries",
+        "f2": "Unlimited campaigns",
+        "f3": "Everything you need to build free forever.",
+        "f4": "Frequent updates"
+      },
+      "owlbear": {
+        "f1": "1 active premium campaign",
+        "f2": "Big file and map sizes (10 MiB)",
+        "f3": "Vote on the roadmap",
+        "f4": "Private Discord channel",
+        "f5": "Ad-free experience"
+      },
+      "wyvern": {
+        "f1": "3 active premium campaigns",
+        "f2": "Huge file and map sizes (25 MiB)",
+        "f3": "Vote on the roadmap",
+        "f4": "Private Discord channel",
+        "f5": "Ad-free experience"
+      },
+      "elemental": {
+        "f1": "7 active premium campaigns",
+        "f2": "Gigantic file and map sizes (100 MiB)",
+        "f3": "Vote on the roadmap",
+        "f4": "Private Discord channel",
+        "f5": "Ad-free experience",
+        "f6": "High impact of future features (through Discord)"
+      }
+    },
+    "paidFeaturesTable": {
+      "free": "Free",
+      "fileUploadSizes": "File and image upload sizes",
+      "mapUploadSizes": "Map upload sizes",
+      "premiumCampaigns": "Premium campaigns",
+      "adFree": "Ad-free experience",
+      "discordChannel": "Access to a private {discord} channel",
+      "roadmapVote": "Upvote ideas on the roadmap",
+      "nicerThumbnails": "Nicer placeholder thumbnails for entries",
+      "hallOfFame": "Name in the {hallOfFame}",
+      "apiRequests": "Up to 90 API requests per minute",
+      "moreElements": "More elements shown on each page",
+      "campaignImporter": "Campaign importer"
+    },
+    "premiumFeaturesTable": {
+      "standardCampaign": "Standard campaign",
+      "premiumCampaigns": "Premium campaigns",
+      "wyvernsCol": "Wyverns *",
+      "elementalsCol": "Elementals *",
+      "maxEntries": "Maximum number of entries",
+      "maxCategories": "Maximum number of custom categories",
+      "maxMembers": "Maximum number of members",
+      "maxRoles": "Maximum number of roles",
+      "maxBookmarks": "Maximum number of bookmarks",
+      "galleryStorage": "Storage for images and files in the gallery",
+      "maxFileSize": "Maximum file and image upload size for members",
+      "maxFileAssets": "Maximum number of file assets per entity",
+      "aliases": "Define aliases on entries that work with search and mentions",
+      "adFreeMembers": "Ad-free experience for all members",
+      "plugins": "Install plugins from the {plugins}",
+      "pluginsLabel": "Plugins library",
+      "forceTheme": "Force a specific theme for all members and viewers",
+      "customTheme": "Access to full customization with theme builder and custom CSS",
+      "customTooltips": "Write custom tooltips for entries",
+      "headerImages": "Upload large header images on entries",
+      "multipleDashboards": "Create multiple dashboards and assign them to roles",
+      "customThumbnails": "Upload custom placeholder thumbnails for entries",
+      "easyAccessLinks": "Set easy access links to outside sources on entries",
+      "beautifulMaps": "Beautiful maps with access to thousands of icons for map markers and polygon markers",
+      "renameSidebar": "Rename and reorder the sidebar",
+      "renameCategories": "Rename and change the icon of categories",
+      "familyTrees": "Create complex family trees",
+      "fullLogs": "Full logs of changes made on entries for up to 30 days",
+      "recoverEntries": "Recover deleted entries and articles for up to 30 days",
+      "achievements": "Feel good with campaign achievements",
+      "webhooks": "Send updates to Discord and other tools through webhooks.",
+      "tierPerks": "* These perks are unlocked for all members of a campaign if the person unlocking premium features is a subscriber at this tier."
+    }
+  },
+  "pricingTier": {
+    "billedYearly": "billed yearly",
+    "perMonth": "/month",
+    "free": "Free",
+    "popular": "Popular",
+    "bestValue": "Best value",
+    "learnMore": "Learn more",
+    "startFree": "Start for free"
+  },
   "index": {
     "hero": {
       "title": "Run your campaign without losing track of a single detail.",

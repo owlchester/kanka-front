@@ -5,15 +5,15 @@
         thumbnail="images/tiers/kobold.png"
         monthly="Free"
         yearly="Free"
-        cta="Start for free"
+        :cta="$t('pricingTier.startFree')"
     >
-      <PricingLink :access="true" title="Unlimited entries" />
-      <PricingLink :access="true" title="Unlimited campaigns" />
-      <PricingLink :access="true" title="Everything you need to build free forever." />
-      <PricingLink :access="true" title="Frequent updates" />
+      <PricingLink :access="true" :title="$t('pricing.overview.kobold.f1')" />
+      <PricingLink :access="true" :title="$t('pricing.overview.kobold.f2')" />
+      <PricingLink :access="true" :title="$t('pricing.overview.kobold.f3')" />
+      <PricingLink :access="true" :title="$t('pricing.overview.kobold.f4')" />
 
-      <NuxtLink to="/features" class="text-sm underline text-purple underline-offset-8">
-        Learn more
+      <NuxtLink :to="localePath('/features')" class="text-sm underline text-purple underline-offset-8">
+        {{ $t('pricingTier.learnMore') }}
       </NuxtLink>
     </PricingTier>
 
@@ -26,26 +26,26 @@
         :popular="true"
         :discounted="discounted()"
         :currency="currencySymbol()"
-        cta="Start for free"
+        :cta="$t('pricingTier.startFree')"
     >
-      <PricingLink to="/premium"
+      <PricingLink :to="localePath('/premium')"
                   :access="true"
-                  title="1 active premium campaign" />
+                  :title="$t('pricing.overview.owlbear.f1')" />
       <PricingLink
                   :access="true"
-                  title="Big file and map sizes (10 MiB)" />
+                  :title="$t('pricing.overview.owlbear.f2')" />
       <PricingLink
                   :access="true"
-                  title="Vote on the roadmap" />
+                  :title="$t('pricing.overview.owlbear.f3')" />
       <PricingLink
                   :access="true"
-                  title="Private Discord channel" />
+                  :title="$t('pricing.overview.owlbear.f4')" />
       <PricingLink
                   :access="true"
-                  title="Ad-free experience" />
+                  :title="$t('pricing.overview.owlbear.f5')" />
 
-      <NuxtLink to="/features" class="text-sm underline text-purple underline-offset-8">
-        Learn more
+      <NuxtLink :to="localePath('/features')" class="text-sm underline text-purple underline-offset-8">
+        {{ $t('pricingTier.learnMore') }}
       </NuxtLink>
     </PricingTier>
 
@@ -59,27 +59,27 @@
         :best="true"
         :discounted="discounted()"
         :currency="currencySymbol()"
-        cta="Start for free"
+        :cta="$t('pricingTier.startFree')"
     >
 
-      <PricingLink to="/premium"
+      <PricingLink :to="localePath('/premium')"
                    :access="true"
-                   title="3 active premium campaigns" />
+                   :title="$t('pricing.overview.wyvern.f1')" />
       <PricingLink
           :access="true"
-          title="Huge file and map sizes (25 MiB)" />
+          :title="$t('pricing.overview.wyvern.f2')" />
       <PricingLink
           :access="true"
-          title="Vote on the roadmap" />
+          :title="$t('pricing.overview.wyvern.f3')" />
       <PricingLink
           :access="true"
-          title="Private Discord channel" />
+          :title="$t('pricing.overview.wyvern.f4')" />
       <PricingLink
           :access="true"
-          title="Ad-free experience" />
+          :title="$t('pricing.overview.wyvern.f5')" />
 
-      <NuxtLink to="/features" class="text-sm underline text-purple underline-offset-8">
-        Learn more
+      <NuxtLink :to="localePath('/features')" class="text-sm underline text-purple underline-offset-8">
+        {{ $t('pricingTier.learnMore') }}
       </NuxtLink>
     </PricingTier>
 
@@ -90,47 +90,46 @@
         yearly="249.90"
         :discounted="discounted()"
         :currency="currencySymbol()"
-        cta="Start for free"
+        :cta="$t('pricingTier.startFree')"
     >
-      <PricingLink to="/premium"
+      <PricingLink :to="localePath('/premium')"
                    :access="true"
-                   title="7 active premium campaigns" />
+                   :title="$t('pricing.overview.elemental.f1')" />
       <PricingLink
           :access="true"
-          title="Gigantic file and map sizes (100 MiB)" />
+          :title="$t('pricing.overview.elemental.f2')" />
       <PricingLink
           :access="true"
-          title="Vote on the roadmap" />
+          :title="$t('pricing.overview.elemental.f3')" />
       <PricingLink
           :access="true"
-          title="Private Discord channel" />
+          :title="$t('pricing.overview.elemental.f4')" />
       <PricingLink
           :access="true"
-          title="Ad-free experience" />
+          :title="$t('pricing.overview.elemental.f5')" />
       <PricingLink
           :access="true"
-          title="High impact of future features (through Discord)" />
+          :title="$t('pricing.overview.elemental.f6')" />
 
-      <NuxtLink to="/features" class="text-sm underline text-purple underline-offset-8">
-        Learn more
+      <NuxtLink :to="localePath('/features')" class="text-sm underline text-purple underline-offset-8">
+        {{ $t('pricingTier.learnMore') }}
       </NuxtLink>
     </PricingTier>
   </div>
 </template>
 
-<script>
-export default {
-  props: {
-    currency: String,
-    period: Boolean,
-  },
-  methods: {
-    currencySymbol() {
-      return this.currency === 'eur' ? '€' : '$';
-    },
-    discounted() {
-      return this.period;
-    }
-  }
+<script setup lang="ts">
+const props = defineProps<{
+  currency: string
+  period: boolean
+}>()
+
+const localePath = useLocalePath()
+
+function currencySymbol() {
+  return props.currency === 'eur' ? '€' : '$'
+}
+function discounted() {
+  return props.period
 }
 </script>
