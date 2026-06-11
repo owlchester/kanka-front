@@ -7,5 +7,53 @@
     "home": "Home",
     "signin": "Sign in",
     "register": "Register"
+  },
+  "footer": {
+    "tagline1": "Made with ❤️ in Geneva, Switzerland",
+    "tagline2": "Only possible thanks to our subscribers.",
+    "copyright": "Copyright © 2026 Owlchester SNC",
+    "platform": {
+      "title": "Platform",
+      "features": "Features",
+      "premiumCampaigns": "Premium campaigns",
+      "pricing": "Pricing",
+      "plugins": "Plugins",
+      "useCases": "Use-cases",
+      "forGameMasters": "For game masters",
+      "forPlayers": "For players",
+      "forWorldbuilders": "For worldbuilders",
+      "forWriters": "For writers",
+      "forContentCreators": "For content creators"
+    },
+    "resources": {
+      "title": "Resources",
+      "comparison": "Kanka vs WorldAnvil",
+      "learn": "Learning hub",
+      "kb": "Knowledge base",
+      "docs": "Documentation",
+      "api": "API docs",
+      "blog": "Blog",
+      "status": "Service status",
+      "guidesTitle": "Worldbuilding guides",
+      "guideStart": "Start creating your world",
+      "guideHowMuch": "How much worldbuilding do you need"
+    },
+    "community": {
+      "title": "Community",
+      "news": "What's new",
+      "campaigns": "Public campaigns",
+      "showcase": "Showcase",
+      "roadmap": "Roadmap",
+      "hallOfFame": "Hall of fame"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About us",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "security": "Security",
+      "pressKit": "Press kit"
+    }
   }
 }
