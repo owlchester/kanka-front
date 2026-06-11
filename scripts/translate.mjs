@@ -11,15 +11,25 @@ const LOCALE_NAMES = { fr: 'French', de: 'German', es: 'Spanish', 'pt-BR': 'Braz
 const API_KEY = process.env.ANTHROPIC_API_KEY
 if (!API_KEY) throw new Error('ANTHROPIC_API_KEY is required')
 
-const SYSTEM_PROMPT = `You are a professional translator. Translate the provided content accurately.
+const BASE_SYSTEM_PROMPT = `You are a professional translator. Translate the provided content accurately.
 - Preserve ALL JSON key names exactly (only translate string values)
 - Preserve ALL markdown formatting
 - Preserve ALL YAML structure and keys
 - Do NOT translate proper nouns: Kanka, TTRPG, D&D, WorldAnvil, Owlbear, Kobold, Wyvern, Elemental, Discord, GitHub
 - Do NOT translate URLs, email addresses, code blocks
-- Output ONLY the translated content, no explanations`
+- Output ONLY the translated content, no explanations or code fences`
 
-async function callClaude(content, targetLanguage) {
+// Load per-locale translator notes
+const notesPath = join(ROOT, 'locales/translator-notes.json')
+const translatorNotes = existsSync(notesPath) ? JSON.parse(readFileSync(notesPath, 'utf8')) : {}
+
+function buildSystemPrompt(locale) {
+  const notes = translatorNotes[locale]?.trim()
+  if (!notes) return BASE_SYSTEM_PROMPT
+  return `${BASE_SYSTEM_PROMPT}\n\nAdditional instructions for ${LOCALE_NAMES[locale]}: ${notes}`
+}
+
+async function callClaude(content, locale) {
   const res = await fetch('https://api.anthropic.com/v1/messages', {
     method: 'POST',
     headers: {
@@ -30,13 +40,16 @@ async function callClaude(content, targetLanguage) {
     body: JSON.stringify({
       model: 'claude-haiku-4-5-20251001',
       max_tokens: 8192,
-      system: SYSTEM_PROMPT,
-      messages: [{ role: 'user', content: `Translate to ${targetLanguage}:\n\n${content}` }],
+      system: buildSystemPrompt(locale),
+      messages: [{ role: 'user', content: `Translate to ${LOCALE_NAMES[locale]}:\n\n${content}` }],
     }),
   })
   if (!res.ok) throw new Error(`API ${res.status}: ${await res.text()}`)
   const data = await res.json()
-  return data.content[0].text.trim()
+  let text = data.content[0].text.trim()
+  // Strip markdown code fences
+  text = text.replace(/^```[a-z]*\n?/, '').replace(/\n?```$/, '')
+  return text.trim()
 }
 
 function destPath(srcPath, locale) {
@@ -74,7 +87,7 @@ for (const src of targetFiles) {
   for (const locale of LOCALES) {
     const dest = destPath(src, locale)
     try {
-      const translated = await callClaude(content, LOCALE_NAMES[locale])
+      const translated = await callClaude(content, locale)
       writeFileSync(dest, translated, 'utf8')
       console.log(`✓ ${src} → ${dest}`)
       if (!manifest[src]) manifest[src] = {}
