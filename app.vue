@@ -1,7 +1,4 @@
 <script setup lang="ts">
-const route = useRoute()
-
-
 useHead({
   title: 'Kanka - Free Worldbuilding RPG campaign manager',
   meta: [
@@ -10,7 +7,6 @@ useHead({
   ],
   link: [
     {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
-    {rel: 'alternate', hreflang: 'x-default', href: () => `https://kanka.io${route.path}`},
     {rel: 'preconnect', href: 'https://th.kanka.io', crossorigin: ''},
     {rel: 'dns-prefetch', href: 'https://static.cloudflareinsights.com'},
   ],
@@ -84,6 +80,7 @@ useSeoMeta({
   </Head>
   <NuxtLayout>
     <NuxtLoadingIndicator color="#112B6B" />
+    <LocaleBanner />
     <NuxtPage />
   </NuxtLayout>
 </template>
