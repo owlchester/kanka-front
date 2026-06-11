@@ -1,4 +1,11 @@
 <script setup lang="ts">
+const i18nHead = useLocaleHead({ addSeoAttributes: true })
+useHead(computed(() => ({
+  htmlAttrs: i18nHead.value.htmlAttrs ?? {},
+  link: [...(i18nHead.value.link ?? [])],
+  meta: [...(i18nHead.value.meta ?? [])],
+})))
+
 useHead({
   title: 'Kanka - Free Worldbuilding RPG campaign manager',
   meta: [

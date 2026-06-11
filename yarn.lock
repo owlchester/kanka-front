@@ -9294,6 +9294,7 @@ __metadata:
     nuxt: ^4.3.1
     nuxt-llms: latest
     postcss-custom-properties: ^13.3.6
+    tailwindcss: ^3
   languageName: unknown
   linkType: soft
 
@@ -14093,7 +14094,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tailwindcss@npm:~3.4.17":
+"tailwindcss@npm:^3, tailwindcss@npm:~3.4.17":
   version: 3.4.19
   resolution: "tailwindcss@npm:3.4.19"
   dependencies:

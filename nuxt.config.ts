@@ -145,9 +145,14 @@ export default defineNuxtConfig({
     lazy: true,
     langDir: '../locales/',
     detectBrowserLanguage: false,
+    compilation: {
+      strictMessage: false,
+    },
+  },
+  site: {
+    url: 'https://kanka.io',
   },
   sitemap: {
-    hostname: 'https://kanka.io',
     exclude: [
       '/gone',
       '/goodbye',

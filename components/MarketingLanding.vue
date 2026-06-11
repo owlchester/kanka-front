@@ -172,8 +172,10 @@
 <script setup lang="ts">
 const props = defineProps<{ slug: string }>()
 
-const { data: faq } = await useAsyncData(`${props.slug}-faq`, () =>
-  queryCollection('homeFaq').first()
+const { homeFaqCollection } = useLocaleData()
+const { locale } = useI18n()
+const { data: faq } = await useAsyncData(`${props.slug}-faq-${locale.value}`, () =>
+  queryCollection(homeFaqCollection()).first()
 )
 
 const bottomRegisterUrl = useRegisterUrl(`${props.slug}_bottom`)

@@ -177,7 +177,7 @@
     },
     "pitch": {
       "title": "Everything in one place. Find it in seconds, even mid-session",
-      "body": "Notes scattered across docs, wikis, and napkins don't survive contact with a live session. In Kanka, everything lives in one place and everything connects. @mention a character in a session log and it links automatically, so one click takes you from a city to its ruler to the war they started. When a player asks the question you didn't prep for, the answer is one search away, on any device."
+      "body": "Notes scattered across docs, wikis, and napkins don't survive contact with a live session. In Kanka, everything lives in one place and everything connects. {'@'}mention a character in a session log and it links automatically, so one click takes you from a city to its ruler to the war they started. When a player asks the question you didn't prep for, the answer is one search away, on any device."
     },
     "features": {
       "f1Title": "The free tier isn't a trial",
@@ -316,7 +316,7 @@
       "mapsCaption": "Interactive maps with pins",
       "editorTitle": "Editor",
       "editorBody": "You won't need to learn programming to craft beautiful texts. We've build our own writing experience, so that you can create rich text for all your writing. Best of all, we've added support for mentions to other entries by using the {at} symbol.",
-      "editorCaption": "Use easy @ mentions to link to other entries"
+      "editorCaption": "Use easy {'@'} mentions to link to other entries"
     },
     "premium": {
       "title": "Premium",
@@ -374,7 +374,7 @@
   },
   "worldbuilding": {
     "title": "Build a world that finally stays consistent.",
-    "lead": "Kanka is the worldbuilding tool for D&D, tabletop RPGs, and anyone building a world that has to hold together. Link every character, location, and faction with @mentions, so your lore stays consistent and you can find anything in seconds. Free to start, no credit card. Trusted by 375,000+ worldbuilders.",
+    "lead": "Kanka is the worldbuilding tool for D&D, tabletop RPGs, and anyone building a world that has to hold together. Link every character, location, and faction with {'@'}mentions, so your lore stays consistent and you can find anything in seconds. Free to start, no credit card. Trusted by 375,000+ worldbuilders.",
     "startFree": "Start for free"
   },
   "premiumPage": {
@@ -528,12 +528,12 @@
   },
   "ttrpgTools": {
     "title": "Everything a game master needs, in one place.",
-    "lead": "Kanka is the all-in-one toolkit for tabletop RPG game masters: characters, maps, quests, timelines, and lore, all linked with @mentions and ready the moment you need them. Works for D&D, any TTRPG, or your own homebrew. Free to start, no credit card. Trusted by 375,000+ DMs.",
+    "lead": "Kanka is the all-in-one toolkit for tabletop RPG game masters: characters, maps, quests, timelines, and lore, all linked with {'@'}mentions and ready the moment you need them. Works for D&D, any TTRPG, or your own homebrew. Free to start, no credit card. Trusted by 375,000+ DMs.",
     "startFree": "Start for free"
   },
   "campaignManager": {
     "title": "Run your D&D campaign without the chaos.",
-    "lead": "Kanka is the campaign manager for D&D and tabletop RPG game masters. Track every NPC, quest, and plot thread, link them with @mentions, and pull up anything mid session, from session one to session fifty. Less prep, more play. Free to start, no credit card. Trusted by 375,000+ GMs.",
+    "lead": "Kanka is the campaign manager for D&D and tabletop RPG game masters. Track every NPC, quest, and plot thread, link them with {'@'}mentions, and pull up anything mid session, from session one to session fifty. Less prep, more play. Free to start, no credit card. Trusted by 375,000+ GMs.",
     "startFree": "Start for free"
   },
   "useCasesIndex": {

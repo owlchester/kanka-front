@@ -16,7 +16,8 @@
     "@tailwindcss/typography": "^0.5.19",
     "@types/node": "^20.11.0",
     "nuxt": "^4.3.1",
-    "nuxt-llms": "latest"
+    "nuxt-llms": "latest",
+    "tailwindcss": "^3"
   },
   "dependencies": {
     "@gtm-support/vue-gtm": "^2.1.0",
