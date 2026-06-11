@@ -1,13 +1,13 @@
 <template>
   <BaseHero
-    title="Build a world that finally stays consistent."
-    lead="Kanka is the worldbuilding tool for D&D, tabletop RPGs, and anyone building a world that has to hold together. Link every character, location, and faction with @mentions, so your lore stays consistent and you can find anything in seconds. Free to start, no credit card. Trusted by 375,000+ worldbuilders."
+    :title="$t('worldbuilding.title')"
+    :lead="$t('worldbuilding.lead')"
     :big="true"
     :video="true"
   >
     <div>
       <a :href="heroRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick('worldbuilding_hero')">
-        Start for free
+        {{ $t('worldbuilding.startFree') }}
       </a>
     </div>
   </BaseHero>

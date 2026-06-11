@@ -1,38 +1,38 @@
 <template>
   <BaseHero
-      title="Premium campaigns"
-      lead="Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more.">
+      :title="$t('premiumPage.title')"
+      :lead="$t('premiumPage.lead')">
     <div>
       <a :href="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
-        Starting at {{ defaultCurrency() }} 4.<small>99</small> per month
+        {{ $t('premiumPage.startingAt', { currency: defaultCurrency() }) }} 4.<small>99</small> {{ $t('premiumPage.perMonth') }}
       </a>
     </div>
   </BaseHero>
 
 <Section>
-  <h2 class="text-purple">Everything you love about Kanka, with the limits lifted</h2>
+  <h2 class="text-purple">{{ $t('premiumPage.card1Title') }}</h2>
   <p>
-    When a campaign goes premium, the following improvements gets unlocked for all members of the campaign.
+    {{ $t('premiumPage.card1Body') }}
   </p>
 
   <PremiumCards />
 </Section>
 <Section>
-  <h2 class="text-purple">Everything we just said, but in a table</h2>
+  <h2 class="text-purple">{{ $t('premiumPage.tableTitle') }}</h2>
   <p>
-    All of our subscriptions allow you to unlock premium features for at least one campaign. Doing so unlocks the following benefits for a campaign. A campaign can be downgraded and upgraded at any time. For example if a campaign is over, you can downgrade it and upgrade another campaign instead. Downgrading a campaign doesn't delete any data related to premium features, but simply hides them until the campaign is upgraded again.
+    {{ $t('premiumPage.tableBody') }}
   </p>
 
   <PricingPremiumFeatures />
 </Section>
 <Section>
-  <h2 class="text-purple">Ok, take my money</h2>
+  <h2 class="text-purple">{{ $t('premiumPage.ctaTitle') }}</h2>
   <p>
-    Convinced and ready to go premium with your campaigns? Subscribe to Kanka to unlock premium campaigns!
+    {{ $t('premiumPage.ctaBody') }}
   </p>
   <div>
     <a :href="`${runtimeConfig.app}/settings/subscription`" class="btn-round rounded-full ">
-      Take me to the subscription page
+      {{ $t('premiumPage.ctaButton') }}
     </a>
   </div>
 </Section>
