@@ -55,5 +55,63 @@
       "security": "Security",
       "pressKit": "Press kit"
     }
+  },
+  "index": {
+    "hero": {
+      "title": "Run your campaign without losing track of a single detail.",
+      "lead": "Kanka is a community driven world building website. Are you making your own D&D homebrew campaign or using other TTRPG systems? We help you manage, organize, and keep track of your ideas, your creations, and your world.",
+      "trailing": "400,000+ game masters and worldbuilders call Kanka their home.",
+      "cta": "Start for free"
+    },
+    "pitch": {
+      "title": "Everything in one place. Find it in seconds, even mid-session",
+      "body": "Notes scattered across docs, wikis, and napkins don't survive contact with a live session. In Kanka, everything lives in one place and everything connects. @mention a character in a session log and it links automatically, so one click takes you from a city to its ruler to the war they started. When a player asks the question you didn't prep for, the answer is one search away, on any device."
+    },
+    "features": {
+      "f1Title": "The free tier isn't a trial",
+      "f1Lead": "All core features, unlimited campaigns, unlimited entries. Most GMs never need to pay, and we'd rather you stay because you love it, not because a paywall trapped your world.",
+      "f2Title": "Run it with your whole table",
+      "f2Lead": "Invite your players and co-GMs, then control exactly what each person sees and edits. Your secrets stay secret until you're ready to reveal them.",
+      "f3Title": "Make it yours",
+      "f3Lead": "Rename categories, restructure to fit your system, or go deep with custom CSS and community plugins. Kanka bends to how you run your game: 5e, a homebrew system, or no system at all.",
+      "f4Title": "A place for every part of your world",
+      "f4Lead": "Characters, locations, organizations, families, timelines, calendars, maps, 20+ categories, each built for a piece of your world, all linked together.",
+      "learnMore": "Learn more about Kanka's features"
+    },
+    "socialProof": {
+      "title": "You're in good company",
+      "lead": "400,000+ game masters and worldbuilders trust Kanka for their worldbuilding needs. We've gathered a few of their testimonials to show what Kanka can do for you."
+    },
+    "trust": {
+      "title": "Your world is safe, and it's yours",
+      "f1Title": "Export anytime",
+      "f1Lead": "Download your content anytime. No lock-in, ever.",
+      "f2Title": "Your data is safe",
+      "f2Lead": "We use reputable German hosting services, and we back up our servers twice daily.",
+      "f3Title": "Source available",
+      "f3Lead": "Kanka's code is public on GitHub, nothing hidden in a black box.",
+      "f4Title": "Your IP is yours",
+      "f4Lead": "Campaigns are Private by default."
+    },
+    "pricing": {
+      "title": "Pricing"
+    },
+    "team": {
+      "title": "Who we are",
+      "body": "Kanka is built and run by just two of us: one GM (Jay) and one player (Jon). The initial spark came because Jay needed a better way to keep track of our campaign so that Jon could keep ignoring the main plotline. Even all these years later, it's still just us answering your emails, Discord messages, and carrier pigeons. We're not trying to build the biggest worldbuilding platform, just the one we want to run our own games in.",
+      "cta": "Read our story"
+    },
+    "featured": {
+      "title": "Featured campaigns",
+      "lead": "Our community builds amazing things that we love to showcase as Featured Campaigns. These are great examples of worldbuilding that we recommend you check out. They can also showcase what other users have done with Kanka, and give you some inspiration!",
+      "cta": "See what GMs build in Kanka"
+    },
+    "register": {
+      "title": "Ready to run your best campaign?",
+      "cta": "Start your free campaign"
+    },
+    "faq": {
+      "title": "FAQ"
+    }
   }
 }
