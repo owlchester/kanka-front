@@ -21,6 +21,8 @@
   "dependencies": {
     "@gtm-support/vue-gtm": "^2.1.0",
     "@nuxtjs/google-fonts": "^3.0.2",
+    "@nuxtjs/i18n": "^10.4.0",
+    "@nuxtjs/sitemap": "^8.2.0",
     "better-sqlite3": "^12.6.2",
     "marked": "^17.0.4",
     "postcss-custom-properties": "^13.3.6"

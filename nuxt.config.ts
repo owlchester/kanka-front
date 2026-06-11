@@ -11,6 +11,8 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "nuxt-llms",
     "@nuxt/image",
+    "@nuxtjs/i18n",
+    "@nuxtjs/sitemap",
   ],
   runtimeConfig: {
     public: {
@@ -102,6 +104,23 @@ export default defineNuxtConfig({
     domain: "https://kanka.io",
     title: "Kanka",
     description: "Collaborative RPG campaign management and worldbuilding software",
+  },
+  i18n: {
+    locales: [
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'fr', language: 'fr-FR', name: 'Français', file: 'fr.json' },
+      { code: 'de', language: 'de-DE', name: 'Deutsch', file: 'de.json' },
+      { code: 'es', language: 'es-ES', name: 'Español', file: 'es.json' },
+      { code: 'pt-BR', language: 'pt-BR', name: 'Português (BR)', file: 'pt-BR.json' },
+    ],
+    defaultLocale: 'en',
+    strategy: 'prefix_except_default',
+    lazy: true,
+    langDir: 'locales/',
+    detectBrowserLanguage: false,
+  },
+  sitemap: {
+    hostname: 'https://kanka.io',
   },
   image: {
     format: ["webp", "avif"],
