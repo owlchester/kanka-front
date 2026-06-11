@@ -1,10 +1,11 @@
 <script setup lang="ts">
 const route = useRoute()
 const slug = route.params.slug as string
+const { locale } = useI18n()
 
-const path = `/worldbuilding-guides/${slug}`
+const path = `/${locale.value}/worldbuilding-guides/${slug}`
 
-const { data: article } = await useAsyncData(`guide-${slug}`, () =>
+const { data: article } = await useAsyncData(`guide-${slug}-${locale.value}`, () =>
     queryCollection('guides').path(path).first()
 )
 
@@ -14,9 +15,10 @@ if (!article.value) {
 
 const registerUrl = useRegisterUrl('guide_' + (article.value?.tracking ?? ''))
 
-const { data: related } = await useAsyncData(`guides-related-${slug}`, () =>
+const { data: related } = await useAsyncData(`guides-related-${slug}-${locale.value}`, () =>
     queryCollection('guides')
         .where('path', '!=', path)
+        .where('path', 'like', `/${locale.value}/worldbuilding-guides/%`)
         .limit(3)
         .all()
 )
@@ -72,7 +74,7 @@ useSeoMeta({
                 <p v-if="article.author || article.datePublished" class="text-sm text-gray-500 not-prose">
                     <span v-if="article.author">By <NuxtLink to="/about" class="link">{{ article.author }}</NuxtLink></span>
                     <span v-if="article.author && article.datePublished"> · </span>
-                    <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
+                    <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString(locale.value, { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
                 </p>
                 <ContentRenderer :value="article" />
                 <a

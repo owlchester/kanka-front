@@ -69,8 +69,10 @@
 <script setup lang="ts">
 const runtimeConfig = useRuntimeConfig();
 
-const { data: faq } = await useAsyncData('pricing-faq', () =>
-    queryCollection('pricingFaq').first()
+const { pricingFaqCollection } = useLocaleData()
+const { locale } = useI18n()
+const { data: faq } = await useAsyncData(`pricing-faq-${locale.value}`, () =>
+    queryCollection(pricingFaqCollection()).first()
 )
 
 const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '')

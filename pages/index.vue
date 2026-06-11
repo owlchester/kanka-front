@@ -216,8 +216,10 @@
 <script setup lang="ts">
 import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
 
-const { data: faq } = await useAsyncData('home-faq', () =>
-    queryCollection('homeFaq').first()
+const { homeFaqCollection } = useLocaleData()
+const { locale } = useI18n()
+const { data: faq } = await useAsyncData(`home-faq-${locale.value}`, () =>
+    queryCollection(homeFaqCollection()).first()
 )
 
 const runtimeConfig = useRuntimeConfig().public

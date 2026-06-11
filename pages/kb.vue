@@ -60,8 +60,10 @@ const lead = 'Quick answers to common questions about campaigns, permissions, ma
 
 const route = useRoute()
 
-const { data: kbData } = await useAsyncData('kb-faq', () =>
-    queryCollection('kbFaq').first()
+const { kbFaqCollection } = useLocaleData()
+const { locale } = useI18n()
+const { data: kbData } = await useAsyncData(`kb-faq-${locale.value}`, () =>
+    queryCollection(kbFaqCollection()).first()
 )
 
 function slugify(text: string): string {
