@@ -1,29 +1,21 @@
 <template>
     <BaseHero
-        title="Press kit"
-        lead="Thanks for your interest in Kanka! Please use the following resources when talking about us."
+        :title="$t('pressKit.title')"
+        :lead="$t('pressKit.lead')"
     />
 
     <Section align="left">
-        <h2 class="text-purple">Short description</h2>
+        <h2 class="text-purple">{{ $t('pressKit.shortDescriptionTitle') }}</h2>
 
         <p>
-            Kanka is a worldbuilding and tabletop RPG campaign management tool
-            perfect for worldbuilders and game masters alike. It helps you
-            create and organise your campaigns and worlds with a whole range of
-            features such as calendars, interactive maps, timelines,
-            organisations, families, and as many characters as you can come up
-            with!
+            {{ $t('pressKit.shortDescriptionBody1') }}
         </p>
 
         <p>
-            Community is in their DNA, and you can vote on community ideas to
-            determine the direction that Kanka takes, as well as their Community
-            Marketplace, where creators can showcase their creativity and make
-            their content useable by others.
+            {{ $t('pressKit.shortDescriptionBody2') }}
         </p>
 
-        <h2 class="text-purple">Logos</h2>
+        <h2 class="text-purple">{{ $t('pressKit.logosTitle') }}</h2>
 
         <p>
             <a
@@ -48,7 +40,7 @@
         </p>
 
         <p>
-            Need more resources or help?
+            {{ $t('pressKit.needMore') }}
             <a href="mailto:hello@kanka.io" class="link-light"
                 >hello@kanka.io</a
             >

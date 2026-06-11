@@ -21,7 +21,7 @@ useSeo({
 </script>
 
 <template>
-    <BaseHero title="Learn" lead="Guides and articles to help you get the most out of Kanka." />
+    <BaseHero :title="$t('learnIndex.title')" :lead="$t('learnIndex.lead')" />
 
     <Section>
         <div v-if="articles?.length" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
@@ -34,9 +34,9 @@ useSeo({
                     <h2 class="text-purple">{{ article.title }}</h2>
                 </NuxtLink>
                 <p class="grow">{{ article.description }}</p>
-                <NuxtLink :to="`${article.path}`" class="btn-round rounded-full">Read article</NuxtLink>
+                <NuxtLink :to="`${article.path}`" class="btn-round rounded-full">{{ $t('learnIndex.readArticle') }}</NuxtLink>
             </div>
         </div>
-        <p v-else>No articles yet. Check back soon!</p>
+        <p v-else>{{ $t('learnIndex.noResults') }}</p>
     </Section>
 </template>
