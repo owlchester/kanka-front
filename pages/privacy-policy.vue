@@ -165,4 +165,6 @@ useSeo({
   description: 'Effective date: Jul 12, 2023',
   path: '/privacy-policy',
 })
+
+definePageMeta({ nuxtI18n: false })
 </script>

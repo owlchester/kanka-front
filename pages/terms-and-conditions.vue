@@ -124,4 +124,6 @@ useSeo({
     },
   ],
 })
+
+definePageMeta({ nuxtI18n: false })
 </script>
