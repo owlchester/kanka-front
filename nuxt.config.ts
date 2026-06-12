@@ -141,6 +141,7 @@ export default defineNuxtConfig({
       { code: 'pt-BR', language: 'pt-BR', name: 'Português (BR)', file: 'pt-BR.json' },
     ],
     defaultLocale: 'en',
+    baseUrl: 'https://kanka.io',
     strategy: 'prefix_except_default',
     lazy: true,
     langDir: '../locales/',
@@ -159,8 +160,6 @@ export default defineNuxtConfig({
       '/goodbye',
       '/privacy-policy',
       '/terms-and-conditions',
-      // pt-BR not yet translated — exclude until done
-      '/pt-BR/**',
     ],
   },
   image: {
