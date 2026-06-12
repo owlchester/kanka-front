@@ -96,7 +96,7 @@
 
   <Section id="pricing">
     <h2 class="text-purple">Pricing</h2>
-    <PricingOverview />
+    <PricingOverview currency="usd" :period="false" />
   </Section>
 
   <Section id="team">

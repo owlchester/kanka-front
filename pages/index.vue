@@ -129,7 +129,7 @@
 
   <Section>
     <h2 class="text-purple">{{ $t('index.pricing.title') }}</h2>
-    <PricingOverview></PricingOverview>
+    <PricingOverview />
   </Section>
 
 
