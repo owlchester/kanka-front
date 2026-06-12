@@ -1,16 +1,16 @@
 items:
   - id: free
-    q: "Is the free plan really free, or just a trial?"
-    a: "Free forever. Unlimited campaigns and entries, all core features, no credit card. Plenty of GMs never upgrade. Paid tiers add premium campaigns, bigger uploads, and a few extras"
+    q: "¿El plan gratuito es realmente gratis o solo una prueba?"
+    a: "Gratis para siempre. Campañas y entradas ilimitadas, todas las funciones principales, sin tarjeta de crédito. Muchos DMs nunca actualizan. Los niveles de pago añaden campañas premium, subidas más grandes y algunos extras"
   - id: ownership
-    q: "Do I own my world? Can I get my data out?"
-    a: "Yes. Your worlds are yours: export your whole campaign whenever you want"
+    q: "¿Mi mundo es mío? ¿Puedo recuperar mis datos?"
+    a: "Sí. Tus mundos son tuyos: exporta tu campaña completa cuando quieras"
   - id: system
-    q: "Do I have to play D&D?"
-    a: "Not at all. Kanka works with any TTRPG system, whether your own homebrew, or no system at all! Plenty of people use it purely for worldbuilding and writing"
+    q: "¿Tengo que jugar D&D?"
+    a: "Para nada. Kanka funciona con cualquier sistema de TTRPG, ya sea tu propio homebrew o sin sistema alguno. Mucha gente lo usa puramente para construcción de mundos y escritura"
   - id: secrets
-    q: "Can I keep secrets from my players?"
-    a: "Yes. Invite your players and control exactly what each person sees and edits. Your spoilers stay hidden until you're ready to reveal them"
+    q: "¿Puedo guardar secretos de mis jugadores?"
+    a: "Sí. Invita a tus jugadores y controla exactamente qué ve y edita cada persona. Tus spoilers permanecen ocultos hasta que estés listo para revelarlos"
   - id: started
-    q: "How long does it take to get started?"
-    a: "Minutes. Create an account, add a few characters and places, @mention to link them… you're building"
+    q: "¿Cuánto tiempo tarda empezar?"
+    a: "Minutos. Crea una cuenta, agrega algunos personajes y lugares, usa @menciones para enlazarlos… y ya estás construyendo"

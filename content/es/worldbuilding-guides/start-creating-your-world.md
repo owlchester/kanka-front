@@ -1,91 +1,90 @@
 ---
-title: "How to Start Worldbuilding: A Beginner's Guide"
-description: Start worldbuilding today - no experience needed. This guide walks you through creating your first fantasy world, from concept to playable setting.
-lead: Whether you're dreaming up a fantasy realm, building a galaxy-spanning sci-fi empire, or just toying with a story idea, worldbuilding is easier and more rewarding than you might think. The best part? You're probably already doing it.
+title: "Cómo empezar con el worldbuilding: Guía para principiantes"
+description: Empieza a hacer worldbuilding hoy, sin experiencia previa. Esta guía te lleva paso a paso a crear tu primer mundo de fantasía, desde el concepto hasta un escenario jugable.
+lead: Ya sea que estés soñando con un reino de fantasía, construyendo un imperio de ciencia ficción que abarca una galaxia, o simplemente explorando una idea para una historia, el worldbuilding es más fácil y gratificante de lo que crees. ¿La mejor parte? Probablemente ya lo estás haciendo.
 author: Jay
 datePublished: "2026-03-03"
 tags:
   - beginner
   - worldbuilding
-cta: Your world needs a home. Kanka is free to get started.
+cta: Tu mundo necesita un hogar. Kanka es gratis para empezar.
 tracking: start
 ---
 
-## What is worldbuilding (and why you might already be doing it)
+## Qué es el worldbuilding (y por qué puede que ya lo estés haciendo)
 
-Worldbuilding is the art of creating a fictional world. It could be as simple as inventing a city for your story or as detailed as crafting entire histories, cultures, and magical systems. Writers, game masters, artists, and hobbyists all use worldbuilding to bring their ideas to life.
+El worldbuilding es el arte de crear un mundo ficticio. Puede ser tan simple como inventar una ciudad para tu historia o tan detallado como construir historias enteras, culturas y sistemas mágicos. Escritores, directores de juego, artistas y aficionados usan el worldbuilding para dar vida a sus ideas.
 
-You don't need to be a fantasy author or game designer to enjoy it. If you've ever imagined how a society might work, drawn a map for your campaign, or invented a character's backstory, you're already worldbuilding.
+No necesitas ser un autor de fantasía ni un diseñador de juegos para disfrutarlo. Si alguna vez has imaginado cómo funcionaría una sociedad, dibujado un mapa para tu campaña o inventado la historia de fondo de un personaje, ya estás haciendo worldbuilding.
 
-## Not sure where to start? You're not alone
+## ¿No sabes por dónde empezar? No eres el único
 
-Getting started with worldbuilding can feel overwhelming. You might be wondering:
+Comenzar con el worldbuilding puede sentirse abrumador. Quizás te estés preguntando:
 
-- Where do I begin?
-- What's the right amount of detail?
-- How do I keep it all coherent?
+- ¿Por dónde empiezo?
+- ¿Cuánto detalle es el adecuado?
+- ¿Cómo mantengo todo coherente?
 
-These questions are common. It's easy to feel like you need a fully formed world before you can begin writing or storytelling. But the truth is, worldbuilding works best when you start small and let your ideas grow over time.
+Estas preguntas son comunes. Es fácil sentir que necesitas un mundo completamente formado antes de empezar a escribir o a contar historias. Pero la verdad es que el worldbuilding funciona mejor cuando empiezas pequeño y dejas que tus ideas crezcan con el tiempo.
 
-## How to start worldbuilding: A beginner-friendly guide
+## Cómo empezar con el worldbuilding: una guía amigable para principiantes
 
-The key to worldbuilding isn't building everything at once. It's about building just enough to fuel your creativity and keep you inspired. Here are some tips to get started:
+La clave del worldbuilding no es construir todo de una vez. Se trata de construir justo lo suficiente para alimentar tu creatividad y mantenerte inspirado. Aquí tienes algunos consejos para empezar:
 
-### 1. Begin with a single idea
+### 1. Comienza con una sola idea
 
-All great worlds start somewhere. Choose one starting point that excites you. This could be a mysterious city, a powerful character, a unique conflict, or even a strange creature. Let this seed grow naturally.
+Todos los grandes mundos comienzan en algún lugar. Elige un punto de partida que te emocione. Puede ser una ciudad misteriosa, un personaje poderoso, un conflicto único o incluso una criatura extraña. Deja que esta semilla crezca de forma natural.
 
-### 2. Ask curiosity-driven questions
+### 2. Haz preguntas movidas por la curiosidad
 
-Instead of outlining everything upfront, try asking questions to shape your world:
+En vez de esquematizar todo por adelantado, intenta hacer preguntas para dar forma a tu mundo:
 
-- What do people in this world believe?
-- Who holds power, and why?
-- How does magic or technology work?
-- What secrets are waiting to be uncovered?
+- ¿En qué creen las personas de este mundo?
+- ¿Quién tiene el poder, y por qué?
+- ¿Cómo funciona la magia o la tecnología?
+- ¿Qué secretos están esperando ser descubiertos?
 
-These questions turn worldbuilding into discovery rather than a checklist.
+Estas preguntas convierten el worldbuilding en un proceso de descubrimiento en lugar de una lista de tareas.
 
-### 3. Use story to guide structure
+### 3. Usa la historia para guiar la estructura
 
-Think about how your world serves your story or gameplay. You don't need to create the full economy or planetary system unless it's relevant. Build just enough to support what you're creating.
+Piensa en cómo tu mundo sirve a tu historia o tu juego. No necesitas crear la economía completa ni el sistema planetario a menos que sea relevante. Construye justo lo suficiente para apoyar lo que estás creando.
 
-### 4. Stay organized early
+### 4. Organízate desde el principio
 
-As your ideas expand, it's surprisingly easy to contradict yourself or forget important details. Even a simple structure helps keep things clear.
+A medida que tus ideas se expanden, es sorprendentemente fácil contradecirte o olvidar detalles importantes. Incluso una estructura simple ayuda a mantener todo claro.
 
-You don't need anything fancy at first, just a place to keep track of characters, locations, and key concepts. Tools built for worldbuilders, like [Kanka](/), make it easy to link ideas together and stay consistent as your world grows.
+No necesitas nada sofisticado al principio, solo un lugar para llevar registro de personajes, ubicaciones y conceptos clave. Herramientas diseñadas para constructores de mundos, como [Kanka](/), hacen que sea fácil conectar ideas y mantener la consistencia mientras tu mundo crece.
 
-## Finding inspiration and a community that gets you
+## Encontrar inspiración y una comunidad que te entienda
 
-Worldbuilding doesn't need to be a solo adventure. There's a growing community of creators around the world who love crafting new worlds just like you.
+El worldbuilding no tiene que ser una aventura en solitario. Hay una comunidad creciente de creadores en todo el mundo a quienes les encanta crear nuevos mundos igual que a ti.
 
-Talking with others, sharing ideas, and learning from different perspectives can keep your creativity flowing. Whether you're stuck on a detail or just want to show off a cool idea, having a community makes it easier and more fun.
+Hablar con otros, compartir ideas y aprender desde diferentes perspectivas puede mantener viva tu creatividad. Ya sea que estés atascado en un detalle o solo quieras presumir una idea genial, tener una comunidad lo hace más fácil y más divertido.
 
-[Join the Kanka Discord and connect with worldbuilders like you](https://kanka.io/go/discord)
+[Únete al Discord de Kanka y conéctate con constructores de mundos como tú](https://kanka.io/go/discord)
 
-## Tools can help you stay inspired and focused
+## Las herramientas pueden ayudarte a mantenerte inspirado y enfocado
 
-Many worldbuilders start with notebooks, spreadsheets, or tools like Notion, Obsidian, or World Anvil. These can work well for basic notes or freeform thoughts. But as your world grows, you might find yourself needing more structure and flexibility.
+Muchos constructores de mundos empiezan con libretas, hojas de cálculo o herramientas como Notion, Obsidian o World Anvil. Estas pueden funcionar bien para notas básicas o pensamientos sin estructura. Pero a medida que tu mundo crece, puede que necesites más estructura y flexibilidad.
 
-That's where **Kanka** comes in.
+Ahí es donde entra **Kanka**.
 
-Kanka is a free platform designed specifically for worldbuilders. Whether you're writing a novel, running a TTRPG campaign, or just exploring your imagination, Kanka helps you keep everything connected and easy to access.
+Kanka es una plataforma gratuita diseñada específicamente para constructores de mundos. Ya sea que estés escribiendo una novela, dirigiendo una campaña de TTRPG, o simplemente explorando tu imaginación, Kanka te ayuda a mantener todo conectado y de fácil acceso.
 
-With Kanka, you can:
+Con Kanka, puedes:
 
-- Create and link characters, locations, organizations, items, and more
-- Build timelines and calendars to track your world's history
-- Control visibility and permissions if you're collaborating
-- Stay consistent with tags, notes, and custom fields
+- Crear y enlazar personajes, ubicaciones, organizaciones, objetos y más
+- Construir líneas de tiempo y calendarios para rastrear la historia de tu mundo
+- Controlar la visibilidad y los permisos si estás colaborando
+- Mantener la consistencia con etiquetas, notas y campos personalizados
 
-And you don't need to be an expert to get started. Kanka is built to grow with your ideas, whether you're just starting or already knee-deep in lore.
+Y no necesitas ser un experto para empezar. Kanka está diseñado para crecer con tus ideas, ya sea que estés empezando o ya estés metido hasta el cuello en el lore.
 
-## Start worldbuilding now
+## Empieza el worldbuilding ahora
 
-You don't need to plan everything. You don't need to get it perfect. You just need to start.
+No necesitas planear todo. No necesitas que sea perfecto. Solo necesitas empezar.
 
-Worldbuilding is about exploration. Every world starts with a single idea and grows from there. Whether you want to tell a story, run a campaign, or just play with your imagination, you're already on the path.
+El worldbuilding es exploración. Cada mundo comienza con una sola idea y crece a partir de ahí. Ya sea que quieras contar una historia, dirigir una campaña, o simplemente jugar con tu imaginación, ya estás en el camino.
 
-And with the right tools and community behind you, you can go even further.
-
+Y con las herramientas y la comunidad correctas a tu lado, puedes llegar aún más lejos.
