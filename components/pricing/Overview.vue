@@ -119,10 +119,13 @@
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
-  currency: string
-  period: boolean
-}>()
+const props = withDefaults(defineProps<{
+  currency?: string
+  period?: boolean
+}>(), {
+  currency: 'usd',
+  period: false,
+})
 
 const localePath = useLocalePath()
 
