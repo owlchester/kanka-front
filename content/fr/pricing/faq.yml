@@ -1,19 +1,19 @@
 items:
   - id: payments
-    q: "What are the available payment methods?"
-    a: "We accept most credit and debit cards like Visa, Mastercard and American Express. We also accept PayPal for yearly subscriptions."
+    q: "Quels sont les moyens de paiement disponibles?"
+    a: "Nous acceptons la plupart des cartes de crédit et de débit comme Visa, Mastercard et American Express. Nous acceptons aussi PayPal pour les abonnements annuels."
   - id: info
-    q: "Do you store my payment information?"
-    a: "We use Stripe.com to securely handle your payment information, and we only store limited data regarding your payment method. We use this information to notify you when your card is about to expire, so that you can update it and not lose your subscription."
+    q: "Mes informations de paiement sont-elles stockées?"
+    a: "Nous utilisons Stripe.com pour gérer tes informations de paiement en toute sécurité, et nous ne stockons que des données limitées concernant ton moyen de paiement. Nous utilisons ces informations pour te notifier quand ta carte est sur le point d'expirer, afin que tu puisses la mettre à jour sans perdre ton abonnement."
   - id: cancel
-    q: "What happens if I cancel my subscription during a billing period?"
-    a: "When cancelling your subscription, your bonuses stay active until the date of your next billing period."
+    q: "Que se passe-t-il si j'annule mon abonnement pendant une période de facturation?"
+    a: "En annulant ton abonnement, tes avantages restent actifs jusqu'à la date de ta prochaine période de facturation."
   - id: resub
-    q: "What happens to my data when I resubscribe?"
-    a: "When your subscription ends, all features and subscription related data is disabled but saved on our servers. This means that when you resubscribe, everything will go right back to the way you left it."
+    q: "Qu'arrive-t-il à mes données quand je me réabonne?"
+    a: "Quand ton abonnement se termine, toutes les fonctionnalités et les données liées à l'abonnement sont désactivées mais sauvegardées sur nos serveurs. Cela signifie que quand tu te réabonnes, tout reprendra exactement là où tu en étais."
   - id: refund
-    q: "What is your refund policy?"
-    a: "We offer a no questions asked 14 day refund policy for yearly subscriptions. Simply drop us an email at <a href=\"mailto:hello@kanka.io\" class=\"link link-purple\">hello@kanka.io</a>."
+    q: "Quelle est la politique de remboursement?"
+    a: "Nous offrons une politique de remboursement de 14 jours sans questions pour les abonnements annuels. Envoie-nous simplement un email à <a href=\"mailto:hello@kanka.io\" class=\"link link-purple\">hello@kanka.io</a>."
   - id: gift
-    q: "Can I gift subscriptions?"
-    a: "While gifting subscriptions isn't possible, you can upgrade to premium status any campaign you have access to. This includes campaigns you aren't an admin of, or even a member of."
+    q: "Puis-je offrir des abonnements?"
+    a: "Même s'il n'est pas possible d'offrir des abonnements, tu peux passer en statut premium n'importe quelle campagne à laquelle tu as accès. Cela inclut les campagnes dont tu n'es pas admin, ou même pas membre."
