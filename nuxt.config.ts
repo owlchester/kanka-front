@@ -153,11 +153,14 @@ export default defineNuxtConfig({
     url: 'https://kanka.io',
   },
   sitemap: {
+    sources: ['/api/__sitemap__/urls'],
     exclude: [
       '/gone',
       '/goodbye',
       '/privacy-policy',
       '/terms-and-conditions',
+      // pt-BR not yet translated — exclude until done
+      '/pt-BR/**',
     ],
   },
   image: {
