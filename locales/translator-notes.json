@@ -1,6 +1,5 @@
 {
   "fr": "Use informal 'tu/toi/ton/ta/tes' (not 'vous'). Swiss French punctuation: do NOT add a space before ':', '!', '?', ';' or inside guillemets — write ':' not ' :'. Use natural Swiss French phrasing.",
-  "de": "Use informal 'du/dich/dir/dein' (not 'Sie'). Swiss German context: use '«»' quotation marks instead of '„"' if quoting is needed.",
-  "es": "Use informal 'tú/ti/tu/tus' (not 'usted', not 'vos'). Aim for neutral pan-Hispanic Spanish that works across Spain and Latin America.",
-  "pt-BR": "Use 'você/seu/sua' as the informal second-person address (not 'tu', not 'vos'). Write in standard Brazilian Portuguese spelling and grammar."
-}
+  "de": "Use informal 'du/dich/dir/dein' (not 'Sie'). Swiss German context: use '«»' quotation marks instead of '„\"' if quoting is needed.",
+  "es": "Use informal 'tú/ti/tu/tus' (not 'usted', not 'vos'). Favour mexican Spanish over pan-Hispanic Spanish.",
+  "pt-BR": "Use informal 'tu'. Write in standard Brazilian Portuguese spelling and grammar."

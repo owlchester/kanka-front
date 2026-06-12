@@ -1,1 +1,576 @@
-{}
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Preise",
+    "campaigns": "Öffentliche Kampagnen",
+    "about": "Über uns",
+    "home": "Startseite",
+    "signin": "Anmelden",
+    "register": "Registrieren"
+  },
+  "footer": {
+    "tagline1": "Mit ❤️ in Genf, Schweiz gemacht",
+    "tagline2": "Nur dank unserer Abonnenten möglich.",
+    "copyright": "Copyright © 2026 Owlchester SNC",
+    "platform": {
+      "title": "Plattform",
+      "features": "Features",
+      "premiumCampaigns": "Premium-Kampagnen",
+      "pricing": "Preise",
+      "plugins": "Plugins",
+      "useCases": "Anwendungsfälle",
+      "forGameMasters": "Für Spielleiter",
+      "forPlayers": "Für Spieler",
+      "forWorldbuilders": "Für Weltenbauer",
+      "forWriters": "Für Autoren",
+      "forContentCreators": "Für Content-Ersteller"
+    },
+    "resources": {
+      "title": "Ressourcen",
+      "comparison": "Kanka vs WorldAnvil",
+      "learn": "Lernzentrum",
+      "kb": "Wissensdatenbank",
+      "docs": "Dokumentation",
+      "api": "API-Dokumentation",
+      "blog": "Blog",
+      "status": "Dienststatus",
+      "guidesTitle": "Weltenbau-Guides",
+      "guideStart": "Beginne damit, deine Welt zu erschaffen",
+      "guideHowMuch": "Wie viel Weltenbau brauchst du"
+    },
+    "community": {
+      "title": "Community",
+      "news": "Was gibt's Neues",
+      "campaigns": "Öffentliche Kampagnen",
+      "showcase": "Showcase",
+      "roadmap": "Roadmap",
+      "hallOfFame": "Hall of Fame"
+    },
+    "company": {
+      "title": "Unternehmen",
+      "about": "Über uns",
+      "contact": "Kontakt",
+      "privacy": "Datenschutz",
+      "terms": "Nutzungsbedingungen",
+      "security": "Sicherheit",
+      "pressKit": "Pressemappe"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "Die naheliegende Wahl für kollaborativen Weltenbau und TTRPG-Kampagnenverwaltung, zu einem fairen Preis.",
+      "lead": "Mit einer 14-tägigen Rückerstattungsrichtlinie bei Jahresabonnements."
+    },
+    "periodToggle": {
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "savePercent": "spare 17%"
+    },
+    "currencyToggle": {
+      "usd": "USD",
+      "eur": "EUR"
+    },
+    "comparePlans": "Pläne vergleichen",
+    "paidFeatures": {
+      "title": "Bezahlte Features",
+      "lead": "Mit einem Abonnement unterstützt du Kanka und erhältst Zugang zu folgenden Features und Verbesserungen."
+    },
+    "premium": {
+      "title": "Premium-Kampagnen",
+      "lead": "Alle unsere Abonnements ermöglichen es dir, Premium-Features für mindestens eine Kampagne freizuschalten. Dies schaltet die folgenden Vorteile für eine Kampagne frei. Eine Kampagne kann jederzeit herunter- oder heraufgestuft werden. Wenn beispielsweise eine Kampagne beendet ist, kannst du sie herunterstufen und stattdessen eine andere Kampagne heraufstufen. Das Herunterstufen einer Kampagne löscht keine Daten zu Premium-Features, sondern versteckt sie nur, bis die Kampagne wieder heraufgestuft wird."
+    },
+    "faqTitle": "FAQ",
+    "overview": {
+      "kobold": {
+        "f1": "Unbegrenzte Einträge",
+        "f2": "Unbegrenzte Kampagnen",
+        "f3": "Alles, was du brauchst, um kostenlos und für immer zu bauen.",
+        "f4": "Regelmässige Updates"
+      },
+      "owlbear": {
+        "f1": "1 aktive Premium-Kampagne",
+        "f2": "Grosse Datei- und Kartengrössen (10 MiB)",
+        "f3": "Über die Roadmap abstimmen",
+        "f4": "Privater Discord-Kanal",
+        "f5": "Werbefreies Erlebnis"
+      },
+      "wyvern": {
+        "f1": "3 aktive Premium-Kampagnen",
+        "f2": "Sehr grosse Datei- und Kartengrössen (25 MiB)",
+        "f3": "Über die Roadmap abstimmen",
+        "f4": "Privater Discord-Kanal",
+        "f5": "Werbefreies Erlebnis"
+      },
+      "elemental": {
+        "f1": "7 aktive Premium-Kampagnen",
+        "f2": "Riesige Datei- und Kartengrössen (100 MiB)",
+        "f3": "Über die Roadmap abstimmen",
+        "f4": "Privater Discord-Kanal",
+        "f5": "Werbefreies Erlebnis",
+        "f6": "Grosser Einfluss auf zukünftige Features (über Discord)"
+      }
+    },
+    "paidFeaturesTable": {
+      "free": "Kostenlos",
+      "fileUploadSizes": "Datei- und Bild-Upload-Grössen",
+      "mapUploadSizes": "Karten-Upload-Grössen",
+      "premiumCampaigns": "Premium-Kampagnen",
+      "adFree": "Werbefreies Erlebnis",
+      "discordChannel": "Zugang zu einem privaten {discord}-Kanal",
+      "roadmapVote": "Ideen auf der Roadmap hochvoten",
+      "nicerThumbnails": "Schönere Platzhalter-Thumbnails für Einträge",
+      "hallOfFame": "Name in der {hallOfFame}",
+      "apiRequests": "Bis zu 90 API-Anfragen pro Minute",
+      "moreElements": "Mehr Elemente pro Seite angezeigt",
+      "campaignImporter": "Kampagnen-Importer"
+    },
+    "premiumFeaturesTable": {
+      "standardCampaign": "Standard-Kampagne",
+      "premiumCampaigns": "Premium-Kampagnen",
+      "wyvernsCol": "Wyverns *",
+      "elementalsCol": "Elementals *",
+      "maxEntries": "Maximale Anzahl Einträge",
+      "maxCategories": "Maximale Anzahl benutzerdefinierter Kategorien",
+      "maxMembers": "Maximale Anzahl Mitglieder",
+      "maxRoles": "Maximale Anzahl Rollen",
+      "maxBookmarks": "Maximale Anzahl Lesezeichen",
+      "galleryStorage": "Speicher für Bilder und Dateien in der Galerie",
+      "maxFileSize": "Maximale Datei- und Bild-Upload-Grösse für Mitglieder",
+      "maxFileAssets": "Maximale Anzahl Datei-Assets pro Eintrag",
+      "aliases": "Aliase für Einträge definieren, die mit Suche und Erwähnungen funktionieren",
+      "adFreeMembers": "Werbefreies Erlebnis für alle Mitglieder",
+      "plugins": "Plugins aus der {plugins} installieren",
+      "pluginsLabel": "Plugins-Bibliothek",
+      "forceTheme": "Ein bestimmtes Theme für alle Mitglieder und Betrachter erzwingen",
+      "customTheme": "Zugang zu vollständiger Anpassung mit Theme-Builder und benutzerdefiniertem CSS",
+      "customTooltips": "Benutzerdefinierte Tooltips für Einträge schreiben",
+      "headerImages": "Grosse Header-Bilder für Einträge hochladen",
+      "multipleDashboards": "Mehrere Dashboards erstellen und Rollen zuweisen",
+      "customThumbnails": "Benutzerdefinierte Platzhalter-Thumbnails für Einträge hochladen",
+      "easyAccessLinks": "Einfache Zugriffslinks zu externen Quellen auf Einträgen setzen",
+      "beautifulMaps": "Wunderschöne Karten mit Zugang zu Tausenden von Icons für Kartenmarkierungen und Polygon-Marker",
+      "renameSidebar": "Seitenleiste umbenennen und neu anordnen",
+      "renameCategories": "Kategorien umbenennen und das Icon ändern",
+      "familyTrees": "Komplexe Stammbäume erstellen",
+      "fullLogs": "Vollständige Protokolle der Änderungen an Einträgen für bis zu 30 Tage",
+      "recoverEntries": "Gelöschte Einträge und Artikel für bis zu 30 Tage wiederherstellen",
+      "achievements": "Kampagnenerfolge geniessen",
+      "webhooks": "Updates über Webhooks an Discord und andere Tools senden.",
+      "tierPerks": "* Diese Vorteile werden für alle Mitglieder einer Kampagne freigeschaltet, wenn die Person, die Premium-Features freischaltet, ein Abonnent dieser Stufe ist."
+    }
+  },
+  "pricingTier": {
+    "billedYearly": "jährlich abgerechnet",
+    "perMonth": "/Monat",
+    "free": "Kostenlos",
+    "popular": "Beliebt",
+    "bestValue": "Bestes Preis-Leistungs-Verhältnis",
+    "learnMore": "Mehr erfahren",
+    "startFree": "Kostenlos starten"
+  },
+  "index": {
+    "hero": {
+      "title": "Führe deine Kampagne, ohne auch nur ein einziges Detail aus den Augen zu verlieren.",
+      "lead": "Kanka ist eine community-getriebene Weltenbau-Website. Baust du deine eigene D&D-Homebrew-Kampagne oder nutzt andere TTRPG-Systeme? Wir helfen dir, deine Ideen, Kreationen und deine Welt zu verwalten, zu organisieren und im Blick zu behalten.",
+      "trailing": "Über 400.000 Spielleiter und Weltenbauer nennen Kanka ihr Zuhause.",
+      "cta": "Kostenlos starten",
+      "videoCaption": "Schau dir eine kurze 45-Sekunden-Übersicht von Kanka an"
+    },
+    "pitch": {
+      "title": "Alles an einem Ort. Finde es in Sekunden, sogar mitten in einer Spielsitzung",
+      "body": "Notizen, die über Dokumente, Wikis und Zettel verteilt sind, überleben eine Live-Spielsitzung nicht. In Kanka lebt alles an einem Ort und alles ist miteinander verbunden. {'@'}erwähne einen Charakter in einem Sitzungsprotokoll und es verlinkt automatisch – ein Klick führt dich von einer Stadt zu ihrem Herrscher zu dem Krieg, den er begonnen hat. Wenn ein Spieler die Frage stellt, auf die du dich nicht vorbereitet hast, ist die Antwort eine Suche entfernt, auf jedem Gerät."
+    },
+    "features": {
+      "f1Title": "Der kostenlose Tarif ist keine Testversion",
+      "f1Lead": "Alle Kernfunktionen, unbegrenzte Kampagnen, unbegrenzte Einträge. Die meisten Spielleiter müssen nie zahlen, und wir würden es vorziehen, dass du bleibst, weil du es liebst – nicht weil eine Bezahlschranke deine Welt gefangen hält.",
+      "f2Title": "Führe es mit deinem ganzen Tisch",
+      "f2Lead": "Lade deine Spieler und Mitspielleitungen ein, und kontrolliere dann genau, was jede Person sieht und bearbeitet. Deine Geheimnisse bleiben geheim, bis du bereit bist, sie zu enthüllen.",
+      "f3Title": "Mach es zu deinem",
+      "f3Lead": "Benenne Kategorien um, strukturiere sie passend zu deinem System um, oder geh tief mit benutzerdefiniertem CSS und Community-Plugins. Kanka passt sich an, wie du dein Spiel leitest: 5e, ein Homebrew-System oder gar kein System.",
+      "f4Title": "Ein Platz für jeden Teil deiner Welt",
+      "f4Lead": "Charaktere, Orte, Organisationen, Familien, Zeitlinien, Kalender, Karten, über 20 Kategorien – jede für einen Teil deiner Welt gebaut, alle miteinander verbunden.",
+      "learnMore": "Mehr über Kankas Features erfahren"
+    },
+    "socialProof": {
+      "title": "Du bist in guter Gesellschaft",
+      "lead": "Über 400.000 Spielleiter und Weltenbauer vertrauen Kanka für ihre Weltenbau-Bedürfnisse. Wir haben einige ihrer Testimonials gesammelt, um zu zeigen, was Kanka für dich tun kann."
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "«Kanka hat meine Spielrunden wirklich auf das nächste Level gebracht und mich zu einem besseren DM gemacht.»",
+        "role": "Professioneller DM"
+      },
+      "t2": {
+        "quote": "«Als DM macht es Kanka so einfach, eine Kampagne zu organisieren und Informationen während einer Spielsitzung schnell nachzuschlagen.»",
+        "role": "Community-Mitglied"
+      },
+      "t3": {
+        "quote": "«Ich bin besessen davon, Geschichten zu erstellen, und Kanka ist perfekt, um den Überblick über alles zu behalten.»",
+        "role": "Community-Mitglied"
+      },
+      "t4": {
+        "quote": "«Es ist einfach und unkompliziert zu bedienen und der beste Weg, den Überblick über die Details meiner Kampagne zu behalten. Ich liebe die Möglichkeit, Einträge miteinander zu verknüpfen.»",
+        "role": "Mitglied seit 2019"
+      }
+    },
+    "trust": {
+      "title": "Deine Welt ist sicher, und sie gehört dir",
+      "f1Title": "Jederzeit exportieren",
+      "f1Lead": "Lade deine Inhalte jederzeit herunter. Kein Lock-in, nie.",
+      "f2Title": "Deine Daten sind sicher",
+      "f2Lead": "Wir nutzen renommierte deutsche Hosting-Dienste und sichern unsere Server zweimal täglich.",
+      "f3Title": "Quellcode verfügbar",
+      "f3Lead": "Kankas Code ist öffentlich auf GitHub, nichts versteckt in einer Black Box.",
+      "f4Title": "Dein geistiges Eigentum gehört dir",
+      "f4Lead": "Kampagnen sind standardmässig privat."
+    },
+    "pricing": {
+      "title": "Preise"
+    },
+    "team": {
+      "title": "Wer wir sind",
+      "body": "Kanka wird von nur zwei Personen entwickelt und betrieben: einem Spielleiter (Jay) und einem Spieler (Jon). Der anfängliche Funke kam, weil Jay eine bessere Möglichkeit brauchte, den Überblick über unsere Kampagne zu behalten, damit Jon weiterhin die Haupthandlung ignorieren konnte. Auch nach all diesen Jahren sind es immer noch nur wir, die deine E-Mails, Discord-Nachrichten und Brieftauben beantworten. Wir versuchen nicht, die grösste Weltenbau-Plattform zu bauen, sondern einfach diejenige, in der wir unsere eigenen Spiele leiten möchten.",
+      "cta": "Lies unsere Geschichte"
+    },
+    "featured": {
+      "title": "Ausgewählte Kampagnen",
+      "lead": "Unsere Community baut erstaunliche Dinge, die wir gerne als Featured Campaigns vorstellen. Das sind grossartige Beispiele für Weltenbau, die wir dir empfehlen. Sie zeigen auch, was andere Nutzer mit Kanka gemacht haben, und können dir Inspiration geben!",
+      "cta": "Sieh, was Spielleiter in Kanka bauen"
+    },
+    "register": {
+      "title": "Bereit, deine beste Kampagne zu leiten?",
+      "cta": "Starte deine kostenlose Kampagne"
+    },
+    "faq": {
+      "title": "FAQ"
+    }
+  },
+  "features": {
+    "hero": {
+      "title": "Erschaffe reichhaltigere Welten mit den Werkzeugen, die deine Kampagne wirklich braucht",
+      "lead": "Kanka packt alles, was ein Spielleiter oder Weltenbauer braucht, an einem Ort: Charaktere, Orte, Karten, Kalender, Zeitlinien und mehr. Kostenlos für die Kernfunktionen, mit Upgrades, wenn du bereit bist."
+    },
+    "toc": {
+      "general": "Allgemein",
+      "free": "Kostenlos nutzbar",
+      "collaborative": "Kollaborativ",
+      "dashboards": "Dashboards",
+      "modular": "Modular",
+      "updates": "Regelmässige Updates",
+      "rpgs": "RPGs",
+      "entries": "Einträge in Kanka",
+      "inventory": "Inventar",
+      "abilities": "Fähigkeiten",
+      "properties": "Eigenschaften",
+      "journals": "Tagebücher",
+      "quests": "Quests",
+      "worldbuilding": "Weltenbau",
+      "relations": "Beziehungen",
+      "timelines": "Zeitlinien",
+      "calendars": "Kalender",
+      "maps": "Karten",
+      "editor": "Editor",
+      "premiumFeatures": "Premium-Features",
+      "premium": "Premium-Kampagnen",
+      "marketplace": "Marktplatz",
+      "theming": "Theming",
+      "familyTrees": "Stammbäume",
+      "webhooks": "Webhooks"
+    },
+    "general": {
+      "title": "Allgemein",
+      "freeTitle": "Kostenlos nutzbar",
+      "freeBody": "Müde davon, für grundlegende Funktionen zu zahlen, wie unbegrenzte Kampagnen, Limits bei der Anzahl der Elemente in einer Kampagne oder die fehlende Kontrolle darüber, wer was sieht? Wir auch – weshalb alle Kernfunktionen von Kanka absolut kostenlos sind. Wir haben auch einige {bonuses}, die schön zu haben sind, aber nicht unbedingt notwendig.",
+      "freeBonuses": "Bonuses für unsere Abonnenten",
+      "collaborativeTitle": "Kollaborativ",
+      "collaborativeBody": "Kanka ist für Welten mit mehreren Spielern und Autoren gebaut. Lade deine Freunde ein, weise ihnen Rollen zu und kontrolliere genau, was sie sehen und tun können. Zur Sicherheit kannst du deine Kampagne jederzeit aus der Perspektive eines Mitglieds vorschauen, damit nichts sichtbar bleibt, was nicht sichtbar sein sollte.",
+      "modularTitle": "Modular",
+      "modularBody": "Wir haben uns darauf konzentriert, etwa 20 verschiedene Kategorien in Kanka zu bauen, die sich jeweils auf einen Aspekt des TTRPG-Spielens oder des Weltenbaus im Allgemeinen konzentrieren. In jeder Kampagne kannst du Charaktere, Orte, Familien, Organisationen, Gegenstände, Quests, Tagebücher, Kalender, Ereignisse, Fähigkeiten und mehr erstellen. Brauchst du keine Fähigkeiten? Kein Problem, du kannst Kategorien deiner Wahl in jeder Kampagne deaktivieren und so dein Setup vereinfachen, um dich auf das Wesentliche zu konzentrieren.",
+      "updatesTitle": "Regelmässige Updates",
+      "updatesBody": "Kanka wird von einer grossen, aktiven Community von Weltenbauern und Spielleitern geprägt. Wir sind stolz darauf, Features zu liefern, die unsere Nutzer wirklich wollen, mit durchschnittlich einem grossen Update alle paar Wochen. Wir teilen, was kommt, auf unserem {discord} und sammeln Feedback, bevor wir bauen, damit die Community immer eine Stimme hat, wohin Kanka als Nächstes geht.",
+      "updatesDiscord": "Discord",
+      "dashboardsTitle": "Kampagnen-Dashboards",
+      "dashboardsBody": "Das Dashboard ist die Heimatbasis deiner Kampagne. Passe es mit Widgets aus einer breiten Auswahl an Optionen an und arrangiere alles so, wie deine Gruppe es braucht. Leitest du eine grosse West-March-Kampagne mit mehreren Spielergruppen? Premium-Kampagnen können separate Dashboards einrichten, die auf jede Rolle zugeschnitten sind.",
+      "dashboardsCaption": "Vollständig anpassbare Dashboards für deine Welten"
+    },
+    "rpgs": {
+      "title": "RPGs",
+      "entriesTitle": "Einträge in Kanka",
+      "entriesBody": "Kanka baut auf einer Liste von rund 20 verschiedenen Einträgen auf. Das sind die vordefinierten Typen von Kernobjekten in einer Kampagne. Sie umfassen Charaktere, Orte, Familien, Gegenstände, Quests, Tagebücher, Kalender, Zeitlinien und mehr. Sie alle teilen einige Funktionen, sind aber auf ihre eigene Art einzigartig und interagieren mit anderen Elementen deiner Kampagne.",
+      "entriesCaption": "Erstelle wunderschöne Seiten für die Protagonisten deiner Geschichte",
+      "inventoryTitle": "Inventar",
+      "inventoryBody": "Jeder Eintrag kann ein eigenes Inventar haben. Diese Funktion wird verwendet, um den Besitz eines Charakters, den Verkaufsbestand eines Ladens (Ort), die Belohnung für den Abschluss einer Quest, das Vermögen einer Familie oder andere Szenarien zu verwalten, die dir einfallen. Die Inventarfunktion interagiert mit den Gegenständen deiner Kampagne, ist aber flexibel und kann genutzt werden, ohne jeden Gegenstand in deiner Kampagne zu erstellen.",
+      "inventoryCaption": "Fülle das Inventar eines Charakters bis zum Rand",
+      "abilitiesTitle": "Fähigkeiten",
+      "abilitiesBody": "Wie Inventare kann jeder Eintrag Fähigkeiten haben. Erstelle Fähigkeiten in deiner Kampagne und füge sie deinen Einträgen hinzu. Das können die Kräfte eines Charakters sein, die Auswirkungen eines Lagers (Ort), eine besondere Fähigkeit aus der Zugehörigkeit zu einer Familie oder ein Fluch durch das Essen eines Hagengebäcks. Fähigkeiten haben Ladungen, um zu verfolgen, wie oft sie genutzt wurden, und können mit den Eigenschaften eines Eintrags kombiniert werden.",
+      "abilitiesCaption": "Füge jedem Eintrag Kräfte und besondere Fähigkeiten hinzu",
+      "propertiesTitle": "Eigenschaften",
+      "propertiesBody": "Die wahrscheinlich verwirrendste und komplexeste Funktion von Einträgen sind ihre Eigenschaften. Das können kleine Informationsstücke sein, wie die Verfolgung der TP eines Charakters, die Bevölkerung eines Ortes, die Anzahl der Schreine einer Religion (Organisation) usw. Eigenschaften können andere Eigenschaften referenzieren, um Werte zu berechnen, zum Beispiel die TP eines Charakters, wobei TP = Stufe × Konstitution.",
+      "propertiesBody2": "Die Eigenschaften eines Eintrags können auch so gestaltet werden, dass sie wie ein TTRPG-Charakterbogen aussehen, indem du unsere {pluginLibrary} verwendest.",
+      "propertiesPluginLibrary": "Plugins-Bibliothek",
+      "propertiesCaption": "Verfolge TP, Stufe, Stärke und mehr",
+      "journalsTitle": "Tagebücher",
+      "journalsBody": "Plane deine Spielsitzung oder schreibe eine Zusammenfassung aus der Perspektive eines Charakters mit unserer Tagebuchkategorie. Diese können an Kalender angehängt werden, um sowohl ein reales Datum als auch ein Spieldatum zu verfolgen, an dem etwas passiert ist.",
+      "journalsCaption": "Halte fest, was in der letzten Sitzung passiert ist",
+      "questsTitle": "Quests",
+      "questsBody": "Bereite die Quests deines Spiels vor und behalte sie im Blick: wohin sie die Spieler führen, wer beteiligt ist und welche Organisationen heimlich die Fäden ziehen. Sobald eine Quest abgeschlossen ist, markiere sie als solche und gehe zur nächsten über.",
+      "questsCaption": "Verfolge Startbedingungen, Belohnungen und mehr"
+    },
+    "worldbuilding": {
+      "title": "Weltenbau",
+      "relationsTitle": "Beziehungen",
+      "relationsBody": "Musst du im Blick behalten, dass Svynna die Rivalin von Mykel ist, oder dass Washington der Geburtsort von Kyle ist? Nutze unser Beziehungstool, um alle Verbindungen zwischen den Einträgen deiner Welt einzurichten und zu verfolgen. Soll eine Beziehung vor deinen Spielern geheim gehalten werden? Einfach, setze die Beziehung auf privat!",
+      "relationsBody2": "{premiumCampaigns} haben Zugang zu einem visuellen Explorer für die Beziehungen eines Eintrags.",
+      "relationsPremiumCampaigns": "Premium-Kampagnen",
+      "relationsCaption1": "Verbindungen und Beziehungen zwischen Einträgen verfolgen",
+      "relationsCaption2": "Erkunde, wie Elemente deiner Welt verbunden sind",
+      "timelinesTitle": "Zeitlinien",
+      "timelinesBody": "Zeitlinien ermöglichen es dir, die Geschichte eines Landes, den Aufstieg einer Familie zur Macht, den Handlungsbogen eines Charakters und andere Optionen visuell zu sehen und zu planen. Zeitlinien sind in Epochen unterteilt, und jede Epoche enthält Textelemente, die an andere Einträge deiner Kampagne angehängt werden können.",
+      "timelinesCaption": "Interaktive Zeitlinien, um zu erkunden, wie sich Geschichte entfaltet",
+      "calendarsTitle": "Kalender",
+      "calendarsBody": "Erstelle einen oder mehrere Kalender deiner Welt und kontrolliere vollständig die Anzahl der Tage in einem Jahr, die Monate, die Länge von Wochen, Jahreszeiten, Monde und ihre Phasen und mehr. Füge Ereignisse an deine Kalender an, die mit anderen Einträgen verknüpft sind, wie z.B. die automatische Berechnung des Alters eines Charakters basierend auf dem Kalender.",
+      "calendarsCaption": "Zeit und wichtige Ereignisse verfolgen",
+      "mapsTitle": "Karten",
+      "mapsBody": "Lade deine wunderschönen Karten in deine Kanka-Kampagne hoch und füge Ebenen und Pins hinzu. Kontrolliere, wer welchen Pin sehen kann, um die geheime Lage einer berüchtigten Stadt nicht vor deinen Spielern zu enthüllen.",
+      "mapsCaption": "Interaktive Karten mit Pins",
+      "editorTitle": "Editor",
+      "editorBody": "Du musst kein Programmieren lernen, um schöne Texte zu erstellen. Wir haben unsere eigene Schreiberfahrung entwickelt, damit du für alle deine Texte reichen Inhalt erstellen kannst. Das Beste daran: Wir haben Unterstützung für Erwähnungen anderer Einträge durch die Verwendung des {at}-Symbols hinzugefügt.",
+      "editorCaption": "Verwende einfache {'@'}-Erwähnungen, um auf andere Einträge zu verlinken"
+    },
+    "premium": {
+      "title": "Premium",
+      "premiumCampaignsTitle": "Premium-Kampagnen",
+      "premiumCampaignsBody": "Einige Features sind nur für Premium-Kampagnen verfügbar. Wenn ein Nutzer Kanka abonniert, kann er eine bestimmte Anzahl von Kampagnen upgraden. Diese Premium-Kampagnen können von einer Kampagne zur anderen verschoben werden, z.B. wenn eine Kampagne endet. Solange ein Nutzer Abonnent bleibt, bleiben seine Premium-Kampagnen so.",
+      "marketplaceTitle": "Plugins-Bibliothek",
+      "marketplaceBody": "Premium-Kampagnen können Plugins aus der {pluginLibrary} installieren. Das sind Themes, Charakterbögen oder Inhaltspakete, die von der Community für die Community erstellt werden. Neuer Inhalt wird regelmässig hinzugefügt.",
+      "marketplacePluginLibrary": "Plugins-Bibliothek",
+      "themingTitle": "Theming",
+      "themingBody": "Premium-Kampagnen können das Theme erzwingen, das Nutzer beim Anzeigen sehen, aber auch eigenes CSS schreiben, um das Aussehen und Gefühl der Kampagne vollständig anzupassen. Wenn CSS eine Fremdsprache für dich ist, haben wir auch einen einfachen Theme-Builder.",
+      "familyTreesTitle": "Stammbäume",
+      "familyTreesBody": "Familien in Premium-Kampagnen haben Zugang zu wunderschönen Stammbäumen.",
+      "webhooksTitle": "Webhooks",
+      "webhooksBody": "Premium-Kampagnen können Workflows definieren, die über Webhooks Updates an Discord und andere Tools senden, wenn Änderungen an Einträgen vorgenommen werden."
+    },
+    "cta": {
+      "title": "Gefällt dir, was du siehst? Erstelle jetzt ein kostenloses Konto",
+      "button": "Ein kostenloses Konto registrieren",
+      "comparison": "Sieh, wie Kanka im Vergleich zu WorldAnvil abschneidet"
+    },
+    "learnMore": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Ein kleines Team macht Weltenbau Spass und zuverlässig",
+    "lead": "Kanka entstand aus der Frustration über Weltenbau- und Sitzungsnotizen, die über verschiedene Tools verstreut waren, und der Schwierigkeit, diese Inhalte einfach mit Spielern zu teilen. Heute ist Kanka eine kleine Gruppe von Freunden, die auf der ganzen Welt verteilt sind und daran arbeiten, die besten Werkzeuge für diese ursprünglichen Bedürfnisse zu bauen.",
+    "teamTitle": "Lern das Team kennen",
+    "communityBody": "Community ist und wird immer ein grosser Teil von Kankas DNA sein. Wir befragen unsere Nutzer regelmässig zu Änderungen an Features und Designs und beziehen Feedback in jede grosse Entscheidung ein. Unsere Community treibt uns an, Kanka endlos zu verbessern.",
+    "stats": {
+      "users": "Nutzer",
+      "countries": "Länder",
+      "entries": "Einträge",
+      "missedPlotHooks": "verpasste Plot-Hooks",
+      "campaigns": "Kampagnen",
+      "marketplacePlugins": "Marktplatz-Plugins",
+      "dailyApiCalls": "tägliche API-Aufrufe",
+      "ruinedSessions": "ruinierte Sitzungen"
+    },
+    "historyTitle": "Unsere Geschichte",
+    "historyBody": "Kanka wurde im Oktober 2017 von Jay als Hobbyprojekt über ein Wochenende erstmals erstellt, und die ernsthaften Arbeiten begannen 2020, als Jon dazukam.",
+    "translationsTitle": "Übersetzungen",
+    "translationsBody": "Kanka wird dank dieser grossartigen Mitwirkenden in mehrere Sprachen übersetzt."
+  },
+  "campaigns": {
+    "title": "Öffentliche Kampagnen",
+    "lead": "Viele Kampagnen in Kanka sind für alle öffentlich einsehbar. Diese Seite enthält eine Liste aller öffentlichen Kampagnen sowie einige ausgewählte Kampagnen aus der Community.",
+    "spotlightTitle": "Im Rampenlicht: Kampagnen",
+    "spotlightBody": "Jeden Monat stellen wir eine Handvoll herausragender öffentlicher Kampagnen aus unserer Community ins Rampenlicht, ausgewählt für ihre Tiefe des Weltenbaus, kreativen Themen und die Sorgfalt, die ihre Ersteller in sie gesteckt haben.",
+    "viewShowcase": "Showcase ansehen",
+    "publicTitle": "Öffentliche Kampagnen",
+    "publicBody": "Durchsuche Kampagnen, die von Kankas Community aus Weltenbauern, Spielleitern und Geschichtenerzählern geteilt wurden. Nutze die Filter, um nach Typ zu erkunden – ob du nach einem düsteren D&D-Setting, einer komplexen Fantasiewelt oder einer narrativen Geschichtskampagne suchst. Sieh, wie andere Ersteller ihre Arbeit strukturieren, und nimm diese Ideen dann in deine eigene Arbeit mit.",
+    "loading": "Wird geladen...",
+    "noResults": "Keine Kampagnen entsprechen den ausgewählten Filtern. Bitte versuche es mit anderen.",
+    "previousPage": "Vorherige Seite",
+    "nextPage": "Nächste Seite"
+  },
+  "worldbuilding": {
+    "title": "Baue eine Welt, die endlich konsistent bleibt.",
+    "lead": "Kanka ist das Weltenbau-Tool für D&D, Tabletop-RPGs und alle, die eine Welt bauen, die zusammenhalten muss. Verknüpfe jeden Charakter, jeden Ort und jede Fraktion mit {'@'}-Erwähnungen, damit dein Überlieferungsgut konsistent bleibt und du alles in Sekunden findest. Kostenlos starten, keine Kreditkarte. Von über 375.000 Weltenbauern vertraut.",
+    "startFree": "Kostenlos starten"
+  },
+  "premiumPage": {
+    "title": "Premium-Kampagnen",
+    "lead": "Schalte erweiterte Features für deine Kanka-Kampagnen gegen eine kleine monatliche Gebühr frei. Passe das Aussehen und Gefühl einer Kampagne an, mache die Kampagne werbefrei, geniesse grössere Datei-Uploads für alle Kampagnenmitglieder und vieles mehr.",
+    "startingAt": "Ab {currency}",
+    "perMonth": "pro Monat",
+    "card1Title": "Alles, was du an Kanka liebst, mit aufgehobenen Limits",
+    "card1Body": "Wenn eine Kampagne Premium wird, werden die folgenden Verbesserungen für alle Mitglieder der Kampagne freigeschaltet.",
+    "tableTitle": "Alles, was wir gerade gesagt haben, aber in einer Tabelle",
+    "tableBody": "Alle unsere Abonnements ermöglichen es dir, Premium-Features für mindestens eine Kampagne freizuschalten. Dies schaltet die folgenden Vorteile für eine Kampagne frei. Eine Kampagne kann jederzeit herunter- oder heraufgestuft werden. Wenn beispielsweise eine Kampagne beendet ist, kannst du sie herunterstufen und stattdessen eine andere Kampagne heraufstufen. Das Herunterstufen einer Kampagne löscht keine Daten zu Premium-Features, sondern versteckt sie nur, bis die Kampagne wieder heraufgestuft wird.",
+    "ctaTitle": "Ok, nimm mein Geld",
+    "ctaBody": "Überzeugt und bereit, deine Kampagnen auf Premium umzustellen? Abonniere Kanka, um Premium-Kampagnen freizuschalten!",
+    "ctaButton": "Zur Abonnement-Seite"
+  },
+  "comparison": {
+    "title": "Kanka vs World Anvil: Die Wahl deiner Weltenbau-Plattform",
+    "lead": "Bei der Suche nach einem Weltenbau-Tool bieten sowohl Kanka als auch World Anvil robuste Lösungen für Autoren, Spielleiter und Weltenbauer. Jede Plattform glänzt für ein anderes Publikum – Kanka ist ideal für Tabletop-RPG-Spieler, während World Anvil Features für Autoren und Weltenbauer bietet, die sich auf das Geschichtenerzählen konzentrieren.",
+    "interfaceTitle": "Benutzeroberfläche und Lernkurve",
+    "interfaceBody1": "Kanka setzt auf eine intuitive, saubere Benutzeroberfläche, die sich modernen Web-Nutzern vertraut anfühlt. Die Plattform legt Wert darauf, schnell loszulegen mit minimaler Einrichtungszeit. Alle Kernfunktionen sind über eine konsistente, einfach zu navigierende Menüstruktur zugänglich.",
+    "interfaceBody2": "World Anvil bietet eine aufwändigere Benutzeroberfläche mit umfangreichen Anpassungsmöglichkeiten. Obwohl leistungsstark, benötigen neue Nutzer möglicherweise mehr Zeit, um das System zu erlernen und ihre Welt effektiv einzurichten.",
+    "preview1Alt": "Kanka-Kampagnen-Dashboard mit Charakteren und einem integrierten Kalender in einer Ansicht",
+    "preview1Caption": "Kanka-Kampagnen-Dashboard mit Charakteren und einem integrierten Kalender in einer Ansicht",
+    "contentTitle": "Inhaltsorganisation",
+    "contentBody1": "Kanka verwendet ein flexibles entitätsbasiertes System, bei dem alles (Charaktere, Orte, Organisationen usw.) gleichwertig behandelt wird. Dies ermöglicht natürliche Verbindungen zwischen allen Elementen deiner Welt. Das Beziehungssystem lässt dich komplexe Verbindungsnetze erstellen und dabei die Übersichtlichkeit bewahren.",
+    "contentBody2": "World Anvil verfolgt einen stärker artikelzentrierten Ansatz mit Fokus auf detaillierte Wiki-Einträge. Dieser Ansatz kommt besonders Autoren zugute und bietet robuste Werkzeuge zur Organisation von Überlieferungen, Handlungsbögen und Narrativelementen. Obwohl Verbindungen zwischen Elementen bestehen, sind sie strukturell eher wie traditionelle Wiki-Links.",
+    "preview2Alt": "Das Beziehungsnetz eines Charakters",
+    "preview2Caption": "Charaktere erwachen zum Leben, wenn sie mit dem Rest deiner Welt verbunden sind",
+    "rpgTitle": "RPG-Kampagnenverwaltung und Schreibwerkzeuge",
+    "rpgBody1": "Kanka wurde von Grund auf mit Tabletop-RPG-Kampagnen im Sinn gebaut. Das Quest-System, die Kalenderintegration und die Charakterverwaltungswerkzeuge sind tief miteinander integriert und machen es natürlich, laufende Kampagnen neben dem Weltenbau zu leiten. Der Fokus liegt auf praktischen Werkzeugen für Spielleiter und Spieler.",
+    "rpgBody2": "World Anvil zeichnet sich durch die Unterstützung von Autoren mit spezialisierten Features aus, wie Manuskriptorganisation, Plot-Entwicklungswerkzeuge und detaillierte Charakterbögen. Ihre Kampagnenwerkzeuge konzentrieren sich mehr auf die Präsentation von Informationen für Spieler, mit starken Features zur selektiven Offenbarung von Inhalten und der Verwaltung von Leserechten.",
+    "preview3Alt": "Kanka-Quest-Ansicht zur Verfolgung beweglicher Teile",
+    "preview3Caption": "Quests mit vielen beweglichen Teilen können in traditioneller Software schwer zu verfolgen werden.",
+    "customizationTitle": "Anpassungsphilosophie",
+    "customizationBody1": "Kanka betont die Erweiterbarkeit durch sein Community-Plugin-System. Nutzer können ihre Welten mit von der Community erstellten Plugins erweitern, die neue Features und Funktionen hinzufügen, während die grundlegende Benutzerfreundlichkeit der Plattform erhalten bleibt. Die Plattform unterstützt auch benutzerdefiniertes CSS für diejenigen, die das Aussehen ihrer Welt personalisieren möchten.",
+    "customizationBody2": "World Anvil bietet ebenfalls umfangreiche visuelle Anpassungen durch CSS und Vorlagen, obwohl dies möglicherweise mehr technisches Wissen erfordert, um es vollständig zu nutzen.",
+    "collaborationTitle": "Kollaborationsfunktionen",
+    "collaborationBody1": "Kanka bietet ein unkompliziertes Berechtigungssystem, das über alle Inhaltstypen hinweg funktioniert. Teams können problemlos zusammenarbeiten mit granularen Zugriffskontrollen, die konsistent auf der gesamten Plattform sind. Kanka kommt auch mit vollständig kollaborativen Karten und Whiteboards mit Live-Updates für alle Mitarbeiter.",
+    "collaborationBody2": "World Anvil bietet Kollaborationswerkzeuge mit Fokus auf Community-Features und Inhaltsaustausch zwischen verschiedenen Weltenbauern.",
+    "strengthsTitle": "Einzigartige Stärken",
+    "kankaSubtitle": "Kanka",
+    "kankaStrength1": "Einheitliches Entitätssystem, das alle Inhaltstypen gleichwertig behandelt",
+    "kankaStrength2": "Intuitive Beziehungskartierung zwischen beliebigen Elementen",
+    "kankaStrength3": "Konsistente Benutzeroberfläche über alle Features hinweg",
+    "kankaStrength4": "Starke Integration zwischen Weltenbau und Kampagnenverwaltung",
+    "kankaStrength5": "Schnelle Einrichtung und minimale Lernkurve",
+    "waSubtitle": "World Anvil",
+    "waStrength1": "Umfangreiche Artikelformatierungsoptionen",
+    "waStrength2": "Starker Fokus auf traditionelle Wiki-artige Organisation",
+    "waStrength3": "Robustes Vorlagensystem für konsistente Artikel",
+    "waStrength4": "Eingebaute Community-Features",
+    "waStrength5": "Erweiterte CSS-Anpassungsoptionen",
+    "conclusionTitle": "Fazit",
+    "conclusionBody": "Wähle Kanka, wenn du eine moderne, intuitive Plattform möchtest, die Weltenbau nahtlos mit RPG-Kampagnenverwaltung verbindet, und du schnelle Einrichtung mit konsistenten Organisationswerkzeugen schätzt.",
+    "preview4Alt": "Kanka-Dashboard mit Einführung, Kalender, Zusammenfassungen",
+    "preview4Caption": "Konzentriere dich auf deinen Weltenbau und lass Kanka den Rest erledigen.",
+    "ctaLink": "Schliess dich 400.000 Weltenbauern an, die nicht für Komplexität zahlen wollten, die sie nie nutzen würden."
+  },
+  "kb": {
+    "title": "Kanka-Wissensdatenbank",
+    "lead": "Schnelle Antworten auf häufige Fragen zu Kampagnen, Berechtigungen, Karten, Kalendern, Preisen und mehr.",
+    "notFoundTitle": "Nicht gefunden, was du gesucht hast?",
+    "joinDiscord": "Tritt unserem Discord bei",
+    "checkDocs": "Dokumentation prüfen",
+    "sendEmail": "Schick uns eine E-Mail"
+  },
+  "contact": {
+    "title": "Wir sind für dich da",
+    "lead": "Brauchst du Hilfe, hast du einen Fehler gefunden oder möchtest du einfach deine Liebe zu Kanka teilen? Unser Team antwortet bei jeder Gelegenheit!",
+    "emailTitle": "E-Mail",
+    "emailBody": "Alle Anfragen senden an",
+    "discordTitle": "Discord",
+    "discordBody": "Wenn du direkt mit uns reden möchtest, komm auf unseren {discordServer}.",
+    "discordServerLink": "Discord-Server",
+    "aboutTeamTitle": "Über unser Team",
+    "aboutTeamBody": "Kanka wird von einem {teamLink} entwickelt und gewartet, der über Genf, Madrid und Mérida verteilt ist. Wir sind leidenschaftliche Weltenbauer und Kampagnenmanager und freuen uns immer, von unseren Nutzern zu hören – ob Fehlerberichte, Feature-Anfragen oder einfach nur zu teilen, wie du Kanka nutzt.",
+    "aboutTeamLink": "kleinen, verteilten Team",
+    "responseTitle": "Antwortzeiten & Support",
+    "responseBody1": "Wir antworten in der Regel auf alle Anfragen innerhalb von {hours}. Wir schätzen die Work-Life-Balance und die Zeit mit unseren Familien, daher antworten wir möglicherweise nicht sofort, aber wir melden uns bei dir.",
+    "responseHours": "24-48 Stunden",
+    "responseBody2": "{fastest} Unsere Discord-Community ist der Ort, wo wir am schnellsten reagieren. Wenn du dringende Hilfe benötigst, ist der Beitritt zu unserem {discordServer} deine beste Wahl.",
+    "responseFastest": "Schnellste Antwort:",
+    "responseBody3": "{allMethods} E-Mail, Discord oder über einen unserer sozialen Kanäle. Wir verstehen, dass nicht jeder Discord oder soziale Medien nutzen möchte, und das ist völlig in Ordnung – sende uns eine E-Mail an {email} und wir helfen dir.",
+    "responseAllMethods": "Wir akzeptieren alle Kontaktmethoden:",
+    "beforeTitle": "Bevor du uns kontaktierst",
+    "downTitle": "Ist Kanka down oder hat Probleme?",
+    "downBody": "Prüfe {statusLink}, um zu sehen, ob wir Ausfallzeiten erleben. Dort findest du Echtzeit-Statusupdates.",
+    "passwordTitle": "Passwort vergessen?",
+    "passwordBody": "Nutze die Passwort-vergessen-Funktion auf der {loginLink}, um es selbst zurückzusetzen. Kein Grund, uns zu kontaktieren!",
+    "loginPageLink": "Anmeldeseite"
+  },
+  "showcase": {
+    "title": "Showcase",
+    "lead": "Unser Showcase hebt eine kuratierte Auswahl von Kampagnen hervor, die mit Kanka gebaut wurden. Jedes Spotlight zeigt einen genaueren Blick darauf, wie eine Welt erschaffen wurde, was sie antreibt und die Geschichten, die am Tisch entstehen.",
+    "applyButton": "Für das Spotlight bewerben",
+    "spotlightTitle": "Im Rampenlicht: Kampagnen",
+    "loading": "Wird geladen...",
+    "noResults": "Noch keine ausgewählten Kampagnen. Bewirb dich, um deinen hier erscheinen zu lassen!",
+    "previousPage": "Vorherige Seite",
+    "nextPage": "Nächste Seite"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "lead": "Unsere Community prägt unsere Arbeit, daher haben wir zwar keine Roadmap für mehrere Monate, aber es ist einfach, auf dem Laufenden zu bleiben, was angefordert wurde und woran wir derzeit arbeiten.",
+    "roadmapTitle": "Roadmap",
+    "roadmapBody": "Die Roadmap listet alle von der Community eingereichten Ideen auf und zeigt, woran wir gerade arbeiten, während Mitglieder Ideen hochvoten können, die sie in Kanka sehen möchten.",
+    "devLogsTitle": "Entwicklerprotokolle",
+    "devLogsBody": "Wir veröffentlichen alle paar Wochen Entwicklerprotokolle mit Updates zu unserem Fortschritt und kommenden Features sowie Neuigkeiten hinter den Kulissen."
+  },
+  "hallOfFame": {
+    "title": "Hall of Fame",
+    "lead": "Ehrlich gesagt ist es für uns immer noch ein bisschen verrückt, dass aus einem Wochenend-Hobbyprojekt ein Vollzeitjob für unser kleines Team wurde. Nichts davon wäre ohne diese unglaublichen Menschen passiert. Ihre Unterstützung bedeutet, dass wir häufige Updates liefern können, die morgendlichen Stand-ups überspringen, an Dingen arbeiten, für die wir wirklich leidenschaftlich sind, und unsere Liebe zum Weltenbau weiter verbreiten – eine Kampagne nach der anderen.",
+    "fetching": "Wird abgerufen...",
+    "backToTop": "Zurück nach oben",
+    "elementalBody": "Diese fantastischen Menschen lassen uns wissen, dass wir an etwas wirklich Magischem arbeiten.",
+    "wyvernBody": "Das sind Menschen, die mehrere Kampagnen in mehreren Welten leiten, manchmal mit riesigen Spielergruppen. Die ernsthaften Weltenbauer, die ihre Ziele ohne Kanka nicht erreichen könnten.",
+    "owlbearBody": "Das Rückgrat von Kankas Community. Weltenbau ist mehr als ein vorübergehendes Hobby für diese Menschen – sie wachen mit Plot-Hooks auf, die sie ihren Welten hinzufügen möchten. Ihre Projekte haben einfache Notizzettel längst übertroffen, und sie bauen etwas Schönes.",
+    "goblinBody": "Anfang 2020 eingestellt, unterstützen uns unsere treuen Goblins noch heute!"
+  },
+  "partners": {
+    "title": "Partner",
+    "lead": "Wir haben uns mit einigen grossartigen Tools und Communities zusammengetan, die unsere Ziele und Werte teilen.",
+    "gramelBody": "Gramel Books ist ein kleiner polnischer RPG-Verlag, der für polnische Ausgaben von Savage Worlds, Dungeon World, Monsterhearts, Beyond the Wall and Other Adventures oder Eclipse Phase verantwortlich ist. Sie haben auch einige englischsprachige Ergänzungen für Savage Worlds veröffentlicht, vor allem Beasts and Barbarians und Tropicana, sowie ein vereinfachtes Spielsystem namens Adventurers. Tabletop-RPGs zu verlegen und zu spielen ist ihre Leidenschaft und ihr liebstes Hobby seit über 20 Jahren, und sie sind stolz und glücklich, Teil des Kanka-Projekts zu sein!"
+  },
+  "security": {
+    "title": "Sicherheit",
+    "lead": "Unser kleines Team ist verpflichtet, erstklassige Datenschutzstandards zu bieten, um sicherzustellen, dass deine Daten bei uns sicher sind.",
+    "dataCenterTitle": "Rechenzentrum-Sicherheit",
+    "dataCenterBody": "Kanka wird auf mehreren Servern gehostet, um Redundanz zu gewährleisten, und wir haben Disaster-Recovery-Verfahren für den Fall, dass etwas Schlimmes passiert. Unsere Server werden von Hetzner gehostet.",
+    "euTitle": "EU-gehostete Infrastruktur",
+    "euBody": "Unsere Server und alle deine Daten werden auf Servern innerhalb der Europäischen Union gehostet. Dies ermöglicht uns, spezifische regulatorische und Compliance-Anforderungen zu erfüllen, die sicherstellen, dass deine Daten bei uns sicher sind. Unsere Rechenzentrumsbetreiber Hetzner und Amazon Cloud Europe haben eine Geschichte der Qualität und Fachkenntnis im Umgang mit digitalen Daten.",
+    "commsTitle": "Sichere Kommunikation",
+    "commsBody": "Alle Nutzerdaten werden sicher und privat übertragen, da sie während der Übertragung via SSL verschlüsselt sind. Die Verschlüsselung von Daten während der Übertragung schützt sie vor unbefugtem Abhören, Manipulation sowie Man-in-the-Middle-Angriffen.",
+    "creditTitle": "Kreditkarten",
+    "creditBody": "Wir speichern deine Kreditkarteninformationen nicht. Wir verwenden Stripe zur Verarbeitung von Kreditkarten, wobei die gesamte Kommunikation zwischen dir, unseren Servern und Stripe verschlüsselt ist. Die einzigen Kreditkarteninformationen, die Stripe uns bereitstellt und die wir speichern, sind das Ablaufdatum und die Kartenmarke, damit wir dich benachrichtigen können, wenn deine Karte abläuft.",
+    "backupsTitle": "Datensicherungen",
+    "backupsBody": "Unsere Datenbank wird zweimal täglich gesichert, um sicherzustellen, dass deine Daten sicher und hoch verfügbar bleiben. Unsere Datenbanksicherungen werden regelmässig getestet, um sicherzustellen, dass wir Daten bei Bedarf schnell wiederherstellen können.",
+    "logsTitle": "Protokollsammlung",
+    "logsBody": "Wir sammeln automatisch detaillierte Protokolle, um sicherzustellen, dass wir Fehler und Probleme mit Nutzern schnell und effektiv beheben können. Diese detaillierten Protokolle werden regelmässig gelöscht und auch automatisch gelöscht, wenn du dein Konto löschst.",
+    "breachTitle": "Datenschutzverletzung",
+    "breachBody": "Sollte Kanka Ziel einer Datenschutzverletzung mit personenbezogenen Daten sein, werden wir dies umgehend den zuständigen Behörden sowie den betroffenen Nutzern melden."
+  },
+  "pressKit": {
+    "title": "Pressemappe",
+    "lead": "Danke für dein Interesse an Kanka! Bitte verwende die folgenden Ressourcen, wenn du über uns schreibst.",
+    "shortDescriptionTitle": "Kurzbeschreibung",
+    "shortDescriptionBody1": "Kanka ist ein Weltenbau- und Tabletop-RPG-Kampagnenverwaltungstool, das sich perfekt für Weltenbauer und Spielleiter eignet. Es hilft dir, deine Kampagnen und Welten mit einer ganzen Reihe von Funktionen zu erstellen und zu organisieren, wie Kalender, interaktive Karten, Zeitlinien, Organisationen, Familien und so viele Charaktere, wie dir einfallen!",
+    "shortDescriptionBody2": "Community steckt in ihrer DNA, und du kannst auf Community-Ideen abstimmen, um die Richtung zu bestimmen, die Kanka einschlägt, sowie ihren Community-Marktplatz, auf dem Ersteller ihre Kreativität präsentieren und ihre Inhalte für andere nutzbar machen können.",
+    "logosTitle": "Logos",
+    "needMore": "Benötigst du mehr Ressourcen oder Hilfe?"
+  },
+  "ttrpgTools": {
+    "title": "Alles, was ein Spielleiter braucht, an einem Ort.",
+    "lead": "Kanka ist das All-in-one-Toolkit für Tabletop-RPG-Spielleiter: Charaktere, Karten, Quests, Zeitlinien und Lore, alles verknüpft mit {'@'}-Erwähnungen und bereit, wenn du sie brauchst. Funktioniert für D&D, jedes TTRPG oder dein eigenes Homebrew. Kostenlos starten, keine Kreditkarte. Von über 375.000 DMs vertraut.",
+    "startFree": "Kostenlos starten"
+  },
+  "campaignManager": {
+    "title": "Leite deine D&D-Kampagne ohne das Chaos.",
+    "lead": "Kanka ist der Kampagnenmanager für D&D und Tabletop-RPG-Spielleiter. Verfolge jeden NPC, jede Quest und jeden Handlungsfaden, verknüpfe sie mit {'@'}-Erwähnungen und ruf alles mitten in der Sitzung ab – von Sitzung eins bis Sitzung fünfzig. Weniger Vorbereitung, mehr Spiel. Kostenlos starten, keine Kreditkarte. Von über 375.000 Spielleitern vertraut.",
+    "startFree": "Kostenlos starten"
+  },
+  "useCasesIndex": {
+    "title": "Finde deinen Weg, Kanka zu nutzen",
+    "lead": "Jeder kommt mit einer anderen Geschichte zu Kanka. Manche leiten Kampagnen mit einem Dutzend beweglicher Teile. Andere bauen Welten, die jahrelang in ihren Köpfen gelebt haben. Ob du ein Spielleiter bist, der Plots und NPCs jongliert, ein Autor, der Überlieferungen kartiert, oder ein Spieler, der versucht, die Geschichte seines Charakters zu verfolgen – Kanka passt sich an, wie du denkst. Finde unten deine Leute.",
+    "readUseCase": "Anwendungsfall lesen",
+    "noResults": "Noch keine Anwendungsfälle. Schau bald wieder vorbei!"
+  },
+  "guidesIndex": {
+    "title": "Weltenbau-Guides",
+    "lead": "Guides, die dir helfen, deine Weltenbau-Projekte zu starten und zu erweitern.",
+    "readGuide": "Guide lesen",
+    "noResults": "Noch keine Weltenbau-Guides. Schau bald wieder vorbei!"
+  },
+  "learnIndex": {
+    "title": "Lernen",
+    "lead": "Guides und Artikel, die dir helfen, das Beste aus Kanka herauszuholen.",
+    "readArticle": "Artikel lesen",
+    "noResults": "Noch keine Artikel. Schau bald wieder vorbei!"
+  }
+}
