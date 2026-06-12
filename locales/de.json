@@ -376,7 +376,34 @@
     "historyTitle": "Unsere Geschichte",
     "historyBody": "Kanka wurde im Oktober 2017 von Jay als Hobbyprojekt über ein Wochenende erstmals erstellt, und die ernsthaften Arbeiten begannen 2020, als Jon dazukam.",
     "translationsTitle": "Übersetzungen",
-    "translationsBody": "Kanka wird dank dieser grossartigen Mitwirkenden in mehrere Sprachen übersetzt."
+    "translationsBody": "Kanka wird dank dieser grossartigen Mitwirkenden in mehrere Sprachen übersetzt.",
+    "readMore": "Mehr lesen",
+    "readLess": "Weniger anzeigen",
+    "history": {
+      "e1": { "date": "Oktober 2017", "text": "Jay beginnt mit der Arbeit an Kanka" },
+      "e2": { "date": "Februar 2018", "text": "Mehr als 1.000 Konten erstellt" },
+      "e3": { "date": "März 2018", "text": "Start des Discord" },
+      "e4": { "date": "Januar 2020", "text": "Jon stösst zu Kanka" },
+      "e5": { "date": "Juli 2020", "text": "Jay und Jon kündigen ihre Jobs, um Vollzeit an Kanka zu arbeiten" },
+      "e6": { "date": "September 2020", "text": "Start der Plugins Library" },
+      "e7": { "date": "Oktober 2020", "text": "Owlchester SNC wird gegründet" },
+      "e8": { "date": "Januar 2021", "text": "Launch von Kanka 1.0" },
+      "e9": { "date": "Oktober 2021", "text": "Das 100.000. Konto erstellt" },
+      "e10": { "date": "Januar 2025", "text": "Wir launchen Kanka 3.0 und stellen benutzerdefinierte Kategorien vor" },
+      "e11": { "date": "Anfang 2026", "text": "Wir stellen einen neuen modernen Texteditor vor" },
+      "e12": { "date": "Bald", "text": "Kanka übernimmt ganz gemütlich die Weltherrschaft" }
+    },
+    "translators": {
+      "l1": "Englisch, Französisch",
+      "l2": "Brasilianisches Portugiesisch",
+      "l3": "Deutsch",
+      "l4": "Polnisch",
+      "l5": "Spanisch",
+      "l6": "Italienisch",
+      "l7": "Russisch",
+      "l8": "Niederländisch",
+      "l9": "Slowakisch"
+    }
   },
   "campaigns": {
     "title": "Öffentliche Kampagnen",
@@ -407,7 +434,53 @@
     "tableBody": "Alle unsere Abonnements ermöglichen es dir, Premium-Features für mindestens eine Kampagne freizuschalten. Dies schaltet die folgenden Vorteile für eine Kampagne frei. Eine Kampagne kann jederzeit herunter- oder heraufgestuft werden. Wenn beispielsweise eine Kampagne beendet ist, kannst du sie herunterstufen und stattdessen eine andere Kampagne heraufstufen. Das Herunterstufen einer Kampagne löscht keine Daten zu Premium-Features, sondern versteckt sie nur, bis die Kampagne wieder heraufgestuft wird.",
     "ctaTitle": "Ok, nimm mein Geld",
     "ctaBody": "Überzeugt und bereit, deine Kampagnen auf Premium umzustellen? Abonniere Kanka, um Premium-Kampagnen freizuschalten!",
-    "ctaButton": "Zur Abonnement-Seite"
+    "ctaButton": "Zur Abonnement-Seite",
+    "cards": {
+      "c1": {
+        "title": "Look & Feel",
+        "body": "Passe die Seitenleiste der Kampagne an, ändere das Design der Kampagne mit benutzerdefiniertem CSS und installiere tolle und schöne Plugins aus der <a href=\"https://plugins.kanka.io\" class=\"link-light\">Plugins library</a>."
+      },
+      "c2": {
+        "title": "Bessere Einträge",
+        "body": "Setze Header-Bilder für Einträge, schreibe benutzerdefinierte Tooltips, gib ihnen Aliase für Suche und Erwähnungen und lade mehr Assets für jede Entität hoch."
+      },
+      "c3": {
+        "title": "Sorglosigkeit",
+        "body": "Eine Entität gelöscht und es dir anders überlegt? Kein Problem! Stelle gelöschte Einträge für bis zu 30 Tage wieder her."
+      },
+      "c4": {
+        "title": "Unbegrenzt",
+        "body": "Mach dich frei von Limits bei der Anzahl der Mitglieder, Rollen und Lesezeichen in der Kampagne."
+      },
+      "c5": {
+        "title": "Bessere Standardwerte",
+        "body": "Genervt und verwirrt von langweiligen grauen Kreisen für Einträge ohne Bild? Setze stattdessen benutzerdefinierte Standardbilder für jeden Entitätstyp."
+      },
+      "c6": {
+        "title": "Einer für alle",
+        "body": "Alle Mitglieder der Kampagne können sie werbefrei geniessen und haben ausserdem Zugang zu grösseren Datei-Uploads."
+      },
+      "c7": {
+        "title": "Icons für Karten und Zeitlinien",
+        "body": "Lass Karten und Zeitlinien mit Zugang zu benutzerdefinierten Farben und Tausenden von Icons durch <a href=\"https://fontawesome.com/search\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">FontAwesome</a> und <a href=\"https://nagoshiashumari.github.io/Rpg-Awesome/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">RPGAwesome</a> hervorstechen."
+      },
+      "c8": {
+        "title": "Netz der Verbindungen",
+        "body": "Erkunde das Netz der Beziehungen und Verbindungen einer Kampagnen-Entität visuell."
+      },
+      "c9": {
+        "title": "Kampagnen-Galerie",
+        "body": "Verwalte die Bilder der Kampagne in einer Galerie, statt Bilder einzeln auf jede Entität hochzuladen."
+      },
+      "c10": {
+        "title": "Erfolge",
+        "body": "Brauchst du einen zusätzlichen Anstoss, um Inhalte für deine Welt zu erstellen? Das Kampagnen-Erfolgssystem könnte dich dazu bringen, produktiv zu sein!"
+      },
+      "c11": {
+        "title": "Alles im Blick",
+        "body": "Vollständige Protokolle der Änderungen an Einträgen für bis zu 30 Tage verfügbar. Die Familie eines Charakters geändert und die alte vergessen? Diese Funktion erinnert sich für dich."
+      }
+    }
   },
   "comparison": {
     "title": "Kanka vs World Anvil: Die Wahl deiner Weltenbau-Plattform",

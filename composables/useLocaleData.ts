@@ -25,5 +25,13 @@ export function useLocaleData() {
     return 'kbFaqEn' as const
   }
 
-  return { homeFaqCollection, pricingFaqCollection, kbFaqCollection }
+  function teamCollection() {
+    if (locale.value === 'fr') return 'teamFr' as const
+    if (locale.value === 'de') return 'teamDe' as const
+    if (locale.value === 'es') return 'teamEs' as const
+    if (locale.value === 'pt-BR') return 'teamPtBR' as const
+    return 'team' as const
+  }
+
+  return { homeFaqCollection, pricingFaqCollection, kbFaqCollection, teamCollection }
 }

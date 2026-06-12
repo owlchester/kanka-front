@@ -50,15 +50,15 @@
     <p class="max-w-lg mx-auto">{{ $t('about.translationsBody') }}</p>
 
     <div class="grid grid-cols-2 gap-10 xl:grid-cols-4 text-left">
-      <div>English, French: <strong>Kanka Team</strong></div>
-      <div>Brazilian Portuguese: <strong>Elminster Aumar</strong></div>
-      <div>German: <strong>Xoltax</strong></div>
-      <div>Polish: <NuxtLink :to="localePath('/partners')" class="link">Gramel Books</NuxtLink></div>
-      <div>Spanish: HelionKing, <strong>Kanka Team</strong></div>
-      <div>Italian: <strong>Labhrainn</strong></div>
-      <div>Russian: <strong>Ilia</strong></div>
-      <div>Dutch: ThatChickenGuy</div>
-      <div>Slovak: <strong>Babcom</strong></div>
+      <div>{{ $t('about.translators.l1') }}: <strong>Kanka Team</strong></div>
+      <div>{{ $t('about.translators.l2') }}: <strong>Elminster Aumar</strong></div>
+      <div>{{ $t('about.translators.l3') }}: <strong>Xoltax</strong></div>
+      <div>{{ $t('about.translators.l4') }}: <NuxtLink :to="localePath('/partners')" class="link">Gramel Books</NuxtLink></div>
+      <div>{{ $t('about.translators.l5') }}: HelionKing, <strong>Kanka Team</strong></div>
+      <div>{{ $t('about.translators.l6') }}: <strong>Labhrainn</strong></div>
+      <div>{{ $t('about.translators.l7') }}: <strong>Ilia</strong></div>
+      <div>{{ $t('about.translators.l8') }}: ThatChickenGuy</div>
+      <div>{{ $t('about.translators.l9') }}: <strong>Babcom</strong></div>
     </div>
   </Section>
 
@@ -71,8 +71,10 @@
 const localePath = useLocalePath()
 const title = 'About Kanka — 3-Person Team Behind 375K+ Worldbuilders'
 
-const { data: team } = await useAsyncData('team', () =>
-    queryCollection('team').order('id', 'ASC').all()
+const { locale } = useI18n()
+const { teamCollection } = useLocaleData()
+const { data: team } = await useAsyncData(`team-${locale.value}`, () =>
+    queryCollection(teamCollection()).order('id', 'ASC').all()
 )
 
 useSeo({

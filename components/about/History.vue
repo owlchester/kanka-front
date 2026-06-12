@@ -1,18 +1,18 @@
 <template>
   <div class="overflow-auto">
     <div class="flex gap-4 md:gap-8  min-w-fit mb-5 ">
-      <AboutAchievement date="October 2017" text="Jay starts working on Kanka" />
-      <AboutAchievement date="February 2018" text="1,000+ account created" />
-      <AboutAchievement date="March 2018" text="Launch of the Discord" />
-      <AboutAchievement date="January 2020" text="Jon joins Kanka" />
-      <AboutAchievement date="July 2020" text="Jay & Jon quit their jobs to work full time on Kanka" />
-      <AboutAchievement date="September 2020" text="Launch of the Plugins Library" />
-      <AboutAchievement date="October 2020" text="Owlchester SNC is founded" />
-      <AboutAchievement date="January 2021" text="Launch of Kanka 1.0" />
-      <AboutAchievement date="October 2021" text="100,000th account created" />
-      <AboutAchievement date="January 2025" text="We launch Kanka 3.0 and introduce custom categories" />
-      <AboutAchievement date="Early 2026" text="We introduce a new modern text editor" />
-      <AboutAchievement date="Soon" text="Kanka casually takes over the world" />
+      <AboutAchievement :date="$t('about.history.e1.date')" :text="$t('about.history.e1.text')" />
+      <AboutAchievement :date="$t('about.history.e2.date')" :text="$t('about.history.e2.text')" />
+      <AboutAchievement :date="$t('about.history.e3.date')" :text="$t('about.history.e3.text')" />
+      <AboutAchievement :date="$t('about.history.e4.date')" :text="$t('about.history.e4.text')" />
+      <AboutAchievement :date="$t('about.history.e5.date')" :text="$t('about.history.e5.text')" />
+      <AboutAchievement :date="$t('about.history.e6.date')" :text="$t('about.history.e6.text')" />
+      <AboutAchievement :date="$t('about.history.e7.date')" :text="$t('about.history.e7.text')" />
+      <AboutAchievement :date="$t('about.history.e8.date')" :text="$t('about.history.e8.text')" />
+      <AboutAchievement :date="$t('about.history.e9.date')" :text="$t('about.history.e9.text')" />
+      <AboutAchievement :date="$t('about.history.e10.date')" :text="$t('about.history.e10.text')" />
+      <AboutAchievement :date="$t('about.history.e11.date')" :text="$t('about.history.e11.text')" />
+      <AboutAchievement :date="$t('about.history.e12.date')" :text="$t('about.history.e12.text')" />
     </div>
   </div>
 </template>

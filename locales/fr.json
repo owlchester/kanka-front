@@ -376,7 +376,34 @@
     "historyTitle": "Notre histoire",
     "historyBody": "Kanka a été créée en premier en octobre 2017 par Jay comme un projet de loisir sur un week-end, et les travaux ont commencé sérieusement en 2020 quand Jon a rejoint.",
     "translationsTitle": "Traductions",
-    "translationsBody": "Kanka est traduit en plusieurs langues grâce à ces incroyables contributeurs."
+    "translationsBody": "Kanka est traduit en plusieurs langues grâce à ces incroyables contributeurs.",
+    "readMore": "Lire la suite",
+    "readLess": "Réduire",
+    "history": {
+      "e1": { "date": "Octobre 2017", "text": "Jay commence à travailler sur Kanka" },
+      "e2": { "date": "Février 2018", "text": "Plus de 1 000 comptes créés" },
+      "e3": { "date": "Mars 2018", "text": "Lancement du Discord" },
+      "e4": { "date": "Janvier 2020", "text": "Jon rejoint Kanka" },
+      "e5": { "date": "Juillet 2020", "text": "Jay et Jon quittent leur emploi pour travailler à plein temps sur Kanka" },
+      "e6": { "date": "Septembre 2020", "text": "Lancement de la Plugins Library" },
+      "e7": { "date": "Octobre 2020", "text": "Owlchester SNC est fondée" },
+      "e8": { "date": "Janvier 2021", "text": "Lancement de Kanka 1.0" },
+      "e9": { "date": "Octobre 2021", "text": "100 000e compte créé" },
+      "e10": { "date": "Janvier 2025", "text": "Nous lançons Kanka 3.0 et introduisons les catégories personnalisées" },
+      "e11": { "date": "Début 2026", "text": "Nous introduisons un nouvel éditeur de texte moderne" },
+      "e12": { "date": "Bientôt", "text": "Kanka prend tranquillement le contrôle du monde" }
+    },
+    "translators": {
+      "l1": "Anglais, Français",
+      "l2": "Portugais brésilien",
+      "l3": "Allemand",
+      "l4": "Polonais",
+      "l5": "Espagnol",
+      "l6": "Italien",
+      "l7": "Russe",
+      "l8": "Néerlandais",
+      "l9": "Slovaque"
+    }
   },
   "campaigns": {
     "title": "Campagnes publiques",
@@ -407,7 +434,53 @@
     "tableBody": "Tous nos abonnements te permettent de débloquer des fonctionnalités premium pour au moins une campagne. Cela déverrouille les avantages suivants pour une campagne. Une campagne peut être rétrogradée et mise à niveau à tout moment. Par exemple, si une campagne est terminée, tu peux la rétrograder et mettre à niveau une autre campagne à la place. La rétrogradation d'une campagne ne supprime pas les données liées aux fonctionnalités premium, mais les masque simplement jusqu'à ce que la campagne soit à nouveau mise à niveau.",
     "ctaTitle": "Ok, prends mon argent",
     "ctaBody": "Convaincu et prêt à passer tes campagnes en premium ? Abonne-toi à Kanka pour débloquer les campagnes premium !",
-    "ctaButton": "Emmène-moi à la page d'abonnement"
+    "ctaButton": "Emmène-moi à la page d'abonnement",
+    "cards": {
+      "c1": {
+        "title": "Apparence et style",
+        "body": "Personnalise la barre latérale de la campagne, modifie le design de la campagne via du CSS personnalisé, et installe des plugins incroyables et magnifiques depuis la <a href=\"https://plugins.kanka.io\" class=\"link-light\">Plugins library</a>."
+      },
+      "c2": {
+        "title": "Meilleures entrées",
+        "body": "Définis des images d'en-tête pour les entrées, écris des tooltips personnalisés, donne-leur des alias pour la recherche et les mentions, et télécharge plus d'assets sur chaque entité."
+      },
+      "c3": {
+        "title": "Tranquillité d'esprit",
+        "body": "Tu as supprimé une entité et tu as changé d'avis ? Pas de problème ! Récupère les entrées supprimées jusqu'à 30 jours."
+      },
+      "c4": {
+        "title": "Illimité",
+        "body": "Supprime les limites sur le nombre de membres, de rôles et de signets dans la campagne."
+      },
+      "c5": {
+        "title": "Meilleures valeurs par défaut",
+        "body": "Fatigué et dérouté par les cercles gris ennuyeux pour les entrées sans image ? Définis plutôt des images personnalisées par défaut pour chaque type d'entité."
+      },
+      "c6": {
+        "title": "Pour toute la bande",
+        "body": "Tous les membres de la campagne profitent d'une expérience sans publicités, et ont également accès à des téléchargements de fichiers plus volumineux."
+      },
+      "c7": {
+        "title": "Icônes pour les cartes et chronologies",
+        "body": "Rends tes cartes et chronologies percutantes grâce à l'accès à des couleurs personnalisées et à des milliers d'icônes via <a href=\"https://fontawesome.com/search\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">FontAwesome</a> et <a href=\"https://nagoshiashumari.github.io/Rpg-Awesome/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">RPGAwesome</a>."
+      },
+      "c8": {
+        "title": "Toile de connexions",
+        "body": "Explore visuellement la toile de relations et de connexions d'une entité de campagne."
+      },
+      "c9": {
+        "title": "Galerie de campagne",
+        "body": "Gère les images de la campagne dans une galerie, plutôt que de télécharger des images individuellement sur chaque entité."
+      },
+      "c10": {
+        "title": "Succès",
+        "body": "Tu as besoin d'un petit coup de pouce pour créer du contenu pour ton monde ? Le système de succès de la campagne pourrait bien te rendre productif malgré toi !"
+      },
+      "c11": {
+        "title": "Des yeux partout",
+        "body": "Journaux complets des modifications apportées aux entrées, disponibles jusqu'à 30 jours. Tu as changé la famille d'un personnage mais oublié l'ancienne ? Cette fonctionnalité s'en souviendra pour toi."
+      }
+    }
   },
   "comparison": {
     "title": "Kanka vs World Anvil: Choisir ta plateforme de création de mondes",

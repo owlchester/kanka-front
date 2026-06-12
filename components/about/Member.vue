@@ -31,7 +31,7 @@
         />
       </div>
       <button class="flex items-center gap-1 text-xs text-purple mt-1 hover:underline focus:outline-none" v-if="bio?.length > 1">
-        <span>{{ expanded ? 'Read less' : 'Read more' }}</span>
+        <span>{{ expanded ? $t('about.readLess') : $t('about.readMore') }}</span>
         <svg
           class="w-3 h-3 transition-transform duration-300"
           :class="expanded ? 'rotate-180' : ''"

@@ -75,8 +75,12 @@ export default defineContentConfig({
         useCase: defineCollection({ type: 'page', source: '*/use-cases/*.md', schema: useCaseSchema }),
         guides: defineCollection({ type: 'page', source: '*/worldbuilding-guides/*.md', schema: guidesSchema }),
 
-        // Team — not translated, always English
+        // Team — locale-specific collections
         team: defineCollection({ type: 'data', source: 'en/team/*.yml', schema: teamSchema }),
+        teamFr: defineCollection({ type: 'data', source: 'fr/team/*.yml', schema: teamSchema }),
+        teamDe: defineCollection({ type: 'data', source: 'de/team/*.yml', schema: teamSchema }),
+        teamEs: defineCollection({ type: 'data', source: 'es/team/*.yml', schema: teamSchema }),
+        teamPtBR: defineCollection({ type: 'data', source: 'pt-BR/team/*.yml', schema: teamSchema }),
 
         // FAQ data collections — locale-specific definitions
         kbFaqEn: defineCollection({ type: 'data', source: 'en/faq/kb.yml', schema: kbFaqSchema }),

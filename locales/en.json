@@ -376,7 +376,34 @@
     "historyTitle": "Our history",
     "historyBody": "Kanka was first created in October 2017 by Jay as a hobby project over a weekend, and work seriously began in 2020 when Jon joined.",
     "translationsTitle": "Translations",
-    "translationsBody": "Kanka is translated to several languages thanks to these amazing contributors."
+    "translationsBody": "Kanka is translated to several languages thanks to these amazing contributors.",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "history": {
+      "e1": { "date": "October 2017", "text": "Jay starts working on Kanka" },
+      "e2": { "date": "February 2018", "text": "1,000+ account created" },
+      "e3": { "date": "March 2018", "text": "Launch of the Discord" },
+      "e4": { "date": "January 2020", "text": "Jon joins Kanka" },
+      "e5": { "date": "July 2020", "text": "Jay & Jon quit their jobs to work full time on Kanka" },
+      "e6": { "date": "September 2020", "text": "Launch of the Plugins Library" },
+      "e7": { "date": "October 2020", "text": "Owlchester SNC is founded" },
+      "e8": { "date": "January 2021", "text": "Launch of Kanka 1.0" },
+      "e9": { "date": "October 2021", "text": "100,000th account created" },
+      "e10": { "date": "January 2025", "text": "We launch Kanka 3.0 and introduce custom categories" },
+      "e11": { "date": "Early 2026", "text": "We introduce a new modern text editor" },
+      "e12": { "date": "Soon", "text": "Kanka casually takes over the world" }
+    },
+    "translators": {
+      "l1": "English, French",
+      "l2": "Brazilian Portuguese",
+      "l3": "German",
+      "l4": "Polish",
+      "l5": "Spanish",
+      "l6": "Italian",
+      "l7": "Russian",
+      "l8": "Dutch",
+      "l9": "Slovak"
+    }
   },
   "campaigns": {
     "title": "Public Campaigns",
@@ -407,7 +434,53 @@
     "tableBody": "All of our subscriptions allow you to unlock premium features for at least one campaign. Doing so unlocks the following benefits for a campaign. A campaign can be downgraded and upgraded at any time. For example if a campaign is over, you can downgrade it and upgrade another campaign instead. Downgrading a campaign doesn't delete any data related to premium features, but simply hides them until the campaign is upgraded again.",
     "ctaTitle": "Ok, take my money",
     "ctaBody": "Convinced and ready to go premium with your campaigns? Subscribe to Kanka to unlock premium campaigns!",
-    "ctaButton": "Take me to the subscription page"
+    "ctaButton": "Take me to the subscription page",
+    "cards": {
+      "c1": {
+        "title": "Look & feel",
+        "body": "Customise the campaign's sidebar, change the campaign's design via custom CSS, and install amazing and beautiful plugins from the <a href=\"https://plugins.kanka.io\" class=\"link-light\">Plugins library</a>."
+      },
+      "c2": {
+        "title": "Better entries",
+        "body": "Set header images for entries, write custom tooltips, give them aliases for search and mentions, and upload more assets on each entity."
+      },
+      "c3": {
+        "title": "Peace of mind",
+        "body": "Deleted an entity and changed your mind? No problem! Recover deleted entries for up to 30 days."
+      },
+      "c4": {
+        "title": "Unlimited",
+        "body": "Get rid of limits to the number of members, roles, and bookmarks in the campaign."
+      },
+      "c5": {
+        "title": "Better defaults",
+        "body": "Tired and confused by boring grey circles for entries with no image? Set default custom images for each entity type instead."
+      },
+      "c6": {
+        "title": "One for the gang",
+        "body": "All members of the campaign get to enjoy it ad free, and also get access to larger file uploads."
+      },
+      "c7": {
+        "title": "Icons for maps and timelines",
+        "body": "Make maps and timelines pop with access to custom colours and thousands of icons through <a href=\"https://fontawesome.com/search\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">FontAwesome</a> and <a href=\"https://nagoshiashumari.github.io/Rpg-Awesome/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">RPGAwesome</a>."
+      },
+      "c8": {
+        "title": "Web of connections",
+        "body": "Visually explore the web of relations and connections of a campaign's entity."
+      },
+      "c9": {
+        "title": "Campaign gallery",
+        "body": "Manage the campaign's images in a gallery, rather than uploading images individually to each entity."
+      },
+      "c10": {
+        "title": "Achievements",
+        "body": "Need an extra nudge to create content for your world? The campaign achievements system might trick you into being productive!"
+      },
+      "c11": {
+        "title": "Eyes everywhere",
+        "body": "Full logs of changes made to entries available for up to 30 days. Changed a character's family but forgot the old one? This feature will remember for you."
+      }
+    }
   },
   "comparison": {
     "title": "Kanka vs World Anvil: Choosing Your Worldbuilding Platform",
