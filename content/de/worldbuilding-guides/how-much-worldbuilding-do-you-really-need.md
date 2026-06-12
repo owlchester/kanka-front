@@ -1,79 +1,79 @@
 ---
-title: How Much Worldbuilding Do You Need? A Practical Guide
-description: Skip the 50-page lore document. This guide shows exactly how much worldbuilding you need to run a great first session, and when to stop.
-lead: "Spoiler: not a whole lot. You can make it up as you go and that's half the fun."
+title: Wie viel Worldbuilding brauchst du wirklich? Ein praktischer Leitfaden
+description: Vergiss das 50-seitige Lore-Dokument. Dieser Leitfaden zeigt dir genau, wie viel Worldbuilding du brauchst, um eine grossartige erste Session zu leiten – und wann du aufhören solltest.
+lead: "Spoiler: nicht besonders viel. Du kannst vieles spontan erfinden, und das ist die halbe Freude daran."
 author: The Kanka Team
 datePublished: "2026-03-03"
 tags:
   - dnd
   - beginner
   - worldbuilding
-cta: Start small. Kanka is free however deep you go.
+cta: Fang klein an. Kanka ist kostenlos, egal wie tief du eintauchst.
 tracking: wb
 ---
 
-## The problem every new DM faces
+## Das Problem, mit dem jeder neue DM konfrontiert wird
 
-So, you've caught the D&D bug. Maybe you've been a player for a while, or you've binged Critical Role until 3AM. Now you're thinking, "*Maybe I'll give DMing a shot.*" And then it hits you:
+Also, dich hat das D&D-Fieber gepackt. Vielleicht warst du schon eine Weile Spieler, oder du hast Critical Role bis um 3 Uhr morgens gebingt. Jetzt denkst du: «*Vielleicht probiere ich mal, den DM zu machen.*» Und dann trifft es dich:
 
-Do I need to invent an entire pantheon of gods? A 10,000 year timeline of historical events? Draw maps? I can barely draw my signature! What about lore explaining why my world has elves? How many NPCs is enough? Do I need to create my own calendar and seasons?
+Muss ich ein ganzes Pantheon an Göttern erfinden? Eine 10'000 Jahre lange Zeitleiste historischer Ereignisse? Karten zeichnen? Ich kann kaum meine eigene Unterschrift zeichnen! Was ist mit Lore, die erklärt, warum meine Welt Elfen hat? Wie viele NSCs reichen aus? Muss ich meinen eigenen Kalender und Jahreszeiten erstellen?
 
-Suddenly, your excitement turns into panic-prep mode. And you're not alone, this happens to all of us when we dive into this wonderful and creative hobby. The internet is full of incredibly detailed homebrew worlds with rich stories, complex political systems, and thousand year mythologies. It's easy to look at these great works of art and think that you need to do the same before you roll your first D20.
+Plötzlich verwandelt sich deine Begeisterung in hektisches Vorbereiten. Und du bist nicht allein damit – das passiert uns allen, wenn wir in dieses wunderbare und kreative Hobby eintauchen. Das Internet ist voll von unglaublich detaillierten Homebrew-Welten mit reichen Geschichten, komplexen politischen Systemen und tausendjährigen Mythologien. Es ist leicht, diese grossartigen Kunstwerke anzuschauen und zu denken, dass du dasselbe tun musst, bevor du deinen ersten D20 wirfst.
 
-But the open secret is that you absolutely don't.
+Aber das offene Geheimnis ist, dass du das absolut nicht musst.
 
-## Reality check: D&D is built for starting small
+## Realitätscheck: D&D ist darauf ausgelegt, klein anzufangen
 
-Here's the good news: D&D is meant to start small. You're not writing a novel. You're not launching a video game. You're telling a story with friends, one step at a time. Your players don't need to know about the dragon halfway across the continent. They need to know why the town guard just barged into the tavern looking panicked. They certainly don't need to know that your world runs on a 8 day week but with an extra half day every two moon cycles.
+Das ist die gute Nachricht: D&D soll klein beginnen. Du schreibst keinen Roman. Du launchst kein Videospiel. Du erzählst mit Freunden eine Geschichte, Schritt für Schritt. Deine Spieler müssen nicht über den Drachen auf der anderen Seite des Kontinents Bescheid wissen. Sie müssen wissen, warum die Stadtwache gerade in panischer Hast in die Taverne gestürmt ist. Sie müssen schon gar nicht wissen, dass deine Welt auf einer 8-Tage-Woche basiert, aber mit einem extra halben Tag alle zwei Mondzyklen.
 
-### What you actually need
+### Was du wirklich brauchst
 
-What do you really need to kick off your first session? Not much:
+Was brauchst du wirklich, um deine erste Session zu starten? Nicht viel:
 
-- **A place** (tavern, village, prison cell, a funeral, go wild or use inspiration from stories you love)
-- **A simple hook** (something or someone's gone missing, something's wrong)
-- **A few named NPCs with rough personalities** (can be less than three)
-- **A vibe/tone** (serious and dark? Silly and chaotic?)
+- **Ein Ort** (Taverne, Dorf, Gefängniszelle, eine Beerdigung – lass deiner Fantasie freien Lauf oder lass dich von Geschichten inspirieren, die du liebst)
+- **Ein einfacher Aufhänger** (etwas oder jemand ist verschwunden, irgendetwas stimmt nicht)
+- **Einige benannte NSCs mit groben Persönlichkeiten** (können weniger als drei sein)
+- **Eine Stimmung/Atmosphäre** (ernst und düster? Albern und chaotisch?)
 
-**And that's enough.**
+**Und das reicht.**
 
-The rest? You'll make it up on the spot, or when your players inevitably ask about something you hadn't planned. Could it happen immediately as you start playing? Absolutely. But what I'm trying to make you understand here is that that's fundamentally the beauty of collaborative storytelling. You aren't the only worldbuilder at this table — you all are. Every question and action your players take will shape the world you are all building together.
+Den Rest? Den erfindest du spontan – oder wenn deine Spieler unweigerlich nach etwas fragen, das du nicht geplant hattest. Kann das sofort passieren, wenn ihr anfangt zu spielen? Absolut. Aber was ich dir hier klarmachen möchte: Das ist im Grunde die Schönheit des kollaborativen Geschichtenerzählens. Du bist nicht der einzige Worldbuilder an diesem Tisch – ihr alle seid es. Jede Frage und jede Aktion deiner Spieler wird die Welt formen, die ihr alle gemeinsam aufbaut.
 
-## The sweet spot
+## Der Sweet Spot
 
-Let's break down what actually matters for your first few sessions versus what can wait until your campaign finds its rhythm:
+Lass uns aufschlüsseln, was für deine ersten Sessions wirklich wichtig ist, und was warten kann, bis deine Kampagne ihren Rhythmus gefunden hat:
 
-### Essential for session 1:
+### Das Wesentliche für Session 1:
 
-- Where things begin: tavern, town, tower, sewers beneath a vault, wherever
-- The immediate problem: what needs solving right now
-- A few faces: innkeeper, guard captain, dodgy merchant, player's relative
-- The tone: epic, gritty, whimsical, chaotic, *insert more adjectives*
-- One or two "*ooooh*" places: spooky cave, ancient ruin, noble's creepy mansion your players might be headed next
+- Wo alles beginnt: Taverne, Stadt, Turm, Kanalisation unter einem Tresor, wo auch immer
+- Das unmittelbare Problem: was jetzt sofort gelöst werden muss
+- Ein paar Gesichter: Wirt, Hauptmann der Wache, windiger Händler, Verwandter eines Spielers
+- Die Atmosphäre: episch, düster, skurril, chaotisch, *und mehr Adjektive*
+- Ein oder zwei «*ooooh*»-Orte: gruselige Höhle, alte Ruine, das gruselige Anwesen des Adligen, zu dem deine Spieler als Nächstes aufbrechen könnten
 
-### Stuff you can worry about later:
+### Dinge, über die du dir später Gedanken machen kannst:
 
 - Pantheons
-- Royal family trees
-- Trade routes
-- Entire world maps
-- Custom calendars (please no)
+- Stammbäume der königlichen Familie
+- Handelsrouten
+- Ganze Weltkarten
+- Eigene Kalender (bitte nicht)
 
-## Player questions = 🤑GOLD
+## Spielerfragen = 🤑GOLD
 
-The best worldbuilding? It doesn't come from prep. It comes from player questions.
+Das beste Worldbuilding? Es kommt nicht aus der Vorbereitung. Es kommt von Spielerfragen.
 
-- **"Is there a thieves' guild here?"** — Bam: Shadowhand Collective is born.
-- **"Which gods do people worship in this town?"** — Congrats, you've just invented a temple of the Morley Sisters.
+- **«Gibt es hier eine Diebesgilde?»** — Zack: Das Schattenhand-Kollektiv ist geboren.
+- **«Welche Götter verehren die Leute in dieser Stadt?»** — Glückwunsch, du hast gerade einen Tempel der Morley-Schwestern erfunden.
 
-This approach isn't lazy, it's **smart**. You're building exactly what your story needs, exactly when it needs it.
+Dieser Ansatz ist nicht faul, er ist **clever**. Du baust genau das, was deine Geschichte braucht, genau dann, wenn sie es braucht.
 
-## Start your worldbuilding journey
+## Starte deine Worldbuilding-Reise
 
-The best D&D moments? They're never the ones you planned. They're the goblin your players adopted instead of fighting. The NPC you named on the fly who became a fan favourite. The quest that started as a joke and somehow became the entire campaign.
+Die besten D&D-Momente? Das sind nie die, die du geplant hattest. Es ist der Kobold, den deine Spieler adoptiert haben, anstatt ihn zu bekämpfen. Der NSC, den du spontan benannt hast und der zu einem Liebling der Gruppe wurde. Die Quest, die als Witz begann und irgendwie zur gesamten Kampagne wurde.
 
-You don't need to be Matt Mercer. You just need to start.
+Du musst nicht Matt Mercer sein. Du musst einfach anfangen.
 
-Start small. Dream big. Build the world with your players, not on your own.
+Fang klein an. Träume gross. Baue die Welt mit deinen Spielern, nicht alleine.
 
-And hey, when your world starts to grow faster or bigger than you expected, **Kanka**'s got your back.
+Und weisst du was – wenn deine Welt schneller oder grösser wächst als erwartet, ist **Kanka** für dich da.

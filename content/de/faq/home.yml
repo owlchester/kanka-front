@@ -1,16 +1,16 @@
 items:
   - id: free
-    q: "Is the free plan really free, or just a trial?"
-    a: "Free forever. Unlimited campaigns and entries, all core features, no credit card. Plenty of GMs never upgrade. Paid tiers add premium campaigns, bigger uploads, and a few extras"
+    q: "Ist der kostenlose Plan wirklich kostenlos, oder nur eine Testversion?"
+    a: "Kostenlos für immer. Unbegrenzte Kampagnen und Einträge, alle Kernfunktionen, keine Kreditkarte. Viele GMs upgraden nie. Kostenpflichtige Stufen bieten Premium-Kampagnen, grössere Uploads und einige Extras"
   - id: ownership
-    q: "Do I own my world? Can I get my data out?"
-    a: "Yes. Your worlds are yours: export your whole campaign whenever you want"
+    q: "Gehört mir meine Welt? Kann ich meine Daten exportieren?"
+    a: "Ja. Deine Welten gehören dir: Exportiere deine gesamte Kampagne, wann immer du willst"
   - id: system
-    q: "Do I have to play D&D?"
-    a: "Not at all. Kanka works with any TTRPG system, whether your own homebrew, or no system at all! Plenty of people use it purely for worldbuilding and writing"
+    q: "Muss ich D&D spielen?"
+    a: "Überhaupt nicht. Kanka funktioniert mit jedem TTRPG-System, ob dein eigenes Homebrew oder gar kein System! Viele nutzen es rein für Weltenbau und Schreiben"
   - id: secrets
-    q: "Can I keep secrets from my players?"
-    a: "Yes. Invite your players and control exactly what each person sees and edits. Your spoilers stay hidden until you're ready to reveal them"
+    q: "Kann ich Geheimnisse vor meinen Spielern verbergen?"
+    a: "Ja. Lade deine Spieler ein und kontrolliere genau, was jede Person sieht und bearbeiten kann. Deine Spoiler bleiben verborgen, bis du bereit bist, sie zu enthüllen"
   - id: started
-    q: "How long does it take to get started?"
-    a: "Minutes. Create an account, add a few characters and places, @mention to link them… you're building"
+    q: "Wie lange dauert es, um loszulegen?"
+    a: "Minuten. Erstelle ein Konto, füge einige Charaktere und Orte hinzu, verknüpfe sie mit @mention … und schon baust du"
