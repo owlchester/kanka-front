@@ -33,7 +33,8 @@ const suggestedLocale = ref<string | null>(null)
 onMounted(() => {
   if (sessionStorage.getItem('locale-banner-dismissed')) return
 
-  const browserLang = navigator.language
+  const forcedLang = new URLSearchParams(location.search).get('lang')
+  const browserLang = forcedLang || navigator.language
   const browserCode = browserLang.toLowerCase()
 
   const match = availableLocales.find((code) => {
