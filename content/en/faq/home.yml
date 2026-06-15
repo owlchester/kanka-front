@@ -7,7 +7,7 @@ items:
     a: "Yes. Your worlds are yours: export your whole campaign whenever you want"
   - id: system
     q: "Do I have to play D&D?"
-    a: "Not at all. Kanka works with any TTRPG system, whether your own homebrew, or no system at all! Plenty of people use it purely for worldbuilding and writing"
+    a: "Not at all. Kanka is an RPG campaign management tool that works with any TTRPG system, whether your own homebrew, or no system at all! Plenty of people use it purely for worldbuilding and writing"
   - id: secrets
     q: "Can I keep secrets from my players?"
     a: "Yes. Invite your players and control exactly what each person sees and edits. Your spoilers stay hidden until you're ready to reveal them"
