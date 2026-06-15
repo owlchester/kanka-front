@@ -1,13 +1,13 @@
 <template>
   <BaseHero
-    title="Everything a game master needs, in one place."
-    lead="Kanka is the all-in-one toolkit for tabletop RPG game masters: characters, maps, quests, timelines, and lore, all linked with @mentions and ready the moment you need them. Works for D&D, any TTRPG, or your own homebrew. Free to start, no credit card. Trusted by 375,000+ DMs."
+    :title="$t('ttrpgTools.title')"
+    :lead="$t('ttrpgTools.lead')"
     :big="true"
     :video="true"
   >
     <div>
       <a :href="heroRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick('ttrpg_tools_hero')">
-        Start for free
+        {{ $t('ttrpgTools.startFree') }}
       </a>
     </div>
   </BaseHero>

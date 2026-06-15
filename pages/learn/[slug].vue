@@ -1,18 +1,21 @@
 <script setup lang="ts">
 const route = useRoute()
 const slug = route.params.slug as string
+const { locale } = useI18n()
 
-const { data: article } = await useAsyncData(route.path, () =>
-    queryCollection('learn').path(route.path).first()
+const path = `/${locale.value}/learn/${slug}`
+
+const { data: article } = await useAsyncData(`learn-${slug}-${locale.value}`, () =>
+    queryCollection('learn').path(path).first()
 )
 
 if (!article.value) {
   setResponseStatus(useRequestEvent()!, 404)
 }
 
-const { data: related } = await useAsyncData(`learn-related-${slug}`, () =>
+const { data: related } = await useAsyncData(`learn-related-${slug}-${locale.value}`, () =>
     queryCollection('learn')
-        .where('path', '!=', route.path)
+        .where('path', '!=', path)
         .limit(3)
         .all()
 )
@@ -63,7 +66,7 @@ useSeoMeta({ ogType: 'article' })
             <p v-if="article.author || article.datePublished" class="text-sm text-gray-500 not-prose">
               <span v-if="article.author">By <NuxtLink to="/about" class="link">{{ article.author }}</NuxtLink></span>
               <span v-if="article.author && article.datePublished"> · </span>
-              <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
+              <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString(locale.value, { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
             </p>
             <ContentRenderer :value="article" />
           </div>

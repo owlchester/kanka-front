@@ -1,0 +1,16 @@
+items:
+  - id: free
+    q: "Ist der kostenlose Plan wirklich kostenlos, oder nur eine Testversion?"
+    a: "Kostenlos für immer. Unbegrenzte Kampagnen und Einträge, alle Kernfunktionen, keine Kreditkarte. Viele GMs upgraden nie. Kostenpflichtige Stufen bieten Premium-Kampagnen, grössere Uploads und einige Extras"
+  - id: ownership
+    q: "Gehört mir meine Welt? Kann ich meine Daten exportieren?"
+    a: "Ja. Deine Welten gehören dir: Exportiere deine gesamte Kampagne, wann immer du willst"
+  - id: system
+    q: "Muss ich D&D spielen?"
+    a: "Überhaupt nicht. Kanka funktioniert mit jedem TTRPG-System, ob dein eigenes Homebrew oder gar kein System! Viele nutzen es rein für Weltenbau und Schreiben"
+  - id: secrets
+    q: "Kann ich Geheimnisse vor meinen Spielern verbergen?"
+    a: "Ja. Lade deine Spieler ein und kontrolliere genau, was jede Person sieht und bearbeiten kann. Deine Spoiler bleiben verborgen, bis du bereit bist, sie zu enthüllen"
+  - id: started
+    q: "Wie lange dauert es, um loszulegen?"
+    a: "Minuten. Erstelle ein Konto, füge einige Charaktere und Orte hinzu, verknüpfe sie mit @mention … und schon baust du"

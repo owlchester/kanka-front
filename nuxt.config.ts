@@ -11,6 +11,8 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "nuxt-llms",
     "@nuxt/image",
+    "@nuxtjs/i18n",
+    "@nuxtjs/sitemap",
   ],
   runtimeConfig: {
     public: {
@@ -66,13 +68,7 @@ export default defineNuxtConfig({
     "/comparison/**": { redirect: { to: "/kanka-vs-worldanvil", statusCode: 301 } },
 
     // Old locale paths → /gone (410 served by that page)
-    "/en/**": { redirect: { to: "/gone", statusCode: 301 } },
-    "/en-US/**": { redirect: { to: "/gone", statusCode: 301 } },
-    "/fr/**": { redirect: { to: "/gone", statusCode: 301 } },
-    "/de/**": { redirect: { to: "/gone", statusCode: 301 } },
-    "/es/**": { redirect: { to: "/gone", statusCode: 301 } },
     "/it/**": { redirect: { to: "/gone", statusCode: 301 } },
-    "/pt-BR/**": { redirect: { to: "/gone", statusCode: 301 } },
     "/ru/**": { redirect: { to: "/gone", statusCode: 301 } },
     "/sk/**": { redirect: { to: "/gone", statusCode: 301 } },
     "/nl/**": { redirect: { to: "/gone", statusCode: 301 } },
@@ -88,6 +84,7 @@ export default defineNuxtConfig({
         failOnError: false,
         autoSubfolderIndex: false,
         routes: [
+            // English (no prefix)
             "/use-cases/game-masters",
             "/use-cases/worldbuilders",
             "/use-cases/players",
@@ -95,6 +92,38 @@ export default defineNuxtConfig({
             "/use-cases/content-creators",
             "/worldbuilding-guides/start-creating-your-world",
             "/worldbuilding-guides/how-much-worldbuilding-do-you-really-need",
+            // French
+            "/fr/use-cases/game-masters",
+            "/fr/use-cases/worldbuilders",
+            "/fr/use-cases/players",
+            "/fr/use-cases/writers",
+            "/fr/use-cases/content-creators",
+            "/fr/worldbuilding-guides/start-creating-your-world",
+            "/fr/worldbuilding-guides/how-much-worldbuilding-do-you-really-need",
+            // German
+            "/de/use-cases/game-masters",
+            "/de/use-cases/worldbuilders",
+            "/de/use-cases/players",
+            "/de/use-cases/writers",
+            "/de/use-cases/content-creators",
+            "/de/worldbuilding-guides/start-creating-your-world",
+            "/de/worldbuilding-guides/how-much-worldbuilding-do-you-really-need",
+            // Spanish
+            "/es/use-cases/game-masters",
+            "/es/use-cases/worldbuilders",
+            "/es/use-cases/players",
+            "/es/use-cases/writers",
+            "/es/use-cases/content-creators",
+            "/es/worldbuilding-guides/start-creating-your-world",
+            "/es/worldbuilding-guides/how-much-worldbuilding-do-you-really-need",
+            // Portuguese BR
+            "/pt-BR/use-cases/game-masters",
+            "/pt-BR/use-cases/worldbuilders",
+            "/pt-BR/use-cases/players",
+            "/pt-BR/use-cases/writers",
+            "/pt-BR/use-cases/content-creators",
+            "/pt-BR/worldbuilding-guides/start-creating-your-world",
+            "/pt-BR/worldbuilding-guides/how-much-worldbuilding-do-you-really-need",
         ],
     },
   },
@@ -102,6 +131,36 @@ export default defineNuxtConfig({
     domain: "https://kanka.io",
     title: "Kanka",
     description: "Collaborative RPG campaign management and worldbuilding software",
+  },
+  i18n: {
+    locales: [
+      { code: 'en', language: 'en-US', name: 'English', file: 'en.json' },
+      { code: 'fr', language: 'fr-FR', name: 'Français', file: 'fr.json' },
+      { code: 'de', language: 'de-DE', name: 'Deutsch', file: 'de.json' },
+      { code: 'es', language: 'es-ES', name: 'Español', file: 'es.json' },
+      { code: 'pt-BR', language: 'pt-BR', name: 'Português (BR)', file: 'pt-BR.json' },
+    ],
+    defaultLocale: 'en',
+    baseUrl: 'https://kanka.io',
+    strategy: 'prefix_except_default',
+    lazy: true,
+    langDir: '../locales/',
+    detectBrowserLanguage: false,
+    compilation: {
+      strictMessage: false,
+    },
+  },
+  site: {
+    url: 'https://kanka.io',
+  },
+  sitemap: {
+    sources: ['/api/__sitemap__/urls'],
+    exclude: [
+      '/gone',
+      '/goodbye',
+      '/privacy-policy',
+      '/terms-and-conditions',
+    ],
   },
   image: {
     format: ["webp", "avif"],

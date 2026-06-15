@@ -1,0 +1,16 @@
+items:
+  - id: free
+    q: "Le plan gratuit est vraiment gratuit, ou juste un essai?"
+    a: "Gratuit pour toujours. Campagnes et entrées illimitées, toutes les fonctionnalités de base, sans carte de crédit. Beaucoup de MJs ne passent jamais à la version payante. Les abonnements payants ajoutent des campagnes premium, des uploads plus importants et quelques extras"
+  - id: ownership
+    q: "Mon monde m'appartient? Puis-je récupérer mes données?"
+    a: "Oui. Tes mondes t'appartiennent: exporte toute ta campagne quand tu veux"
+  - id: system
+    q: "Je dois jouer à D&D?"
+    a: "Pas du tout. Kanka fonctionne avec n'importe quel système TTRPG, que ce soit ton propre homebrew, ou aucun système du tout! Beaucoup de gens l'utilisent uniquement pour la création de monde et l'écriture"
+  - id: secrets
+    q: "Puis-je garder des secrets à mes joueurs?"
+    a: "Oui. Invite tes joueurs et contrôle exactement ce que chaque personne voit et modifie. Tes spoilers restent cachés jusqu'à ce que tu sois prêt à les révéler"
+  - id: started
+    q: "Combien de temps faut-il pour commencer?"
+    a: "Quelques minutes. Crée un compte, ajoute quelques personnages et lieux, @mention pour les lier… tu construis déjà"

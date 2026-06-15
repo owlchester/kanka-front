@@ -22,8 +22,8 @@ useSeo({
 
 <template>
     <BaseHero
-        title="Find Your Way to Use Kanka"
-        lead="Everyone comes to Kanka with a different story. Some are running campaigns with a dozen moving pieces. Others are building worlds that have lived in their heads for years. Whether you're a game master juggling plots and NPCs, a writer mapping out lore, or a player trying to keep track of your character's history, Kanka shapes itself around how you think. Find your people below." />
+        :title="$t('useCasesIndex.title')"
+        :lead="$t('useCasesIndex.lead')" />
 
     <Section>
         <div v-if="articles?.length" class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-10">
@@ -36,9 +36,9 @@ useSeo({
                     <h2 class="text-purple">{{ article.target }}</h2>
                 </NuxtLink>
                 <p class="grow">{{ article.persona }}</p>
-                <NuxtLink :to="`${article.path}`" class="btn-round rounded-full">Read use case</NuxtLink>
+                <NuxtLink :to="`${article.path}`" class="btn-round rounded-full">{{ $t('useCasesIndex.readUseCase') }}</NuxtLink>
             </div>
         </div>
-        <p v-else>No use cases yet. Check back soon!</p>
+        <p v-else>{{ $t('useCasesIndex.noResults') }}</p>
     </Section>
 </template>

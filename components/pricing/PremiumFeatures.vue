@@ -4,23 +4,23 @@
     <tr>
       <th></th>
       <th class="text-md">
-        Standard campaign
+        {{ $t('pricing.premiumFeaturesTable.standardCampaign') }}
       </th>
       <th class="text-md">
-        Premium campaigns
+        {{ $t('pricing.premiumFeaturesTable.premiumCampaigns') }}
       </th>
       <th class="text-md">
-        Wyverns *
+        {{ $t('pricing.premiumFeaturesTable.wyvernsCol') }}
       </th>
       <th class="text-md">
-        Elementals *
+        {{ $t('pricing.premiumFeaturesTable.elementalsCol') }}
       </th>
     </tr>
     </thead>
     <tbody class="text-nav">
     <tr>
       <td>
-        Maximum number of entries
+        {{ $t('pricing.premiumFeaturesTable.maxEntries') }}
       </td>
       <td>
         <IconsInfinity css="w-8 h-8" />
@@ -37,7 +37,7 @@
     </tr>
     <tr>
       <td>
-        Maximum number of custom categories
+        {{ $t('pricing.premiumFeaturesTable.maxCategories') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/categories.html" />
       </td>
       <td>
@@ -55,7 +55,7 @@
     </tr>
     <tr>
       <td>
-        Maximum number of members
+        {{ $t('pricing.premiumFeaturesTable.maxMembers') }}
       </td>
       <td>10</td>
       <td>
@@ -70,7 +70,7 @@
     </tr>
     <tr>
       <td>
-        Maximum number of roles
+        {{ $t('pricing.premiumFeaturesTable.maxRoles') }}
       </td>
       <td>3</td>
       <td>
@@ -85,7 +85,7 @@
     </tr>
     <tr>
       <td>
-        Maximum number of bookmarks
+        {{ $t('pricing.premiumFeaturesTable.maxBookmarks') }}
         <PricingMore url="https://docs.kanka.io/en/latest/advanced/bookmarks.html" />
       </td>
       <td>3</td>
@@ -101,7 +101,7 @@
     </tr>
     <tr>
       <td>
-        Storage for images and files in the gallery
+        {{ $t('pricing.premiumFeaturesTable.galleryStorage') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/gallery.html" />
       </td>
       <td>150 MiB</td>
@@ -111,7 +111,7 @@
     </tr>
     <tr>
       <td>
-        Maximum file and image upload size for members
+        {{ $t('pricing.premiumFeaturesTable.maxFileSize') }}
       </td>
       <td>3 MiB</td>
       <td>
@@ -126,7 +126,7 @@
     </tr>
     <tr>
         <td>
-            Maximum number of file assets per entity
+            {{ $t('pricing.premiumFeaturesTable.maxFileAssets') }}
             <PricingMore url="https://docs.kanka.io/en/latest/features/assets.html" />
         </td>
         <td>3</td>
@@ -142,7 +142,7 @@
     </tr>
     <tr>
       <td>
-        Define aliases on entries that work with search and mentions
+        {{ $t('pricing.premiumFeaturesTable.aliases') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/aliases.html" />
       </td>
       <td>2</td>
@@ -156,7 +156,7 @@
     </tr>
     <tr>
       <td>
-        Ad-free experience for all members
+        {{ $t('pricing.premiumFeaturesTable.adFreeMembers') }}
         <PricingMore url="https://docs.kanka.io/en/latest/articles/ads.html" />
       </td>
       <td class="text-light">—</td>
@@ -166,7 +166,7 @@
     </tr>
     <tr>
       <td>
-        Install plugins from the <a href="https://plugins.kanka.io" class="link-blue mr-1">Plugins library</a>
+        <span v-html="$t('pricing.premiumFeaturesTable.plugins', { plugins: `<a href='https://plugins.kanka.io' class='link-blue mr-1'>${$t('pricing.premiumFeaturesTable.pluginsLabel')}</a>` })" />
         <PricingMore url="https://docs.kanka.io/en/latest/marketplace/marketplace.html" />
       </td>
       <td class="text-light">—</td>
@@ -176,7 +176,7 @@
     </tr>
     <tr>
       <td>
-        Force a specific theme for all members and viewers
+        {{ $t('pricing.premiumFeaturesTable.forceTheme') }}
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -185,7 +185,7 @@
     </tr>
     <tr>
       <td>
-        Access to full customization with theme builder and custom CSS
+        {{ $t('pricing.premiumFeaturesTable.customTheme') }}
         <PricingMore url="https://docs.kanka.io/en/latest/guides/dashboard.html" />
       </td>
       <td class="text-light">—</td>
@@ -195,7 +195,7 @@
     </tr>
     <tr>
       <td>
-        Write custom tooltips for entries
+        {{ $t('pricing.premiumFeaturesTable.customTooltips') }}
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -204,7 +204,7 @@
     </tr>
     <tr>
       <td>
-        Upload large header images on entries
+        {{ $t('pricing.premiumFeaturesTable.headerImages') }}
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -213,7 +213,7 @@
     </tr>
     <tr>
       <td>
-        Create multiple dashboards and assign them to roles
+        {{ $t('pricing.premiumFeaturesTable.multipleDashboards') }}
         <PricingMore url="https://docs.kanka.io/en/latest/guides/dashboard.html" />
       </td>
       <td class="text-light">—</td>
@@ -223,7 +223,7 @@
     </tr>
     <tr>
       <td>
-        Upload custom placeholder thumbnails for entries
+        {{ $t('pricing.premiumFeaturesTable.customThumbnails') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/default-thumbnails.html" />
       </td>
       <td class="text-light">—</td>
@@ -233,7 +233,7 @@
     </tr>
     <tr>
       <td>
-        Set easy access links to outside sources on entries
+        {{ $t('pricing.premiumFeaturesTable.easyAccessLinks') }}
       </td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -241,7 +241,7 @@
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Beautiful maps with access to thousands of icons for map markers and polygon markers</td>
+      <td>{{ $t('pricing.premiumFeaturesTable.beautifulMaps') }}</td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -249,7 +249,7 @@
     </tr>
     <tr>
       <td>
-        Rename and reorder the sidebar
+        {{ $t('pricing.premiumFeaturesTable.renameSidebar') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/sidebar.html" />
       </td>
       <td class="text-light">—</td>
@@ -259,7 +259,7 @@
     </tr>
     <tr>
       <td>
-        Rename and change the icon of categories
+        {{ $t('pricing.premiumFeaturesTable.renameCategories') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/categories.html" />
       </td>
       <td class="text-light">—</td>
@@ -269,7 +269,7 @@
     </tr>
     <tr>
       <td>
-        Create complex family trees
+        {{ $t('pricing.premiumFeaturesTable.familyTrees') }}
         <PricingMore url="https://docs.kanka.io/en/latest/entries/families/family-trees.html" />
       </td>
       <td class="text-light">—</td>
@@ -279,7 +279,7 @@
     </tr>
     <tr>
       <td>
-        Full logs of changes made on entries for up to 30 days
+        {{ $t('pricing.premiumFeaturesTable.fullLogs') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/history.html" />
       </td>
       <td class="text-light">—</td>
@@ -289,7 +289,7 @@
     </tr>
     <tr>
       <td>
-        Recover deleted entries and articles for up to 30 days
+        {{ $t('pricing.premiumFeaturesTable.recoverEntries') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/recovery.html" />
       </td>
       <td class="text-light">—</td>
@@ -299,7 +299,7 @@
     </tr>
     <tr>
       <td>
-        Feel good with campaign achievements
+        {{ $t('pricing.premiumFeaturesTable.achievements') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/achievements.html" />
       </td>
       <td class="text-light">—</td>
@@ -309,7 +309,7 @@
     </tr>
     <tr>
       <td>
-        Send updates to Discord and other tools through webhooks.
+        {{ $t('pricing.premiumFeaturesTable.webhooks') }}
           <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/webhooks.html" />
       </td>
       <td class="text-light">—</td>
@@ -321,9 +321,9 @@
   </table>
 
   <p>
-    * These perks are unlocked for all members of a campaign if the person unlocking premium features is a subscriber at this tier.
+    {{ $t('pricing.premiumFeaturesTable.tierPerks') }}
   </p>
 </template>
 
-<script>
+<script setup lang="ts">
 </script>

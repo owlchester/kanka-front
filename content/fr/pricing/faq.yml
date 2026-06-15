@@ -1,0 +1,19 @@
+items:
+  - id: payments
+    q: "Quels sont les moyens de paiement disponibles?"
+    a: "Nous acceptons la plupart des cartes de crédit et de débit comme Visa, Mastercard et American Express. Nous acceptons aussi PayPal pour les abonnements annuels."
+  - id: info
+    q: "Mes informations de paiement sont-elles stockées?"
+    a: "Nous utilisons Stripe.com pour gérer tes informations de paiement en toute sécurité, et nous ne stockons que des données limitées concernant ton moyen de paiement. Nous utilisons ces informations pour te notifier quand ta carte est sur le point d'expirer, afin que tu puisses la mettre à jour sans perdre ton abonnement."
+  - id: cancel
+    q: "Que se passe-t-il si j'annule mon abonnement pendant une période de facturation?"
+    a: "En annulant ton abonnement, tes avantages restent actifs jusqu'à la date de ta prochaine période de facturation."
+  - id: resub
+    q: "Qu'arrive-t-il à mes données quand je me réabonne?"
+    a: "Quand ton abonnement se termine, toutes les fonctionnalités et les données liées à l'abonnement sont désactivées mais sauvegardées sur nos serveurs. Cela signifie que quand tu te réabonnes, tout reprendra exactement là où tu en étais."
+  - id: refund
+    q: "Quelle est la politique de remboursement?"
+    a: "Nous offrons une politique de remboursement de 14 jours sans questions pour les abonnements annuels. Envoie-nous simplement un email à <a href=\"mailto:hello@kanka.io\" class=\"link link-purple\">hello@kanka.io</a>."
+  - id: gift
+    q: "Puis-je offrir des abonnements?"
+    a: "Même s'il n'est pas possible d'offrir des abonnements, tu peux passer en statut premium n'importe quelle campagne à laquelle tu as accès. Cela inclut les campagnes dont tu n'es pas admin, ou même pas membre."

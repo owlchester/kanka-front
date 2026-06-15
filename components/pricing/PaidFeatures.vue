@@ -5,26 +5,26 @@
       <th></th>
       <th class="text-md">
         Kobold
-        <p class="text-light">Free</p>
+        <p class="text-light">{{ $t('pricing.paidFeaturesTable.free') }}</p>
       </th>
       <th class="text-md">
         Owlbear
-        <p class="text-light">{{ currencySymbol() }}4.99/month</p>
+        <p class="text-light">{{ currencySymbol() }}4.99{{ $t('pricingTier.perMonth') }}</p>
       </th>
       <th class="text-md">
         Wyvern
-        <p class="text-light">{{ currencySymbol() }}9.99/month</p>
+        <p class="text-light">{{ currencySymbol() }}9.99{{ $t('pricingTier.perMonth') }}</p>
       </th>
       <th class="text-md">
           Elemental
-        <p class="text-light">{{ currencySymbol() }}24.99/month</p>
+        <p class="text-light">{{ currencySymbol() }}24.99{{ $t('pricingTier.perMonth') }}</p>
       </th>
     </tr>
     </thead>
     <tbody class="text-nav">
     <tr>
       <td>
-        File and image upload sizes
+        {{ $t('pricing.paidFeaturesTable.fileUploadSizes') }}
       </td>
       <td>
         3 MiB
@@ -41,7 +41,7 @@
     </tr>
     <tr>
       <td>
-        Map upload sizes
+        {{ $t('pricing.paidFeaturesTable.mapUploadSizes') }}
       </td>
       <td>
         5 MiB
@@ -57,7 +57,7 @@
       </td>
     </tr>
     <tr>
-      <td><NuxtLink to="/premium" class="link-blue">Premium campaigns</NuxtLink></td>
+      <td><NuxtLink :to="localePath('/premium')" class="link-blue">{{ $t('pricing.paidFeaturesTable.premiumCampaigns') }}</NuxtLink></td>
       <td class="text-light">—</td>
       <td>1</td>
       <td>3</td>
@@ -65,7 +65,7 @@
     </tr>
     <tr>
       <td>
-        Ad-free experience
+        {{ $t('pricing.paidFeaturesTable.adFree') }}
         <PricingMore url="https://docs.kanka.io/en/latest/articles/ads.html" />
       </td>
       <td class="text-light">—</td>
@@ -74,42 +74,42 @@
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Access to a private <a href="https://discord.gg/rhsyZJ4" class=" link-blue">Discord</a> channel</td>
+      <td v-html="$t('pricing.paidFeaturesTable.discordChannel', { discord: `<a href='https://discord.gg/rhsyZJ4' class='link-blue'>Discord</a>` })" />
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Upvote ideas on the roadmap</td>
+      <td>{{ $t('pricing.paidFeaturesTable.roadmapVote') }}</td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Nicer placeholder thumbnails for entries</td>
+      <td>{{ $t('pricing.paidFeaturesTable.nicerThumbnails') }}</td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Name in the <NuxtLink to="/hall-of-fame" class="link-blue">Hall of Fame</NuxtLink></td>
+      <td v-html="$t('pricing.paidFeaturesTable.hallOfFame', { hallOfFame: `<a href='${localePath('/hall-of-fame')}' class='link-blue'>Hall of Fame</a>` })" />
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>Up to 90 API requests per minute</td>
+      <td>{{ $t('pricing.paidFeaturesTable.apiRequests') }}</td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td>More elements shown on each page</td>
+      <td>{{ $t('pricing.paidFeaturesTable.moreElements') }}</td>
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>
@@ -117,7 +117,7 @@
     </tr>
     <tr>
       <td>
-        Campaign importer
+        {{ $t('pricing.paidFeaturesTable.campaignImporter') }}
         <PricingMore url="https://docs.kanka.io/en/latest/features/campaigns/import.html" />
       </td>
       <td class="text-light">—</td>
@@ -129,15 +129,14 @@
   </table>
 </template>
 
-<script>
-export default {
-  props: {
-    currency: String,
-  },
-  methods: {
-    currencySymbol() {
-      return this.currency === 'eur' ? '€' : '$';
-    }
-  }
+<script setup lang="ts">
+const props = defineProps<{
+  currency: string
+}>()
+
+const localePath = useLocalePath()
+
+function currencySymbol() {
+  return props.currency === 'eur' ? '€' : '$'
 }
 </script>

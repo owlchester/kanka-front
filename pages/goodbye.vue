@@ -20,4 +20,6 @@ useSeo({
   description: 'Thank you for being a part of our community.',
   path: '/goodbye',
 })
+
+definePageMeta({ nuxtI18n: false })
 </script>

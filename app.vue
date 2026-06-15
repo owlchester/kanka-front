@@ -1,6 +1,10 @@
 <script setup lang="ts">
-const route = useRoute()
-
+const i18nHead = useLocaleHead({ addSeoAttributes: true })
+useHead(computed(() => ({
+  htmlAttrs: i18nHead.value.htmlAttrs ?? {},
+  link: [...(i18nHead.value.link ?? [])],
+  meta: [...(i18nHead.value.meta ?? [])],
+})))
 
 useHead({
   title: 'Kanka - Free Worldbuilding RPG campaign manager',
@@ -10,7 +14,6 @@ useHead({
   ],
   link: [
     {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
-    {rel: 'alternate', hreflang: 'x-default', href: () => `https://kanka.io${route.path}`},
     {rel: 'preconnect', href: 'https://th.kanka.io', crossorigin: ''},
     {rel: 'dns-prefetch', href: 'https://static.cloudflareinsights.com'},
   ],
@@ -84,6 +87,7 @@ useSeoMeta({
   </Head>
   <NuxtLayout>
     <NuxtLoadingIndicator color="#112B6B" />
+    <LocaleBanner />
     <NuxtPage />
   </NuxtLayout>
 </template>

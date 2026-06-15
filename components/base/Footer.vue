@@ -20,78 +20,54 @@
 
                     <div>
                         <p class="text-xs">
-                            Made with ❤️ in Geneva, Switzerland
+                            {{ $t('footer.tagline1') }}
                         </p>
                         <p class="text-xs">
-                            Only possible thanks to our subscribers.
+                            {{ $t('footer.tagline2') }}
                         </p>
-                        <p class="text-xs">Copyright © 2026 Owlchester SNC</p>
+                        <p class="text-xs">{{ $t('footer.copyright') }}</p>
                     </div>
                 </div>
-                <BaseFooterSection title="Platform">
-                    <NuxtLink to="/features" class="">Features</NuxtLink>
-                    <NuxtLink to="/premium" class=""
-                        >Premium campaigns</NuxtLink
-                    >
-                    <NuxtLink to="/pricing" class="">Pricing</NuxtLink>
-                    <a href="https://plugins.kanka.io" class="">Plugins</a>
+                <BaseFooterSection :title="$t('footer.platform.title')">
+                    <NuxtLink :to="localePath('/features')" class="">{{ $t('footer.platform.features') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/premium')" class="">{{ $t('footer.platform.premiumCampaigns') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/pricing')" class="">{{ $t('footer.platform.pricing') }}</NuxtLink>
+                    <a href="https://plugins.kanka.io" class="">{{ $t('footer.platform.plugins') }}</a>
 
-                    <span class="block text-nav uppercase mt-3">Use-cases</span>
-                    <NuxtLink to="/use-cases/game-masters"
-                        >For game masters</NuxtLink
-                    >
-                    <NuxtLink to="/use-cases/players" class=""
-                        >For players</NuxtLink
-                    >
-                    <NuxtLink to="/use-cases/worldbuilders" class=""
-                        >For worldbuilders</NuxtLink
-                    >
-                    <NuxtLink to="/use-cases/writers" class=""
-                        >For writers</NuxtLink
-                    >
-                    <NuxtLink to="/use-cases/content-creators" class=""
-                        >For content creators</NuxtLink
-                    >
+                    <span class="block text-nav uppercase mt-3">{{ $t('footer.platform.useCases') }}</span>
+                    <NuxtLink :to="localePath('/use-cases/game-masters')">{{ $t('footer.platform.forGameMasters') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/use-cases/players')" class="">{{ $t('footer.platform.forPlayers') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/use-cases/worldbuilders')" class="">{{ $t('footer.platform.forWorldbuilders') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/use-cases/writers')" class="">{{ $t('footer.platform.forWriters') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/use-cases/content-creators')" class="">{{ $t('footer.platform.forContentCreators') }}</NuxtLink>
                 </BaseFooterSection>
-                <BaseFooterSection title="Resources">
-                    <NuxtLink to="/kanka-vs-worldanvil"
-                        >Kanka vs WorldAnvil</NuxtLink
-                    >
-                    <NuxtLink to="/learn">Learning hub</NuxtLink>
-                    <NuxtLink to="/kb">Knowledge base</NuxtLink>
-                    <a href="https://docs.kanka.io">Documentation</a>
-                    <a :href="`${runtimeConfig.app}/api-docs/1.0/overview`"
-                        >API docs</a
-                    >
-                    <a href="https://blog.kanka.io">Blog</a>
-                    <a href="https://status.kanka.io">Service status</a>
+                <BaseFooterSection :title="$t('footer.resources.title')">
+                    <NuxtLink :to="localePath('/kanka-vs-worldanvil')">{{ $t('footer.resources.comparison') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/learn')">{{ $t('footer.resources.learn') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/kb')">{{ $t('footer.resources.kb') }}</NuxtLink>
+                    <a href="https://docs.kanka.io">{{ $t('footer.resources.docs') }}</a>
+                    <a :href="`${runtimeConfig.app}/api-docs/1.0/overview`">{{ $t('footer.resources.api') }}</a>
+                    <a href="https://blog.kanka.io">{{ $t('footer.resources.blog') }}</a>
+                    <a href="https://status.kanka.io">{{ $t('footer.resources.status') }}</a>
 
-                    <span class="block text-nav uppercase mt-3"
-                        >Worldbuilding guides</span
-                    >
-                    <NuxtLink
-                        to="/worldbuilding-guides/start-creating-your-world"
-                        >Start creating your world</NuxtLink
-                    >
-                    <NuxtLink
-                        to="/worldbuilding-guides/how-much-worldbuilding-do-you-really-need"
-                        >How much worldbuilding do you need</NuxtLink
-                    >
+                    <span class="block text-nav uppercase mt-3">{{ $t('footer.resources.guidesTitle') }}</span>
+                    <NuxtLink :to="localePath('/worldbuilding-guides/start-creating-your-world')">{{ $t('footer.resources.guideStart') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/worldbuilding-guides/how-much-worldbuilding-do-you-really-need')">{{ $t('footer.resources.guideHowMuch') }}</NuxtLink>
                 </BaseFooterSection>
-                <BaseFooterSection title="Community">
-                    <a href="https://blog.kanka.io/category/news">What's new</a>
-                    <NuxtLink to="/campaigns">Public campaigns</NuxtLink>
-                    <NuxtLink to="/showcase">Showcase</NuxtLink>
-                    <a href="https://app.kanka.io/roadmap">Roadmap</a>
-                    <NuxtLink to="/hall-of-fame">Hall of fame</NuxtLink>
+                <BaseFooterSection :title="$t('footer.community.title')">
+                    <a href="https://blog.kanka.io/category/news">{{ $t('footer.community.news') }}</a>
+                    <NuxtLink :to="localePath('/campaigns')">{{ $t('footer.community.campaigns') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/showcase')">{{ $t('footer.community.showcase') }}</NuxtLink>
+                    <a href="https://app.kanka.io/roadmap">{{ $t('footer.community.roadmap') }}</a>
+                    <NuxtLink :to="localePath('/hall-of-fame')">{{ $t('footer.community.hallOfFame') }}</NuxtLink>
                 </BaseFooterSection>
-                <BaseFooterSection title="Company">
-                    <NuxtLink to="/about">About us</NuxtLink>
-                    <NuxtLink to="/contact">Contact</NuxtLink>
-                    <NuxtLink to="/privacy-policy">Privacy</NuxtLink>
-                    <NuxtLink to="/terms-and-conditions">Terms</NuxtLink>
-                    <NuxtLink to="/security">Security</NuxtLink>
-                    <NuxtLink to="/press-kit">Press kit</NuxtLink>
+                <BaseFooterSection :title="$t('footer.company.title')">
+                    <NuxtLink :to="localePath('/about')">{{ $t('footer.company.about') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/contact')">{{ $t('footer.company.contact') }}</NuxtLink>
+                    <NuxtLink to="/privacy-policy">{{ $t('footer.company.privacy') }}</NuxtLink>
+                    <NuxtLink to="/terms-and-conditions">{{ $t('footer.company.terms') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/security')">{{ $t('footer.company.security') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/press-kit')">{{ $t('footer.company.pressKit') }}</NuxtLink>
                 </BaseFooterSection>
             </div>
 
@@ -112,9 +88,9 @@
                 </div>
 
                 <div class="text-center text-sm">
-                    <p>Made with ❤️ in Geneva, Switzerland</p>
-                    <p>Only possible thanks to our subscribers.</p>
-                    <p>Copyright © 2026 Owlchester SNC</p>
+                    <p>{{ $t('footer.tagline1') }}</p>
+                    <p>{{ $t('footer.tagline2') }}</p>
+                    <p>{{ $t('footer.copyright') }}</p>
                 </div>
             </div>
         </div>
@@ -123,4 +99,5 @@
 
 <script setup type="ts">
 const runtimeConfig = useRuntimeConfig().public
+const localePath = useLocalePath()
 </script>

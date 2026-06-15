@@ -1,91 +1,69 @@
 <template>
   <div class="grid grid-cols-1 gap-10 md:grid-cols-2 xl:grid-cols-3">
     <PremiumCard
-      title="Look & feel"
+      :title="$t('premiumPage.cards.c1.title')"
       img="https://th.kanka.io/WGO396lwHDadYV2wJBJXynz9eH0=/120x120/smart/src/app/features/boosted/look-n-feel.jpg">
-      <p>
-        Customise the campaign's sidebar, change the campaign's design via custom CSS, and install amazing and beautiful plugins from the <a href="https://plugins.kanka.io" class="link-light">Plugins library</a>.
-      </p>
+      <p v-html="$t('premiumPage.cards.c1.body')" />
     </PremiumCard>
 
     <PremiumCard
-        title="Better entries"
+        :title="$t('premiumPage.cards.c2.title')"
         img="https://th.kanka.io/FWDwg9fDlvH2MelfYSFWezFwU2g=/120x120/smart/src/app/features/boosted/entity.jpg">
-      <p>
-        Set header images for entries, write custom tooltips, give them aliases for search and mentions, and upload more assets on each entity.
-      </p>
+      <p>{{ $t('premiumPage.cards.c2.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="Peace of mind"
+        :title="$t('premiumPage.cards.c3.title')"
         icon="fa-solid fa-hourglass">
-      <p>
-        Deleted an entity and changed your mind? No problem! Recover deleted entries for up to 30 days.
-      </p>
+      <p>{{ $t('premiumPage.cards.c3.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="Unlimited"
+        :title="$t('premiumPage.cards.c4.title')"
         icon="fa-solid fa-infinity">
-      <p>
-        Get rid of limits to the number of members, roles, and bookmarks in the campaign.
-      </p>
+      <p>{{ $t('premiumPage.cards.c4.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="Better defaults"
+        :title="$t('premiumPage.cards.c5.title')"
         img="https://th.kanka.io/uqUgX_yxUR3cHpDBi6TowwuK_7k=/120x120/smart/src/app/features/boosted/default.jpg">
-      <p>
-        Tired and confused by boring grey circles for entries with no image? Set default custom images for each entity type instead.
-      </p>
+      <p>{{ $t('premiumPage.cards.c5.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="One for the gang"
+        :title="$t('premiumPage.cards.c6.title')"
         icon="fa-solid fa-cloud-arrow-up">
-      <p>
-        All members of the campaign get to enjoy it ad free, and also get access to larger file uploads.
-      </p>
+      <p>{{ $t('premiumPage.cards.c6.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="Icons for maps and timelines"
+        :title="$t('premiumPage.cards.c7.title')"
         img="https://th.kanka.io/Y0GgWUAwBAgYcH1Rkijl_Q7Y1rA=/120x120/smart/src/app/features/boosted/icon.jpg">
-      <p>
-        Make maps and timelines pop with access to custom colours and thousands of icons through <a href="https://fontawesome.com/search" target="_blank" rel="noopener noreferrer" class="link-light">FontAwesome</a> and <a href="https://nagoshiashumari.github.io/Rpg-Awesome/" target="_blank" rel="noopener noreferrer" class="link-light">RPGAwesome</a>.
-      </p>
+      <p v-html="$t('premiumPage.cards.c7.body')" />
     </PremiumCard>
 
     <PremiumCard
-        title="Web of connections"
+        :title="$t('premiumPage.cards.c8.title')"
         img="https://th.kanka.io/zJraXzBXUGjPSral0ZVIsA-5HA4=/120x120/smart/src/app/features/boosted/boosted-relations.jpg">
-      <p>
-        Visually explore the web of relations and connections of a campaign's entity.
-      </p>
+      <p>{{ $t('premiumPage.cards.c8.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="Campaign gallery"
+        :title="$t('premiumPage.cards.c9.title')"
         img="https://th.kanka.io/R_3ucwr1m_srvMPhJpqWKCFphgg=/120x120/smart/src/app/features/boosted/gallery.jpg">
-      <p>
-        Manage the campaign's images in a gallery, rather than uploading images individually to each entity.
-      </p>
+      <p>{{ $t('premiumPage.cards.c9.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="Achievements"
+        :title="$t('premiumPage.cards.c10.title')"
         img="https://th.kanka.io/Nuooc3dhiYg9waTdvh5fuib12HY=/120x120/smart/src/app/features/boosted/achievements.jpg">
-      <p>
-        Need an extra nudge to create content for your world? The campaign achievements system might trick you into being productive!
-      </p>
+      <p>{{ $t('premiumPage.cards.c10.body') }}</p>
     </PremiumCard>
 
     <PremiumCard
-        title="Eyes everywhere"
+        :title="$t('premiumPage.cards.c11.title')"
         icon="fa-solid fa-eye">
-      <p>
-        Full logs of changes made to entries available for up to 30 days. Changed a character's family but forgot the old one? This feature will remember for you.
-      </p>
+      <p>{{ $t('premiumPage.cards.c11.body') }}</p>
     </PremiumCard>
   </div>
 </template>

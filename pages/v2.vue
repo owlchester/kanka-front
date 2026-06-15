@@ -57,7 +57,7 @@
 
   <Section>
     <h2 class="text-purple">Pricing</h2>
-    <PricingOverview></PricingOverview>
+    <PricingOverview />
   </Section>
 
   <Section id="featured">

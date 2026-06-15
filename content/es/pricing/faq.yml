@@ -1,0 +1,19 @@
+items:
+  - id: payments
+    q: "¿Cuáles son los métodos de pago disponibles?"
+    a: "Aceptamos la mayoría de tarjetas de crédito y débito como Visa, Mastercard y American Express. También aceptamos PayPal para suscripciones anuales."
+  - id: info
+    q: "¿Almacenan mi información de pago?"
+    a: "Usamos Stripe.com para gestionar de forma segura tu información de pago, y solo guardamos datos limitados sobre tu método de pago. Usamos esta información para notificarte cuando tu tarjeta esté por vencer, para que puedas actualizarla y no perder tu suscripción."
+  - id: cancel
+    q: "¿Qué pasa si cancelo mi suscripción durante un período de facturación?"
+    a: "Al cancelar tu suscripción, tus beneficios permanecen activos hasta la fecha de tu próximo período de facturación."
+  - id: resub
+    q: "¿Qué pasa con mis datos cuando me vuelvo a suscribir?"
+    a: "Cuando tu suscripción termina, todas las funciones y datos relacionados con la suscripción se desactivan pero se guardan en nuestros servidores. Esto significa que cuando te vuelvas a suscribir, todo regresará justo como lo dejaste."
+  - id: refund
+    q: "¿Cuál es su política de reembolso?"
+    a: "Ofrecemos una política de reembolso de 14 días sin preguntas para suscripciones anuales. Solo mándanos un correo a <a href=\"mailto:hello@kanka.io\" class=\"link link-purple\">hello@kanka.io</a>."
+  - id: gift
+    q: "¿Puedo regalar suscripciones?"
+    a: "Aunque no es posible regalar suscripciones directamente, puedes mejorar a estado premium cualquier campaña a la que tengas acceso. Esto incluye campañas en las que no eres administrador, o de las que ni siquiera eres miembro."

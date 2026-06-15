@@ -1,28 +1,28 @@
 <template>
   <BaseHero
-      :title="title"
-      :lead="lead">
+      :title="$t('showcase.title')"
+      :lead="$t('showcase.lead')">
     <div>
       <a :href="`${runtimeConfig.public.app}/spotlights`" class="btn-round rounded-full ">
-        Apply for the spotlight
+        {{ $t('showcase.applyButton') }}
       </a>
     </div>
   </BaseHero>
 
   <Section id="campaigns">
     <div class="flex flex-col gap-4">
-      <h2 class="text-purple">Spotlighted campaigns</h2>
+      <h2 class="text-purple">{{ $t('showcase.spotlightTitle') }}</h2>
     </div>
     <div class="flex gap-6 flex-col md:flex-row text-left">
       <div v-if="pending" class="p-5">
         <div class=" flex gap-2 items-center">
           <i class="fa-solid fa-spinner fa-spin fa-2x" aria-hidden="true"></i>
-          Loading...
+          {{ $t('showcase.loading') }}
         </div>
       </div>
       <div class="flex flex-col gap-6" v-else>
         <p v-if="campaigns.campaigns.length === 0" class="text-light text-sm">
-          No featured campaigns yet. Apply to have your shows up here!
+          {{ $t('showcase.noResults') }}
         </p>
         <div class="flex flex-wrap gap-4 md:gap-6">
           <Campaign
@@ -41,18 +41,18 @@
         </div>
         <div v-if="hasPages()" class="flex items-center justify-center gap-5">
           <span class="link cursor-pointer" @click="previous()" v-if="campaigns.pagination.previous">
-            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
+            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> {{ $t('showcase.previousPage') }}
           </span>
           <span v-else>
-            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
+            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> {{ $t('showcase.previousPage') }}
           </span>
 
           <span class="link cursor-pointer" @click="next()" v-if="campaigns.pagination.next">
-            Next page
+            {{ $t('showcase.nextPage') }}
             <i class="fa-solid fa-chevron-right" aria-hidden="true" />
           </span>
           <span v-else>
-            Next page
+            {{ $t('showcase.nextPage') }}
             <i class="fa-solid fa-chevron-right" aria-hidden="true" />
           </span>
         </div>

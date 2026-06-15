@@ -1,0 +1,649 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "campaigns": "Public campaigns",
+    "about": "About us",
+    "home": "Home",
+    "signin": "Sign in",
+    "register": "Register"
+  },
+  "footer": {
+    "tagline1": "Made with ❤️ in Geneva, Switzerland",
+    "tagline2": "Only possible thanks to our subscribers.",
+    "copyright": "Copyright © 2026 Owlchester SNC",
+    "platform": {
+      "title": "Platform",
+      "features": "Features",
+      "premiumCampaigns": "Premium campaigns",
+      "pricing": "Pricing",
+      "plugins": "Plugins",
+      "useCases": "Use-cases",
+      "forGameMasters": "For game masters",
+      "forPlayers": "For players",
+      "forWorldbuilders": "For worldbuilders",
+      "forWriters": "For writers",
+      "forContentCreators": "For content creators"
+    },
+    "resources": {
+      "title": "Resources",
+      "comparison": "Kanka vs WorldAnvil",
+      "learn": "Learning hub",
+      "kb": "Knowledge base",
+      "docs": "Documentation",
+      "api": "API docs",
+      "blog": "Blog",
+      "status": "Service status",
+      "guidesTitle": "Worldbuilding guides",
+      "guideStart": "Start creating your world",
+      "guideHowMuch": "How much worldbuilding do you need"
+    },
+    "community": {
+      "title": "Community",
+      "news": "What's new",
+      "campaigns": "Public campaigns",
+      "showcase": "Showcase",
+      "roadmap": "Roadmap",
+      "hallOfFame": "Hall of fame"
+    },
+    "company": {
+      "title": "Company",
+      "about": "About us",
+      "contact": "Contact",
+      "privacy": "Privacy",
+      "terms": "Terms",
+      "security": "Security",
+      "pressKit": "Press kit"
+    }
+  },
+  "pricing": {
+    "hero": {
+      "title": "The obvious choice for collaborative worldbuilding and TTRPG campaign management, at a great price.",
+      "lead": "With a 14 day refund policy on yearly subscriptions."
+    },
+    "periodToggle": {
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "savePercent": "save 17%"
+    },
+    "currencyToggle": {
+      "usd": "USD",
+      "eur": "EUR"
+    },
+    "comparePlans": "Compare plans",
+    "paidFeatures": {
+      "title": "Paid features",
+      "lead": "Supporting Kanka with a subscription gives you access to the following features and improvements."
+    },
+    "premium": {
+      "title": "Premium campaigns",
+      "lead": "All of our subscriptions allow you to unlock premium features for at least one campaign. Doing so unlocks the following benefits for a campaign. A campaign can be downgraded and upgraded at any time. For example if a campaign is over, you can downgrade it and upgrade another campaign instead. Downgrading a campaign doesn't delete any data related to premium features, but simply hides them until the campaign is upgraded again."
+    },
+    "faqTitle": "FAQ",
+    "overview": {
+      "kobold": {
+        "f1": "Unlimited entries",
+        "f2": "Unlimited campaigns",
+        "f3": "Everything you need to build free forever.",
+        "f4": "Frequent updates"
+      },
+      "owlbear": {
+        "f1": "1 active premium campaign",
+        "f2": "Big file and map sizes (10 MiB)",
+        "f3": "Vote on the roadmap",
+        "f4": "Private Discord channel",
+        "f5": "Ad-free experience"
+      },
+      "wyvern": {
+        "f1": "3 active premium campaigns",
+        "f2": "Huge file and map sizes (25 MiB)",
+        "f3": "Vote on the roadmap",
+        "f4": "Private Discord channel",
+        "f5": "Ad-free experience"
+      },
+      "elemental": {
+        "f1": "7 active premium campaigns",
+        "f2": "Gigantic file and map sizes (100 MiB)",
+        "f3": "Vote on the roadmap",
+        "f4": "Private Discord channel",
+        "f5": "Ad-free experience",
+        "f6": "High impact of future features (through Discord)"
+      }
+    },
+    "paidFeaturesTable": {
+      "free": "Free",
+      "fileUploadSizes": "File and image upload sizes",
+      "mapUploadSizes": "Map upload sizes",
+      "premiumCampaigns": "Premium campaigns",
+      "adFree": "Ad-free experience",
+      "discordChannel": "Access to a private {discord} channel",
+      "roadmapVote": "Upvote ideas on the roadmap",
+      "nicerThumbnails": "Nicer placeholder thumbnails for entries",
+      "hallOfFame": "Name in the {hallOfFame}",
+      "apiRequests": "Up to 90 API requests per minute",
+      "moreElements": "More elements shown on each page",
+      "campaignImporter": "Campaign importer"
+    },
+    "premiumFeaturesTable": {
+      "standardCampaign": "Standard campaign",
+      "premiumCampaigns": "Premium campaigns",
+      "wyvernsCol": "Wyverns *",
+      "elementalsCol": "Elementals *",
+      "maxEntries": "Maximum number of entries",
+      "maxCategories": "Maximum number of custom categories",
+      "maxMembers": "Maximum number of members",
+      "maxRoles": "Maximum number of roles",
+      "maxBookmarks": "Maximum number of bookmarks",
+      "galleryStorage": "Storage for images and files in the gallery",
+      "maxFileSize": "Maximum file and image upload size for members",
+      "maxFileAssets": "Maximum number of file assets per entity",
+      "aliases": "Define aliases on entries that work with search and mentions",
+      "adFreeMembers": "Ad-free experience for all members",
+      "plugins": "Install plugins from the {plugins}",
+      "pluginsLabel": "Plugins library",
+      "forceTheme": "Force a specific theme for all members and viewers",
+      "customTheme": "Access to full customization with theme builder and custom CSS",
+      "customTooltips": "Write custom tooltips for entries",
+      "headerImages": "Upload large header images on entries",
+      "multipleDashboards": "Create multiple dashboards and assign them to roles",
+      "customThumbnails": "Upload custom placeholder thumbnails for entries",
+      "easyAccessLinks": "Set easy access links to outside sources on entries",
+      "beautifulMaps": "Beautiful maps with access to thousands of icons for map markers and polygon markers",
+      "renameSidebar": "Rename and reorder the sidebar",
+      "renameCategories": "Rename and change the icon of categories",
+      "familyTrees": "Create complex family trees",
+      "fullLogs": "Full logs of changes made on entries for up to 30 days",
+      "recoverEntries": "Recover deleted entries and articles for up to 30 days",
+      "achievements": "Feel good with campaign achievements",
+      "webhooks": "Send updates to Discord and other tools through webhooks.",
+      "tierPerks": "* These perks are unlocked for all members of a campaign if the person unlocking premium features is a subscriber at this tier."
+    }
+  },
+  "pricingTier": {
+    "billedYearly": "billed yearly",
+    "perMonth": "/month",
+    "free": "Free",
+    "popular": "Popular",
+    "bestValue": "Best value",
+    "learnMore": "Learn more",
+    "startFree": "Start for free"
+  },
+  "index": {
+    "hero": {
+      "title": "Run your campaign without losing track of a single detail.",
+      "lead": "Kanka is a community driven world building website. Are you making your own D&D homebrew campaign or using other TTRPG systems? We help you manage, organize, and keep track of your ideas, your creations, and your world.",
+      "trailing": "400,000+ game masters and worldbuilders call Kanka their home.",
+      "cta": "Start for free",
+      "videoCaption": "Watch a short 45 second overview of Kanka"
+    },
+    "pitch": {
+      "title": "Everything in one place. Find it in seconds, even mid-session",
+      "body": "Notes scattered across docs, wikis, and napkins don't survive contact with a live session. In Kanka, everything lives in one place and everything connects. {'@'}mention a character in a session log and it links automatically, so one click takes you from a city to its ruler to the war they started. When a player asks the question you didn't prep for, the answer is one search away, on any device."
+    },
+    "features": {
+      "f1Title": "The free tier isn't a trial",
+      "f1Lead": "All core features, unlimited campaigns, unlimited entries. Most GMs never need to pay, and we'd rather you stay because you love it, not because a paywall trapped your world.",
+      "f2Title": "Run it with your whole table",
+      "f2Lead": "Invite your players and co-GMs, then control exactly what each person sees and edits. Your secrets stay secret until you're ready to reveal them.",
+      "f3Title": "Make it yours",
+      "f3Lead": "Rename categories, restructure to fit your system, or go deep with custom CSS and community plugins. Kanka bends to how you run your game: 5e, a homebrew system, or no system at all.",
+      "f4Title": "A place for every part of your world",
+      "f4Lead": "Characters, locations, organizations, families, timelines, calendars, maps, 20+ categories, each built for a piece of your world, all linked together.",
+      "learnMore": "Learn more about Kanka's features"
+    },
+    "socialProof": {
+      "title": "You're in good company",
+      "lead": "400,000+ game masters and worldbuilders trust Kanka for their worldbuilding needs. We've gathered a few of their testimonials to show what Kanka can do for you."
+    },
+    "testimonials": {
+      "t1": {
+        "quote": "\"Kanka has genuinely brought my games to the next level and has made me a better DM.\"",
+        "role": "Professional DM"
+      },
+      "t2": {
+        "quote": "\"As a DM, Kanka makes it so easy to organize a campaign and look up information quickly in a session.\"",
+        "role": "Community member"
+      },
+      "t3": {
+        "quote": "\"I am obsessed with creating stories and Kanka is perfect to help keep track of everything.\"",
+        "role": "Community member"
+      },
+      "t4": {
+        "quote": "\"It's easy and straightforward to use, and is the best way to keep track of the details of my campaign. I love the ability to link entries to each other\"",
+        "role": "Member since 2019"
+      }
+    },
+    "trust": {
+      "title": "Your world is safe, and it's yours",
+      "f1Title": "Export anytime",
+      "f1Lead": "Download your content anytime. No lock-in, ever.",
+      "f2Title": "Your data is safe",
+      "f2Lead": "We use reputable German hosting services, and we back up our servers twice daily.",
+      "f3Title": "Source available",
+      "f3Lead": "Kanka's code is public on GitHub, nothing hidden in a black box.",
+      "f4Title": "Your IP is yours",
+      "f4Lead": "Campaigns are Private by default."
+    },
+    "pricing": {
+      "title": "Pricing"
+    },
+    "team": {
+      "title": "Who we are",
+      "body": "Kanka is built and run by just two of us: one GM (Jay) and one player (Jon). The initial spark came because Jay needed a better way to keep track of our campaign so that Jon could keep ignoring the main plotline. Even all these years later, it's still just us answering your emails, Discord messages, and carrier pigeons. We're not trying to build the biggest worldbuilding platform, just the one we want to run our own games in.",
+      "cta": "Read our story"
+    },
+    "featured": {
+      "title": "Featured campaigns",
+      "lead": "Our community builds amazing things that we love to showcase as Featured Campaigns. These are great examples of worldbuilding that we recommend you check out. They can also showcase what other users have done with Kanka, and give you some inspiration!",
+      "cta": "See what GMs build in Kanka"
+    },
+    "register": {
+      "title": "Ready to run your best campaign?",
+      "cta": "Start your free campaign"
+    },
+    "faq": {
+      "title": "FAQ"
+    }
+  },
+  "features": {
+    "hero": {
+      "title": "Craft richer worlds with the tools your campaign actually needs",
+      "lead": "Kanka packs everything a game master or worldbuilder needs into one place: characters, locations, maps, calendars, timelines, and more. Free for the core stuff, with upgrades when you're ready."
+    },
+    "toc": {
+      "general": "General",
+      "free": "Free to use",
+      "collaborative": "Collaborative",
+      "dashboards": "Dashboards",
+      "modular": "Modular",
+      "updates": "Frequent updates",
+      "rpgs": "RPGs",
+      "entries": "Entries in Kanka",
+      "inventory": "Inventory",
+      "abilities": "Abilities",
+      "properties": "Properties",
+      "journals": "Journals",
+      "quests": "Quests",
+      "worldbuilding": "Worldbuilding",
+      "relations": "Relations",
+      "timelines": "Timelines",
+      "calendars": "Calendars",
+      "maps": "Maps",
+      "editor": "Editor",
+      "premiumFeatures": "Premium features",
+      "premium": "Premium campaigns",
+      "marketplace": "Marketplace",
+      "theming": "Theming",
+      "familyTrees": "Family trees",
+      "webhooks": "Webhooks"
+    },
+    "general": {
+      "title": "General",
+      "freeTitle": "Free to use",
+      "freeBody": "Tired of having to pay for basic features like unlimited campaigns, having limits on the number of elements in a campaign, or not being able to control who sees what? We are too, which is why all core features of Kanka are absolutely free. We also have some {bonuses} that are nice to have, though not essential.",
+      "freeBonuses": "bonuses for our subscribers",
+      "collaborativeTitle": "Collaborative",
+      "collaborativeBody": "Kanka is built for worlds with multiple players and authors. Invite your friends, assign them roles, and control exactly what they can see and do. For peace of mind, you can preview your campaign from any member's perspective at any time so that nothing stays visible that shouldn't be.",
+      "modularTitle": "Modular",
+      "modularBody": "We've focused our efforts on building about 20 different categories in Kanka that each focus on one aspect of playing a TTRPG or wordbuilding in general. In each campaign, you can create characters, locations, families, organisations, items, quests, journals, calendars, events, abilities and more. Don't need abilities? No problem, you can disable categories of your choice in each campaign, simplifying your setup to focus on what's important to you.",
+      "updatesTitle": "Frequent updates",
+      "updatesBody": "Kanka is shaped by a large, active community of worldbuilders and game masters. We take pride in shipping features our users actually want, with on average one major updates every few weeks. We share what's coming on our {discord} and collect feedback before we build, so the community always has a voice in where Kanka goes next.",
+      "updatesDiscord": "Discord",
+      "dashboardsTitle": "Campaign dashboards",
+      "dashboardsBody": "The dashboard is your campaign's home base. Customize it with widgets from a broad selection of options, arranging everything the way your group needs it. Running a large west march campaign with multiple player groups? Premium campaigns can set up separate dashboards tailored to each role.",
+      "dashboardsCaption": "Fully customizable dashboards for your worlds"
+    },
+    "rpgs": {
+      "title": "RPGs",
+      "entriesTitle": "Entries in Kanka",
+      "entriesBody": "Kanka is built around a list of around 20 different entries. These are the pre-defined types of core objects in a campaign. They include characters, locations, families, items, quests, journals, calendars, timelines, and more. They all share some functionality but are unique in their own way and interact with other elements of your campaign.",
+      "entriesCaption": "Craft beautiful pages for your story's protagonists",
+      "inventoryTitle": "Inventory",
+      "inventoryBody": "Every entry can have its own inventory. This feature is used to manage a character's possessions, a shop's (location) sale inventory, a quest's reward for completion, a family's fortune, or any other scenarios you can think of. The inventory feature interacts with the items of your campaign, but is flexible and can be used without creating every item in your campaign.",
+      "inventoryCaption": "Full a character's inventory to the brim",
+      "abilitiesTitle": "Abilities",
+      "abilitiesBody": "As with inventories, every entry can have abilities. Create abilities in your campaign, and attach them to your entries. These can be the powers of a character, the effects of a lair (location), a special ability granted from being part of a family, or a curse caused by eating a hag's cupcake. Abilities have charges to keep track of how often they were used, and can be combined with an entry's properties.",
+      "abilitiesCaption": "Add powers and special abilities to any entry",
+      "propertiesTitle": "Properties",
+      "propertiesBody": "Probably the most confusing and complex feature of entries are their properties. These can be little bits of information like tracking a character's HP, a location's population, a religion (organisation)'s number of shrines, etc. Properties can reference other properties to calculate values, for example a character's HP, where HP = Level * Constitution.",
+      "propertiesBody2": "An entry's properties can also be styled to look like a TTRPG character sheet by using our {pluginLibrary}.",
+      "propertiesPluginLibrary": "plugins library",
+      "propertiesCaption": "Track HP, Level, Strengh and more",
+      "journalsTitle": "Journals",
+      "journalsBody": "Plan your session or write a session recap in the eyes of a character using our journals category. These can be attached to calendars to keep track of both a real world date and an in-game date where something happened.",
+      "journalsCaption": "Record what happened last session",
+      "questsTitle": "Quests",
+      "questsBody": "Prepare and keep track of your game's quests, where they will take the players, who's involved, and what organisations are secretly pulling the strings. Once a quest is complete, flag it as such and move on to the next one.",
+      "questsCaption": "Track starting conditions, rewards, and more"
+    },
+    "worldbuilding": {
+      "title": "Worldbuilding",
+      "relationsTitle": "Relations",
+      "relationsBody": "Need to keep track that Svynna is the rival of Mykel, or that Washington is the birthplace of Kyle? Use our relations tool to set up and keep track of all the connections between the entries of your world. Need a relation to be kept secret from your players? Easy, just set the relation to private!",
+      "relationsBody2": "{premiumCampaigns} have access to a visual explorer for the relations of an entry.",
+      "relationsPremiumCampaigns": "Premium campaigns",
+      "relationsCaption1": "Track connections and relations between entries",
+      "relationsCaption2": "Explore how elements of your world are connected",
+      "timelinesTitle": "Timelines",
+      "timelinesBody": "Timelines allow you to visually see and plan out a country's history, a family's rise to power, a character's story arc, and other options. Timelines are split in eras, and each era contains elements of text that can be attached to other entries of your campaign.",
+      "timelinesCaption": "Interactive timelines to explore how history unfolds",
+      "calendarsTitle": "Calendars",
+      "calendarsBody": "Create one or several calendars of your world, fully controlling the number of days in a year, the months, length of weeks, seasons, moons and their phases, and more. Attach events to your calendars linked to other entries, such as automatically calculating a character's age based on the calendar.",
+      "calendarsCaption": "Track time and important events",
+      "mapsTitle": "Maps",
+      "mapsBody": "Upload your beautiful maps to your Kanka campaign, and add layers and pins to them. Control who can see which pin, to avoid revealing the secret location of an infamous city to your players.",
+      "mapsCaption": "Interactive maps with pins",
+      "editorTitle": "Editor",
+      "editorBody": "You won't need to learn programming to craft beautiful texts. We've build our own writing experience, so that you can create rich text for all your writing. Best of all, we've added support for mentions to other entries by using the {at} symbol.",
+      "editorCaption": "Use easy {'@'} mentions to link to other entries"
+    },
+    "premium": {
+      "title": "Premium",
+      "premiumCampaignsTitle": "Premium campaigns",
+      "premiumCampaignsBody": "Some features are only available to premium campaigns. When a user subscribes to Kanka, they can upgrade a set number of campaigns. These premium campaigns can be moved around from one campaign to another, such as when a campaign ends. As long as a user stays a subscriber, their premium campaigns will stay that way.",
+      "marketplaceTitle": "Plugin Library",
+      "marketplaceBody": "Premium campaigns can install plugins from the {pluginLibrary}. These are themes, character sheets or content packs, which are created by the community for the community. New content is added frequently.",
+      "marketplacePluginLibrary": "plugin library",
+      "themingTitle": "Theming",
+      "themingBody": "Premium campaigns can force the theme users see when viewing it, but also write their own CSS to fully customise the campaign's look and feel. If CSS is an alien language to you, we also have an easy theme builder.",
+      "familyTreesTitle": "Family trees",
+      "familyTreesBody": "Families in premium campaign have access to beautiful family trees.",
+      "webhooksTitle": "Webhooks",
+      "webhooksBody": "Premium campaigns can define workflows that send updates to Discord and other tools through webhooks when changes to entries are made."
+    },
+    "cta": {
+      "title": "Like what you see? Create a free account now",
+      "button": "Register a free account",
+      "comparison": "See how Kanka compares to WorldAnvil"
+    },
+    "learnMore": "Learn more"
+  },
+  "about": {
+    "title": "A tiny team making worldbuilding fun and reliable",
+    "lead": "Kanka was born out of a frustration with worldbuilding and session notes scattered around in various tools, and the difficulty of easily sharing that content with players. Today, Kanka is a small group of friends spread around the world focused on building the best tools for those original needs.",
+    "teamTitle": "Meet the team",
+    "communityBody": "Community has and always will be big part of Kanka's DNA. We frequently survey our users for changes to features, designs, and incorporate feedback into every big decision. Our community is what drives us to endlessly improve Kanka.",
+    "stats": {
+      "users": "users",
+      "countries": "countries",
+      "entries": "entries",
+      "missedPlotHooks": "missed plot hooks",
+      "campaigns": "campaigns",
+      "marketplacePlugins": "marketplace plugins",
+      "dailyApiCalls": "daily API calls",
+      "ruinedSessions": "ruined sessions"
+    },
+    "historyTitle": "Our history",
+    "historyBody": "Kanka was first created in October 2017 by Jay as a hobby project over a weekend, and work seriously began in 2020 when Jon joined.",
+    "translationsTitle": "Translations",
+    "translationsBody": "Kanka is translated to several languages thanks to these amazing contributors.",
+    "readMore": "Read more",
+    "readLess": "Read less",
+    "history": {
+      "e1": { "date": "October 2017", "text": "Jay starts working on Kanka" },
+      "e2": { "date": "February 2018", "text": "1,000+ account created" },
+      "e3": { "date": "March 2018", "text": "Launch of the Discord" },
+      "e4": { "date": "January 2020", "text": "Jon joins Kanka" },
+      "e5": { "date": "July 2020", "text": "Jay & Jon quit their jobs to work full time on Kanka" },
+      "e6": { "date": "September 2020", "text": "Launch of the Plugins Library" },
+      "e7": { "date": "October 2020", "text": "Owlchester SNC is founded" },
+      "e8": { "date": "January 2021", "text": "Launch of Kanka 1.0" },
+      "e9": { "date": "October 2021", "text": "100,000th account created" },
+      "e10": { "date": "January 2025", "text": "We launch Kanka 3.0 and introduce custom categories" },
+      "e11": { "date": "Early 2026", "text": "We introduce a new modern text editor" },
+      "e12": { "date": "Soon", "text": "Kanka casually takes over the world" }
+    },
+    "translators": {
+      "l1": "English, French",
+      "l2": "Brazilian Portuguese",
+      "l3": "German",
+      "l4": "Polish",
+      "l5": "Spanish",
+      "l6": "Italian",
+      "l7": "Russian",
+      "l8": "Dutch",
+      "l9": "Slovak"
+    }
+  },
+  "campaigns": {
+    "title": "Public Campaigns",
+    "lead": "Many campaigns in Kanka are public for all to see. This page contains a list of all public campaigns, as well as some featured campaigns from the community.",
+    "spotlightTitle": "Spotlighted campaigns",
+    "spotlightBody": "Each month we spotlight a handful of standout public campaigns from our community, chosen for their depth of worldbuilding, creative themes, and the care their creators put into them.",
+    "viewShowcase": "View the showcase",
+    "publicTitle": "Public campaigns",
+    "publicBody": "Browse campaigns shared by Kanka's community of worldbuilders, game masters, and storytellers. Use the filters to explore by type, whether you're looking for a gritty D&D setting, an intricate fantasy world, or a narrative-driven story campaign. See how other creators structure their work, then take those ideas into your own.",
+    "loading": "Loading...",
+    "noResults": "No campaigns match the selected filters. Please try again with different ones.",
+    "previousPage": "Previous page",
+    "nextPage": "Next page"
+  },
+  "worldbuilding": {
+    "title": "Build a world that finally stays consistent.",
+    "lead": "Kanka is the worldbuilding tool for D&D, tabletop RPGs, and anyone building a world that has to hold together. Link every character, location, and faction with {'@'}mentions, so your lore stays consistent and you can find anything in seconds. Free to start, no credit card. Trusted by 375,000+ worldbuilders.",
+    "startFree": "Start for free"
+  },
+  "premiumPage": {
+    "title": "Premium campaigns",
+    "lead": "Unlock advanced features for your Kanka campaigns for a small monthly fee. Customise the look and feel of a campaign, make the campaign ad-free, enjoy larger file uploads for all campaign members, and much more.",
+    "startingAt": "Starting at {currency}",
+    "perMonth": "per month",
+    "card1Title": "Everything you love about Kanka, with the limits lifted",
+    "card1Body": "When a campaign goes premium, the following improvements gets unlocked for all members of the campaign.",
+    "tableTitle": "Everything we just said, but in a table",
+    "tableBody": "All of our subscriptions allow you to unlock premium features for at least one campaign. Doing so unlocks the following benefits for a campaign. A campaign can be downgraded and upgraded at any time. For example if a campaign is over, you can downgrade it and upgrade another campaign instead. Downgrading a campaign doesn't delete any data related to premium features, but simply hides them until the campaign is upgraded again.",
+    "ctaTitle": "Ok, take my money",
+    "ctaBody": "Convinced and ready to go premium with your campaigns? Subscribe to Kanka to unlock premium campaigns!",
+    "ctaButton": "Take me to the subscription page",
+    "cards": {
+      "c1": {
+        "title": "Look & feel",
+        "body": "Customise the campaign's sidebar, change the campaign's design via custom CSS, and install amazing and beautiful plugins from the <a href=\"https://plugins.kanka.io\" class=\"link-light\">Plugins library</a>."
+      },
+      "c2": {
+        "title": "Better entries",
+        "body": "Set header images for entries, write custom tooltips, give them aliases for search and mentions, and upload more assets on each entity."
+      },
+      "c3": {
+        "title": "Peace of mind",
+        "body": "Deleted an entity and changed your mind? No problem! Recover deleted entries for up to 30 days."
+      },
+      "c4": {
+        "title": "Unlimited",
+        "body": "Get rid of limits to the number of members, roles, and bookmarks in the campaign."
+      },
+      "c5": {
+        "title": "Better defaults",
+        "body": "Tired and confused by boring grey circles for entries with no image? Set default custom images for each entity type instead."
+      },
+      "c6": {
+        "title": "One for the gang",
+        "body": "All members of the campaign get to enjoy it ad free, and also get access to larger file uploads."
+      },
+      "c7": {
+        "title": "Icons for maps and timelines",
+        "body": "Make maps and timelines pop with access to custom colours and thousands of icons through <a href=\"https://fontawesome.com/search\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">FontAwesome</a> and <a href=\"https://nagoshiashumari.github.io/Rpg-Awesome/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">RPGAwesome</a>."
+      },
+      "c8": {
+        "title": "Web of connections",
+        "body": "Visually explore the web of relations and connections of a campaign's entity."
+      },
+      "c9": {
+        "title": "Campaign gallery",
+        "body": "Manage the campaign's images in a gallery, rather than uploading images individually to each entity."
+      },
+      "c10": {
+        "title": "Achievements",
+        "body": "Need an extra nudge to create content for your world? The campaign achievements system might trick you into being productive!"
+      },
+      "c11": {
+        "title": "Eyes everywhere",
+        "body": "Full logs of changes made to entries available for up to 30 days. Changed a character's family but forgot the old one? This feature will remember for you."
+      }
+    }
+  },
+  "comparison": {
+    "title": "Kanka vs World Anvil: Choosing Your Worldbuilding Platform",
+    "lead": "When looking for a worldbuilding tool, both Kanka and World Anvil offer robust solutions for writers, game masters, and worldbuilders. Each platform excels for different audiences - Kanka shines for tabletop RPG players, while World Anvil offers features for writers and worldbuilders focused on storytelling.",
+    "interfaceTitle": "Interface and Learning Curve",
+    "interfaceBody1": "Kanka focuses on an intuitive, clean interface that feels familiar to modern web users. The platform emphasizes getting started quickly with minimal setup time. All core features are accessible through a consistent, easy-to-navigate menu structure.",
+    "interfaceBody2": "World Anvil offers a more elaborate interface with extensive customization options. While powerful, new users may need more time to learn the system and set up their world effectively.",
+    "preview1Alt": "Kanka campaign dashboard showing characters and a calendar integrated in one view",
+    "preview1Caption": "Kanka campaign dashboard showing characters and a calendar integrated in one view",
+    "contentTitle": "Content Organization",
+    "contentBody1": "Kanka uses a flexible entity-based system where everything (characters, locations, organizations, etc.) is treated equally. This allows for natural interconnections between all elements of your world. The relationship system lets you create complex webs of connections while maintaining clarity.",
+    "contentBody2": "World Anvil takes a more article-centric approach, with a focus on detailed wiki-style entries. This approach particularly benefits writers, offering robust tools for organizing lore, story arcs, and narrative elements. While connections between elements exist, they're structured more like traditional wiki links.",
+    "preview2Alt": "Character's web of connections",
+    "preview2Caption": "Characters come alive when they are connected to the rest of your world",
+    "rpgTitle": "RPG Campaign Management and Writing Tools",
+    "rpgBody1": "Kanka was built from the ground up with tabletop RPG campaigns in mind. The quest system, calendar integration, and character management tools are deeply integrated with each other, making it natural to run ongoing campaigns alongside worldbuilding. The focus is on practical tools for game masters and players.",
+    "rpgBody2": "World Anvil excels at supporting writers with specialized features like manuscript organization, plot development tools, and detailed character arcs. Their campaign tools are more focused on presenting information to players, with strong features for revealing selective content and managing reading permissions.",
+    "preview3Alt": "Kanka quest view to track moving parts",
+    "preview3Caption": "Quests with lots of moving parts can become difficult to keep track of in traditional software.",
+    "customizationTitle": "Customization Philosophy",
+    "customizationBody1": "Kanka emphasizes extensibility through its community plugin system. Users can enhance their worlds with community-created plugins that add new features and functionality, while maintaining the platform's core ease of use. The platform also supports custom CSS for those who want to personalize their world's appearance.",
+    "customizationBody2": "World Anvil also offers extensive visual customization through CSS and templates, though this may require more technical knowledge to fully utilize.",
+    "collaborationTitle": "Collaboration Features",
+    "collaborationBody1": "Kanka provides a straightforward permission system that works across all content types. Teams can easily work together with granular access controls that are consistent throughout the platform. Kanka also comes with fully collaborative maps and whiteboards with live updates going out to all collaborators.",
+    "collaborationBody2": "World Anvil offers collaboration tools with a focus on community features and content sharing between different worldbuilders.",
+    "strengthsTitle": "Unique Strengths",
+    "kankaSubtitle": "Kanka",
+    "kankaStrength1": "Unified entity system that treats all content types equally",
+    "kankaStrength2": "Intuitive relationship mapping between any elements",
+    "kankaStrength3": "Consistent interface across all features",
+    "kankaStrength4": "Strong integration between worldbuilding and campaign management",
+    "kankaStrength5": "Quick setup and minimal learning curve",
+    "waSubtitle": "World Anvil",
+    "waStrength1": "Extensive article formatting options",
+    "waStrength2": "Strong focus on traditional wiki-style organization",
+    "waStrength3": "Robust template system for consistent articles",
+    "waStrength4": "Built-in community features",
+    "waStrength5": "Advanced CSS customization options",
+    "conclusionTitle": "Conclusion",
+    "conclusionBody": "Choose Kanka if you want a modern, intuitive platform that seamlessly blends worldbuilding with RPG campaign management, and value quick setup with consistent organization tools.",
+    "preview4Alt": "Kanka dashboard with intro, calendar, recaps",
+    "preview4Caption": "Focus on your worldbuilding and let Kanka handle the rest.",
+    "ctaLink": "Join 400,000 worldbuilders who didn't want to pay for complexity they'd never use."
+  },
+  "kb": {
+    "title": "Kanka Knowledge Base",
+    "lead": "Quick answers to common questions about campaigns, permissions, maps, calendars, pricing, and more.",
+    "notFoundTitle": "Didn't find what you were looking for?",
+    "joinDiscord": "Join our Discord",
+    "checkDocs": "Check the documentation",
+    "sendEmail": "Send us an email"
+  },
+  "contact": {
+    "title": "We're here for you",
+    "lead": "Need help, found a bug, or just want to share your love for Kanka? Our team will reply whatever the occasion!",
+    "emailTitle": "Email",
+    "emailBody": "Send all inquiries to",
+    "discordTitle": "Discord",
+    "discordBody": "If you want to talk to us directly, hop on our {discordServer}.",
+    "discordServerLink": "Discord server",
+    "aboutTeamTitle": "About Our Team",
+    "aboutTeamBody": "Kanka is built and maintained by a {teamLink} scattered across Geneva, Madrid, and Mérida. We're passionate about worldbuilding and campaign management, and we love hearing from our users, whether it's bug reports, feature requests, or just sharing how you use Kanka.",
+    "aboutTeamLink": "small, distributed team",
+    "responseTitle": "Response Time & Support",
+    "responseBody1": "We typically respond to all inquiries within {hours}. We value work-life balance and time with our families, so we may not answer immediately, but we will get back to you.",
+    "responseHours": "24-48 hours",
+    "responseBody2": "{fastest} Our Discord community is where we're most responsive. If you need urgent help, joining our {discordServer} is your best bet.",
+    "responseFastest": "Fastest response:",
+    "responseBody3": "{allMethods} Email, Discord, or through any of our social channels. We understand not everyone wants to use Discord or social media, and that's perfectly fine—send us an email at {email} and we'll help.",
+    "responseAllMethods": "We accept all contact methods:",
+    "beforeTitle": "Before You Contact Us",
+    "downTitle": "Is Kanka down or having issues?",
+    "downBody": "Check {statusLink} to see if we're experiencing downtime. You'll find real-time status updates there.",
+    "passwordTitle": "Forgot your password?",
+    "passwordBody": "Use the lost password feature on the {loginLink} to reset it yourself. No need to contact us!",
+    "loginPageLink": "login page"
+  },
+  "showcase": {
+    "title": "Showcase",
+    "lead": "Our showcase highlights a curated selection of campaigns built with Kanka. Each Spotlight features a closer look at how a world was created, what drives it, and the stories that emerge at the table.",
+    "applyButton": "Apply for the spotlight",
+    "spotlightTitle": "Spotlighted campaigns",
+    "loading": "Loading...",
+    "noResults": "No featured campaigns yet. Apply to have your shows up here!",
+    "previousPage": "Previous page",
+    "nextPage": "Next page"
+  },
+  "roadmap": {
+    "title": "Roadmap",
+    "lead": "Our community shape our work, so while we don't have a multi-month roadmap, it is easy to stay up to date with what has been requested and what is currently being worked on.",
+    "roadmapTitle": "Roadmap",
+    "roadmapBody": "The roadmap lists all ideas submitted by the community and what we're currently working on, while allowing members to upvote ideas they want to see added to Kanka.",
+    "devLogsTitle": "Developer Logs",
+    "devLogsBody": "We publish developer logs every few weeks with updates on our progress and upcoming features, as well as tea from behind the scenes."
+  },
+  "hallOfFame": {
+    "title": "Hall of fame",
+    "lead": "Honestly, it's still a little crazy to us that a weekend hobby project turned into a full-time job for our small team. None of that would have happened without these incredible people. Their support means we can deliver frequent updates, skip the morning standups, work on things we're genuinely passionate about, and keep spreading our love of worldbuilding, one campaign at a time.",
+    "fetching": "Fetching...",
+    "backToTop": "Back to the top",
+    "elementalBody": "These fantastic people let us know we're working on something truly magical.",
+    "wyvernBody": "These are people who run multiple campaigns across multiple worlds, sometimes with huge groups of players. The serious worldbuilders who couldn't achieve their goals without Kanka.",
+    "owlbearBody": "The backbone of Kanka's community. Worldbuilding is more than a passing hobby for these people, they wake up with plot hooks ready to add to their worlds. Their projects have long outgrown simple note-taking, and they're building something beautiful.",
+    "goblinBody": "Discontinued in early 2020, our loyal Goblins are still supporting us to this day!"
+  },
+  "partners": {
+    "title": "Partners",
+    "lead": "We've partnered up with a few amazing tools and communities that share our goals and values.",
+    "gramelBody": "Gramel Books is small Polish RPG publisher, responsible for Polish editions of Savage Worlds, Dungeon World, Monsterhearts, Beyond the Wall and Other Adventures or Eclipse Phase. They've also published a few English-language supplements for Savage Worlds, most notably Beasts and Barbarians and Tropicana, as well as a simplistic game system called Adventurers. Publishing and playing tabletop RPGs is their passion and favourite past-time for more than 20 years, and they are proud and happy to be part of Kanka project!"
+  },
+  "security": {
+    "title": "Security",
+    "lead": "Our small team is commited to providing top notch data protection standards to ensure that your data is safe with us.",
+    "dataCenterTitle": "Data centre security",
+    "dataCenterBody": "Kanka is hosted on multiple servers to ensure redundancy, and we have disaster recovery procedures in place should something bad happen. Our servers are hosted by Hetzner.",
+    "euTitle": "EU hosted infrastructure",
+    "euBody": "Our servers and all of your data is hosted on servers inside the European Union. This allows us to meet specific regulatory and compliance requirements that ensure your data is safe with us. Our data center providers Hetzner and Amazon Cloud Europe have a history of quality and expertise in the handling of digital data.",
+    "commsTitle": "Secure communication",
+    "commsBody": "All user data is transported securely and privately, as it is encrypted in transit via SSL. Encrypting data in transit protects it from unauthorised snooping, modification, as well as man-in-the-middle attacks.",
+    "creditTitle": "Credit cards",
+    "creditBody": "We don't store your credit card information. We use Stripe to process credit cards, with all communication between you, our servers, and Stripe being encrypted. The only credit card information provided by Stripe that we store is your card's expiration date and brand, so that we can notify you when your card expires.",
+    "backupsTitle": "Data backups",
+    "backupsBody": "Our database is backed up twice a day to ensure your data stays safe and highly available. Our database backups are regularly tested to ensure that we can quickly restore data if needed.",
+    "logsTitle": "Log collection",
+    "logsBody": "We automatically collect detailed logs to ensure that we can quickly and effectively resolve bugs and issues with users. These detailed logs are frequently purged, and are also automatically purged when when you delete your account.",
+    "breachTitle": "Data breach",
+    "breachBody": "Should Kanka be the target of a data breach involving personal data, we will promptly report it to the local authorities as well as to the users involved."
+  },
+  "pressKit": {
+    "title": "Press kit",
+    "lead": "Thanks for your interest in Kanka! Please use the following resources when talking about us.",
+    "shortDescriptionTitle": "Short description",
+    "shortDescriptionBody1": "Kanka is a worldbuilding and tabletop RPG campaign management tool perfect for worldbuilders and game masters alike. It helps you create and organise your campaigns and worlds with a whole range of features such as calendars, interactive maps, timelines, organisations, families, and as many characters as you can come up with!",
+    "shortDescriptionBody2": "Community is in their DNA, and you can vote on community ideas to determine the direction that Kanka takes, as well as their Community Marketplace, where creators can showcase their creativity and make their content useable by others.",
+    "logosTitle": "Logos",
+    "needMore": "Need more resources or help?"
+  },
+  "ttrpgTools": {
+    "title": "Everything a game master needs, in one place.",
+    "lead": "Kanka is the all-in-one toolkit for tabletop RPG game masters: characters, maps, quests, timelines, and lore, all linked with {'@'}mentions and ready the moment you need them. Works for D&D, any TTRPG, or your own homebrew. Free to start, no credit card. Trusted by 375,000+ DMs.",
+    "startFree": "Start for free"
+  },
+  "campaignManager": {
+    "title": "Run your D&D campaign without the chaos.",
+    "lead": "Kanka is the campaign manager for D&D and tabletop RPG game masters. Track every NPC, quest, and plot thread, link them with {'@'}mentions, and pull up anything mid session, from session one to session fifty. Less prep, more play. Free to start, no credit card. Trusted by 375,000+ GMs.",
+    "startFree": "Start for free"
+  },
+  "useCasesIndex": {
+    "title": "Find Your Way to Use Kanka",
+    "lead": "Everyone comes to Kanka with a different story. Some are running campaigns with a dozen moving pieces. Others are building worlds that have lived in their heads for years. Whether you're a game master juggling plots and NPCs, a writer mapping out lore, or a player trying to keep track of your character's history, Kanka shapes itself around how you think. Find your people below.",
+    "readUseCase": "Read use case",
+    "noResults": "No use cases yet. Check back soon!"
+  },
+  "guidesIndex": {
+    "title": "Worldbuilding Guides",
+    "lead": "Guides to help you start and grow your worldbuilding projects.",
+    "readGuide": "Read guide",
+    "noResults": "No worldbuilding guides yet. Check back soon!"
+  },
+  "learnIndex": {
+    "title": "Learn",
+    "lead": "Guides and articles to help you get the most out of Kanka.",
+    "readArticle": "Read article",
+    "noResults": "No articles yet. Check back soon!"
+  }
+}

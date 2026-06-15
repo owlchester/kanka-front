@@ -1,7 +1,7 @@
 <template>
   <BaseHero
-      title="Kanka Knowledge Base"
-      lead="Quick answers to common questions about campaigns, permissions, maps, calendars, pricing, and more." />
+      :title="$t('kb.title')"
+      :lead="$t('kb.lead')" />
 
   <div class="lg:max-w-4xl lg:w-full lg:mx-auto">
 
@@ -25,19 +25,19 @@
   <Section>
     <div class="max-w-2xl mx-auto flex flex-col gap-6">
 
-      <h2 class="text-purple">Didn't find what you were looking for?</h2>
+      <h2 class="text-purple">{{ $t('kb.notFoundTitle') }}</h2>
       <div class="flex gap-5 justify-center items-center align-center">
         <a href="https://kanka.io/go/discord" class="btn-round">
           <i class="fa-brands fa-discord" aria-hidden="true"></i>
-          Join our Discord
+          {{ $t('kb.joinDiscord') }}
         </a>
         <a href="//docs.kanka.io" class="btn-round">
           <i class="fa-solid fa-books" aria-hidden="true"></i>
-          Check the documentation
+          {{ $t('kb.checkDocs') }}
         </a>
         <a href="mailto:hello@kanka.io" class="btn-round">
           <i class="fa-solid fa-at" aria-hidden="true"></i>
-          Send us an email
+          {{ $t('kb.sendEmail') }}
         </a>
       </div>
     </div>
@@ -60,8 +60,10 @@ const lead = 'Quick answers to common questions about campaigns, permissions, ma
 
 const route = useRoute()
 
-const { data: kbData } = await useAsyncData('kb-faq', () =>
-    queryCollection('kbFaq').first()
+const { kbFaqCollection } = useLocaleData()
+const { locale } = useI18n()
+const { data: kbData } = await useAsyncData(`kb-faq-${locale.value}`, () =>
+    queryCollection(kbFaqCollection()).first()
 )
 
 function slugify(text: string): string {

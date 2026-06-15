@@ -1,0 +1,172 @@
+categories:
+- category: "Général"
+  faqs:
+    - question: "Puis-je avoir plus d'une campagne?"
+      answer: |
+        On nous pose souvent cette question et la réponse est oui, bien sûr! Il n'y a pas de limite au nombre de campagnes que tu peux posséder ou rejoindre.
+
+        Pour changer de campagne ou en créer une nouvelle, clique sur l'icône **<i class="fa-regular fa-grid" aria-hidden="true"></i> sélecteur de campagne** en haut à droite de n'importe quelle page dans Kanka. En dessous de tes campagnes, tu trouveras un lien **Nouvelle campagne**.
+    - question: "Puis-je créer des catégories personnalisées?"
+      answer: |
+        Kanka est livré avec un ensemble de catégories prédéfinies qui interagissent entre elles, mais nous comprenons le besoin d'une organisation plus fine. C'est pourquoi les [campagnes premium](/premium) peuvent actuellement créer jusqu'à 5 [catégories personnalisées](https://docs.kanka.io/en/latest/features/campaigns/categories.html).
+    - question: "Est-ce qu'une campagne peut être dupliquée?"
+      answer: |
+        Absolument! Les campagnes peuvent être dupliquées en générant un [export de campagne](https://docs.kanka.io/en/latest/features/campaigns/export.html) complet, puis en important cet export dans une nouvelle campagne.
+    - question: "Comment relier mon monde?"
+      answer: |
+        Créer des références et des liens vers d'autres entrées de la campagne est une fonctionnalité essentielle de Kanka. Lors de la rédaction d'une description, tape `@` suivi d'au moins 3 caractères pour obtenir une liste d'entrées.
+
+        Pour apprendre à modifier le nom de l'entité dans la mention, à créer un lien vers une sous-page d'une entité, ou à filtrer les résultats de recherche, [consulte notre documentation](https://docs.kanka.io/en/latest/features/mentions.html).
+    - question: "Comment sauvegarder ou exporter ma campagne?"
+      answer: |
+        Une fois par jour, tu peux exporter toutes les données de ta campagne sous forme de fichier ZIP. Le contenu peut être des fichiers JSON ou markdown.
+
+        Apprends à exporter ta campagne [dans notre documentation](https://docs.kanka.io/en/latest/features/campaigns/export.html).
+    - question: "Que sont les épingles?"
+      answer: |
+        Les relations et les propriétés peuvent être épinglées à droite de la vue d'ensemble de leur entité. Pour épingler un élément, modifie la relation ou les propriétés et règle la valeur épinglée sur ceux-ci.
+
+        Tu peux en savoir plus sur cette fonctionnalité dans [notre documentation](https://docs.kanka.io/en/latest/features/profile-sidebar.html).
+    - question: "Puis-je renommer les catégories? Par exemple Familles en Clans, ou Organisations en Factions?"
+      answer: |
+        Absolument! Nous savons que le nommage est important pour définir le thème et le ton d'un monde, c'est pourquoi les catégories dans les [campagnes premium](/premium) peuvent facilement être renommées dans **Paramètres** > **Catégories** en cliquant sur le bouton modifier à côté du nom de la catégorie.
+
+        [En savoir plus sur cette fonctionnalité dans la documentation.](https://docs.kanka.io/en/latest/features/campaigns/categories.html)
+    - question: "Puis-je synchroniser le contenu entre plusieurs campagnes?"
+      answer: |
+        Kanka ne dispose pas de cette fonctionnalité. Cependant, si tu essaies d'avoir plusieurs groupes de jeu dans le même monde, envisage d'utiliser la même campagne et de séparer tes groupes grâce à une combinaison de quêtes, d'étiquettes et de permissions.
+
+        Alternativement, tu peux copier une ou plusieurs entrées d'une campagne vers une autre en utilisant l'action de [transformation en masse](https://docs.kanka.io/en/latest/guides/bulk.html).
+    - question: "Comment gérer plusieurs groupes dans le même monde?"
+      answer: |
+        Plutôt que de recréer ton monde plusieurs fois dans Kanka, gère tout dans une seule campagne. Invite chaque membre de tes groupes, et au lieu de leur donner à tous le rôle de joueur, crée plusieurs rôles. De cette façon, tu peux contrôler quel groupe voit quoi dans la campagne.
+
+        Une autre bonne pratique est de créer une étiquette pour chacun de tes groupes, afin de pouvoir filtrer rapidement les entrées en fonction d'étiquettes spécifiques.
+    - question: "Comment utiliser les filtres?"
+      answer: |
+        Tu peux utiliser des filtres pour limiter le nombre de résultats affichés dans les listes. Les champs de texte supportent diverses options pour contrôler plus en détail ce qui est filtré.
+
+        * `!...` En plaçant un `!` avant ton texte, tu peux rechercher tout ce qui ne contient pas le texte dans le champ.
+        * `...!` En plaçant un `!` à la fin de ton texte, tu peux rechercher toutes les entités avec exactement ce texte dans le champ.
+        * `!!` Écrire `!!` dans un champ recherchera toutes les entrées où ce champ est vide.
+
+        Tu peux combiner des options de recherche sur les champs de texte en écrivant `;`. Par exemple `Alex;!Smith`.
+
+        Les filtres et les colonnes triées définis pour une liste d'entités sont sauvegardés dans ta session, donc tant que tu restes connecté, tu n'as pas besoin de les redéfinir à chaque page.
+
+        Lorsque des filtres sont actifs, le bouton de copie dans le presse-papiers devient actif. Cela copie les filtres dans ton presse-papiers, et tu peux les utiliser pour les filtres des widgets du tableau de bord ou pour les filtres des liens rapides.
+    - question: "Puis-je changer les listes imbriquées en listes plates?"
+      answer: |
+        La façon dont les listes sont présentées en mode imbriqué ou plat peut être contrôlée soit dans les paramètres de la campagne, soit dans les paramètres utilisateur, les paramètres de la campagne ayant toujours la priorité sur la configuration de l'utilisateur.
+
+        Apprends à modifier ces paramètres [dans notre documentation](https://docs.kanka.io/en/latest/features/nested.html).
+    - question: "Que sont les kits de propriétés?"
+      answer: |
+        La meilleure façon d'expliquer les kits de propriétés est avec un exemple. Imaginons que ton monde compte beaucoup de Lieux, et que pour beaucoup d'entre eux, tu veux te rappeler de créer une propriété personnalisée pour «Population», «Climat», «Niveau de criminalité».
+
+        Tu pourrais facilement le faire pour chaque Lieu, mais ça peut devenir fastidieux et tu pourrais parfois oublier de créer la propriété «Niveau de criminalité». C'est là qu'interviennent les kits de propriétés.
+
+        Tu peux créer un kit avec ces propriétés (Population, Climat, Niveau de criminalité, etc.), et ensuite appliquer ce modèle à tes lieux. Cela créera les propriétés du kit sur les lieux, de sorte que tu n'auras qu'à modifier les valeurs sans avoir à te rappeler des propriétés!
+
+        [Notre vidéo YouTube sur ce sujet](https://www.youtube.com/watch?v=qKnTpuePqUA)
+- category: "Construction de monde"
+  faqs:
+    - question: "Où créer les dieux et les religions?"
+      answer: |
+        Nous recommandons de créer les dieux comme des [personnages](https://docs.kanka.io/en/latest/entries/characters.html), et de créer les religions comme des [organisations](https://docs.kanka.io/en/latest/entries/organisations.html). Si tu veux trouver rapidement tes divinités, nous recommandons de les étiqueter avec une [étiquette](https://docs.kanka.io/en/latest/entries/tags.html) appropriée et/ou de les combiner avec un [signet](https://docs.kanka.io/en/latest/advanced/bookmarks.html).
+
+        Ou si tu ne veux pas mélanger, tu peux créer une [catégorie personnalisée](https://docs.kanka.io/en/latest/features/campaigns/categories.html) pour eux.
+    - question: "Où suivre mes classes comme Ranger ou Clerc?"
+      answer: |
+        Nous recommandons de créer les classes RPG comme des Capacités, puis de créer les capacités de ces classes comme des sous-capacités.
+    - question: "Que sont les propriétés?"
+      answer: |
+        Utilise les propriétés pour représenter des valeurs attachées à une entité qui ne sont pas du texte. Tu peux référencer des entrées dans des propriétés en utilisant la syntaxe de mention avancée `[entity:id]`. Tu peux également référencer d'autres propriétés en utilisant la syntaxe `{Level}`.
+
+        Tu peux aussi être créatif avec quelques options mathématiques de base. Par exemple, `{Level}*{Con}` multipliera les propriétés `:level` et `:con` de cette entité. Si tu veux arrondir à la baisse ou à la hausse, tu peux utiliser `floor({Level}/3)` ou `ceil(({Con}*{Level})/2)`
+
+        Lors de la création ou de la modification d'un kit de propriétés, tu peux définir des propriétés aléatoires. Cela peut être soit une valeur aléatoire entre deux nombres séparés par `-`, soit une valeur aléatoire dans une liste de valeurs séparées par `,`. La valeur de la propriété est déterminée lorsque le modèle est appliqué à une entité, ou lorsqu'une entité est sauvegardée.
+
+        Par exemple, si tu veux un nombre entre 1 et 100, utilise `1-100`. Si tu veux une valeur dans une liste d'options, utilise `London, Berlin, Rome, Zürich`.
+
+        Tu peux référencer le nom de l'entité avec `{name}`. Si une propriété existe avec ce nom, la propriété sera utilisée à la place.
+    - question: "Puis-je copier des entrées entre différents mondes?"
+      answer: |
+        Absolument! Tu peux même copier des entrées de n'importe quelle campagne à laquelle tu as accès (y compris les campagnes publiques) dans la tienne. Fais-le individuellement depuis le menu d'action «...» de l'entité, ou [en masse](https://docs.kanka.io/en/latest/guides/bulk.html).
+- category: "Permissions"
+  faqs:
+    - question: "Puis-je limiter les informations que mes joueurs voient dans ma campagne?"
+      answer: |
+        Absolument, c'est pourquoi nous avons créé Kanka! Tu peux inviter tous tes joueurs à tes campagnes et leur donner des rôles et des permissions. Nous avons conçu le système pour être extrêmement flexible (tu peux utiliser à la fois une configuration opt-in et opt-out) pour couvrir autant de besoins et de situations que possible.
+
+        Si tu veux que seules certaines parties d'une entité soient privées, par exemple leurs objectifs et leurs points de scénario, ajoute un `Article` dans la page de vue d'ensemble de l'entité.
+
+        [Explication vidéo](https://www.youtube.com/watch?v=ikNPzNgjYmg&feature=emb_logo)
+    - question: "N'importe qui peut-il voir mon monde?"
+      answer: |
+        Seules les personnes que tu invites à ta campagne peuvent voir et interagir avec ce que tu as créé. C'est également vrai pour les employés de Kanka, ce qui signifie que nous ne pouvons pas accéder à tes données sans être invités à rejoindre ta campagne. Tes données sont privées et toujours sous ton contrôle. Si tu souhaites partager ta campagne avec un public plus large, tu peux la rendre publique, ce qui permettra à n'importe qui d'en voir le contenu.
+- category: "Calendriers"
+  faqs:
+    - question: "Comment fonctionnent les âges des personnages et les dates de décès?"
+      answer: |
+        Tu peux lier un personnage à un calendrier de la campagne en consultant un personnage et en allant sur la sous-page Rappels. De là, ajoute un nouveau rappel et définis le type sur Naissance ou Décès pour calculer automatiquement l'âge du personnage. Si la naissance et le décès sont tous deux présents, les deux dates seront affichées ainsi que l'âge au moment du décès. Si seule la naissance est définie, la date et l'âge actuel seront affichés. Si seul le décès est défini, la date et les années depuis le décès seront affichées.
+
+        Les lieux et les organisations ont également leur propre type de rappel «Fondation».
+
+        [En savoir plus sur cette fonctionnalité dans la documentation.](https://docs.kanka.io/en/latest/advanced/age.html?highlight=sidebar)
+- category: "Cartes & Lieux"
+  faqs:
+    - question: "Puis-je télécharger des cartes sur Kanka?"
+      answer: |
+        La catégorie **cartes** prend en charge les images PNG, JPG, WEBP et SVG. Ces cartes peuvent avoir des calques, des groupes et des marqueurs de différentes formes et tailles qui pointent vers d'autres entrées d'une campagne.
+
+        Tu peux en savoir plus sur la catégorie cartes [dans notre documentation](https://docs.kanka.io/en/latest/entries/maps.html).
+    - question: "Que puis-je faire avec les cartes?"
+      answer: |
+        En utilisant la catégorie cartes, tu peux créer de nouvelles cartes pour ta campagne. Les cartes peuvent avoir des calques, des groupes et des marqueurs. Les marqueurs peuvent être des éléments individuels sur la carte, ou liés à des entrées de la campagne, créant une expérience d'exploration visuelle des campagnes. Les marqueurs peuvent également être rendus privés, et avoir différentes options de rendu (épingle, cercle, étiquette, polygone personnalisé).
+
+        [En savoir plus sur les cartes dans notre documentation](https://docs.kanka.io/en/latest/entries/maps.html).
+- category: "Compte"
+  faqs:
+    - question: "Comment supprimer mon compte?"
+      answer: |
+        Pour supprimer ton compte, accède à ta page [Compte](https://app.kanka.io/settings/account#account-deletion) et fais défiler jusqu'à la section de suppression de compte. Cela supprimera **définitivement** ton compte et toutes les campagnes dont tu es le seul membre. Cette action est permanente et ne peut pas être annulée par Kanka.
+    - question: "Comment supprimer une campagne?"
+      answer: |
+        Dans la barre latérale, clique sur **Paramètres**, puis sur **Suppression** en bas de la barre latérale. Supprimer une campagne est une action **permanente** qui supprimera toutes les données stockées sur nos serveurs, y compris les images. La récupération d'une campagne supprimée n'est pas possible.
+    - question: "Comment lier mon compte Kanka à Discord?"
+      answer: |
+        La liaison d'un compte Kanka à [Discord](/go/discord) se fait sur la page de paramètres [Applications](/settings/apps) en cliquant sur `Connecter`. Cela t'ajoutera au serveur Discord de Kanka et synchronisera tes rôles d'abonnement.
+- category: "Tarifs"
+  faqs:
+    - question: "L'application restera-t-elle gratuite?"
+      answer: |
+        Oui! Nous croyons fermement que ta situation financière ne devrait pas avoir d'impact sur ton plaisir des TTRPG ou de la construction de monde, et nous garderons toujours l'application principale gratuite. Cependant, si tu souhaites jouer un rôle plus actif dans cette aventure, nous soutenir et voter sur les fonctionnalités qui comptent le plus pour toi, tu peux le faire via nos abonnements.
+
+        En plus de voter sur la direction que prend Kanka, nous soutenir te permet d'accéder aux [campagnes Premium](/premium), d'augmenter les limites de taille des fichiers téléchargés, d'avoir une expérience sans publicité, et bien plus encore.
+    - question: "Que sont les fonctionnalités en accès anticipé?"
+      answer: |
+        Les fonctionnalités en accès anticipé sont une façon pour nous de récompenser nos incroyables abonnés en leur offrant une période exclusive de 30 jours pendant laquelle ils peuvent essayer les dernières fonctionnalités avant tout le monde.
+    - question: "Que se passe-t-il si les fonctionnalités premium sont supprimées d'une campagne?"
+      answer: |
+        La suppression des fonctionnalités premium d'une campagne ne supprime pas les données créées pendant la période premium, mais cache simplement les informations et les fonctionnalités qui nécessitent une campagne premium. Toutes les informations et fonctionnalités seront à nouveau disponibles avec la même configuration qu'elles avaient lorsque la campagne est à nouveau mise à niveau.
+    - question: "Kanka a-t-il accès à mes informations de carte bancaire?"
+      answer: |
+        Toutes les informations de carte bancaire et la facturation sont gérées par [Stripe](https://stripe.com). Stripe nous fournit uniquement la marque de ta carte, la date d'expiration et les quatre derniers chiffres. Cela nous permet de notifier les abonnés lorsque leur carte est sur le point d'expirer, leur évitant ainsi de perdre leur statut d'abonnement et leurs campagnes premium.
+- category: "Autre"
+  faqs:
+    - question: "Y a-t-il une application mobile?"
+      answer: |
+        Il n'existe actuellement pas d'application mobile dédiée pour Kanka, mais nous avons pris des mesures supplémentaires pour nous assurer que toutes les fonctionnalités fonctionnent sur les appareils mobiles et que l'interface s'adapte aux écrans plus petits.
+    - question: "Quels sont les plans à long terme?"
+      answer: |
+        Le plan à long terme pour Kanka est de construire un outil polyvalent de construction de monde et de gestion de campagne qui est agnostique vis-à-vis des systèmes de jeu, avec du contenu créé par la communauté via la [bibliothèque de plugins](https://plugins.kanka.io).
+    - question: "À quelle fréquence les données sur Kanka sont-elles sauvegardées?"
+      answer: |
+        Nous effectuons deux sauvegardes par jour pour éviter toute perte de données. Nos propres campagnes sont sur le serveur, donc nous ne voulons prendre aucun risque!
+    - question: "Comment signaler un bug?"
+      answer: |
+        Rejoins simplement notre serveur [Discord](/go/discord) et signale ton bug dans le canal `#error-and-bugs`.
+    - question: "Comment puis-je aider?"
+      answer: |
+        Tout d'abord, merci de vouloir aider! Nous sommes toujours à la recherche de personnes qui peuvent aider avec les traductions, tester de nouvelles fonctionnalités, ou aider les nouveaux utilisateurs. Nous adorons aussi quand les gens font la promotion de Kanka pour atteindre de nouveaux utilisateurs dans des endroits auxquels nous n'avions pas pensé. La meilleure chose à faire est de nous rejoindre sur [Discord](/go/discord) où un canal est dédié à l'aide.

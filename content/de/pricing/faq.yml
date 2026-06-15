@@ -1,0 +1,19 @@
+items:
+  - id: payments
+    q: "Welche Zahlungsmethoden stehen zur Verfügung?"
+    a: "Wir akzeptieren die meisten Kredit- und Debitkarten wie Visa, Mastercard und American Express. Für jährliche Abonnements akzeptieren wir auch PayPal."
+  - id: info
+    q: "Speichert ihr meine Zahlungsinformationen?"
+    a: "Wir nutzen Stripe.com, um deine Zahlungsinformationen sicher zu verarbeiten, und speichern nur begrenzte Daten zu deiner Zahlungsmethode. Wir verwenden diese Informationen, um dich zu benachrichtigen, wenn deine Karte bald abläuft, damit du sie aktualisieren und dein Abonnement nicht verlieren kannst."
+  - id: cancel
+    q: "Was passiert, wenn ich mein Abonnement während einer Abrechnungsperiode kündige?"
+    a: "Wenn du dein Abonnement kündigst, bleiben deine Boni bis zum Datum deiner nächsten Abrechnungsperiode aktiv."
+  - id: resub
+    q: "Was passiert mit meinen Daten, wenn ich erneut abonniere?"
+    a: "Wenn dein Abonnement endet, werden alle Funktionen und abonnementbezogenen Daten deaktiviert, aber auf unseren Servern gespeichert. Das bedeutet, dass beim erneuten Abonnieren alles wieder genau so ist, wie du es verlassen hast."
+  - id: refund
+    q: "Wie handhabt ihr Rückerstattungen?"
+    a: "Wir bieten eine 14-tägige Rückerstattungsregelung ohne Rückfragen für jährliche Abonnements. Schreib uns einfach eine E-Mail an <a href=\"mailto:hello@kanka.io\" class=\"link link-purple\">hello@kanka.io</a>."
+  - id: gift
+    q: "Kann ich Abonnements verschenken?"
+    a: "Das direkte Verschenken von Abonnements ist nicht möglich, du kannst aber jede Kampagne, auf die du Zugriff hast, auf Premium-Status upgraden. Das gilt auch für Kampagnen, bei denen du kein Admin oder sogar kein Mitglied bist."

@@ -1,13 +1,13 @@
 <template>
   <BaseHero
-      title="Public Campaigns"
-      :lead="lead" />
+      :title="$t('campaigns.title')"
+      :lead="$t('campaigns.lead')" />
 
   <Section v-if="setup?.featured" id="featured" >
     <div class="flex flex-col gap-4">
-      <h2 class="text-purple">Spotlighted campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">Each month we spotlight a handful of standout public campaigns from our community, chosen for their depth of worldbuilding, creative themes, and the care their creators put into them.</p>
-      <NuxtLink to="/showcase" class="btn">View the showcase</NuxtLink>
+      <h2 class="text-purple">{{ $t('campaigns.spotlightTitle') }}</h2>
+      <p class="lg:max-w-xl lg:mx-auto">{{ $t('campaigns.spotlightBody') }}</p>
+      <NuxtLink :to="localePath('/showcase')" class="btn">{{ $t('campaigns.viewShowcase') }}</NuxtLink>
     </div>
     <div class="overflow-x-auto">
       <div class=" flex gap-6 min-w-fit mb-5">
@@ -27,8 +27,8 @@
 
   <Section id="campaigns">
     <div class="flex flex-col gap-4">
-      <h2 class="text-purple">Public campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">Browse campaigns shared by Kanka's community of worldbuilders, game masters, and storytellers. Use the filters to explore by type, whether you're looking for a gritty D&D setting, an intricate fantasy world, or a narrative-driven story campaign. See how other creators structure their work, then take those ideas into your own.</p>
+      <h2 class="text-purple">{{ $t('campaigns.publicTitle') }}</h2>
+      <p class="lg:max-w-xl lg:mx-auto">{{ $t('campaigns.publicBody') }}</p>
     </div>
     <div class="flex gap-6 flex-col md:flex-row text-left">
       <div class="w-90">
@@ -52,12 +52,12 @@
       <div v-if="pending" class="p-5">
         <div class=" flex gap-2 items-center">
           <i class="fa-solid fa-spinner fa-spin fa-2x" aria-hidden="true"></i>
-          Loading...
+          {{ $t('campaigns.loading') }}
         </div>
       </div>
       <div class="flex flex-col gap-6" v-else>
         <p v-if="campaigns?.campaigns?.length === 0" class="text-light text-sm">
-          No campaigns match the selected filters. Please try again with different ones.
+          {{ $t('campaigns.noResults') }}
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           <Campaign v-for="campaign in campaigns?.campaigns"
@@ -75,18 +75,18 @@
         </div>
         <div v-if="hasPages()" class="flex items-center justify-center gap-5">
           <span class="link cursor-pointer" @click="previous()" v-if="campaigns?.pagination?.previous">
-            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
+            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> {{ $t('campaigns.previousPage') }}
           </span>
           <span v-else>
-            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> Previous page
+            <i class="fa-solid fa-chevron-left" aria-hidden="true" /> {{ $t('campaigns.previousPage') }}
           </span>
 
           <span class="link cursor-pointer" @click="next()" v-if="campaigns?.pagination?.next">
-            Next page
+            {{ $t('campaigns.nextPage') }}
             <i class="fa-solid fa-chevron-right" aria-hidden="true" />
           </span>
           <span v-else>
-            Next page
+            {{ $t('campaigns.nextPage') }}
             <i class="fa-solid fa-chevron-right" aria-hidden="true" />
           </span>
         </div>
@@ -108,6 +108,7 @@ interface CampaignsData {
 }
 
 const runtimeConfig = useRuntimeConfig()
+const localePath = useLocalePath()
 
 const filterUrl = ref(runtimeConfig.public.api + 'campaigns');
 

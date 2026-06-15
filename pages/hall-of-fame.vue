@@ -1,18 +1,18 @@
 <template>
   <BaseHero
           id="top"
-      :title="title"
-      lead="Honestly, it's still a little crazy to us that a weekend hobby project turned into a full-time job for our small team. None of that would have happened without these incredible people. Their support means we can deliver frequent updates, skip the morning standups, work on things we're genuinely passionate about, and keep spreading our love of worldbuilding, one campaign at a time." />
+      :title="$t('hallOfFame.title')"
+      :lead="$t('hallOfFame.lead')" />
 
 
-  <Section v-if="pending">Fetching...</Section>
+  <Section v-if="pending">{{ $t('hallOfFame.fetching') }}</Section>
   <div v-else-if="subscribers">
     <Section>
       <div class="flex flex-col gap-4 sticky top-0 bg-white justify-center">
         <NuxtPicture class="inline-block rounded-full mx-auto" src="images/tiers/elemental.png" alt="Elemental" width="150" height="150" />
         <h2 class="text-purple">Elemental</h2>
       </div>
-      <p class="text-light max-w-md mx-auto">These fantastic people let us know we're working on something truly magical.</p>
+      <p class="text-light max-w-md mx-auto">{{ $t('hallOfFame.elementalBody') }}</p>
       <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-4 gap-5 ">
         <span v-for="sub in subscribers.elemental" class="truncate">
           {{ sub}}
@@ -26,11 +26,11 @@
         <h2 class="text-purple">
           Wyvern
           <a href="#top">
-            <i class="fa-solid fa-arrow-up link" aria-hidden="true" title="Back to the top" />
+            <i class="fa-solid fa-arrow-up link" aria-hidden="true" :title="$t('hallOfFame.backToTop')" />
           </a>
         </h2>
       </div>
-      <p class="text-light max-w-md mx-auto">These are people who run multiple campaigns across multiple worlds, sometimes with huge groups of players. The serious worldbuilders who couldn't achieve their goals without Kanka.</p>
+      <p class="text-light max-w-md mx-auto">{{ $t('hallOfFame.wyvernBody') }}</p>
       <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5">
         <span v-for="sub in subscribers.wyvern" class="truncate">
           {{ sub}}
@@ -45,11 +45,11 @@
         <h2 class="text-purple">
           Owlbear
           <a href="#top">
-          <i class="fa-solid fa-arrow-up link" aria-hidden="true" title="Back to the top" />
+          <i class="fa-solid fa-arrow-up link" aria-hidden="true" :title="$t('hallOfFame.backToTop')" />
           </a>
         </h2>
       </div>
-      <p class="text-light max-w-md mx-auto">The backbone of Kanka's community. Worldbuilding is more than a passing hobby for these people, they wake up with plot hooks ready to add to their worlds. Their projects have long outgrown simple note-taking, and they're building something beautiful.</p>
+      <p class="text-light max-w-md mx-auto">{{ $t('hallOfFame.owlbearBody') }}</p>
       <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5">
         <span v-for="sub in subscribers.owlbear" class="truncate">
           {{ sub}}
@@ -64,10 +64,10 @@
           <h2 class="text-purple">
             Goblin
             <a href="#top">
-              <i class="fa-solid fa-arrow-up link" aria-hidden="true" title="Back to the top" />
+              <i class="fa-solid fa-arrow-up link" aria-hidden="true" :title="$t('hallOfFame.backToTop')" />
             </a>
           </h2>
-          <p class="text-light max-w-md">Discontinued in early 2020, our loyal Goblins are still supporting us to this day!</p>
+          <p class="text-light max-w-md">{{ $t('hallOfFame.goblinBody') }}</p>
         </div>
       </div>
       <div class="grid grid-cols-2 md:grid-cols-4 xl:grid-cols-6 gap-5">
@@ -80,8 +80,6 @@
 </template>
 
 <script setup lang="ts">
-const title = 'Hall of fame'
-
 const runtimeConfig = useRuntimeConfig()
 
 useSeo({

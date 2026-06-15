@@ -1,0 +1,19 @@
+items:
+  - id: payments
+    q: "Quais são os métodos de pagamento disponíveis?"
+    a: "Aceitamos a maioria dos cartões de crédito e débito como Visa, Mastercard e American Express. Também aceitamos PayPal para assinaturas anuais."
+  - id: info
+    q: "Vocês armazenam minhas informações de pagamento?"
+    a: "Usamos o Stripe.com para processar com segurança tuas informações de pagamento, e armazenamos apenas dados limitados sobre o teu método de pagamento. Usamos essas informações para te notificar quando o teu cartão está prestes a expirar, para que possas atualizá-lo e não perder a tua assinatura."
+  - id: cancel
+    q: "O que acontece se eu cancelar minha assinatura durante um período de cobrança?"
+    a: "Ao cancelar a tua assinatura, os teus benefícios ficam ativos até a data do próximo período de cobrança."
+  - id: resub
+    q: "O que acontece com meus dados quando eu reativo a assinatura?"
+    a: "Quando a tua assinatura termina, todos os recursos e dados relacionados à assinatura são desativados, mas salvos nos nossos servidores. Isso significa que quando tu reassinares, tudo voltará exatamente como estava."
+  - id: refund
+    q: "Qual é a política de reembolso de vocês?"
+    a: "Oferecemos uma política de reembolso de 14 dias sem perguntas para assinaturas anuais. É só nos enviar um e-mail em <a href=\"mailto:hello@kanka.io\" class=\"link link-purple\">hello@kanka.io</a>."
+  - id: gift
+    q: "Posso presentear assinaturas?"
+    a: "Embora não seja possível presentear assinaturas diretamente, tu podes fazer upgrade para o status premium em qualquer campanha à qual tens acesso. Isso inclui campanhas das quais não és admin, ou até mesmo das quais não és membro."

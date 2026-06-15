@@ -19,4 +19,6 @@ useSeo({
   description: 'This page has been permanently removed.',
   path: '/gone',
 })
+
+definePageMeta({ nuxtI18n: false })
 </script>

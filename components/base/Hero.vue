@@ -8,7 +8,7 @@
     </div>
     <div v-if="video" class="w-full max-w-lg shrink-0 flex flex-col gap-4">
         <YoutubeEmbed video-id="hoXHTKjobek" title="Kanka — Worldbuilding & RPG Campaign Manager" />
-        <span class="text-xs itatlic text-center">Watch a short 45 second overview of Kanka</span>
+        <span class="text-xs itatlic text-center">{{ $t('index.hero.videoCaption') }}</span>
     </div>
   </div>
 </template>

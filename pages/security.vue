@@ -1,38 +1,38 @@
 <template>
   <BaseHero
-      title="Security"
-      lead="Our small team is commited to providing top notch data protection standards to ensure that your data is safe with us." />
+      :title="$t('security.title')"
+      :lead="$t('security.lead')" />
 
 
   <Section align="left">
 
-    <h2 class="text-purple">Data centre security</h2>
+    <h2 class="text-purple">{{ $t('security.dataCenterTitle') }}</h2>
 
-    <p>Kanka is hosted on multiple servers to ensure redundancy, and we have disaster recovery procedures in place should something bad happen. Our servers are hosted by Hetzner.</p>
+    <p>{{ $t('security.dataCenterBody') }}</p>
 
-    <h2 class="text-purple">EU hosted infrastructure</h2>
+    <h2 class="text-purple">{{ $t('security.euTitle') }}</h2>
 
-    <p>Our servers and all of your data is hosted on servers inside the European Union. This allows us to meet specific regulatory and compliance requirements that ensure your data is safe with us. Our data center providers Hetzner and Amazon Cloud Europe have a history of quality and expertise in the handling of digital data.</p>
+    <p>{{ $t('security.euBody') }}</p>
 
-    <h2 class="text-purple">Secure communication</h2>
+    <h2 class="text-purple">{{ $t('security.commsTitle') }}</h2>
 
-    <p>All user data is transported securely and privately, as it is encrypted in transit via SSL. Encrypting data in transit protects it from unauthorised snooping, modification, as well as man-in-the-middle attacks.</p>
+    <p>{{ $t('security.commsBody') }}</p>
 
-    <h2 class="text-purple">Credit cards</h2>
+    <h2 class="text-purple">{{ $t('security.creditTitle') }}</h2>
 
-    <p>We don't store your credit card information. We use Stripe to process credit cards, with all communication between you, our servers, and Stripe being encrypted. The only credit card information provided by Stripe that we store is your card's expiration date and brand, so that we can notify you when your card expires.</p>
+    <p>{{ $t('security.creditBody') }}</p>
 
-    <h2 class="text-purple">Data backups</h2>
+    <h2 class="text-purple">{{ $t('security.backupsTitle') }}</h2>
 
-    <p>Our database is backed up twice a day to ensure your data stays safe and highly available. Our database backups are regularly tested to ensure that we can quickly restore data if needed.</p>
+    <p>{{ $t('security.backupsBody') }}</p>
 
-    <h2 class="text-purple">Log collection</h2>
+    <h2 class="text-purple">{{ $t('security.logsTitle') }}</h2>
 
-    <p>We automatically collect detailed logs to ensure that we can quickly and effectively resolve bugs and issues with users. These detailed logs are frequently purged, and are also automatically purged when when you delete your account.</p>
+    <p>{{ $t('security.logsBody') }}</p>
 
-    <h2 class="text-purple">Data breach</h2>
+    <h2 class="text-purple">{{ $t('security.breachTitle') }}</h2>
 
-    <p>Should Kanka be the target of a data breach involving personal data, we will promptly report it to the local authorities as well as to the users involved.</p>
+    <p>{{ $t('security.breachBody') }}</p>
   </Section>
 </template>
 
