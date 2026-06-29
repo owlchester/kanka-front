@@ -136,7 +136,7 @@ categories:
         Na barra lateral, clica em **Configurações** e depois em **Exclusão** no final da barra lateral. Excluir uma campanha é uma ação **permanente** que apagará todos os dados armazenados em nossos servidores, incluindo imagens. Não é possível recuperar uma campanha excluída.
     - question: "Como faço para vincular minha conta do Kanka ao Discord?"
       answer: |
-        A vinculação de uma conta do Kanka ao [Discord](/go/discord) é feita na página de configurações de [Aplicativos](/settings/apps) clicando em `Conectar`. Isso te adicionará ao Discord do Kanka e sincronizará os papéis de assinatura.
+        A vinculação de uma conta do Kanka ao [Discord](/go/discord) é feita na página de configurações de [Aplicativos](https://app.kanka.io/settings/apps) clicando em `Conectar`. Isso te adicionará ao Discord do Kanka e sincronizará os papéis de assinatura.
 - category: "Preços"
   faqs:
     - question: "O aplicativo continuará gratuito?"

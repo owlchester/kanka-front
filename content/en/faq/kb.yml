@@ -136,7 +136,7 @@ categories:
         From the sidebar, click on **Settings**, then **Deletion** at the bottom of the sidebar. Deleting a campaign is a **permanent** action that will delete all the data stored on our servers, including images. Recovering a deleted campaign is not possible.
     - question: "How do I link my Kanka account with Discord?"
       answer: |
-        Linking of a Kanka account to [Discord](/go/discord) is done on the [Apps](/settings/apps) setting page and by clicking on `Connect`. This will add you to the Kanka discord, and sync your subscription roles.
+        Linking of a Kanka account to [Discord](/go/discord) is done on the [Apps](https://app.kanka.io/settings/apps) setting page and by clicking on `Connect`. This will add you to the Kanka discord, and sync your subscription roles.
 - category: "Pricing"
   faqs:
     - question: "Will the app stay free?"

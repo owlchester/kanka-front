@@ -136,7 +136,7 @@ categories:
         Desde la barra lateral, haz clic en **Configuración**, luego en **Eliminación** en la parte inferior de la barra lateral. Eliminar una campaña es una acción **permanente** que borrará todos los datos almacenados en nuestros servidores, incluyendo las imágenes. No es posible recuperar una campaña eliminada.
     - question: "¿Cómo vinculo mi cuenta de Kanka con Discord?"
       answer: |
-        La vinculación de una cuenta de Kanka con [Discord](/go/discord) se realiza en la página de configuración de [Apps](/settings/apps) haciendo clic en `Conectar`. Esto te añadirá al Discord de Kanka y sincronizará tus roles de suscripción.
+        La vinculación de una cuenta de Kanka con [Discord](/go/discord) se realiza en la página de configuración de [Apps](https://app.kanka.io/settings/apps) haciendo clic en `Conectar`. Esto te añadirá al Discord de Kanka y sincronizará tus roles de suscripción.
 - category: "Precios"
   faqs:
     - question: "¿La app seguirá siendo gratuita?"

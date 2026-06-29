@@ -136,7 +136,7 @@ categories:
         Klicke in der Seitenleiste auf **Einstellungen** und dann auf **Löschen** am unteren Ende der Seitenleiste. Das Löschen einer Kampagne ist eine **permanente** Aktion, die alle auf unseren Servern gespeicherten Daten, einschliesslich Bilder, löscht. Die Wiederherstellung einer gelöschten Kampagne ist nicht möglich.
     - question: "Wie verknüpfe ich mein Kanka-Konto mit Discord?"
       answer: |
-        Die Verknüpfung eines Kanka-Kontos mit [Discord](/go/discord) erfolgt auf der Einstellungsseite [Apps](/settings/apps) durch Klicken auf `Verbinden`. Dadurch wirst du dem Kanka Discord hinzugefügt und deine Abonnementrollen werden synchronisiert.
+        Die Verknüpfung eines Kanka-Kontos mit [Discord](/go/discord) erfolgt auf der Einstellungsseite [Apps](https://app.kanka.io/settings/apps) durch Klicken auf `Verbinden`. Dadurch wirst du dem Kanka Discord hinzugefügt und deine Abonnementrollen werden synchronisiert.
 - category: "Preise"
   faqs:
     - question: "Bleibt die App kostenlos?"
