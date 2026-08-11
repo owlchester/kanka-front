@@ -542,7 +542,7 @@
     "discordBody": "Si quieres hablar directamente con nosotros, únete a nuestro {discordServer}.",
     "discordServerLink": "servidor de Discord",
     "aboutTeamTitle": "Sobre nuestro equipo",
-    "aboutTeamBody": "Kanka es construido y mantenido por un {teamLink} distribuido en Ginebra, Madrid y Mérida. Somos apasionados de la construcción de mundos y la gestión de campañas, y nos encanta saber de nuestros usuarios, ya sean reportes de bugs, solicitudes de funciones o simplemente cómo usas Kanka.",
+    "aboutTeamBody": "Kanka es construido y mantenido por un {teamLink} distribuido en Ginebra y Mérida. Somos apasionados de la construcción de mundos y la gestión de campañas, y nos encanta saber de nuestros usuarios, ya sean reportes de bugs, solicitudes de funciones o simplemente cómo usas Kanka.",
     "aboutTeamLink": "pequeño equipo distribuido",
     "responseTitle": "Tiempo de respuesta y soporte",
     "responseBody1": "Generalmente respondemos a todas las consultas en {hours}. Valoramos el equilibrio entre el trabajo y la vida personal y el tiempo con nuestras familias, por lo que es posible que no respondamos de inmediato, pero te responderemos.",

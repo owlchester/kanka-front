@@ -542,7 +542,7 @@
     "discordBody": "If you want to talk to us directly, hop on our {discordServer}.",
     "discordServerLink": "Discord server",
     "aboutTeamTitle": "About Our Team",
-    "aboutTeamBody": "Kanka is built and maintained by a {teamLink} scattered across Geneva, Madrid, and Mérida. We're passionate about worldbuilding and campaign management, and we love hearing from our users, whether it's bug reports, feature requests, or just sharing how you use Kanka.",
+    "aboutTeamBody": "Kanka is built and maintained by a {teamLink} scattered across Geneva and Mérida. We're passionate about worldbuilding and campaign management, and we love hearing from our users, whether it's bug reports, feature requests, or just sharing how you use Kanka.",
     "aboutTeamLink": "small, distributed team",
     "responseTitle": "Response Time & Support",
     "responseBody1": "We typically respond to all inquiries within {hours}. We value work-life balance and time with our families, so we may not answer immediately, but we will get back to you.",
