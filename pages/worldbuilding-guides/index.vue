@@ -1,6 +1,15 @@
 <script setup lang="ts">
-const { data: articles } = await useAsyncData('guides', () =>
-    queryCollection('guides').all()
+const { locale } = useI18n()
+const localePath = useLocalePath()
+const contentPath = (path: string) => {
+    const prefix = `/${locale.value}`
+    return localePath(path.startsWith(`${prefix}/`) ? path.slice(prefix.length) : path)
+}
+
+const { data: articles } = await useAsyncData(`guides-${locale.value}`, () =>
+    queryCollection('guides')
+        .where('path', 'like', `/${locale.value}/worldbuilding-guides/%`)
+        .all()
 )
 
 useSeo({
@@ -30,11 +39,11 @@ useSeo({
                 :key="article.path"
                 class="rounded border flex flex-col gap-3 p-4"
             >
-                <NuxtLink :to="`${article.path}`" class="link">
+                <NuxtLink :to="contentPath(article.path)" class="link">
                     <h2 class="text-purple">{{ article.title }}</h2>
                 </NuxtLink>
                 <p class="grow">{{ article.description }}</p>
-                <NuxtLink :to="`${article.path}`" class="btn-round rounded-full">{{ $t('guidesIndex.readGuide') }}</NuxtLink>
+                <NuxtLink :to="contentPath(article.path)" class="btn-round rounded-full">{{ $t('guidesIndex.readGuide') }}</NuxtLink>
             </div>
         </div>
         <p v-else>{{ $t('guidesIndex.noResults') }}</p>

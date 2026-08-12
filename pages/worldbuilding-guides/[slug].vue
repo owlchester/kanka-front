@@ -2,6 +2,11 @@
 const route = useRoute()
 const slug = route.params.slug as string
 const { locale } = useI18n()
+const localePath = useLocalePath()
+const contentPath = (path: string) => {
+    const prefix = `/${locale.value}`
+    return localePath(path.startsWith(`${prefix}/`) ? path.slice(prefix.length) : path)
+}
 
 const path = `/${locale.value}/worldbuilding-guides/${slug}`
 
@@ -94,7 +99,7 @@ useSeoMeta({
                     :key="item.path"
                     class="rounded border flex flex-col gap-3 p-4"
                 >
-                    <NuxtLink :to="`${item.path}`" class="link">
+                    <NuxtLink :to="contentPath(item.path)" class="link">
                         <span class="text-md text-purple font-semibold">{{ item.title }}</span>
                     </NuxtLink>
                     <p class="grow text-sm">{{ item.lead }}</p>
@@ -103,14 +108,14 @@ useSeoMeta({
         </Section>
 
         <Section>
-            <NuxtLink to="/worldbuilding-guides" class="btn-round rounded-full">&larr; Back to Worldbuilding Guides</NuxtLink>
+            <NuxtLink :to="localePath('/worldbuilding-guides')" class="btn-round rounded-full">&larr; Back to Worldbuilding Guides</NuxtLink>
         </Section>
     </div>
 
     <div v-else>
         <Section>
             <p>Guide not found.</p>
-            <NuxtLink to="/worldbuilding-guides" class="btn-round rounded-full">&larr; Back to Worldbuilding Guides</NuxtLink>
+            <NuxtLink :to="localePath('/worldbuilding-guides')" class="btn-round rounded-full">&larr; Back to Worldbuilding Guides</NuxtLink>
         </Section>
     </div>
 </template>

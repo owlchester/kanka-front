@@ -2,6 +2,11 @@
 const route = useRoute()
 const slug = route.params.slug as string
 const { locale } = useI18n()
+const localePath = useLocalePath()
+const contentPath = (path: string) => {
+    const prefix = `/${locale.value}`
+    return localePath(path.startsWith(`${prefix}/`) ? path.slice(prefix.length) : path)
+}
 
 const path = `/${locale.value}/use-cases/${slug}`
 
@@ -90,7 +95,7 @@ useSeoMeta({ ogType: 'article' })
                     :key="item.path"
                     class="rounded border flex flex-col gap-3 p-4"
                 >
-                    <NuxtLink :to="`${item.path}`" class="link">
+                    <NuxtLink :to="contentPath(item.path)" class="link">
                         <span class="text-md text-purple font-semibold">{{ item.target }}</span>
                     </NuxtLink>
                     <p class="grow text-sm">{{ item.description }}</p>
@@ -99,14 +104,14 @@ useSeoMeta({ ogType: 'article' })
         </Section>
 
         <Section>
-            <NuxtLink to="/use-cases" class="btn-round rounded-full">&larr; Back to Use Cases</NuxtLink>
+            <NuxtLink :to="localePath('/use-cases')" class="btn-round rounded-full">&larr; Back to Use Cases</NuxtLink>
         </Section>
     </div>
 
     <div v-else>
         <Section>
             <p>Use case not found.</p>
-            <NuxtLink to="/use-cases" class="btn-round rounded-full">&larr; Back to Use Cases</NuxtLink>
+            <NuxtLink :to="localePath('/use-cases')" class="btn-round rounded-full">&larr; Back to Use Cases</NuxtLink>
         </Section>
     </div>
 </template>
