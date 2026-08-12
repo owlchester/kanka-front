@@ -73,7 +73,7 @@ export default {
     },
 
     imageSource() {
-      let base = 'https://d3a4xjr8r2ldhu.cloudfront.net/';
+      let base = 'https://cdn-app.kanka.io/images/';
       return base + this.url;
     },
     handleEscKey(event) {

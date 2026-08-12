@@ -40,7 +40,7 @@ useHead({
         },
         "image": {
           "@type": "ImageObject",
-          "url": "https://d3a4xjr8r2ldhu.cloudfront.net/app/front/preview-background.png",
+          "url": "https://cdn-app.kanka.io/images/share.png",
           "width": 1920,
           "height": 1024
         },
@@ -70,7 +70,7 @@ useSeoMeta({
   ogType: 'website',
   ogSiteName: 'Kanka',
   fbAppId: '126711854711743',
-  ogImage: 'https://d3a4xjr8r2ldhu.cloudfront.net/app/front/preview-background.png',
+  ogImage: 'https://cdn-app.kanka.io/images/share.png',
   ogImageType: 'image/png',
   ogImageWidth: 1920,
   ogImageHeight: 1024,
