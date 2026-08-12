@@ -83,7 +83,7 @@ export default defineNuxtConfig({
     prerender: {
         crawlLinks: true,
         failOnError: false,
-        autoSubfolderIndex: true,
+        autoSubfolderIndex: false,
         routes: [
             // English (no prefix)
             "/use-cases/game-masters",
