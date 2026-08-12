@@ -4,6 +4,8 @@
           v-if="asset"
           :src="'/' + url"
           :alt="alt"
+          sizes="(max-width: 768px) 100vw, 768px"
+          densities="1 2"
           :loading="preload ? 'eager' : 'lazy'"
           :preload="preload"
           :width="width"
