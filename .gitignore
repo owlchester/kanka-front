@@ -4,6 +4,7 @@
 .nitro
 .cache
 .yarn
+.wrangler
 dist
 
 # Node dependencies
