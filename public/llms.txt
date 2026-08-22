@@ -27,4 +27,11 @@ Kanka is available at https://kanka.io. The web app is at https://app.kanka.io.
 
 ## About
 
-Kanka is built by a small independent team. Community support happens on [Discord](https://discord.gg/rhsyZJ4). Documentation is at https://docs.kanka.io. The blog is at https://blog.kanka.io.
+Kanka is built by Jay and Jon, two passionate worldbuilders and TTRPG knuckleheads. Community support happens on [Discord](https://discord.gg/rhsyZJ4). Documentation is at https://docs.kanka.io. The blog is at https://blog.kanka.io.
+
+## Developer resources
+
+- [Developer resources](https://kanka.io/developers): Overview of Kanka's REST API, authentication, API base URL, and machine-readable resources
+- [Kanka API documentation](https://app.kanka.io/api-docs/1.0/overview): REST API endpoint reference
+- [API setup and authentication](https://app.kanka.io/api-docs/1.0/setup): API key creation, Bearer token authentication, endpoints, and rate limits
+- [Kanka API base URL](https://api.kanka.io/1.0): Base URL for API requests

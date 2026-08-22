@@ -30,6 +30,7 @@
       "comparison": "Kanka vs WorldAnvil",
       "learn": "Centre d'apprentissage",
       "kb": "Base de connaissances",
+      "developerResources": "Ressources pour les développeurs",
       "docs": "Documentation",
       "api": "Documentation API",
       "blog": "Blog",
@@ -645,5 +646,19 @@
     "lead": "Guides et articles pour t'aider à tirer le meilleur parti de Kanka.",
     "readArticle": "Lire l'article",
     "noResults": "Aucun article pour l'instant. Reviens bientôt!"
+  },
+  "developerResources": {
+    "title": "Ressources pour les développeurs",
+    "lead": "Crée des intégrations avec Kanka grâce à notre API REST, notre documentation et nos ressources lisibles par les machines.",
+    "apiTitle": "API REST de Kanka",
+    "apiBody": "Utilise l'API REST de Kanka pour consulter et gérer les données de campagne, notamment les personnages, lieux, quêtes, cartes et bien plus.",
+    "apiLink": "Lire la documentation de l'API",
+    "setupTitle": "Authentification et configuration",
+    "setupBody": "Crée une clé API, authentifie tes requêtes avec un jeton Bearer et consulte les limites de requêtes avant de commencer.",
+    "setupLink": "Lire la documentation de configuration",
+    "machineReadableTitle": "Ressources lisibles par les machines",
+    "machineReadableBody": "Utilise llms.txt comme index concis des ressources publiques et de la documentation développeur de Kanka.",
+    "llmsLink": "Lire llms.txt",
+    "baseUrlTitle": "URL de base de l'API"
   }
 }

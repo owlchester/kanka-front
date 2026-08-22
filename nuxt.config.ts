@@ -50,6 +50,7 @@ export default defineNuxtConfig({
     "/": { prerender: true },
     "/pricing": { prerender: true },
     "/features": { prerender: true },
+    "/developers": { prerender: true },
     "/learn/**": { prerender: true },
     "/use-cases/**": { prerender: true },
     "/worldbuilding-guides/**": { prerender: true },

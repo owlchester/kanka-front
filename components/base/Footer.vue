@@ -45,6 +45,7 @@
                     <NuxtLink :to="localePath('/kanka-vs-worldanvil')">{{ $t('footer.resources.comparison') }}</NuxtLink>
                     <NuxtLink :to="localePath('/learn')">{{ $t('footer.resources.learn') }}</NuxtLink>
                     <NuxtLink :to="localePath('/kb')">{{ $t('footer.resources.kb') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/developers')">{{ $t('footer.resources.developerResources') }}</NuxtLink>
                     <a href="https://docs.kanka.io">{{ $t('footer.resources.docs') }}</a>
                     <a :href="`${runtimeConfig.app}/api-docs/1.0/overview`">{{ $t('footer.resources.api') }}</a>
                     <a href="https://blog.kanka.io">{{ $t('footer.resources.blog') }}</a>
