@@ -30,5 +30,13 @@ useSeoMeta({
       <NuxtLink to="/" class="btn-round rounded-full"><i class="fa-solid fa-arrow-left" aria-hidden="true" /> Back to the homepage</NuxtLink>
       </div>
     </BaseHero>
+    <Section align="left">
+      <p>Helpful resources:</p>
+      <ul class="list-disc pl-6">
+        <li><NuxtLink to="/sitemap.xml" class="link">Sitemap</NuxtLink></li>
+        <li><NuxtLink to="/llms.txt" class="link">LLM resources</NuxtLink></li>
+        <li><NuxtLink to="/developers" class="link">Developer resources</NuxtLink></li>
+      </ul>
+    </Section>
   </NuxtLayout>
 </template>
