@@ -124,7 +124,7 @@ const props = withDefaults(defineProps<{
   period?: boolean
 }>(), {
   currency: 'usd',
-  period: false,
+  period: true,
 })
 
 const localePath = useLocalePath()

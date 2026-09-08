@@ -78,8 +78,8 @@ const { data: faq } = await useAsyncData(`pricing-faq-${locale.value}`, () =>
 const stripHtml = (html: string) => html.replace(/<[^>]*>/g, '')
 const { country } = asyncCurrency();
 const currency = ref(defaultCurrency());
-const monthly = ref(true);
-const yearly = ref(false);
+const monthly = ref(false);
+const yearly = ref(true);
 
 function defaultCurrency() {
   if (country.value == 'EUR') {
