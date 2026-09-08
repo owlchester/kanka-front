@@ -15,7 +15,7 @@
               </p>
           </div>
           <div v-else-if="defaultCurrency() && discounted">
-            <p class="text-light font-medium">{{ defaultCurrency() }}{{ yearlyPrice() }}{{ $t('pricingTier.perMonth') }}
+            <p class="text-purple font-medium">{{ defaultCurrency() }}{{ yearlyPrice() }}{{ $t('pricingTier.perMonth') }}
             </p>
             <p class="text-light text-sm">{{ $t('pricingTier.billedYearly') }}</p>
           </div>
