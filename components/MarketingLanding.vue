@@ -102,8 +102,8 @@
   <Section id="team">
     <h2 class="text-purple">Who we are</h2>
     <div class="flex items-center gap-12 justify-center">
-      <LazyNuxtImg src="https://th.kanka.io/3gGetooEqoGcA-NFOPvu2xYX980=/200x200/smart/src/app/team/jay2.jpeg" class="rounded-full w-40 h-40" alt="Jay" />
-      <LazyNuxtImg src="https://th.kanka.io/qj6BEWMKrn4D-9f5GMP_REpzsyQ=/200x200/smart/src/app/team/jon.jpg" class="rounded-full w-40 h-40" alt="Jon" />
+      <LazyNuxtImg src="/images/members/jay.png" class="rounded-full w-40 h-40" alt="Jay" />
+      <LazyNuxtImg src="/images/members/jon.png" class="rounded-full w-40 h-40" alt="Jon" />
     </div>
     <p>Kanka is built and run by just two of us: one GM (Jay) and one player (Jon). The initial spark came because Jay needed a better way to keep track of our campaign so that Jon could keep ignoring the main plotline. Even all these years later, it's still just us answering your emails, Discord messages, and carrier pigeons. We're not trying to build the biggest worldbuilding platform, just the one we want to run our own games in.</p>
     <div class="text-center">

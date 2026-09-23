@@ -1,9 +1,9 @@
 {
   "nav": {
     "features": "Fonctionnalités",
-    "pricing": "Tarification",
+    "pricing": "Prix",
     "campaigns": "Campagnes publiques",
-    "about": "À propos",
+    "about": "Equipe",
     "home": "Accueil",
     "signin": "Se connecter",
     "register": "S'inscrire"
@@ -16,7 +16,7 @@
       "title": "Plateforme",
       "features": "Fonctionnalités",
       "premiumCampaigns": "Campagnes premium",
-      "pricing": "Tarification",
+      "pricing": "Prix",
       "plugins": "Plugins",
       "useCases": "Cas d'usage",
       "forGameMasters": "Pour les maîtres de jeu",

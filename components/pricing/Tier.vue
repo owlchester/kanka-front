@@ -24,7 +24,7 @@
           </p>
 
         </div>
-        <NuxtImg :src="thumbnail" class="flex-none" :alt="tier" width="71" height="71" loading="lazy" />
+        <NuxtImg :src="thumbnail" class="h-[71px] w-[71px] shrink-0 object-contain" :alt="tier" width="71" height="71" loading="lazy" />
       </div>
 
       <div class="flex flex-col gap-3 grow">

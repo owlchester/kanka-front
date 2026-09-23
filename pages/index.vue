@@ -137,8 +137,8 @@
       <h2 class="text-purple">{{ $t('index.team.title') }}</h2>
 
       <div class="flex items-center gap-12 justify-center">
-          <LazyNuxtImg src="https://th.kanka.io/3gGetooEqoGcA-NFOPvu2xYX980=/200x200/smart/src/app/team/jay2.jpeg" class="rounded-full w-40 h-40" alt="Jay" />
-          <LazyNuxtImg src="https://th.kanka.io/qj6BEWMKrn4D-9f5GMP_REpzsyQ=/200x200/smart/src/app/team/jon.jpg" class="rounded-full w-40 h-40" alt="Jon" />
+          <LazyNuxtImg src="/images/members/jay.png" class="rounded-full w-40 h-40" alt="Jay" />
+          <LazyNuxtImg src="/images/members/jon.png" class="rounded-full w-40 h-40" alt="Jon" />
       </div>
       <p>{{ $t('index.team.body') }}</p>
 
