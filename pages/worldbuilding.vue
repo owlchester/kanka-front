@@ -22,7 +22,7 @@ const heroRegisterUrl = useRegisterUrl('worldbuilding_hero')
 
 useSeo({
   title: 'Kanka — Worldbuilding Tool for D&D & Tabletop RPGs',
-  description: 'The worldbuilding tool where every character, location, and faction links together. Build consistent lore with @mentions. Free to start. Trusted by 375,000+ worldbuilders.',
+  description: 'The worldbuilding tool where every character, location, and faction links together. Build consistent lore with @mentions. Free to start. Trusted by 400,000+ worldbuilders.',
   path: '/worldbuilding',
   noindex: true,
 })

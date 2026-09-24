@@ -51,13 +51,12 @@
 
     <div class="grid grid-cols-2 gap-10 xl:grid-cols-4 text-left">
       <div>{{ $t('about.translators.l1') }}: <strong>Kanka Team</strong></div>
+      <div>{{ $t('about.translators.l5') }}: <strong>Kanka Team</strong></div>
       <div>{{ $t('about.translators.l2') }}: <strong>Elminster Aumar</strong></div>
-      <div>{{ $t('about.translators.l3') }}: <strong>Xoltax</strong></div>
       <div>{{ $t('about.translators.l4') }}: <NuxtLink :to="localePath('/partners')" class="link">Gramel Books</NuxtLink></div>
-      <div>{{ $t('about.translators.l5') }}: HelionKing, <strong>Kanka Team</strong></div>
+      <div>{{ $t('about.translators.l3') }}: <strong>Xoltax</strong></div>
       <div>{{ $t('about.translators.l6') }}: <strong>Labhrainn</strong></div>
       <div>{{ $t('about.translators.l7') }}: <strong>Ilia</strong></div>
-      <div>{{ $t('about.translators.l8') }}: ThatChickenGuy</div>
       <div>{{ $t('about.translators.l9') }}: <strong>Babcom</strong></div>
     </div>
   </Section>
@@ -69,7 +68,7 @@
 
 <script setup lang="ts">
 const localePath = useLocalePath()
-const title = 'About Kanka — 3-Person Team Behind 375K+ Worldbuilders'
+const title = 'About Kanka — 2-Person Team Behind 400K+ Worldbuilders'
 
 const { locale } = useI18n()
 const { teamCollection } = useLocaleData()

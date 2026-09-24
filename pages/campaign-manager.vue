@@ -22,7 +22,7 @@ const heroRegisterUrl = useRegisterUrl('campaign_manager_hero')
 
 useSeo({
   title: 'Kanka — D&D Campaign Manager for Game Masters',
-  description: 'The D&D and TTRPG campaign manager that keeps every NPC, quest, and plot thread linked and findable mid-session. Free to start. Trusted by 375,000+ GMs.',
+  description: 'The D&D and TTRPG campaign manager that keeps every NPC, quest, and plot thread linked and findable mid-session. Free to start. Trusted by 400,000+ GMs.',
   path: '/campaign-manager',
   noindex: true,
 })
