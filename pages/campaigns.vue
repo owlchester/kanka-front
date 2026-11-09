@@ -40,10 +40,10 @@
             </span>
           </div>
           <div class="flex flex-col gap-5" v-for="(filter, filterKey) in setup?.filters">
-            <span class="text-nav">{{ filter.title }}</span>
+            <span class="text-nav">{{ $t(`campaigns.filters.${filterKey.replace('[]', '')}`, filter.title) }}</span>
             <div class="flex flex-col gap-3">
-              <span v-bind:class="filterCss(filterKey, optionKey)" v-for="(option, optionKey) in filter.options" @click="filterTo(filterKey, optionKey, option)">
-                {{ option }}
+              <span v-bind:class="filterCss(filterKey, optionKey)" v-for="(option, optionKey) in filter.options" @click="filterTo(filterKey, optionKey, optionLabel(filterKey, optionKey, option))">
+                {{ optionLabel(filterKey, optionKey, option) }}
               </span>
             </div>
           </div>
@@ -109,6 +109,7 @@ interface CampaignsData {
 
 const runtimeConfig = useRuntimeConfig()
 const localePath = useLocalePath()
+const { t } = useI18n()
 
 const filterUrl = ref(runtimeConfig.public.api + 'campaigns');
 
@@ -136,6 +137,16 @@ useSeo({
     },
   ],
 })
+
+function optionLabel(filterKey: string, optionKey: string, option: string) {
+  if (filterKey === 'language') {
+    return t(`campaigns.languages.${optionKey}`, option)
+  }
+  if (filterKey === 'genre') {
+    return t(`campaigns.genres.${option.toLowerCase().replaceAll(' ', '-')}`, option)
+  }
+  return option
+}
 
 function filterCss(filterKey: string, optionKey: string) {
   let css = 'cursor-pointer link ';

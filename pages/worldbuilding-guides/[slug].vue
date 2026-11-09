@@ -77,9 +77,9 @@ useSeoMeta({
       <Section align="left">
             <div class="prose max-w-3xl mx-auto">
                 <p v-if="article.author || article.datePublished" class="text-sm text-gray-500 not-prose">
-                    <span v-if="article.author">By <NuxtLink to="/about" class="link">{{ article.author }}</NuxtLink></span>
+                    <span v-if="article.author">{{ $t('article.by', 'By') }} <NuxtLink :to="localePath('/about')" class="link">{{ article.author }}</NuxtLink></span>
                     <span v-if="article.author && article.datePublished"> · </span>
-                    <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString(locale.value, { year: 'numeric', month: 'long', day: 'numeric' }) }}</time>
+                    <time v-if="article.datePublished" :datetime="article.datePublished">{{ new Date(article.datePublished).toLocaleDateString(locale, { year: 'numeric', month: 'long', day: 'numeric', timeZone: 'UTC' }) }}</time>
                 </p>
                 <ContentRenderer :value="article" />
                 <a
@@ -92,7 +92,7 @@ useSeoMeta({
         </Section>
 
         <Section v-if="related?.length">
-            <h2 class="text-2xl font-bold mb-6 text-purple">Related Guides</h2>
+            <h2 class="text-2xl font-bold mb-6 text-purple">{{ $t('article.relatedGuides', 'Related Guides') }}</h2>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div
                     v-for="item in related"
@@ -108,14 +108,14 @@ useSeoMeta({
         </Section>
 
         <Section>
-            <NuxtLink :to="localePath('/worldbuilding-guides')" class="btn-round rounded-full">&larr; Back to Worldbuilding Guides</NuxtLink>
+            <NuxtLink :to="localePath('/worldbuilding-guides')" class="btn-round rounded-full">&larr; {{ $t('article.backToGuides', 'Back to Worldbuilding Guides') }}</NuxtLink>
         </Section>
     </div>
 
     <div v-else>
         <Section>
-            <p>Guide not found.</p>
-            <NuxtLink :to="localePath('/worldbuilding-guides')" class="btn-round rounded-full">&larr; Back to Worldbuilding Guides</NuxtLink>
+            <p>{{ $t('article.guideNotFound', 'Guide not found.') }}</p>
+            <NuxtLink :to="localePath('/worldbuilding-guides')" class="btn-round rounded-full">&larr; {{ $t('article.backToGuides', 'Back to Worldbuilding Guides') }}</NuxtLink>
         </Section>
     </div>
 </template>

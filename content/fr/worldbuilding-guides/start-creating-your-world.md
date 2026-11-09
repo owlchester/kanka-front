@@ -1,13 +1,13 @@
 ---
-title: "Comment se lancer dans le worldbuilding: Un guide pour débutants"
-description: Lance-toi dans le worldbuilding aujourd'hui - aucune expérience requise. Ce guide t'accompagne dans la création de ton premier monde fantastique, du concept au cadre jouable.
-lead: Que tu rêves d'un royaume fantastique, que tu construises un empire de science-fiction à l'échelle galactique, ou que tu joues simplement avec une idée d'histoire, le worldbuilding est plus facile et plus gratifiant que tu ne le penses. Le mieux? Tu es probablement déjà en train de le faire.
+title: "Par où commencer pour créer ton monde?"
+description: "Pars d'une idée, choisis un lieu et imagine ce qui s'y passe. Ce guide t'aide à en faire un cadre pour tes premières parties."
+lead: "Tu as déjà une ville, un personnage ou une histoire en tête? C'est assez pour commencer à donner forme à ton monde."
 author: Jay
 datePublished: "2026-03-03"
 tags:
   - beginner
   - worldbuilding
-cta: Ton monde a besoin d'une maison. Kanka est gratuit pour commencer.
+cta: "Commencer gratuitement"
 tracking: start
 ---
 

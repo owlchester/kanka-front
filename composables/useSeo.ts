@@ -45,19 +45,24 @@ interface SeoOptions {
 }
 
 export function useSeo({ title, description, path, ogTitle, ogDescription, schemas = [], noindex = false }: SeoOptions) {
-  const { locale } = useI18n()
+  const { locale, t, te } = useI18n()
   const route = useRoute()
   const url = `${BASE_URL}${route.path}`
-  const resolvedOgTitle = ogTitle ?? title
-  const resolvedOgDescription = ogDescription ?? description
+  const seoKey = `seo.${path === '/' ? 'home' : path.slice(1)}`
+  const titleKey = `${seoKey}.title`
+  const descriptionKey = `${seoKey}.description`
+  const localizedTitle = te(titleKey) ? t(titleKey) : undefined
+  const localizedDescription = te(descriptionKey) ? t(descriptionKey) : undefined
+  const resolvedOgTitle = localizedTitle ?? ogTitle ?? title
+  const resolvedOgDescription = localizedDescription ?? ogDescription ?? description
 
-  const meta: { name: string; content: string }[] = [{ name: 'description', content: description }]
+  const meta: { name: string; content: string }[] = [{ name: 'description', content: localizedDescription ?? description }]
   if (noindex) {
     meta.push({ name: 'robots', content: 'noindex,follow' })
   }
 
   useHead({
-    title,
+    title: localizedTitle ?? title,
     meta,
     link: [{ rel: 'canonical', href: url }],
     script: schemas.map(schema => ({

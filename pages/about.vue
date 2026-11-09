@@ -25,13 +25,13 @@
     <p>{{ $t('about.communityBody') }}</p>
 
     <div class="grid grid-cols-2 xl:grid-cols-4 gap-5 w-full">
-      <AboutStat amount="400,000+" :text="$t('about.stats.users')" />
+      <AboutStat :amount="$t('about.amounts.users', '400,000+')" :text="$t('about.stats.users')" />
       <AboutStat amount="90+" :text="$t('about.stats.countries')" />
-      <AboutStat amount="9 million +" :text="$t('about.stats.entries')" />
-      <AboutStat amount="150,000+" :text="$t('about.stats.missedPlotHooks')" />
-      <AboutStat amount="350,000+" :text="$t('about.stats.campaigns')" />
+      <AboutStat :amount="$t('about.amounts.entries', '9 million +')" :text="$t('about.stats.entries')" />
+      <AboutStat :amount="$t('about.amounts.missedPlotHooks', '150,000+')" :text="$t('about.stats.missedPlotHooks')" />
+      <AboutStat :amount="$t('about.amounts.campaigns', '350,000+')" :text="$t('about.stats.campaigns')" />
       <AboutStat amount="200+" :text="$t('about.stats.marketplacePlugins')" />
-      <AboutStat amount="30,000+" :text="$t('about.stats.dailyApiCalls')" />
+      <AboutStat :amount="$t('about.amounts.dailyApiCalls', '30,000+')" :text="$t('about.stats.dailyApiCalls')" />
       <AboutStat amount="0" :text="$t('about.stats.ruinedSessions')" />
     </div>
   </Section>
@@ -50,8 +50,8 @@
     <p class="max-w-lg mx-auto">{{ $t('about.translationsBody') }}</p>
 
     <div class="grid grid-cols-2 gap-10 xl:grid-cols-4 text-left">
-      <div>{{ $t('about.translators.l1') }}: <strong>Kanka Team</strong></div>
-      <div>{{ $t('about.translators.l5') }}: <strong>Kanka Team</strong></div>
+      <div>{{ $t('about.translators.l1') }}: <strong>{{ $t('about.translationTeam', 'Kanka Team') }}</strong></div>
+      <div>{{ $t('about.translators.l5') }}: <strong>{{ $t('about.translationTeam', 'Kanka Team') }}</strong></div>
       <div>{{ $t('about.translators.l2') }}: <strong>Elminster Aumar</strong></div>
       <div>{{ $t('about.translators.l4') }}: <NuxtLink :to="localePath('/partners')" class="link">Gramel Books</NuxtLink></div>
       <div>{{ $t('about.translators.l3') }}: <strong>Xoltax</strong></div>

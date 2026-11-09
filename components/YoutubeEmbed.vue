@@ -25,7 +25,7 @@ const thumbnail = computed(() =>
         <button
             v-else
             class="absolute inset-0 w-full h-full group"
-            :aria-label="`Play ${title ?? 'video'}`"
+            :aria-label="$t('video.play', { title: title ?? $t('video.defaultTitle', 'video') }, 'Play {title}')"
             @click="active = true"
         >
             <img

@@ -95,7 +95,7 @@
       <td><IconsCheck css="w-8 h-8" /></td>
     </tr>
     <tr>
-      <td v-html="$t('pricing.paidFeaturesTable.hallOfFame', { hallOfFame: `<a href='${localePath('/hall-of-fame')}' class='link-blue'>Hall of Fame</a>` })" />
+      <td v-html="$t('pricing.paidFeaturesTable.hallOfFame', { hallOfFame: `<a href='${localePath('/hall-of-fame')}' class='link-blue'>${$t('footer.community.hallOfFame')}</a>` })" />
       <td class="text-light">—</td>
       <td><IconsCheck css="w-8 h-8" /></td>
       <td><IconsCheck css="w-8 h-8" /></td>

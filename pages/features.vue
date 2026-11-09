@@ -50,7 +50,7 @@
         <div class="grid grid-cols-2 gap-8 mb-10 text-left">
             <div id="free" class="flex flex-col gap-5">
                 <h3 class="">{{ $t('features.general.freeTitle') }}</h3>
-                <p v-html="$t('features.general.freeBody', { bonuses: `<a href='${localePath('/pricing')}#paid-features' class='link'>${$t('features.general.freeBonuses')}</a>` })" />
+                <p v-html="$t('features.general.freeBody', { bonuses: `<a href='${localePath('/pricing')}#features' class='link'>${$t('features.general.freeBonuses')}</a>` })" />
             </div>
             <div id="collaborative" class="flex flex-col gap-5">
                 <h3>{{ $t('features.general.collaborativeTitle') }}</h3>
@@ -74,7 +74,7 @@
 
             <Preview
                 url="images/screenshots/dashboard-attalayan.png"
-                alt="Campaign dashboard"
+                :alt="$t('features.general.dashboardsCaption')"
                 asset
             >
                 {{ $t('features.general.dashboardsCaption') }}

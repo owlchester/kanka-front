@@ -150,7 +150,7 @@
     <div>
       <h2 class="text-purple mb-5" id="how-to-contact-us">How to contact us</h2>
 
-      <p>If you have any questions about Kanka’s privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.</p>
+      <p>If you have any questions about Kanka's privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.</p>
 
       <p>Email us at: <a href="mailto:hello@kanka.io">hello@kanka.io</a></p>
     </div>

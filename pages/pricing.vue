@@ -31,7 +31,7 @@
                      :period="yearly" />
 
     <div class="text-center">
-      <a to="#features" class="btn btn-round rounded-full">
+      <a href="#features" class="btn btn-round rounded-full">
         {{ $t('pricing.comparePlans') }} <i class="fa-solid fa-arrow-down" aria-hidden="true" />
       </a>
     </div>

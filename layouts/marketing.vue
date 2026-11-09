@@ -1,7 +1,7 @@
 <template>
-  <Html lang="en"></Html>
+  <Html :lang="$i18n.locale" />
   <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-50 focus:rounded focus:bg-white focus:px-4 focus:py-2 focus:text-sm focus:font-medium focus:text-black">
-    Skip to content
+    {{ $t('nav.skipToContent', 'Skip to content') }}
   </a>
   <header role="banner">
     <nav class="flex items-center justify-between gap-16 xl:gap-20 h-32 px-5 max-w-7xl mx-auto">
@@ -14,13 +14,13 @@
       />
 
       <div class="gap-8 xl:gap-12 items-center grow hidden lg:flex">
-        <a href="#features" class="link text-nav">Features</a>
-        <a href="#pricing" class="link text-nav">Pricing</a>
+        <a href="#features" class="link text-nav">{{ $t('nav.features') }}</a>
+        <a href="#pricing" class="link text-nav">{{ $t('nav.pricing') }}</a>
       </div>
 
       <div class="gap-2.5 items-center hidden lg:flex">
-        <a :href="`${runtimeConfig.app}/login`" class="btn-login transition-colors duration-200">Sign in</a>
-        <a :href="navRegisterUrl" class="btn-register transition-colors duration-200" @click="trackRegisterClick('nav')">Register</a>
+        <a :href="`${runtimeConfig.app}/login`" class="btn-login transition-colors duration-200">{{ $t('nav.signin') }}</a>
+        <a :href="navRegisterUrl" class="btn-register transition-colors duration-200" @click="trackRegisterClick('nav')">{{ $t('nav.register') }}</a>
       </div>
 
       <div class="block lg:hidden" @click="toggle()">
@@ -33,10 +33,10 @@
           <i class="fa-regular fa-times text-5xl text-blue cursor-pointer"></i>
         </div>
         <div class="px-16 flex flex-col gap-6 items-center">
-          <a href="#features" class="link text-nav" @click="closeSidebar()">Features</a>
-          <a href="#pricing" class="link text-nav" @click="closeSidebar()">Pricing</a>
-          <a :href="`${runtimeConfig.app}/login`" class="btn-login transition-colors duration-200">Sign in</a>
-          <a :href="navMobileRegisterUrl" class="btn-register transition-colors duration-200" @click="trackRegisterClick('nav_mobile')">Register</a>
+          <a href="#features" class="link text-nav" @click="closeSidebar()">{{ $t('nav.features') }}</a>
+          <a href="#pricing" class="link text-nav" @click="closeSidebar()">{{ $t('nav.pricing') }}</a>
+          <a :href="`${runtimeConfig.app}/login`" class="btn-login transition-colors duration-200">{{ $t('nav.signin') }}</a>
+          <a :href="navMobileRegisterUrl" class="btn-register transition-colors duration-200" @click="trackRegisterClick('nav_mobile')">{{ $t('nav.register') }}</a>
         </div>
       </div>
     </nav>

@@ -163,7 +163,7 @@ categories:
         The long-term plan for Kanka is to build a versatile worldbuilding and campaign management tool that is system agnostic with community created content through the [plugins library](https://plugins.kanka.io).
     - question: "How often is the data on Kanka backed up?"
       answer: |
-        We perform two backups a day to prevent any data loss. Our own campaigns are on the server, so we don’t want to take any risks!
+        We perform two backups a day to prevent any data loss. Our own campaigns are on the server, so we don't want to take any risks!
     - question: "How can I report a bug?"
       answer: |
         Simply join our [Discord](/go/discord) server and report your bug in the `#error-and-bugs` channel.

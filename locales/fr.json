@@ -1,24 +1,25 @@
 {
   "nav": {
     "features": "Fonctionnalités",
-    "pricing": "Prix",
+    "pricing": "Tarifs",
     "campaigns": "Campagnes publiques",
-    "about": "Equipe",
+    "about": "Équipe",
     "home": "Accueil",
     "signin": "Se connecter",
-    "register": "S'inscrire"
+    "register": "Créer un compte",
+    "skipToContent": "Aller au contenu"
   },
   "footer": {
-    "tagline1": "Fait avec ❤️ à Genève, Suisse",
-    "tagline2": "Seulement possible grâce à nos abonnés.",
+    "tagline1": "Fait avec ❤️ à Genève, en Suisse.",
+    "tagline2": "Merci à toutes les personnes qui soutiennent Kanka.",
     "copyright": "Copyright © 2026 Owlchester SNC",
     "platform": {
       "title": "Plateforme",
       "features": "Fonctionnalités",
       "premiumCampaigns": "Campagnes premium",
-      "pricing": "Prix",
+      "pricing": "Tarifs",
       "plugins": "Plugins",
-      "useCases": "Cas d'usage",
+      "useCases": "Kanka selon ton projet",
       "forGameMasters": "Pour les maîtres de jeu",
       "forPlayers": "Pour les joueurs",
       "forWorldbuilders": "Pour les créateurs de mondes",
@@ -27,23 +28,23 @@
     },
     "resources": {
       "title": "Ressources",
-      "comparison": "Kanka vs WorldAnvil",
-      "learn": "Centre d'apprentissage",
-      "kb": "Base de connaissances",
+      "comparison": "Comparer Kanka et World Anvil",
+      "learn": "Guides Kanka",
+      "kb": "Questions fréquentes",
       "developerResources": "Ressources pour les développeurs",
       "docs": "Documentation",
-      "api": "Documentation API",
+      "api": "Documentation de l’API",
       "blog": "Blog",
       "status": "État du service",
       "guidesTitle": "Guides de création de mondes",
-      "guideStart": "Commence à créer ton monde",
-      "guideHowMuch": "Combien de création de monde as-tu besoin"
+      "guideStart": "Par où commencer pour créer ton monde?",
+      "guideHowMuch": "Que préparer avant ta première partie?"
     },
     "community": {
       "title": "Communauté",
-      "news": "Quoi de neuf",
+      "news": "Nouveautés",
       "campaigns": "Campagnes publiques",
-      "showcase": "Vitrine",
+      "showcase": "Sélection de campagnes",
       "roadmap": "Feuille de route",
       "hallOfFame": "Panthéon"
     },
@@ -54,611 +55,801 @@
       "privacy": "Confidentialité",
       "terms": "Conditions",
       "security": "Sécurité",
-      "pressKit": "Kit presse"
+      "pressKit": "Kit de presse"
     }
   },
-  "pricing": {
-    "hero": {
-      "title": "Le choix évident pour la création collaborative de mondes et la gestion de campagnes TTRPG, à un excellent prix.",
-      "lead": "Avec une politique de remboursement de 14 jours sur les abonnements annuels."
-    },
-    "periodToggle": {
-      "monthly": "Mensuel",
-      "yearly": "Annuel",
-      "savePercent": "économisez 17%"
-    },
-    "currencyToggle": {
-      "usd": "USD",
-      "eur": "EUR"
-    },
-    "comparePlans": "Comparer les forfaits",
-    "paidFeatures": {
-      "title": "Fonctionnalités payantes",
-      "lead": "Soutenir Kanka avec un abonnement te donnes accès aux fonctionnalités et améliorations suivantes."
-    },
-    "premium": {
-      "title": "Campagnes premium",
-      "lead": "Tous nos abonnements te permets de débloquer des fonctionnalités premium pour au moins une campagne. Cela déverrouille les avantages suivants pour une campagne. Une campagne peut être rétrogradée et mise à niveau à tout moment. Par exemple, si une campagne est terminée, tu peux la rétrograder et mettre à niveau une autre campagne à la place. La rétrogradation d'une campagne ne supprime pas les données liées aux fonctionnalités premium, mais les masque simplement jusqu'à ce que la campagne soit à nouveau mise à niveau."
-    },
-    "faqTitle": "FAQ",
-    "overview": {
-      "kobold": {
-        "f1": "Entrées illimitées",
-        "f2": "Campagnes illimitées",
-        "f3": "Tout ce dont tu as besoin pour construire gratuitement à jamais.",
-        "f4": "Mises à jour fréquentes"
+    "pricing": {
+      "hero": {
+        "title": "Tarifs de Kanka",
+        "lead": "Tu peux créer ta campagne gratuitement et passer au premium quand tu en as besoin. Si tu prends un abonnement annuel, tu as 14 jours pour demander un remboursement."
       },
-      "owlbear": {
-        "f1": "1 campagne premium active",
-        "f2": "Tailles de fichiers et de cartes grandes (10 MiB)",
-        "f3": "Vote sur la feuille de route",
-        "f4": "Canal Discord privé",
-        "f5": "Expérience sans publicités"
+      "periodToggle": {
+        "monthly": "Mensuel",
+        "yearly": "Annuel",
+        "savePercent": "−17 %"
       },
-      "wyvern": {
-        "f1": "3 campagnes premium actives",
-        "f2": "Tailles de fichiers et de cartes énormes (25 MiB)",
-        "f3": "Vote sur la feuille de route",
-        "f4": "Canal Discord privé",
-        "f5": "Expérience sans publicités"
+      "currencyToggle": {
+        "usd": "USD",
+        "eur": "EUR"
       },
-      "elemental": {
-        "f1": "7 campagnes premium actives",
-        "f2": "Tailles de fichiers et de cartes gigantesques (100 MiB)",
-        "f3": "Vote sur la feuille de route",
-        "f4": "Canal Discord privé",
-        "f5": "Expérience sans publicités",
-        "f6": "Impact élevé sur les futures fonctionnalités (via Discord)"
+      "comparePlans": "Comparer les offres",
+      "paidFeatures": {
+        "title": "Ce que change un abonnement",
+        "lead": "Compare ce que chaque offre t’apporte, de la taille des fichiers au nombre de campagnes que tu peux passer en premium."
+      },
+      "premium": {
+        "title": "Campagnes premium",
+        "lead": "Chaque abonnement payant te permet d’activer le premium sur au moins une campagne. Tu peux le transférer à tout moment, par exemple quand tu termines une campagne et que tu en commences une autre. Les données liées au premium restent enregistrées et réapparaissent si tu le réactives."
+      },
+      "faqTitle": "Questions sur les abonnements",
+      "overview": {
+        "kobold": {
+          "f1": "Entrées illimitées",
+          "f2": "Campagnes illimitées",
+          "f3": "Tous les outils de base, sans limite de durée",
+          "f4": "Mises à jour régulières"
+        },
+        "owlbear": {
+          "f1": "1 campagne premium active",
+          "f2": "Fichiers et cartes jusqu’à 10 MiB",
+          "f3": "Vote sur les idées à développer",
+          "f4": "Salon Discord privé",
+          "f5": "Sans publicité"
+        },
+        "wyvern": {
+          "f1": "3 campagnes premium actives",
+          "f2": "Fichiers et cartes jusqu’à 25 MiB",
+          "f3": "Vote sur les idées à développer",
+          "f4": "Salon Discord privé",
+          "f5": "Sans publicité"
+        },
+        "elemental": {
+          "f1": "7 campagnes premium actives",
+          "f2": "Fichiers et cartes jusqu’à 100 MiB",
+          "f3": "Vote sur les idées à développer",
+          "f4": "Salon Discord privé",
+          "f5": "Sans publicité",
+          "f6": "Participe aux choix de développement sur Discord"
+        }
+      },
+      "paidFeaturesTable": {
+        "free": "Gratuit",
+        "fileUploadSizes": "Taille maximale par fichier ou image",
+        "mapUploadSizes": "Taille maximale par carte",
+        "premiumCampaigns": "Campagnes premium",
+        "adFree": "Sans publicité",
+        "discordChannel": "Salon {discord} privé",
+        "roadmapVote": "Vote sur les idées de la feuille de route",
+        "nicerThumbnails": "Vignettes par défaut améliorées",
+        "hallOfFame": "Ton nom au {hallOfFame}",
+        "apiRequests": "Jusqu’à 90 requêtes API par minute",
+        "moreElements": "Plus de résultats par page",
+        "campaignImporter": "Import de campagnes"
+      },
+      "premiumFeaturesTable": {
+        "standardCampaign": "Campagne standard",
+        "premiumCampaigns": "Campagne premium",
+        "wyvernsCol": "Wyvern *",
+        "elementalsCol": "Elemental *",
+        "maxEntries": "Nombre maximal d’entrées",
+        "maxCategories": "Nombre maximal de catégories personnalisées",
+        "maxMembers": "Nombre maximal de membres",
+        "maxRoles": "Nombre maximal de rôles",
+        "maxBookmarks": "Nombre maximal de favoris",
+        "galleryStorage": "Espace de stockage dans la galerie",
+        "maxFileSize": "Taille maximale par fichier ou image pour les membres",
+        "maxFileAssets": "Nombre maximal de fichiers joints par entrée",
+        "aliases": "Alias utilisables dans la recherche et les mentions",
+        "adFreeMembers": "Sans publicité pour tous les membres",
+        "plugins": "Plugins de la {plugins}",
+        "pluginsLabel": "bibliothèque de plugins",
+        "forceTheme": "Même thème pour tous les membres et visiteurs",
+        "customTheme": "Éditeur de thèmes et CSS personnalisé",
+        "customTooltips": "Infobulles personnalisées pour les entrées",
+        "headerImages": "Grandes images d’en-tête pour les entrées",
+        "multipleDashboards": "Plusieurs tableaux de bord, avec la possibilité d’en choisir un par rôle",
+        "customThumbnails": "Vignettes par défaut personnalisées",
+        "easyAccessLinks": "Raccourcis vers des ressources externes depuis les entrées",
+        "beautifulMaps": "Marqueurs polygonaux et milliers d’icônes pour tes cartes",
+        "renameSidebar": "Noms et ordre des éléments du menu latéral personnalisables",
+        "renameCategories": "Noms et icônes des catégories personnalisables",
+        "familyTrees": "Arbres généalogiques détaillés",
+        "fullLogs": "Historique complet des modifications des entrées jusqu’à 30 jours",
+        "recoverEntries": "Récupération des entrées et articles jusqu’à 30 jours après leur suppression",
+        "achievements": "Succès de campagne",
+        "webhooks": "Mises à jour envoyées à Discord ou à d’autres outils via des webhooks",
+        "tierPerks": "* Tous les membres en profitent si la personne qui active le premium a l’abonnement indiqué."
       }
     },
-    "paidFeaturesTable": {
+    "pricingTier": {
+      "billedYearly": "Paiement annuel",
+      "perMonth": "/mois",
       "free": "Gratuit",
-      "fileUploadSizes": "Tailles de téléchargement de fichiers et d'images",
-      "mapUploadSizes": "Tailles de téléchargement de cartes",
-      "premiumCampaigns": "Campagnes premium",
-      "adFree": "Expérience sans publicités",
-      "discordChannel": "Accès à un canal {discord} privé",
-      "roadmapVote": "Vote sur les idées de la feuille de route",
-      "nicerThumbnails": "Meilleures miniatures d'espace réservé pour les entrées",
-      "hallOfFame": "Nom dans le {hallOfFame}",
-      "apiRequests": "Jusqu'à 90 requêtes API par minute",
-      "moreElements": "Plus d'éléments affichés sur chaque page",
-      "campaignImporter": "Importateur de campagnes"
+      "popular": "Populaire",
+      "bestValue": "Meilleur rapport qualité-prix",
+      "learnMore": "En savoir plus",
+      "startFree": "Créer un compte gratuit"
     },
-    "premiumFeaturesTable": {
-      "standardCampaign": "Campagne standard",
-      "premiumCampaigns": "Campagnes premium",
-      "wyvernsCol": "Wyverns *",
-      "elementalsCol": "Elementals *",
-      "maxEntries": "Nombre maximum d'entrées",
-      "maxCategories": "Nombre maximum de catégories personnalisées",
-      "maxMembers": "Nombre maximum de membres",
-      "maxRoles": "Nombre maximum de rôles",
-      "maxBookmarks": "Nombre maximum de signets",
-      "galleryStorage": "Stockage pour les images et fichiers dans la galerie",
-      "maxFileSize": "Taille maximale de fichier et d'image téléchargée pour les membres",
-      "maxFileAssets": "Nombre maximum de fichiers assets par entité",
-      "aliases": "Définis des alias sur les entrées qui fonctionnent avec la recherche et les mentions",
-      "adFreeMembers": "Expérience sans publicités pour tous les membres",
-      "plugins": "Installe des plugins depuis la {plugins}",
-      "pluginsLabel": "Bibliothèque de plugins",
-      "forceTheme": "Force un thème spécifique pour tous les membres et visiteurs",
-      "customTheme": "Accès à la personnalisation complète avec le créateur de thème et CSS personnalisé",
-      "customTooltips": "Écris des tooltips personnalisés pour les entrées",
-      "headerImages": "Télécharge de grandes images d'en-tête sur les entrées",
-      "multipleDashboards": "Crée plusieurs tableaux de bord et attribue-les aux rôles",
-      "customThumbnails": "Télécharge des miniatures d'espace réservé personnalisées pour les entrées",
-      "easyAccessLinks": "Définis des liens d'accès facile vers des sources externes sur les entrées",
-      "beautifulMaps": "Magnifiques cartes avec accès à des milliers d'icônes pour les marqueurs de carte et les marqueurs polygonaux",
-      "renameSidebar": "Renomme et réorganise la barre latérale",
-      "renameCategories": "Renomme et change l'icône des catégories",
-      "familyTrees": "Crée des arbres généalogiques complexes",
-      "fullLogs": "Journaux complets des modifications apportées aux entrées jusqu'à 30 jours",
-      "recoverEntries": "Récupère les entrées et articles supprimés jusqu'à 30 jours",
-      "achievements": "Frimer avec les réalisations de la campagne",
-      "webhooks": "Envoie les mises à jour à Discord et autres outils via des webhooks.",
-      "tierPerks": "* Ces avantages sont déverrouillés pour tous les membres d'une campagne si la personne qui déverrouille les fonctionnalités premium est un abonné de ce niveau."
-    }
-  },
-  "pricingTier": {
-    "billedYearly": "facturé annuellement",
-    "perMonth": "/mois",
-    "free": "Gratuit",
-    "popular": "Populaire",
-    "bestValue": "Meilleur rapport qualité-prix",
-    "learnMore": "En savoir plus",
-    "startFree": "Commencer gratuitement"
-  },
-  "index": {
-    "hero": {
-      "title": "Gère ta campagne sans perdre un seul détail.",
-      "lead": "Kanka est un site web de création de mondes piloté par la communauté. Est-ce que tu crées ta propre campagne D&D personnalisée ou utilises d'autres systèmes TTRPG? Nous t'aidons à gérer, organiser et suivre tes idées, tes créations et ton monde.",
-      "trailing": "Plus de 400 000 maîtres de jeu et créateurs de mondes font de Kanka leur maison.",
-      "cta": "Commencer gratuitement",
-      "videoCaption": "Regarde un aperçu rapide de 45 secondes de Kanka"
-    },
-    "pitch": {
-      "title": "Tout au même endroit. Trouve-le en quelques secondes, même en pleine session",
-      "body": "Les notes éparpillées dans des documents, wikis et serviettes ne survivent pas au contact avec une session en direct. Dans Kanka, tout vit au même endroit et tout est connecté. Mentionne un personnage avec {'@'} dans un journal de session et cela crée automatiquement un lien, donc un clic t'emmène d'une ville à son dirigeant à la guerre qu'il a commencée. Quand un joueur pose la question pour laquelle tu n'avais pas préparé de réponse, la réponse est à une recherche, sur n'importe quel appareil."
+    "index": {
+      "hero": {
+        "title": "Gère ta campagne sans perdre un seul détail.",
+        "lead": "Prépare tes parties et garde sous la main les personnages, les lieux et l’histoire de ton monde. Que tu joues à D&D ou avec tes propres règles, tu peux organiser ta campagne à ta façon.",
+        "trailing": "Plus de 400 000 maîtres de jeu et créateurs de mondes utilisent Kanka.",
+        "cta": "Commencer gratuitement",
+        "videoCaption": "Découvre Kanka en 45 secondes",
+        "dashboardAlt": "Un tableau de bord Kanka sur ordinateur, tablette et téléphone",
+        "videoTitle": "Présentation de Kanka"
+      },
+      "pitch": {
+        "title": "Retrouve tes notes en pleine partie",
+        "body": "Tes joueurs retournent dans une ville où ils n’ont pas mis les pieds depuis trois mois? Ouvre la fiche de la ville pour retrouver qui la dirige et ce qui s’y est passé. Pour relier un personnage à ton compte rendu de partie, tape {'@'} suivi de son nom. Tu pourras ouvrir sa fiche directement depuis tes notes."
+      },
+      "features": {
+        "f1Title": "Gratuit, sans limite de durée",
+        "f1Lead": "Crée autant de campagnes et d’entrées que tu veux. Les fonctions de base restent gratuites, même si ta campagne dure des années.",
+        "f2Title": "Partage ce que tu veux avec ton groupe",
+        "f2Lead": "Invite tes joueurs à consulter la carte ou à compléter leurs fiches. Tu peux partager tes notes de préparation avec un autre MJ et les garder hors de vue des joueurs.",
+        "f3Title": "Organise ta campagne à ta façon",
+        "f3Lead": "Garde les catégories qui te servent. Avec une campagne premium, tu peux aussi les renommer, modifier l’apparence de ta campagne et installer des fiches adaptées à tes règles.",
+        "f4Title": "Relie les éléments de ton monde",
+        "f4Lead": "Passe d’un personnage à sa famille, de sa famille à son fief, puis retrouve ce fief sur ta carte. Chaque élément a sa fiche et tu peux la relier aux autres.",
+        "learnMore": "Voir les fonctionnalités"
+      },
+      "socialProof": {
+        "title": "Ce qu’en dit la communauté",
+        "lead": "Certains se servent de Kanka pour retrouver une info en pleine partie, d’autres pour garder le fil de leurs histoires."
+      },
+      "testimonials": {
+        "t1": {
+          "quote": "« Mes parties se sont vraiment améliorées avec Kanka, et ça m’a aidé à devenir un meilleur MJ. »",
+          "role": "MJ professionnel"
+        },
+        "t2": {
+          "quote": "« Kanka me simplifie la vie quand j’organise une campagne ou que je cherche une info en pleine partie. »",
+          "role": "Membre de la communauté"
+        },
+        "t3": {
+          "quote": "« J’adore inventer des histoires. Kanka est parfait pour garder le fil. »",
+          "role": "Membre de la communauté"
+        },
+        "t4": {
+          "quote": "« Kanka est simple à utiliser. C’est le meilleur moyen que j’ai trouvé de garder une trace de tous les détails de ma campagne. J’adore pouvoir relier les entrées entre elles. »",
+          "role": "Membre depuis 2019"
+        }
+      },
+      "trust": {
+        "title": "Tu gardes la main sur ton contenu",
+        "f1Title": "Export de ta campagne",
+        "f1Lead": "Tu peux télécharger une copie de ta campagne quand tu veux.",
+        "f2Title": "Hébergement et sauvegardes",
+        "f2Lead": "Tes données sont hébergées en Allemagne. Nous sauvegardons nos serveurs deux fois par jour.",
+        "f3Title": "Code source public",
+        "f3Lead": "Tu peux consulter le code source de Kanka sur GitHub.",
+        "f4Title": "Campagnes privées par défaut",
+        "f4Lead": "Ton monde t’appartient. Tu choisis à qui tu veux ouvrir ta campagne."
+      },
+      "pricing": {
+        "title": "Tarifs"
+      },
+      "team": {
+        "title": "Qui fait Kanka?",
+        "body": "Kanka, c’est nous deux. Jay mène la partie et Jon trouve toujours moyen de passer à côté de l’intrigue principale. Au départ, Jay voulait simplement mieux s’y retrouver dans les notes de notre campagne. Aujourd’hui, on continue à développer l’outil dont on a envie pour nos propres parties. Et quand tu nous écris, c’est encore nous qui te répondons.",
+        "cta": "Lire notre histoire"
+      },
+      "featured": {
+        "title": "Campagnes à découvrir",
+        "lead": "Promène-toi dans les mondes de la communauté. Tu y trouveras peut-être une idée pour présenter ta carte ou organiser tes notes.",
+        "cta": "Explorer les campagnes publiques"
+      },
+      "register": {
+        "title": "Commence par un lieu ou un personnage",
+        "cta": "Créer une campagne gratuitement"
+      },
+      "faq": {
+        "title": "Questions fréquentes"
+      }
     },
     "features": {
-      "f1Title": "Le forfait gratuit n'est pas un essai",
-      "f1Lead": "Toutes les fonctionnalités principales, campagnes illimitées, entrées illimitées. La plupart des MJ n'auront jamais besoin de payer, et nous préférons que tu restes parce que tu l'aimes, pas parce qu'un paywall a emprisonné ton monde.",
-      "f2Title": "Exécute-le avec toute ta table",
-      "f2Lead": "Invite tes joueurs et co-MJ, puis contrôle exactement ce que chaque personne voit et modifie. Tes secrets restent secrets jusqu'à ce que tu sois prêt à les révéler.",
-      "f3Title": "Fais-le tiens",
-      "f3Lead": "Renomme les catégories, restructure pour correspondre à ton système, ou va plus loin avec du CSS personnalisé et des plugins communautaires. Kanka s'adapte à ta façon de jouer: D&D 5e, un système personnalisé, ou pas de système du tout.",
-      "f4Title": "Une place pour chaque partie de ton monde",
-      "f4Lead": "Personnages, lieux, organisations, familles, chronologies, calendriers, cartes, 20+ catégories, chacun construit pour une partie de ton monde, tous liés ensemble.",
-      "learnMore": "En savoir plus sur les fonctionnalités de Kanka"
-    },
-    "socialProof": {
-      "title": "Tu es en bonne compagnie",
-      "lead": "Plus de 400 000 maîtres de jeu et créateurs de mondes font confiance à Kanka pour leurs besoins de création de mondes. Nous avons rassemblé quelques-uns de leurs témoignages pour te montrer ce que Kanka peut faire pour toi."
-    },
-    "testimonials": {
-      "t1": {
-        "quote": "\"Kanka a vraiment fait passer mes parties au niveau supérieur et m'a rendu meilleur MJ.\"",
-        "role": "MJ professionnel"
+      "hero": {
+        "title": "Prépare tes parties et garde le fil de ton univers",
+        "lead": "Retrouve un détail en pleine partie et partage avec ton groupe ce qu’il a découvert. Tes notes, tes cartes et tes personnages sont au même endroit, avec des liens pour passer de l’un à l’autre."
       },
-      "t2": {
-        "quote": "\"En tant que MJ, Kanka rend tellement facile d'organiser une campagne et de retrouver des informations rapidement en session.\"",
-        "role": "Membre de la communauté"
+      "toc": {
+        "general": "Les bases",
+        "free": "Offre gratuite",
+        "collaborative": "Travail à plusieurs",
+        "dashboards": "Tableaux de bord",
+        "modular": "Choix des catégories",
+        "updates": "Mises à jour",
+        "rpgs": "Jeu de rôle",
+        "entries": "Entrées",
+        "inventory": "Inventaire",
+        "abilities": "Pouvoirs",
+        "properties": "Propriétés",
+        "journals": "Journaux",
+        "quests": "Quêtes",
+        "worldbuilding": "Création d’univers",
+        "relations": "Relations",
+        "timelines": "Chronologies",
+        "calendars": "Calendriers",
+        "maps": "Cartes",
+        "editor": "Éditeur de texte",
+        "premiumFeatures": "Options premium",
+        "premium": "Campagnes premium",
+        "marketplace": "Bibliothèque de plugins",
+        "theming": "Thèmes",
+        "familyTrees": "Arbres généalogiques",
+        "webhooks": "Webhooks"
       },
-      "t3": {
-        "quote": "\"Je suis obsédé par la création d'histoires et Kanka est parfait pour aider à garder trace de tout.\"",
-        "role": "Membre de la communauté"
+      "general": {
+        "title": "Les bases",
+        "freeTitle": "L’essentiel est gratuit",
+        "freeBody": "Crée autant de campagnes et d’entrées que tu veux et choisis qui peut voir tes notes. Si tu as besoin de plus, un abonnement donne accès à {bonuses}.",
+        "freeBonuses": "des options supplémentaires",
+        "collaborativeTitle": "Partage ta campagne avec ton groupe",
+        "collaborativeBody": "Invite ton groupe et choisis ce que chaque rôle peut consulter ou modifier. Avant la partie, tu peux afficher la campagne telle qu’un membre la voit et vérifier que tes notes privées restent cachées.",
+        "modularTitle": "Garde les catégories qui te servent",
+        "modularBody": "Choisis parmi une vingtaine de catégories, des personnages aux calendriers. Si ton univers se passe de magie, tu peux par exemple masquer la catégorie Pouvoirs pour alléger le menu.",
+        "updatesTitle": "Un outil qui évolue avec tes retours",
+        "updatesBody": "Kanka reçoit régulièrement des mises à jour. Nous présentons nos projets sur {discord} et recueillons les avis avant de les mettre en œuvre.",
+        "updatesDiscord": "Discord",
+        "dashboardsTitle": "L’essentiel dès l’ouverture de ta campagne",
+        "dashboardsBody": "Affiche sur ton tableau de bord les quêtes en cours, les derniers comptes rendus ou les lieux à explorer. Avec une campagne premium, tu peux prévoir un tableau de bord différent pour chaque rôle.",
+        "dashboardsCaption": "Le tableau de bord d’une campagne"
       },
-      "t4": {
-        "quote": "\"C'est facile et simple à utiliser, et c'est la meilleure façon de suivre les détails de ma campagne. J'adore la possibilité de lier des entrées entre elles\"",
-        "role": "Membre depuis 2019"
-      }
+      "rpgs": {
+        "title": "Jeu de rôle",
+        "entriesTitle": "Une page par personnage, lieu ou quête",
+        "entriesBody": "La page d’un personnage, d’un lieu ou d’une quête s’appelle une entrée. Relie ces pages entre elles pour passer, par exemple, du profil d’un personnage à la ville où il vit.",
+        "entriesCaption": "L’entrée d’un personnage dans Kanka",
+        "inventoryTitle": "Inventaire",
+        "inventoryBody": "Retrouve ce qu’un personnage transporte, ce qu’une boutique vend ou ce que le groupe recevra à la fin d’une quête. Ajoute un objet déjà présent dans ta campagne ou saisis son nom directement.",
+        "inventoryCaption": "L’inventaire d’un personnage",
+        "abilitiesTitle": "Pouvoirs",
+        "abilitiesBody": "Associe un sort à un personnage ou un effet à un lieu. Tu peux noter combien de fois un pouvoir a été utilisé et t’appuyer sur les propriétés de l’entrée pour définir le nombre d’utilisations.",
+        "abilitiesCaption": "Les pouvoirs d’un personnage et leurs utilisations",
+        "propertiesTitle": "Propriétés",
+        "propertiesBody": "Note les points de vie d’un personnage, la population d’une ville ou toute autre valeur utile à ta campagne. Une propriété peut se calculer à partir d’autres valeurs, par exemple en multipliant le niveau d’un personnage par sa constitution.",
+        "propertiesBody2": "Tu peux aussi reprendre une fiche de personnage de la {pluginLibrary}.",
+        "propertiesPluginLibrary": "bibliothèque de plugins",
+        "propertiesCaption": "Les propriétés sur une fiche de personnage",
+        "journalsTitle": "Journaux",
+        "journalsBody": "Prépare ta prochaine partie ou raconte la dernière du point de vue d’un personnage. Note la date de la partie et relie le récit au calendrier de ton univers.",
+        "journalsCaption": "Un compte rendu de partie dans le journal",
+        "questsTitle": "Quêtes",
+        "questsBody": "Garde sous la main les lieux à visiter, les personnes impliquées et la récompense promise. Une fois la quête terminée, indique-le pour garder une vue claire de celles qui restent en cours.",
+        "questsCaption": "Les éléments d’une quête"
+      },
+      "worldbuilding": {
+        "title": "Création d’univers",
+        "relationsTitle": "Relations",
+        "relationsBody": "Qui a fondé cette ville? De qui Svynna est-elle la rivale? Relie les entrées concernées pour retrouver la réponse. Tu peux garder certaines relations privées jusqu’à ce que ton groupe les découvre.",
+        "relationsBody2": "{premiumCampaigns} permettent aussi d’explorer ces liens sous forme de réseau.",
+        "relationsPremiumCampaigns": "Les campagnes premium",
+        "relationsCaption1": "Les relations d’un personnage sous forme de liste",
+        "relationsCaption2": "Les relations d’un personnage sous forme de réseau",
+        "timelinesTitle": "Chronologies",
+        "timelinesBody": "Replace une guerre, une succession ou l’exil d’un personnage dans l’histoire de ton univers. Répartis les événements par époque et relie-les aux lieux et aux personnages concernés.",
+        "timelinesCaption": "Les événements d’une chronologie classés par époque",
+        "calendarsTitle": "Calendriers",
+        "calendarsBody": "Donne à ton univers ses propres semaines, saisons et phases de lune. Une fois les dates en place, tu peux y situer des événements et calculer l’âge des personnages selon le calendrier.",
+        "calendarsCaption": "Les événements dans le calendrier d’une campagne",
+        "mapsTitle": "Cartes",
+        "mapsBody": "Ajoute ta carte, organise-la en couches et place des marqueurs pour retrouver les lieux importants. Tu peux garder certains marqueurs privés jusqu’à ce que ton groupe découvre ce qu’ils cachent.",
+        "mapsCaption": "Une carte de campagne avec ses marqueurs",
+        "editorTitle": "Éditeur de texte",
+        "editorBody": "Mets tes notes en forme directement dans l’éditeur. Tape {at} suivi du nom d’un personnage ou d’un lieu pour insérer un lien vers son entrée.",
+        "editorCaption": "Une mention avec {'@'} dans l’éditeur de texte"
+      },
+      "premium": {
+        "title": "Options premium",
+        "premiumCampaignsTitle": "Campagnes premium",
+        "premiumCampaignsBody": "Ton abonnement te permet de passer une ou plusieurs campagnes en premium. Si une campagne se termine, tu peux transférer ses avantages à la suivante.",
+        "marketplaceTitle": "Bibliothèque de plugins",
+        "marketplaceBody": "Reprends une fiche adaptée à ton jeu, un thème ou un pack de contenu créé par la communauté. Avec une campagne premium, tu peux les installer depuis la {pluginLibrary}.",
+        "marketplacePluginLibrary": "bibliothèque de plugins",
+        "themingTitle": "Thèmes",
+        "themingBody": "Choisis le thème que les membres et les visiteurs verront en ouvrant ta campagne. Modifie-le avec l’éditeur de thème ou écris ton propre CSS.",
+        "familyTreesTitle": "Arbres généalogiques",
+        "familyTreesBody": "Retrace les liens de parenté d’une famille et retrouve qui descend de qui, même sur plusieurs générations.",
+        "webhooksTitle": "Webhooks",
+        "webhooksBody": "Préviens ton groupe sur Discord quand une entrée change. Les webhooks peuvent aussi envoyer ces mises à jour à d’autres outils."
+      },
+      "cta": {
+        "title": "Commence avec ta prochaine partie",
+        "button": "Créer un compte gratuit",
+        "comparison": "Comparer Kanka et World Anvil"
+      },
+      "learnMore": "En savoir plus"
     },
-    "trust": {
-      "title": "Ton monde est sûr, et c'est le tien",
-      "f1Title": "Exporte à tout moment",
-      "f1Lead": "Télécharge ton contenu à tout moment. Pas de verrouillage, jamais.",
-      "f2Title": "Tes données sont sûres",
-      "f2Lead": "Nous utilisons des services d'hébergement allemands réputés, et nous sauvegardons nos serveurs deux fois par jour.",
-      "f3Title": "Code source disponible",
-      "f3Lead": "Le code de Kanka est public sur GitHub, rien caché dans une boîte noire.",
-      "f4Title": "Ta PI est tienne",
-      "f4Lead": "Les campagnes sont privées par défaut."
+    "about": {
+      "title": "L’équipe derrière Kanka",
+      "lead": "Au départ, on voulait rassembler les notes de notre campagne et pouvoir en partager une partie avec nos joueurs. C’est comme ça qu’est né Kanka. Aujourd’hui, on est une petite équipe d’amis qui développe l’outil depuis plusieurs pays.",
+      "teamTitle": "Qui fait quoi?",
+      "communityBody": "Quand on prépare un changement, on demande souvent leur avis aux personnes qui utilisent Kanka. Leurs retours nous aident à décider quoi changer et à repérer ce qui manque en cours de partie ou de préparation.",
+      "stats": {
+        "users": "utilisateurs",
+        "countries": "pays",
+        "entries": "entrées",
+        "missedPlotHooks": "pistes ignorées par les joueurs",
+        "campaigns": "campagnes",
+        "marketplacePlugins": "plugins dans la bibliothèque",
+        "dailyApiCalls": "requêtes API par jour",
+        "ruinedSessions": "parties gâchées"
+      },
+      "historyTitle": "Notre histoire",
+      "historyBody": "Jay a commencé à bricoler Kanka le temps d’un week-end, en octobre 2017. Jon l’a rejoint en 2020 et ils ont tous les deux fini par s’y consacrer à plein temps.",
+      "translationsTitle": "Traductions",
+      "translationsBody": "Si tu peux utiliser Kanka dans plusieurs langues, c’est grâce aux personnes qui prennent le temps de le traduire.",
+      "readMore": "Lire la suite",
+      "readLess": "Voir moins",
+      "history": {
+        "e1": {
+          "date": "Octobre 2017",
+          "text": "Jay commence à travailler sur Kanka"
+        },
+        "e2": {
+          "date": "Février 2018",
+          "text": "Plus de 1 000 comptes créés"
+        },
+        "e3": {
+          "date": "Mars 2018",
+          "text": "Ouverture du serveur Discord"
+        },
+        "e4": {
+          "date": "Janvier 2020",
+          "text": "Jon rejoint Kanka"
+        },
+        "e5": {
+          "date": "Juillet 2020",
+          "text": "Jay et Jon quittent leur emploi pour travailler à plein temps sur Kanka"
+        },
+        "e6": {
+          "date": "Septembre 2020",
+          "text": "Ouverture de la bibliothèque de plugins"
+        },
+        "e7": {
+          "date": "Octobre 2020",
+          "text": "Création d’Owlchester SNC"
+        },
+        "e8": {
+          "date": "Janvier 2021",
+          "text": "Sortie de Kanka 1.0"
+        },
+        "e9": {
+          "date": "Octobre 2021",
+          "text": "100 000e compte créé"
+        },
+        "e10": {
+          "date": "Janvier 2025",
+          "text": "Kanka 3.0 ajoute les catégories personnalisées"
+        },
+        "e11": {
+          "date": "Début 2026",
+          "text": "Le nouvel éditeur de texte arrive"
+        },
+        "e12": {
+          "date": "Bientôt",
+          "text": "Kanka prend le contrôle du monde, tranquillement"
+        }
+      },
+      "translators": {
+        "l1": "Anglais et français",
+        "l2": "Portugais brésilien",
+        "l3": "Allemand",
+        "l4": "Polonais",
+        "l5": "Espagnol",
+        "l6": "Italien",
+        "l7": "Russe",
+        "l8": "Néerlandais",
+        "l9": "Slovaque"
+      },
+      "amounts": {
+        "users": "400 000+",
+          "entries": "9 millions+",
+        "missedPlotHooks": "150 000+",
+        "campaigns": "350 000+",
+          "dailyApiCalls": "30 000+"
+      },
+      "translationTeam": "Équipe Kanka"
     },
-    "pricing": {
-      "title": "Tarification"
-    },
-    "team": {
-      "title": "Qui nous sommes",
-      "body": "Kanka est construit et géré par seulement deux d'entre nous: un MJ (Jay) et un joueur (Jon). L'étincelle initiale est venue du fait que Jay avait besoin d'une meilleure façon de suivre notre campagne afin que Jon puisse continuer à ignorer l'intrigue principale. Même après toutes ces années, ce n'est encore que nous qui répondons à tes e-mails, messages Discord et pigeons voyageurs. Nous n'essayons pas de construire la plus grande plateforme de création de mondes, juste celle dans laquelle nous voulons exécuter nos propres jeux.",
-      "cta": "Lisez notre histoire"
-    },
-    "featured": {
-      "title": "Campagnes en vedette",
-      "lead": "Notre communauté crée des choses incroyables que nous adorons présenter comme des campagnes en vedette. Ce sont d'excellents exemples de création de mondes que nous te recommandons de consulter. Ils peuvent également montrer ce que d'autres utilisateurs ont fait avec Kanka et t'inspirer !",
-      "cta": "Voyez ce que les MJ construisent dans Kanka"
-    },
-    "register": {
-      "title": "Prêt à exécuter ta meilleure campagne?",
-      "cta": "Commence ta campagne gratuite"
-    },
-    "faq": {
-      "title": "FAQ"
-    }
-  },
-  "features": {
-    "hero": {
-      "title": "Crée des mondes plus riches avec les outils dont ta campagne a vraiment besoin",
-      "lead": "Kanka regroupe tout ce qu'un maître de jeu ou un créateur de mondes a besoin en un seul endroit : personnages, lieux, cartes, calendriers, chronologies, et plus. Gratuit pour les éléments principaux, avec des améliorations quand tu es prêt."
-    },
-    "toc": {
-      "general": "Général",
-      "free": "Gratuit d'utilisation",
-      "collaborative": "Collaboratif",
-      "dashboards": "Tableaux de bord",
-      "modular": "Modulaire",
-      "updates": "Mises à jour fréquentes",
-      "rpgs": "TTRPG",
-      "entries": "Entrées dans Kanka",
-      "inventory": "Inventaire",
-      "abilities": "Capacités",
-      "properties": "Propriétés",
-      "journals": "Journaux",
-      "quests": "Quêtes",
-      "worldbuilding": "Création de monde",
-      "relations": "Relations",
-      "timelines": "Chronologies",
-      "calendars": "Calendriers",
-      "maps": "Cartes",
-      "editor": "Éditeur",
-      "premiumFeatures": "Fonctionnalités premium",
-      "premium": "Campagnes premium",
-      "marketplace": "Marketplace",
-      "theming": "Thématisation",
-      "familyTrees": "Arbres généalogiques",
-      "webhooks": "Webhooks"
-    },
-    "general": {
-      "title": "Général",
-      "freeTitle": "Gratuit d'utilisation",
-      "freeBody": "Fatigué de devoir payer pour les fonctionnalités basiques comme les campagnes illimitées, les limites sur le nombre d'éléments dans une campagne, ou l'incapacité à contrôler qui voit quoi? Nous aussi, c'est pourquoi toutes les fonctionnalités principales de Kanka sont absolument gratuites. Nous avons aussi quelques {bonuses} qui sont agréables à avoir, bien que non essentiels.",
-      "freeBonuses": "bonus pour nos abonnés",
-      "collaborativeTitle": "Collaboratif",
-      "collaborativeBody": "Kanka est construit pour les mondes avec plusieurs joueurs et auteurs. Invite tes amis, attribue-leur des rôles, et contrôle exactement ce qu'ils peuvent voir et faire. Pour plus de tranquillité d'esprit, tu peux prévisualiser ta campagne du point de vue de n'importe quel membre à tout moment afin que rien de visible ne reste caché.",
-      "modularTitle": "Modulaire",
-      "modularBody": "Nous avons concentré nos efforts sur la création d'environ 20 catégories différentes dans Kanka qui se concentrent chacune sur un aspect de la lecture d'un TTRPG ou de la création de mondes en général. Dans chaque campagne, tu peux créer des personnages, des lieux, des familles, des organisations, des objets, des quêtes, des journaux, des calendriers, des événements, des capacités et plus. Tu n'as pas besoin de capacités? Pas de problème, tu peux désactiver les catégories de ton choix dans chaque campagne, simplifiant ta configuration pour te concentrer sur ce qui est important.",
-      "updatesTitle": "Mises à jour fréquentes",
-      "updatesBody": "Kanka est façonnée par une grande communauté active de créateurs de mondes et de maîtres de jeu. Nous sommes fiers de livrer les fonctionnalités que nos utilisateurs veulent vraiment, avec en moyenne une mise à jour majeure tous les quelques semaines. Nous partageons ce qui arrive sur notre {discord} et recueillons les commentaires avant de construire, afin que la communauté ait toujours une voix dans la direction que prend Kanka.",
-      "updatesDiscord": "Discord",
-      "dashboardsTitle": "Tableaux de bord de campagne",
-      "dashboardsBody": "Le tableau de bord est la base d'accueil de ta campagne. Personnalise-le avec des widgets à partir d'une large sélection d'options, en arrangeant tout comme ton groupe en a besoin. Tu gères une grande campagne west march avec plusieurs groupes de joueurs? Les campagnes premium peuvent configurer des tableaux de bord séparés adaptés à chaque rôle.",
-      "dashboardsCaption": "Tableaux de bord entièrement personnalisables pour tes mondes"
-    },
-    "rpgs": {
-      "title": "TTRPG",
-      "entriesTitle": "Entrées dans Kanka",
-      "entriesBody": "Kanka est construit autour d'une liste d'environ 20 entrées différentes. Ce sont les types prédéfinis d'objets principaux dans une campagne. Ils incluent les personnages, les lieux, les familles, les objets, les quêtes, les journaux, les calendriers, les chronologies, et plus. Elles partagent toutes certaines fonctionnalités mais sont uniques à leur manière et interagissent avec d'autres éléments de ta campagne.",
-      "entriesCaption": "Crée de belles pages pour les protagonistes de ton histoire",
-      "inventoryTitle": "Inventaire",
-      "inventoryBody": "Chaque entrée peut avoir son propre inventaire. Cette fonctionnalité est utilisée pour gérer les possessions d'un personnage, l'inventaire de vente d'une boutique (lieu), la récompense d'une quête pour son achèvement, la fortune d'une famille, ou tout autre scénario auquel tu peux penser. La fonctionnalité d'inventaire interagit avec les objets de ta campagne, mais est flexible et peut être utilisée sans créer tous les objets de ta campagne.",
-      "inventoryCaption": "Remplissez l'inventaire d'un personnage au maximum",
-      "abilitiesTitle": "Capacités",
-      "abilitiesBody": "Comme pour les inventaires, chaque entrée peut avoir des capacités. Crée des capacités dans ta campagne et attache-les à tes entrées. Ce peuvent être les pouvoirs d'un personnage, les effets d'une tanière (lieu), une capacité spéciale accordée par le fait de faire partie d'une famille, ou une malédiction causée par avoir mangé un cupcake d'une sorcière. Les capacités ont des charges pour suivre à quelle fréquence elles ont été utilisées, et peuvent être combinées avec les propriétés d'une entrée.",
-      "abilitiesCaption": "Ajoutez des pouvoirs et des capacités spéciales à toute entrée",
-      "propertiesTitle": "Propriétés",
-      "propertiesBody": "Probablement la fonctionnalité la plus confuse et complexe des entrées sont leurs propriétés. Celles-ci peuvent être de petits détails comme le suivi des HP d'un personnage, la population d'un lieu, le nombre de sanctuaires d'une religion (organisation), etc. Les propriétés peuvent référencer d'autres propriétés pour calculer les valeurs, par exemple les HP d'un personnage, où HP = Niveau * Constitution.",
-      "propertiesBody2": "Les propriétés d'une entrée peuvent également être stylisées pour ressembler à une feuille de personnage TTRPG en utilisant notre {pluginLibrary}.",
-      "propertiesPluginLibrary": "bibliothèque de plugins",
-      "propertiesCaption": "Suivez les PV, le niveau, la force et plus",
-      "journalsTitle": "Journaux",
-      "journalsBody": "Planifie ta session ou écris un récapitulatif de session dans les yeux d'un personnage en utilisant notre catégorie journaux. Ceux-ci peuvent être attachés aux calendriers pour suivre à la fois une date du monde réel et une date dans le jeu où quelque chose s'est produit.",
-      "journalsCaption": "Enregistrez ce qui s'est passé lors de la dernière session",
-      "questsTitle": "Quêtes",
-      "questsBody": "Prépare et suis les quêtes de ton jeu, où elles emmèneront les joueurs, qui est impliqué, et quelles organisations tirent les ficelles en secret. Une fois qu'une quête est terminée, marque-la comme telle et passe à la suivante.",
-      "questsCaption": "Suivez les conditions de départ, les récompenses, et plus"
-    },
-    "worldbuilding": {
-      "title": "Création de monde",
-      "relationsTitle": "Relations",
-      "relationsBody": "As-tu besoin de suivre que Svynna est la rivale de Mykel, ou que Washington est le lieu de naissance de Kyle? Utilise notre outil de relations pour mettre en place et suivre toutes les connexions entre les entrées de ton monde. As-tu besoin qu'une relation soit gardée secrète pour tes joueurs? Facile, il suffit de définir la relation comme privée!",
-      "relationsBody2": "{premiumCampaigns} ont accès à un explorateur visuel pour les relations d'une entrée.",
-      "relationsPremiumCampaigns": "Les campagnes premium",
-      "relationsCaption1": "Suivez les connexions et les relations entre les entrées",
-      "relationsCaption2": "Explore comment les éléments de ton monde sont connectés",
-      "timelinesTitle": "Chronologies",
-      "timelinesBody": "Les chronologies te permettent de voir visuellement et de planifier l'histoire d'un pays, la montée au pouvoir d'une famille, l'arc narratif d'un personnage, et autres options. Les chronologies sont divisées en ères, et chaque ère contient des éléments de texte qui peuvent être attachés à d'autres entrées de ta campagne.",
-      "timelinesCaption": "Chronologies interactives pour explorer comment l'histoire se déploie",
-      "calendarsTitle": "Calendriers",
-      "calendarsBody": "Crée un ou plusieurs calendriers de ton monde, en contrôlant complètement le nombre de jours dans une année, les mois, la longueur des semaines, les saisons, les lunes et leurs phases, et plus. Attache des événements à tes calendriers liés à d'autres entrées, tels que le calcul automatique de l'âge d'un personnage en fonction du calendrier.",
-      "calendarsCaption": "Suivez le temps et les événements importants",
-      "mapsTitle": "Cartes",
-      "mapsBody": "Télécharge tes magnifiques cartes dans ta campagne Kanka, et ajoute des calques et des épingles. Contrôle qui peut voir quelle épingle, pour éviter de révéler le lieu secret d'une ville infâme à tes joueurs.",
-      "mapsCaption": "Cartes interactives avec des épingles",
-      "editorTitle": "Éditeur",
-      "editorBody": "Tu n'auras pas besoin d'apprendre la programmation pour créer de beaux textes. Nous avons construit notre propre expérience d'écriture, afin que tu puisses créer du texte riche pour tous tes écrits. Mieux encore, nous avons ajouté le support des mentions à d'autres entrées en utilisant le symbole {at}.",
-      "editorCaption": "Utilisez les mentions {'@'} faciles pour lier à d'autres entrées"
-    },
-    "premium": {
-      "title": "Premium",
-      "premiumCampaignsTitle": "Campagnes premium",
-      "premiumCampaignsBody": "Certaines fonctionnalités ne sont disponibles que pour les campagnes premium. Quand un utilisateur s'abonne à Kanka, il peut mettre à niveau un certain nombre de campagnes. Ces campagnes premium peuvent être déplacées d'une campagne à une autre, par exemple quand une campagne se termine. Tant qu'un utilisateur reste abonné, ses campagnes premium resteront ainsi.",
-      "marketplaceTitle": "Bibliothèque de plugins",
-      "marketplaceBody": "Les campagnes premium peuvent installer des plugins de la {pluginLibrary}. Ce sont des thèmes, des fiches de personnage ou des packs de contenu, créés par la communauté pour la communauté. Le nouveau contenu est ajouté fréquemment.",
-      "marketplacePluginLibrary": "bibliothèque de plugins",
-      "themingTitle": "Thématisation",
-      "themingBody": "Les campagnes premium peuvent forcer le thème que les utilisateurs voient en le consultant, mais aussi écrire leur propre CSS pour personnaliser complètement l'apparence de la campagne. Si le CSS est une langue étrangère pour toi, nous avons également un créateur de thème facile.",
-      "familyTreesTitle": "Arbres généalogiques",
-      "familyTreesBody": "Les familles dans les campagnes premium ont accès à de beaux arbres généalogiques.",
-      "webhooksTitle": "Webhooks",
-      "webhooksBody": "Les campagnes premium peuvent définir des workflows qui envoient les mises à jour à Discord et d'autres outils via des webhooks quand des modifications sont apportées aux entrées."
-    },
-    "cta": {
-      "title": "TU kiffes l'idée? Crée un compte gratuit maintenant",
-      "button": "Enregistrer un compte gratuit",
-      "comparison": "Voir comment Kanka se compare à WorldAnvil"
-    },
-    "learnMore": "En savoir plus"
-  },
-  "about": {
-    "title": "Une petite équipe rendant la création de mondes amusante et fiable",
-    "lead": "Kanka est née d'une frustration face à la création de mondes et aux notes de session éparpillées dans différents outils, et à la difficulté de partager facilement ce contenu avec les joueurs. Aujourd'hui, Kanka est un petit groupe d'amis dispersés dans le monde entier se concentrant sur la création des meilleurs outils pour ces besoins originaux.",
-    "teamTitle": "Rencontrez l'équipe",
-    "communityBody": "La communauté a toujours été une grande partie de l'ADN de Kanka. Nous sondons fréquemment nos utilisateurs sur les modifications des fonctionnalités, des conceptions, et nous intégrons les commentaires dans chaque grande décision. Notre communauté est ce qui nous pousse à améliorer sans cesse Kanka.",
-    "stats": {
-      "users": "utilisateurs",
-      "countries": "pays",
-      "entries": "entrées",
-      "missedPlotHooks": "crochets d'intrigue manqués",
-      "campaigns": "campagnes",
-      "marketplacePlugins": "plugins marketplace",
-      "dailyApiCalls": "appels API quotidiens",
-      "ruinedSessions": "sessions gâchées"
-    },
-    "historyTitle": "Notre histoire",
-    "historyBody": "Kanka a été créée en premier en octobre 2017 par Jay comme un projet de loisir sur un week-end, et les travaux ont commencé sérieusement en 2020 quand Jon a rejoint.",
-    "translationsTitle": "Traductions",
-    "translationsBody": "Kanka est traduit en plusieurs langues grâce à ces incroyables contributeurs.",
-    "readMore": "Lire la suite",
-    "readLess": "Réduire",
-    "history": {
-      "e1": { "date": "Octobre 2017", "text": "Jay commence à travailler sur Kanka" },
-      "e2": { "date": "Février 2018", "text": "Plus de 1 000 comptes créés" },
-      "e3": { "date": "Mars 2018", "text": "Lancement du Discord" },
-      "e4": { "date": "Janvier 2020", "text": "Jon rejoint Kanka" },
-      "e5": { "date": "Juillet 2020", "text": "Jay et Jon quittent leur emploi pour travailler à plein temps sur Kanka" },
-      "e6": { "date": "Septembre 2020", "text": "Lancement de la Plugins Library" },
-      "e7": { "date": "Octobre 2020", "text": "Owlchester SNC est fondée" },
-      "e8": { "date": "Janvier 2021", "text": "Lancement de Kanka 1.0" },
-      "e9": { "date": "Octobre 2021", "text": "100 000e compte créé" },
-      "e10": { "date": "Janvier 2025", "text": "Nous lançons Kanka 3.0 et introduisons les catégories personnalisées" },
-      "e11": { "date": "Début 2026", "text": "Nous introduisons un nouvel éditeur de texte moderne" },
-      "e12": { "date": "Bientôt", "text": "Kanka prend tranquillement le contrôle du monde" }
-    },
-    "translators": {
-      "l1": "Anglais, Français",
-      "l2": "Portugais brésilien",
-      "l3": "Allemand",
-      "l4": "Polonais",
-      "l5": "Espagnol",
-      "l6": "Italien",
-      "l7": "Russe",
-      "l8": "Néerlandais",
-      "l9": "Slovaque"
-    }
-  },
   "campaigns": {
     "title": "Campagnes publiques",
-    "lead": "De nombreuses campagnes dans Kanka sont publiques pour tous. Cette page contient une liste de toutes les campagnes publiques, ainsi que des campagnes en vedette de la communauté.",
-    "spotlightTitle": "Campagnes mises en avant",
-    "spotlightBody": "Chaque mois, nous mettons en avant quelques campagnes publiques remarquables de notre communauté, choisies pour la profondeur de leur création de monde, leurs thèmes créatifs et le soin que leurs créateurs y ont mis.",
-    "viewShowcase": "Voir la vitrine",
-    "publicTitle": "Campagnes publiques",
-    "publicBody": "Parcours les campagnes partagées par la communauté Kanka de créateurs de mondes, maîtres de jeu et conteurs. Utilise les filtres pour explorer par type, que tu cherches un univers D&D sombre, un monde fantastique complexe ou une campagne narrative. Vois comment d'autres créateurs structurent leur travail, puis emporte ces idées dans les tiennes.",
-    "loading": "Chargement...",
-    "noResults": "Aucune campagne ne correspond aux filtres sélectionnés. Essaie à nouveau avec d'autres filtres.",
+    "lead": "Explore les mondes que la communauté a choisi de partager. Tu peux les parcourir sans compte.",
+    "spotlightTitle": "Notre sélection",
+    "spotlightBody": "Chaque mois, on choisit quelques campagnes pour montrer comment d’autres groupes organisent leur monde et racontent leurs histoires.",
+    "viewShowcase": "Voir la sélection",
+    "publicTitle": "Toutes les campagnes publiques",
+    "publicBody": "Cherche une campagne par système ou par thème. Tu peux y piocher des idées pour organiser ton propre monde.",
+    "loading": "Chargement…",
+    "noResults": "Aucune campagne ne correspond. Essaie avec d’autres filtres.",
     "previousPage": "Page précédente",
-    "nextPage": "Page suivante"
-  },
-  "worldbuilding": {
-    "title": "Construis un monde qui reste enfin cohérent.",
-    "lead": "Kanka est l'outil de création de mondes pour D&D, les TTRPG et tous ceux qui construisent un monde qui doit tenir la route. Lie chaque personnage, lieu et faction avec des {'@'}mentions pour que ta lore reste cohérente et que tu puisses trouver n'importe quoi en quelques secondes. Gratuit pour commencer, sans carte de crédit. Approuvé par plus de 400 000 créateurs de mondes.",
-    "startFree": "Commencer gratuitement"
-  },
-  "premiumPage": {
-    "title": "Campagnes premium",
-    "lead": "Débloque des fonctionnalités avancées pour tes campagnes Kanka pour une petite mensualité. Personnalise l'apparence d'une campagne, rends-la sans publicités, profite de téléchargements de fichiers plus volumineux pour tous les membres, et bien plus encore.",
-    "startingAt": "À partir de {currency}",
-    "perMonth": "par mois",
-    "card1Title": "Tout ce que tu aimes dans Kanka, sans les limites",
-    "card1Body": "Quand une campagne passe en premium, les améliorations suivantes sont débloquées pour tous les membres.",
-    "tableTitle": "Tout ce qu'on vient de dire, mais dans un tableau",
-    "tableBody": "Tous nos abonnements te permettent de débloquer des fonctionnalités premium pour au moins une campagne. Cela déverrouille les avantages suivants pour une campagne. Une campagne peut être rétrogradée et mise à niveau à tout moment. Par exemple, si une campagne est terminée, tu peux la rétrograder et mettre à niveau une autre campagne à la place. La rétrogradation d'une campagne ne supprime pas les données liées aux fonctionnalités premium, mais les masque simplement jusqu'à ce que la campagne soit à nouveau mise à niveau.",
-    "ctaTitle": "Ok, prends mon argent",
-    "ctaBody": "Convaincu et prêt à passer tes campagnes en premium? Abonne-toi à Kanka pour débloquer les campagnes premium!",
-    "ctaButton": "Emmène-moi à la page d'abonnement",
-    "cards": {
-      "c1": {
-        "title": "Apparence et style",
-        "body": "Personnalise la barre latérale de la campagne, modifie le design de la campagne via du CSS personnalisé, et installe des plugins incroyables et magnifiques depuis la <a href=\"https://plugins.kanka.io\" class=\"link-light\">Plugins library</a>."
-      },
-      "c2": {
-        "title": "Meilleures entrées",
-        "body": "Définis des images d'en-tête pour les entrées, écris des tooltips personnalisés, donne-leur des alias pour la recherche et les mentions, et télécharge plus d'assets sur chaque entité."
-      },
-      "c3": {
-        "title": "Tranquillité d'esprit",
-        "body": "Tu as supprimé une entité et tu as changé d'avis? Pas de problème! Récupère les entrées supprimées jusqu'à 30 jours."
-      },
-      "c4": {
-        "title": "Illimité",
-        "body": "Supprime les limites sur le nombre de membres, de rôles et de signets dans la campagne."
-      },
-      "c5": {
-        "title": "Meilleures valeurs par défaut",
-        "body": "Fatigué et dérouté par les cercles gris ennuyeux pour les entrées sans image ? Définis plutôt des images personnalisées par défaut pour chaque type d'entité."
-      },
-      "c6": {
-        "title": "Pour toute la bande",
-        "body": "Tous les membres de la campagne profitent d'une expérience sans publicités, et ont également accès à des téléchargements de fichiers plus volumineux."
-      },
-      "c7": {
-        "title": "Icônes pour les cartes et chronologies",
-        "body": "Rends tes cartes et chronologies percutantes grâce à l'accès à des couleurs personnalisées et à des milliers d'icônes via <a href=\"https://fontawesome.com/search\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">FontAwesome</a> et <a href=\"https://nagoshiashumari.github.io/Rpg-Awesome/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">RPGAwesome</a>."
-      },
-      "c8": {
-        "title": "Toile de connexions",
-        "body": "Explore visuellement la toile de relations et de connexions d'une entité de campagne."
-      },
-      "c9": {
-        "title": "Galerie de campagne",
-        "body": "Gère les images de la campagne dans une galerie, plutôt que de télécharger des images individuellement sur chaque entité."
-      },
-      "c10": {
-        "title": "Succès",
-        "body": "Tu as besoin d'un petit coup de pouce pour créer du contenu pour ton monde? Le système de succès de la campagne pourrait bien te rendre productif malgré toi!"
-      },
-      "c11": {
-        "title": "Des yeux partout",
-        "body": "Journaux complets des modifications apportées aux entrées, disponibles jusqu'à 30 jours. Tu as changé la famille d'un personnage mais oublié l'ancienne? Cette fonctionnalité s'en souviendra pour toi."
-      }
+    "nextPage": "Page suivante",
+    "featuredLabel": "Campagne à découvrir",
+    "viewSpotlight": "Voir la présentation",
+    "filters": {
+      "is_open": "Cherche des joueurs",
+      "is_boosted": "Campagnes premium",
+      "language": "Langue",
+      "system": "Système de jeu",
+      "genre": "Genre"
+    },
+    "languages": {
+      "en": "Anglais",
+      "pt-BR": "Portugais brésilien",
+      "fr": "Français",
+      "de": "Allemand",
+      "es": "Espagnol",
+      "ru": "Russe",
+      "it": "Italien",
+      "pl": "Polonais",
+      "sk": "Slovaque"
+    },
+    "genres": {
+      "alternate-history": "Uchronie",
+      "cyberpunk": "Cyberpunk",
+      "fantasy": "Fantasy",
+      "historical": "Historique",
+      "many-worlds": "Multivers",
+      "modern": "Contemporain",
+      "occult": "Occulte",
+      "post-apocalyptic": "Post-apocalyptique",
+      "pulp": "Pulp",
+      "science-fiction": "Science-fiction",
+      "science-fantasy": "Science-fantasy",
+      "space-opera": "Space opera",
+      "steampunk": "Steampunk",
+      "superhero": "Super-héros",
+      "urban-fantasy": "Fantasy urbaine",
+      "western": "Western"
     }
   },
+  "worldbuilding": {
+    "title": "Retrouve le fil de ton monde",
+    "lead": "Qui gouvernait cette ville avant la guerre? Où se cache la guilde? Relie tes personnages, lieux et factions avec des mentions {'@'} pour retrouver ce que tu as déjà écrit.",
+    "startFree": "Commencer gratuitement"
+  },
+    "premiumPage": {
+      "title": "Campagnes premium",
+      "lead": "Personnalise ta campagne et donne à tout ton groupe plus de place pour les images et les fichiers. Une campagne premium s’affiche sans publicité pour tous ses membres.",
+      "startingAt": "À partir de {currency}",
+      "perMonth": "par mois",
+      "card1Title": "Ce que le premium change pour ta campagne",
+      "card1Body": "Quand tu passes une campagne en premium, tout le groupe en profite.",
+      "tableTitle": "Comparer une campagne standard et une campagne premium",
+      "tableBody": "Chaque abonnement permet de passer au moins une campagne en premium. Quand ta campagne se termine, tu peux transférer ses avantages à une autre. Les données liées au premium sont conservées et restent masquées jusqu’à ce que tu réactives le premium sur la campagne.",
+      "ctaTitle": "Passer ta campagne en premium",
+      "ctaBody": "Choisis un abonnement, puis active le premium sur les campagnes de ton choix.",
+      "ctaButton": "Voir les abonnements",
+      "cards": {
+        "c1": {
+          "title": "L’apparence de ta campagne",
+          "body": "Réorganise le menu pour retrouver ce que tu utilises le plus. Adapte le style avec ton propre CSS ou installe un thème de la <a href=\"https://plugins.kanka.io\" class=\"link-light\">bibliothèque de plugins</a>."
+        },
+        "c2": {
+          "title": "Des entrées plus faciles à retrouver",
+          "body": "Ajoute des surnoms à un personnage pour le retrouver dans la recherche et les mentions. Tu peux aussi personnaliser les images d’en-tête et les infobulles, et joindre davantage de fichiers à chaque entrée."
+        },
+        "c3": {
+          "title": "Récupération des entrées",
+          "body": "Si tu effaces une entrée par erreur, tu as 30 jours pour la récupérer."
+        },
+        "c4": {
+          "title": "De la place pour tout ton groupe",
+          "body": "Invite autant de membres que tu veux. Tu peux aussi créer autant de rôles et de favoris que nécessaire."
+        },
+        "c5": {
+          "title": "Images par défaut",
+          "body": "Choisis une image par défaut pour chaque catégorie. Elle s’affiche sur les entrées auxquelles tu n’as pas encore ajouté d’illustration."
+        },
+        "c6": {
+          "title": "Fichiers plus volumineux",
+          "body": "Les membres peuvent ajouter des fichiers plus volumineux, par exemple des illustrations en haute résolution. La campagne s’affiche sans publicité pour tout le groupe."
+        },
+        "c7": {
+          "title": "Des repères sur tes cartes et chronologies",
+          "body": "Distingue une ville d’une ruine ou un couronnement d’une bataille avec des couleurs et des icônes. Tu peux choisir parmi des milliers d’icônes de <a href=\"https://fontawesome.com/search\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">Font Awesome</a> et de <a href=\"https://nagoshiashumari.github.io/Rpg-Awesome/\" target=\"_blank\" rel=\"noopener noreferrer\" class=\"link-light\">RPG Awesome</a>."
+        },
+        "c8": {
+          "title": "Les relations en un coup d’œil",
+          "body": "Pars d’un personnage ou d’un lieu et remonte le fil de ses relations dans une vue en réseau."
+        },
+        "c9": {
+          "title": "Galerie de campagne",
+          "body": "Ajoute tes images à la galerie pour les retrouver et les réutiliser dans plusieurs entrées de ta campagne."
+        },
+        "c10": {
+          "title": "Succès",
+          "body": "Retrouve les étapes franchies par ton groupe, comme le nombre de lieux créés ou de marqueurs posés sur une carte."
+        },
+        "c11": {
+          "title": "Historique des modifications",
+          "body": "Tu as changé la famille d’un personnage et oublié l’ancienne? L’historique des entrées conserve les modifications des 30 derniers jours."
+        }
+      }
+    },
   "comparison": {
-    "title": "Kanka vs World Anvil: Choisir ta plateforme de création de mondes",
-    "lead": "Quand tu cherches un outil de création de mondes, Kanka et World Anvil offrent tous deux des solutions robustes pour les écrivains, maîtres de jeu et créateurs de mondes. Chaque plateforme excelle pour différents publics - Kanka brille pour les joueurs de jeux de rôle sur table, tandis que World Anvil offre des fonctionnalités pour les écrivains et créateurs de mondes axés sur le récit.",
-    "interfaceTitle": "Interface et courbe d'apprentissage",
-    "interfaceBody1": "Kanka se concentre sur une interface intuitive et claire qui semble familière aux utilisateurs web modernes. La plateforme met l'accent sur un démarrage rapide avec un temps de configuration minimal. Toutes les fonctionnalités principales sont accessibles via une structure de menu cohérente et facile à naviguer.",
-    "interfaceBody2": "World Anvil offre une interface plus élaborée avec de nombreuses options de personnalisation. Bien que puissante, les nouveaux utilisateurs peuvent avoir besoin de plus de temps pour apprendre le système et configurer leur monde efficacement.",
-    "preview1Alt": "Tableau de bord de campagne Kanka montrant des personnages et un calendrier intégrés dans une seule vue",
-    "preview1Caption": "Tableau de bord de campagne Kanka montrant des personnages et un calendrier intégrés dans une seule vue",
-    "contentTitle": "Organisation du contenu",
-    "contentBody1": "Kanka utilise un système flexible basé sur des entités où tout (personnages, lieux, organisations, etc.) est traité de manière égale. Cela permet des interconnexions naturelles entre tous les éléments de ton monde. Le système de relations te permet de créer des réseaux complexes de connexions tout en maintenant la clarté.",
-    "contentBody2": "World Anvil adopte une approche plus centrée sur les articles, avec un accent sur les entrées détaillées de style wiki. Cette approche bénéficie particulièrement aux écrivains, offrant des outils robustes pour organiser la lore, les arcs narratifs et les éléments narratifs. Bien que des connexions entre les éléments existent, elles sont structurées davantage comme des liens wiki traditionnels.",
-    "preview2Alt": "Réseau de connexions d'un personnage",
-    "preview2Caption": "Les personnages prennent vie quand ils sont connectés au reste de ton monde",
-    "rpgTitle": "Gestion de campagnes TTRPG et outils d'écriture",
-    "rpgBody1": "Kanka a été conçu dès le départ avec les campagnes de jeux de rôle sur table en tête. Le système de quêtes, l'intégration du calendrier et les outils de gestion des personnages sont profondément intégrés les uns aux autres, ce qui permet de gérer facilement des campagnes en cours parallèlement à la création de mondes. L'accent est mis sur des outils pratiques pour les maîtres de jeu et les joueurs.",
-    "rpgBody2": "World Anvil excelle à soutenir les écrivains avec des fonctionnalités spécialisées comme l'organisation des manuscrits, les outils de développement de l'intrigue et les arcs de personnages détaillés. Leurs outils de campagne sont davantage axés sur la présentation des informations aux joueurs, avec des fonctionnalités solides pour révéler du contenu sélectif et gérer les autorisations de lecture.",
-    "preview3Alt": "Vue des quêtes Kanka pour suivre les éléments en mouvement",
-    "preview3Caption": "Les quêtes avec beaucoup d'éléments en mouvement peuvent devenir difficiles à suivre dans les logiciels traditionnels.",
-    "customizationTitle": "Philosophie de personnalisation",
-    "customizationBody1": "Kanka met l'accent sur l'extensibilité grâce à son système de plugins communautaires. Les utilisateurs peuvent améliorer leurs mondes avec des plugins créés par la communauté qui ajoutent de nouvelles fonctionnalités, tout en maintenant la facilité d'utilisation principale de la plateforme. La plateforme prend également en charge le CSS personnalisé pour ceux qui souhaitent personnaliser l'apparence de leur monde.",
-    "customizationBody2": "World Anvil offre également une personnalisation visuelle étendue via CSS et des modèles, bien que cela puisse nécessiter plus de connaissances techniques pour être pleinement utilisé.",
-    "collaborationTitle": "Fonctionnalités de collaboration",
-    "collaborationBody1": "Kanka propose un système de permissions simple qui fonctionne pour tous les types de contenu. Les équipes peuvent facilement travailler ensemble avec des contrôles d'accès granulaires cohérents sur toute la plateforme. Kanka est également livré avec des cartes et des tableaux blancs entièrement collaboratifs avec des mises à jour en direct pour tous les collaborateurs.",
-    "collaborationBody2": "World Anvil offre des outils de collaboration axés sur les fonctionnalités communautaires et le partage de contenu entre différents créateurs de mondes.",
-    "strengthsTitle": "Points forts uniques",
+    "title": "Kanka et World Anvil",
+    "lead": "Tu veux préparer une campagne que tu joues chaque semaine? Ou écrire un wiki détaillé sur ton monde? Kanka et World Anvil organisent ces projets de façon différente.",
+    "interfaceTitle": "Premiers pas",
+    "interfaceBody1": "Dans Kanka, tu peux créer une campagne et y ajouter un personnage tout de suite. Tu peux choisir les catégories et régler les permissions à mesure que ton projet avance.",
+    "interfaceBody2": "World Anvil propose davantage d’options dès le départ. Prévois un peu de temps pour les prendre en main et décider comment organiser ton monde.",
+    "preview1Alt": "Tableau de bord avec des personnages et un calendrier",
+    "preview1Caption": "Tes personnages et ton calendrier sur le même tableau de bord",
+    "contentTitle": "Comment tes notes s’organisent",
+    "contentBody1": "Dans Kanka, les personnages, les lieux et les organisations ont chacun leur fiche. Tu peux relier deux fiches pour noter, par exemple, à quelle guilde appartient un personnage.",
+    "contentBody2": "World Anvil s’organise autour d’articles détaillés, reliés comme dans un wiki. Tu peux t’en servir pour développer l’histoire d’un lieu ou suivre l’évolution d’un personnage.",
+    "preview2Alt": "Graphe des relations d’un personnage",
+    "preview2Caption": "Les relations d’un personnage et leurs liens avec le reste du monde",
+    "rpgTitle": "Pour préparer une partie ou écrire une histoire",
+    "rpgBody1": "Dans Kanka, tu peux relier une quête aux personnages qui y participent, puis noter les événements dans le calendrier de ta campagne. Tu retrouves ces détails pendant la partie.",
+    "rpgBody2": "World Anvil propose des outils pour organiser un manuscrit, travailler une intrigue et suivre l’évolution des personnages. En campagne, tu peux choisir ce que tes joueurs peuvent lire.",
+    "preview3Alt": "Vue des éléments liés à une quête dans Kanka",
+    "preview3Caption": "Retrouve qui participe à une quête et où elle se déroule.",
+    "customizationTitle": "Personnalisation",
+    "customizationBody1": "La bibliothèque de Kanka propose des thèmes, des fiches de personnage et du contenu créé par la communauté. Si tu connais le CSS, tu peux aussi écrire tes propres styles.",
+    "customizationBody2": "World Anvil te laisse aussi personnaliser l’apparence de ton monde avec des modèles et du CSS. Le niveau de personnalisation dépend de ce que tu veux modifier.",
+    "collaborationTitle": "Écrire et jouer à plusieurs",
+    "collaborationBody1": "Dans Kanka, tu peux décider qui lit ou modifie chaque entrée. Invite tes joueurs à compléter leurs fiches et garde tes notes de préparation privées.",
+    "collaborationBody2": "World Anvil propose des outils pour partager des articles et échanger avec d’autres personnes qui créent leurs propres mondes.",
+    "strengthsTitle": "Ce que chaque outil propose",
     "kankaSubtitle": "Kanka",
-    "kankaStrength1": "Système d'entités unifié qui traite tous les types de contenu de manière égale",
-    "kankaStrength2": "Cartographie intuitive des relations entre n'importe quels éléments",
-    "kankaStrength3": "Interface cohérente sur toutes les fonctionnalités",
-    "kankaStrength4": "Forte intégration entre la création de mondes et la gestion de campagnes",
-    "kankaStrength5": "Configuration rapide et courbe d'apprentissage minimale",
+    "kankaStrength1": "Des fiches pour les personnages, les lieux et les autres éléments du monde",
+    "kankaStrength2": "Des relations que tu peux suivre d’une fiche à l’autre",
+    "kankaStrength3": "Des permissions pour choisir qui lit ou modifie tes notes",
+    "kankaStrength4": "Des quêtes, des calendriers et des journaux pour suivre une campagne",
+    "kankaStrength5": "Des catégories que tu peux désactiver selon ton projet",
     "waSubtitle": "World Anvil",
-    "waStrength1": "Options de formatage d'articles étendues",
-    "waStrength2": "Fort accent sur l'organisation de style wiki traditionnel",
-    "waStrength3": "Système de modèles robuste pour des articles cohérents",
-    "waStrength4": "Fonctionnalités communautaires intégrées",
-    "waStrength5": "Options avancées de personnalisation CSS",
-    "conclusionTitle": "Conclusion",
-    "conclusionBody": "Choisis Kanka si tu veux une plateforme moderne et intuitive qui mélange harmonieusement la création de mondes avec la gestion de campagnes TTRPG, et que tu apprécies une configuration rapide avec des outils d'organisation cohérents.",
-    "preview4Alt": "Tableau de bord Kanka avec introduction, calendrier, récapitulatifs",
-    "preview4Caption": "Concentre-toi sur la création de ton monde et laisse Kanka gérer le reste.",
-    "ctaLink": "Rejoins 400 000 créateurs de mondes qui ne voulaient pas payer pour une complexité qu'ils n'utiliseraient jamais."
+    "waStrength1": "Des options de mise en page pour les articles",
+    "waStrength2": "Une organisation de type wiki",
+    "waStrength3": "Des modèles pour donner la même structure à tes articles",
+    "waStrength4": "Des espaces pour échanger avec d’autres créateurs",
+    "waStrength5": "Des réglages de style en CSS",
+    "conclusionTitle": "Essayer Kanka",
+    "conclusionBody": "Si tu veux voir comment Kanka s’intègre à tes parties, commence par une quête ou un lieu. Ajoute les personnages concernés et relie leurs fiches. Tu pourras étoffer ta campagne au fil du jeu.",
+    "preview4Alt": "Tableau de bord avec une introduction, un calendrier et des résumés de parties",
+    "preview4Caption": "Regroupe sur le tableau de bord les informations que ton groupe consulte le plus.",
+    "ctaLink": "Créer une campagne gratuite"
   },
   "kb": {
-    "title": "Base de connaissances Kanka",
-    "lead": "Réponses rapides aux questions courantes sur les campagnes, les permissions, les cartes, les calendriers, la tarification, et plus.",
-    "notFoundTitle": "Tu n'as pas trouvé ce que tu cherchais?",
-    "joinDiscord": "Rejoins notre Discord",
+    "title": "Questions fréquentes sur Kanka",
+    "lead": "Retrouve les réponses sur les campagnes, les cartes, les permissions et les abonnements.",
+    "notFoundTitle": "Tu cherches autre chose?",
+    "joinDiscord": "Rejoins-nous sur Discord",
     "checkDocs": "Consulte la documentation",
-    "sendEmail": "Envoie-nous un e-mail"
+    "sendEmail": "Écris-nous"
   },
   "contact": {
-    "title": "Nous sommes là pour toi",
-    "lead": "Besoin d'aide, tu as trouvé un bug, ou tu veux juste partager ton amour pour Kanka ? Notre équipe répondra quelle que soit l'occasion !",
-    "emailTitle": "Email",
-    "emailBody": "Envoie toutes tes demandes à",
+    "title": "Contacter l’équipe",
+    "lead": "Écris-nous si tu as une question, si tu as trouvé un bug ou si tu veux nous raconter comment se passe ta campagne.",
+    "emailTitle": "E-mail",
+    "emailBody": "Écris-nous à",
     "discordTitle": "Discord",
-    "discordBody": "Si tu veux nous parler directement, rejoins notre {discordServer}.",
+    "discordBody": "Pour discuter avec nous, rejoins notre {discordServer}.",
     "discordServerLink": "serveur Discord",
-    "aboutTeamTitle": "À propos de notre équipe",
-    "aboutTeamBody": "Kanka est construit et maintenu par une {teamLink} dispersée entre Genève et Mérida. Nous sommes passionnés par la création de mondes et la gestion de campagnes, et nous adorons avoir des nouvelles de nos utilisateurs, que ce soient des rapports de bugs, des demandes de fonctionnalités, ou simplement comment tu utilises Kanka.",
-    "aboutTeamLink": "petite équipe distribuée",
-    "responseTitle": "Délai de réponse et support",
-    "responseBody1": "Nous répondons généralement à toutes les demandes dans les {hours}. Nous apprécions l'équilibre entre vie professionnelle et personnelle et le temps avec nos familles, donc nous ne répondrons peut-être pas immédiatement, mais nous reviendrons vers toi.",
-    "responseHours": "24-48 heures",
-    "responseBody2": "{fastest} Notre communauté Discord est l'endroit où nous sommes le plus réactifs. Si tu as besoin d'une aide urgente, rejoindre notre {discordServer} est ta meilleure option.",
-    "responseFastest": "Réponse la plus rapide:",
-    "responseBody3": "{allMethods} Email, Discord ou via n'importe lequel de nos réseaux sociaux. Nous comprenons que tout le monde ne veut pas utiliser Discord ou les réseaux sociaux, et c'est parfaitement bien — envoie-nous un e-mail à {email} et nous t'aiderons.",
-    "responseAllMethods": "Nous acceptons toutes les méthodes de contact:",
+    "aboutTeamTitle": "Qui te répond?",
+    "aboutTeamBody": "Nous sommes une {teamLink} entre Genève et Mérida. Nous développons Kanka et répondons aussi à tes messages.",
+    "aboutTeamLink": "petite équipe",
+    "responseTitle": "Quand attendre une réponse?",
+    "responseBody1": "Nous répondons en général sous {hours}.",
+    "responseHours": "24 à 48 heures",
+    "responseBody2": "{fastest} Si c’est urgent, passe par notre {discordServer}.",
+    "responseFastest": "Discord est le moyen le plus rapide de nous joindre.",
+    "responseBody3": "{allMethods} Tu peux aussi nous écrire à {email}.",
+    "responseAllMethods": "Tu peux également nous joindre sur nos réseaux sociaux.",
     "beforeTitle": "Avant de nous contacter",
-    "downTitle": "Kanka est-il en panne ou a-t-il des problèmes?",
-    "downBody": "Vérifie {statusLink} pour voir si nous connaissons une panne. Tu y trouveras des mises à jour de statut en temps réel.",
+    "downTitle": "Kanka ne répond plus?",
+    "downBody": "Vérifie sur {statusLink} si une panne est en cours.",
     "passwordTitle": "Mot de passe oublié?",
-    "passwordBody": "Utilise la fonctionnalité de mot de passe perdu sur la {loginLink} pour le réinitialiser toi-même. Pas besoin de nous contacter!",
+    "passwordBody": "Sur la {loginLink}, clique sur le lien de réinitialisation du mot de passe.",
     "loginPageLink": "page de connexion"
   },
   "showcase": {
-    "title": "Vitrine",
-    "lead": "Notre vitrine met en avant une sélection de campagnes construites avec Kanka. Chaque mise en avant offre un regard approfondi sur la façon dont un monde a été créé, ce qui le motive et les histoires qui émergent autour de la table.",
-    "applyButton": "Candidater pour la mise en avant",
-    "spotlightTitle": "Campagnes mises en avant",
-    "loading": "Chargement...",
-    "noResults": "Aucune campagne en vedette pour l'instant. Candidate pour que la tienne apparaisse ici!",
+    "title": "Sélection de campagnes",
+    "lead": "Découvre les campagnes de la communauté et les personnes qui les font vivre. Elles racontent comment elles ont créé leur monde et ce qui se passe autour de leur table.",
+    "applyButton": "Proposer ta campagne",
+    "spotlightTitle": "Campagnes à découvrir",
+    "loading": "Chargement…",
+    "noResults": "La sélection est vide pour le moment. Tu peux proposer ta campagne.",
     "previousPage": "Page précédente",
     "nextPage": "Page suivante"
   },
   "roadmap": {
     "title": "Feuille de route",
-    "lead": "Notre communauté façonne notre travail, donc bien que nous n'ayons pas de feuille de route sur plusieurs mois, il est facile de rester à jour avec ce qui a été demandé et ce sur quoi nous travaillons actuellement.",
+    "lead": "Les idées de la communauté orientent notre travail. Tu peux voir ce qui est proposé et ce que nous préparons.",
     "roadmapTitle": "Feuille de route",
-    "roadmapBody": "La feuille de route liste toutes les idées soumises par la communauté et ce sur quoi nous travaillons actuellement, tout en permettant aux membres de voter pour les idées qu'ils veulent voir ajoutées à Kanka.",
-    "devLogsTitle": "Journaux de développement",
-    "devLogsBody": "Nous publions des journaux de développement toutes les quelques semaines avec des mises à jour sur notre progression et les fonctionnalités à venir, ainsi que des coulisses."
+    "roadmapBody": "Consulte les idées soumises par la communauté et vote pour celles que tu aimerais voir dans Kanka.",
+    "devLogsTitle": "Carnets de développement",
+    "devLogsBody": "Toutes les quelques semaines, on raconte ce qui a changé et ce qu’on prépare."
   },
   "hallOfFame": {
     "title": "Panthéon",
-    "lead": "Honnêtement, c'est encore un peu fou pour nous qu'un projet de loisir de week-end soit devenu un travail à temps plein pour notre petite équipe. Rien de tout ça n'aurait été possible sans ces personnes incroyables. Leur soutien nous permet de livrer des mises à jour fréquentes, de sauter les réunions matinales, de travailler sur des choses qui nous passionnent vraiment, et de continuer à répandre notre amour de la création de mondes, une campagne à la fois.",
-    "fetching": "Récupération...",
+    "lead": "Kanka est né d’un projet de week-end. Si on peut aujourd’hui y travailler à plein temps, c’est grâce aux personnes qui nous soutiennent.",
+    "fetching": "Chargement…",
     "backToTop": "Retour en haut",
-    "elementalBody": "Ces personnes fantastiques nous font savoir que nous travaillons sur quelque chose de vraiment magique.",
-    "wyvernBody": "Ce sont des gens qui gèrent plusieurs campagnes dans plusieurs mondes, parfois avec de grands groupes de joueurs. Les créateurs de mondes sérieux qui ne pourraient pas atteindre leurs objectifs sans Kanka.",
-    "owlbearBody": "L'épine dorsale de la communauté Kanka. La création de monde est plus qu'un passe-temps passager pour ces gens, ils se réveillent avec des crochets d'intrigue prêts à ajouter à leurs mondes. Leurs projets ont depuis longtemps dépassé la prise de notes simple, et ils construisent quelque chose de magnifique.",
-    "goblinBody": "Abandonnés début 2020, nos fidèles Goblins nous soutiennent encore aujourd'hui !"
+    "elementalBody": "Merci à celles et ceux qui nous soutiennent avec un abonnement Elemental.",
+    "wyvernBody": "Parmi les Wyverns, on trouve des MJ qui font jouer plusieurs groupes ou mènent des campagnes dans plusieurs mondes.",
+    "owlbearBody": "Les Owlbears ont souvent commencé par quelques notes. Depuis, leurs mondes ont bien grandi.",
+    "goblinBody": "L’abonnement Goblin n’est plus proposé depuis début 2020. Les Goblins sont toujours là, et on les en remercie."
   },
   "partners": {
     "title": "Partenaires",
-    "lead": "Nous nous sommes associés à quelques outils et communautés incroyables qui partagent nos objectifs et nos valeurs.",
-    "gramelBody": "Gramel Books est une petite maison d'édition polonaise de TTRPG, responsable des éditions polonaises de Savage Worlds, Dungeon World, Monsterhearts, Beyond the Wall and Other Adventures ou Eclipse Phase. Ils ont également publié quelques suppléments en anglais pour Savage Worlds, notamment Beasts and Barbarians et Tropicana, ainsi qu'un système de jeu simple appelé Adventurers. Publier et jouer aux jeux de rôle sur table est leur passion et leur passe-temps favori depuis plus de 20 ans, et ils sont fiers et heureux de faire partie du projet Kanka !"
+    "lead": "Voici les équipes avec lesquelles on travaille.",
+    "gramelBody": "Gramel Books est une maison d’édition polonaise spécialisée dans le jeu de rôle. Elle publie notamment les éditions polonaises de Savage Worlds, Dungeon World, Monsterhearts, Beyond the Wall and Other Adventures et Eclipse Phase. Elle a aussi publié des suppléments en anglais pour Savage Worlds, dont Beasts and Barbarians et Tropicana, ainsi que son propre jeu, Adventurers."
   },
   "security": {
     "title": "Sécurité",
-    "lead": "Notre petite équipe s'engage à fournir des normes de protection des données de premier ordre pour garantir que tes données sont en sécurité avec nous.",
-    "dataCenterTitle": "Sécurité du centre de données",
-    "dataCenterBody": "Kanka est hébergé sur plusieurs serveurs pour garantir la redondance, et nous avons des procédures de reprise après sinistre en place en cas de problème. Nos serveurs sont hébergés par Hetzner.",
-    "euTitle": "Infrastructure hébergée dans l'UE",
-    "euBody": "Nos serveurs et toutes tes données sont hébergés sur des serveurs à l'intérieur de l'Union européenne. Cela nous permet de respecter des exigences réglementaires et de conformité spécifiques qui garantissent que tes données sont en sécurité avec nous. Nos fournisseurs de centres de données Hetzner et Amazon Cloud Europe ont un historique de qualité et d'expertise dans la gestion des données numériques.",
-    "commsTitle": "Communication sécurisée",
-    "commsBody": "Toutes les données utilisateur sont transportées de manière sécurisée et privée, car elles sont chiffrées en transit via SSL. Le chiffrement des données en transit les protège contre l'écoute non autorisée, la modification et les attaques de l'homme du milieu.",
-    "creditTitle": "Cartes de crédit",
-    "creditBody": "Nous ne stockons pas tes informations de carte de crédit. Nous utilisons Stripe pour traiter les cartes de crédit, toutes les communications entre toi, nos serveurs et Stripe étant chiffrées. Les seules informations de carte de crédit fournies par Stripe que nous stockons sont la date d'expiration et la marque de ta carte, afin de pouvoir te notifier quand ta carte expire.",
-    "backupsTitle": "Sauvegardes des données",
-    "backupsBody": "Notre base de données est sauvegardée deux fois par jour pour garantir que tes données restent sûres et hautement disponibles. Nos sauvegardes de base de données sont régulièrement testées pour garantir que nous pouvons rapidement restaurer les données si nécessaire.",
-    "logsTitle": "Collecte de journaux",
-    "logsBody": "Nous collectons automatiquement des journaux détaillés pour nous assurer de pouvoir résoudre rapidement et efficacement les bugs et problèmes avec les utilisateurs. Ces journaux détaillés sont fréquemment purgés, et sont également automatiquement purgés quand tu supprimes ton compte.",
-    "breachTitle": "Violation de données",
-    "breachBody": "Si Kanka devait être la cible d'une violation de données impliquant des données personnelles, nous le signalerons rapidement aux autorités locales ainsi qu'aux utilisateurs concernés."
+    "lead": "Voici comment nous hébergeons, sauvegardons et protégeons tes données.",
+    "dataCenterTitle": "Hébergement",
+    "dataCenterBody": "Kanka tourne sur plusieurs serveurs chez Hetzner. Nous avons prévu des procédures pour rétablir le service si un serveur tombe en panne.",
+    "euTitle": "Hébergement dans l’Union européenne",
+    "euBody": "Tes données sont hébergées dans l’Union européenne, chez Hetzner et Amazon Cloud Europe.",
+    "commsTitle": "Chiffrement des échanges",
+    "commsBody": "Les données échangées avec Kanka sont chiffrées pendant leur transfert pour empêcher qu’un tiers les lise ou les modifie.",
+    "creditTitle": "Paiements par carte",
+    "creditBody": "Stripe traite tes paiements par carte. Les échanges avec Stripe sont chiffrés. Nous utilisons la marque et la date d’expiration de ta carte pour te prévenir avant qu’elle expire.",
+    "backupsTitle": "Sauvegardes",
+    "backupsBody": "Nous sauvegardons la base de données deux fois par jour et testons régulièrement la restauration des sauvegardes.",
+    "logsTitle": "Journaux techniques",
+    "logsBody": "Nous enregistrons des journaux techniques pour retrouver la cause d’un problème. Nous les effaçons régulièrement, ainsi que lorsque tu supprimes ton compte.",
+    "breachTitle": "En cas de fuite de données",
+    "breachBody": "Si une fuite touche des données personnelles, nous prévenons rapidement les autorités locales et les personnes concernées."
   },
   "pressKit": {
-    "title": "Kit presse",
-    "lead": "Merci de ton intérêt pour Kanka! Utilise les ressources suivantes quand tu parles de nous.",
-    "shortDescriptionTitle": "Description courte",
-    "shortDescriptionBody1": "Kanka est un outil de création de mondes et de gestion de campagnes TTRPG parfait pour les créateurs de mondes et les maîtres de jeu. Il t'aide à créer et organiser tes campagnes et tes mondes avec toute une gamme de fonctionnalités telles que les calendriers, les cartes interactives, les chronologies, les organisations, les familles, et autant de personnages que tu peux imaginer !",
-    "shortDescriptionBody2": "La communauté est dans leur ADN, et tu peux voter sur les idées de la communauté pour déterminer la direction que prend Kanka, ainsi que leur Marketplace communautaire, où les créateurs peuvent mettre en valeur leur créativité et rendre leur contenu utilisable par d'autres.",
+    "title": "Kit de presse",
+    "lead": "Tu écris sur Kanka? Voici une présentation et les logos que tu peux utiliser.",
+    "shortDescriptionTitle": "Kanka en quelques mots",
+    "shortDescriptionBody1": "Kanka est un outil pour créer des mondes et gérer des campagnes de jeu de rôle. Il permet de relier des personnages, des lieux et des événements, de les retrouver en pleine partie et de choisir ce que le groupe peut consulter.",
+    "shortDescriptionBody2": "Les membres de la communauté proposent des idées, votent sur la feuille de route et partagent leurs thèmes, leurs fiches de personnage et leur contenu dans la bibliothèque de plugins.",
     "logosTitle": "Logos",
-    "needMore": "Besoin de plus de ressources ou d'aide ?"
+    "needMore": "Il te manque quelque chose?"
   },
   "ttrpgTools": {
-    "title": "Tout ce dont un maître de jeu a besoin, en un seul endroit.",
-    "lead": "Kanka est la boîte à outils tout-en-un pour les maîtres de jeu TTRPG: personnages, cartes, quêtes, chronologies et lore, tous liés par des {'@'}mentions et prêts au moment où tu en as besoin. Fonctionne pour D&D, n'importe quel TTRPG, ou ton propre système homebrew. Gratuit pour commencer, sans carte de crédit. Approuvé par plus de 400 000 MJ.",
+    "title": "Tes notes de jeu à portée de main",
+    "lead": "Prépare ta prochaine partie et retrouve tes notes quand tes joueurs prennent un chemin imprévu. Kanka fonctionne aussi bien avec D&D qu’avec les règles que tu as inventées.",
     "startFree": "Commencer gratuitement"
   },
   "campaignManager": {
-    "title": "Gère ta campagne D&D sans le chaos.",
-    "lead": "Kanka est le gestionnaire de campagnes pour D&D et les maîtres de jeu TTRPG. Suis chaque PNJ, quête et fil narratif, lie-les avec des {'@'}mentions et retrouve n'importe quoi en pleine session, de la session un à la session cinquante. Moins de préparation, plus de jeu. Gratuit pour commencer, sans carte de crédit. Approuvé par plus de 400 000 MJ.",
+    "title": "Garde le fil de ta campagne D&D",
+    "lead": "Retrouve le nom du tavernier en pleine partie et souviens-toi de ce que le groupe lui a promis. Avec Kanka, tes notes restent liées d’une séance à l’autre.",
     "startFree": "Commencer gratuitement"
   },
   "useCasesIndex": {
-    "title": "Trouve ta façon d'utiliser Kanka",
-    "lead": "Tout le monde arrive à Kanka avec une histoire différente. Certains gèrent des campagnes avec de nombreux éléments en mouvement. D'autres construisent des mondes qui ont vécu dans leur tête pendant des années. Que tu sois un maître de jeu jonglant avec des intrigues et des PNJ, un écrivain cartographiant la lore, ou un joueur essayant de suivre l'histoire de son personnage, Kanka se façonne autour de ta façon de penser. Trouve tes semblables ci-dessous.",
-    "readUseCase": "Lire le cas d'usage",
-    "noResults": "Aucun cas d'usage pour l'instant. Reviens bientôt!"
+    "title": "Comment utiliser Kanka dans ton projet?",
+    "lead": "Tu prépares une partie, tu écris un roman ou tu veux garder une trace des aventures de ton personnage? Regarde comment d’autres s’y prennent.",
+    "readUseCase": "Voir l’exemple",
+    "noResults": "Il n’y a pas encore d’exemples."
   },
   "guidesIndex": {
     "title": "Guides de création de mondes",
-    "lead": "Guides pour t'aider à démarrer et à développer tes projets de création de mondes.",
+    "lead": "Par où commencer? Que préparer avant la première partie? Ces guides t’aident à avancer dans ton projet.",
     "readGuide": "Lire le guide",
-    "noResults": "Aucun guide de création de mondes pour l'instant. Reviens bientôt!"
+    "noResults": "Il n’y a pas encore de guides."
   },
   "learnIndex": {
-    "title": "Apprendre",
-    "lead": "Guides et articles pour t'aider à tirer le meilleur parti de Kanka.",
-    "readArticle": "Lire l'article",
-    "noResults": "Aucun article pour l'instant. Reviens bientôt!"
+    "title": "Guides Kanka",
+    "lead": "Des exemples pour organiser ton monde, préparer une partie et partager tes notes avec ton groupe.",
+    "readArticle": "Lire l’article",
+    "noResults": "Il n’y a pas encore d’articles."
   },
   "developerResources": {
     "title": "Ressources pour les développeurs",
-    "lead": "Crée des intégrations avec Kanka grâce à notre API REST, notre documentation et nos ressources lisibles par les machines.",
+    "lead": "Tu veux connecter un autre outil à Kanka? Commence par la documentation de l’API.",
     "apiTitle": "API REST de Kanka",
-    "apiBody": "Utilise l'API REST de Kanka pour consulter et gérer les données de campagne, notamment les personnages, lieux, quêtes, cartes et bien plus.",
+    "apiBody": "L’API REST te permet de lire et de modifier les données d’une campagne, par exemple pour retrouver un personnage ou mettre à jour une quête depuis un autre outil.",
     "apiLink": "Lire la documentation de l'API",
     "setupTitle": "Authentification et configuration",
-    "setupBody": "Crée une clé API, authentifie tes requêtes avec un jeton Bearer et consulte les limites de requêtes avant de commencer.",
-    "setupLink": "Lire la documentation de configuration",
-    "machineReadableTitle": "Ressources lisibles par les machines",
-    "machineReadableBody": "Utilise llms.txt comme index concis des ressources publiques et de la documentation développeur de Kanka.",
+    "setupBody": "Crée une clé API et envoie le jeton dans l’en-tête Authorization de tes requêtes. La documentation explique aussi combien de requêtes tu peux envoyer.",
+    "setupLink": "Configurer l’accès à l’API",
+    "machineReadableTitle": "Index pour les outils automatisés",
+    "machineReadableBody": "Le fichier llms.txt répertorie les pages publiques de Kanka et la documentation de l’API.",
     "llmsLink": "Lire llms.txt",
     "baseUrlTitle": "URL de base de l'API"
-  }
+  },
+      "article": {
+      "by": "Par",
+      "relatedUseCases": "Autres exemples",
+      "relatedArticles": "À lire aussi",
+      "relatedGuides": "Autres guides",
+      "backToUseCases": "Retour aux exemples",
+      "backToLearn": "Retour aux guides Kanka",
+      "backToGuides": "Retour aux guides de création de mondes",
+      "useCaseNotFound": "Cet exemple est introuvable.",
+      "articleNotFound": "Cet article est introuvable.",
+      "guideNotFound": "Ce guide est introuvable."
+    },
+  "video": {
+    "play": "Lire la vidéo « {title} »",
+    "defaultTitle": "Vidéo"
+  },
+  "seo": {
+      "home": {
+        "title": "Kanka, ton outil de gestion de campagne de jeu de rôle",
+        "description": "Prépare tes parties et retrouve tes notes en cours de jeu. Relie les personnages, les lieux et les événements de ton monde, puis partage ce que ton groupe peut voir."
+      },
+      "features": {
+        "title": "Fonctionnalités de Kanka",
+        "description": "Retrouve tes notes en pleine partie, relie tes personnages et tes lieux, et choisis ce que tu veux partager avec ton groupe."
+      },
+      "pricing": {
+        "title": "Tarifs et abonnements Kanka",
+        "description": "Crée tes campagnes gratuitement. Compare les abonnements si tu veux passer une campagne en premium ou ajouter des fichiers plus volumineux."
+      },
+      "about": {
+        "title": "L’équipe derrière Kanka",
+        "description": "Fais connaissance avec Jay et Jon et découvre comment Kanka est passé des notes d’une campagne à un outil partagé par des milliers de groupes."
+      },
+      "premium": {
+        "title": "Campagnes premium sur Kanka",
+        "description": "Personnalise ta campagne, partage des fichiers plus volumineux et retrouve une entrée supprimée par erreur. Toute ta table en profite."
+      },
+      "campaigns": {
+        "title": "Campagnes publiques sur Kanka",
+        "description": "Explore les campagnes que la communauté partage et trouve des idées pour organiser la tienne."
+      },
+      "showcase": {
+        "title": "Notre sélection de campagnes sur Kanka",
+        "description": "Découvre les mondes de la communauté et les personnes qui les font vivre."
+      },
+      "kanka-vs-worldanvil": {
+        "title": "Comparer Kanka et World Anvil",
+        "description": "Compare la façon dont Kanka et World Anvil organisent les notes de campagne, les articles et le partage avec ton groupe."
+      },
+      "kb": {
+        "title": "Questions fréquentes sur Kanka",
+        "description": "Retrouve les réponses sur les campagnes, les cartes, les permissions et les abonnements."
+      },
+      "contact": {
+        "title": "Contacter l’équipe Kanka",
+        "description": "Une question ou un bug à signaler? Écris-nous ou rejoins-nous sur Discord."
+      },
+      "partners": {
+        "title": "Partenaires de Kanka",
+        "description": "Découvre les équipes avec lesquelles Kanka travaille."
+      },
+      "hall-of-fame": {
+        "title": "Panthéon de Kanka",
+        "description": "Retrouve les personnes qui soutiennent le développement de Kanka."
+      },
+      "developers": {
+        "title": "API et documentation de Kanka",
+        "description": "Retrouve la documentation de l’API REST de Kanka pour connecter tes outils à tes campagnes."
+      },
+      "security": {
+        "title": "Sécurité et sauvegardes chez Kanka",
+        "description": "Découvre comment Kanka héberge, sauvegarde et protège tes données."
+      },
+      "press-kit": {
+        "title": "Kit de presse de Kanka",
+        "description": "Retrouve les logos et une courte présentation à utiliser si tu écris sur Kanka."
+      },
+      "roadmap": {
+        "title": "Feuille de route de Kanka",
+        "description": "Consulte les idées de la communauté et découvre ce que nous préparons."
+      },
+      "worldbuilding": {
+        "title": "Créer ton monde avec Kanka",
+        "description": "Relie les personnages, lieux et factions de ton monde pour retrouver ce que tu as déjà écrit."
+      },
+      "ttrpg-tools": {
+        "title": "Préparer tes parties avec Kanka",
+        "description": "Garde tes notes à portée de main quand tes joueurs prennent un chemin imprévu."
+      },
+      "campaign-manager": {
+        "title": "Gérer ta campagne D&D avec Kanka",
+        "description": "Retrouve les personnages, les quêtes et les détails de ta campagne d’une partie à l’autre."
+      },
+      "use-cases": {
+        "title": "Comment utiliser Kanka dans ton projet?",
+        "description": "Découvre comment d’autres personnes se servent de Kanka pour mener une campagne, écrire ou suivre leur personnage."
+      },
+      "learn": {
+        "title": "Guides Kanka",
+        "description": "Des exemples pour organiser ton monde, préparer une partie et partager tes notes avec ton groupe."
+      },
+      "worldbuilding-guides": {
+        "title": "Guides Kanka pour créer ton monde",
+        "description": "Par où commencer? Que préparer avant la première partie? Découvre des pistes pour avancer dans ton projet."
+      }
+    }
 }

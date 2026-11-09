@@ -2,16 +2,16 @@
   <Section id="pitch">
     <div class="mx-auto lg:max-w-4xl flex flex-col gap-4">
       <h2 class="text-purple">
-        Everything in one place. Find it in seconds, even mid-session
+        {{ $t('index.pitch.title') }}
       </h2>
       <p>
-        Notes scattered across docs, wikis, and napkins don't survive contact with a live session. In Kanka, everything lives in one place and everything connects. @mention a character in a session log and it links automatically, so one click takes you from a city to its ruler to the war they started. When a player asks the question you didn't prep for, the answer is one search away, on any device.
+        {{ $t('index.pitch.body') }}
       </p>
     </div>
 
     <Preview
       url="images/screenshots/devices-preview-hd.png"
-      alt="Kanka tabletop rpg campaign management and worldbuilding dashboard"
+      :alt="$t('index.hero.dashboardAlt', 'Kanka tabletop rpg campaign management and worldbuilding dashboard')"
       :width="1600"
       :height="1000"
       asset
@@ -23,27 +23,27 @@
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
         icon="fa-regular fa-sack"
-        title="The free tier isn't a trial"
-        lead="All core features, unlimited campaigns, unlimited entries. Most GMs never need to pay, and we'd rather you stay because you love it, not because a paywall trapped your world."
+        :title="$t('index.features.f1Title')"
+        :lead="$t('index.features.f1Lead')"
       />
       <Feature
         icon="fa-regular fa-users"
-        title="Run it with your whole table"
-        lead="Invite your players and co-GMs, then control exactly what each person sees and edits. Your secrets stay secret until you're ready to reveal them."
+        :title="$t('index.features.f2Title')"
+        :lead="$t('index.features.f2Lead')"
       />
       <Feature
         icon="fa-regular fa-palette"
-        title="Make it yours"
-        lead="Rename categories, restructure to fit your system, or go deep with custom CSS and community plugins. Kanka bends to how you run your game: 5e, a homebrew system, or no system at all."
+        :title="$t('index.features.f3Title')"
+        :lead="$t('index.features.f3Lead')"
       />
       <Feature
         icon="fa-regular fa-clipboard"
-        title="A place for every part of your world"
-        lead="Characters, locations, organizations, families, timelines, calendars, maps, 20+ categories, each built for a piece of your world, all linked together."
+        :title="$t('index.features.f4Title')"
+        :lead="$t('index.features.f4Lead')"
       />
     </div>
     <div class="text-center">
-      <NuxtLink to="/features" class="block-btn btn">Learn more about Kanka's features</NuxtLink>
+      <NuxtLink :to="localePath('/features')" class="block-btn btn">{{ $t('index.features.learnMore') }}</NuxtLink>
     </div>
   </Section>
 
@@ -69,52 +69,52 @@
   </Section>
 
   <Section id="trust">
-    <h2 class="text-purple">Your world is safe, and it's yours</h2>
+    <h2 class="text-purple">{{ $t('index.trust.title') }}</h2>
     <div class="grid gap-8 md:grid-cols-2 lg:grid-cols-4 text-dark mb-4">
       <Feature
         icon="fa-regular fa-download"
-        title="Export anytime"
-        lead="Download your content anytime. No lock-in, ever."
+        :title="$t('index.trust.f1Title')"
+        :lead="$t('index.trust.f1Lead')"
       />
       <Feature
         icon="fa-regular fa-shield"
-        title="Your data is safe"
-        lead="We use reputable German hosting services, and we back up our servers twice daily."
+        :title="$t('index.trust.f2Title')"
+        :lead="$t('index.trust.f2Lead')"
       />
       <Feature
         icon="fa-regular fa-magnifying-glass"
-        title="Source available"
-        lead="Kanka's code is public on GitHub, nothing hidden in a black box."
+        :title="$t('index.trust.f3Title')"
+        :lead="$t('index.trust.f3Lead')"
       />
       <Feature
         icon="fa-regular fa-balance-scale"
-        title="Your IP is yours"
-        lead="Campaigns are Private by default."
+        :title="$t('index.trust.f4Title')"
+        :lead="$t('index.trust.f4Lead')"
       />
     </div>
   </Section>
 
   <Section id="pricing">
-    <h2 class="text-purple">Pricing</h2>
+    <h2 class="text-purple">{{ $t('index.pricing.title') }}</h2>
     <PricingOverview currency="usd" :period="true" />
   </Section>
 
   <Section id="team">
-    <h2 class="text-purple">Who we are</h2>
+    <h2 class="text-purple">{{ $t('index.team.title') }}</h2>
     <div class="flex items-center gap-12 justify-center">
       <LazyNuxtImg src="/images/members/jay.png" class="rounded-full w-40 h-40" alt="Jay" />
       <LazyNuxtImg src="/images/members/jon.png" class="rounded-full w-40 h-40" alt="Jon" />
     </div>
-    <p>Kanka is built and run by just two of us: one GM (Jay) and one player (Jon). The initial spark came because Jay needed a better way to keep track of our campaign so that Jon could keep ignoring the main plotline. Even all these years later, it's still just us answering your emails, Discord messages, and carrier pigeons. We're not trying to build the biggest worldbuilding platform, just the one we want to run our own games in.</p>
+    <p>{{ $t('index.team.body') }}</p>
     <div class="text-center">
-      <NuxtLink to="/about" class="block-btn btn">Read our story</NuxtLink>
+      <NuxtLink :to="localePath('/about')" class="block-btn btn">{{ $t('index.team.cta') }}</NuxtLink>
     </div>
   </Section>
 
   <Section id="featured">
     <div class="flex flex-col gap-4">
-      <h2 class="text-purple">Featured campaigns</h2>
-      <p class="lg:max-w-xl lg:mx-auto">Our community builds amazing things that we love to showcase as Featured Campaigns. These are great examples of worldbuilding that we recommend you check out. They can also showcase what other users have done with Kanka, and give you some inspiration!</p>
+      <h2 class="text-purple">{{ $t('index.featured.title') }}</h2>
+      <p class="lg:max-w-xl lg:mx-auto">{{ $t('index.featured.lead') }}</p>
     </div>
     <div class="overflow-x-auto">
       <div class="flex gap-3 min-w-fit mb-5 justify-center">
@@ -145,25 +145,25 @@
       </div>
     </div>
     <div class="text-center">
-      <NuxtLink to="/campaigns" class="block-btn btn">See what GMs build in Kanka</NuxtLink>
+      <NuxtLink :to="localePath('/campaigns')" class="block-btn btn">{{ $t('index.featured.cta') }}</NuxtLink>
     </div>
   </Section>
 
   <Section id="register">
-    <h2 class="text-purple">Ready to run your best campaign?</h2>
+    <h2 class="text-purple">{{ $t('index.register.title') }}</h2>
     <p>
       <a :href="bottomRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick(`${slug}_bottom`)">
-        Start your free campaign
+        {{ $t('index.register.cta') }}
       </a>
     </p>
   </Section>
 
   <Section id="faq">
-    <h2 class="text-purple">FAQ</h2>
+    <h2 class="text-purple">{{ $t('index.faq.title') }}</h2>
     <PricingFaq :faqs="faq?.items ?? []" />
     <p>
       <a :href="bottomRegisterUrl" class="btn-round rounded-full" @click="trackRegisterClick(`${slug}_faq`)">
-        Start your free campaign
+        {{ $t('index.register.cta') }}
       </a>
     </p>
   </Section>
@@ -174,6 +174,7 @@ const props = defineProps<{ slug: string }>()
 
 const { homeFaqCollection } = useLocaleData()
 const { locale } = useI18n()
+const localePath = useLocalePath()
 const { data: faq } = await useAsyncData(`${props.slug}-faq-${locale.value}`, () =>
   queryCollection(homeFaqCollection()).first()
 )
