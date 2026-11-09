@@ -1,16 +1,16 @@
 items:
   - id: free
-    q: "Ist der kostenlose Plan wirklich kostenlos, oder nur eine Testversion?"
-    a: "Kostenlos für immer. Unbegrenzte Kampagnen und Einträge, alle Kernfunktionen, keine Kreditkarte. Viele GMs upgraden nie. Kostenpflichtige Stufen bieten Premium-Kampagnen, grössere Uploads und einige Extras"
+    q: "Ist die kostenlose Version zeitlich begrenzt?"
+    a: "Du kannst die kostenlose Version so lange nutzen, wie du möchtest. Alle Grundfunktionen sind dabei. Lege beliebig viele Kampagnen und Einträge an, ganz ohne Kreditkarte. Mit einem Abo kannst du unter anderem Kampagnen auf Premium umstellen und grössere Dateien hochladen."
   - id: ownership
-    q: "Gehört mir meine Welt? Kann ich meine Daten exportieren?"
-    a: "Ja. Deine Welten gehören dir: Exportiere deine gesamte Kampagne, wann immer du willst"
+    q: "Kann ich meine Kampagne exportieren?"
+    a: "Ja. Deine Welt gehört dir, und du kannst deine gesamte Kampagne jederzeit exportieren."
   - id: system
-    q: "Muss ich D&D spielen?"
-    a: "Überhaupt nicht. Kanka funktioniert mit jedem TTRPG-System, ob dein eigenes Homebrew oder gar kein System! Viele nutzen es rein für Weltenbau und Schreiben"
+    q: "Muss ich D&D spielen, um Kanka zu nutzen?"
+    a: "Kanka funktioniert mit jedem Rollenspiel, auch mit deinen eigenen Regeln. Du kannst Kanka auch zum Schreiben nutzen oder damit eine Welt ausarbeiten, ganz ohne Spielregeln."
   - id: secrets
-    q: "Kann ich Geheimnisse vor meinen Spielern verbergen?"
-    a: "Ja. Lade deine Spieler ein und kontrolliere genau, was jede Person sieht und bearbeiten kann. Deine Spoiler bleiben verborgen, bis du bereit bist, sie zu enthüllen"
+    q: "Kann ich Notizen vor meiner Runde verbergen?"
+    a: "Ja. Wenn du deine Mitspieler einlädst, legst du fest, wer was sehen und bearbeiten darf. So kannst du etwa den Eintrag einer Figur teilen und ihre wahren Absichten für dich behalten."
   - id: started
-    q: "Wie lange dauert es, um loszulegen?"
-    a: "Minuten. Erstelle ein Konto, füge einige Charaktere und Orte hinzu, verknüpfe sie mit @mention … und schon baust du"
+    q: "Wie lange dauert der Einstieg?"
+    a: "Ein paar Minuten reichen. Erstelle ein Konto und lege erste Einträge für Figuren und Orte an. Um einen Eintrag in deinen Notizen zu verlinken, tippe @ und den Namen des Eintrags."

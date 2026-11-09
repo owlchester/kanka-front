@@ -1,14 +1,14 @@
 ---
-title: Wie viel Worldbuilding brauchst du wirklich? Ein praktischer Leitfaden
-description: Vergiss das 50-seitige Lore-Dokument. Dieser Leitfaden zeigt dir genau, wie viel Worldbuilding du brauchst, um eine grossartige erste Session zu leiten – und wann du aufhören solltest.
-lead: "Spoiler: nicht besonders viel. Du kannst vieles spontan erfinden, und das ist die halbe Freude daran."
-author: The Kanka Team
+title: "Was brauchst du für die erste Runde?"
+description: "Entscheide, was deine Gruppe gleich erkunden können soll und was du erst beim Spielen erfinden kannst."
+lead: "Für den Anfang reichen ein Ort, ein paar Figuren und ein Problem, das die Gruppe lösen kann. Der Rest nimmt am Spieltisch Form an."
+author: "Kanka-Team"
 datePublished: "2026-03-03"
 tags:
   - dnd
   - beginner
   - worldbuilding
-cta: Fang klein an. Kanka ist kostenlos, egal wie tief du eintauchst.
+cta: "Kostenlos starten"
 tracking: wb
 ---
 

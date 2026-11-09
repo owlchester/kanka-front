@@ -1,13 +1,13 @@
 ---
-title: "Wie du mit dem Worldbuilding anfängst: Ein Leitfaden für Einsteiger"
-description: Starte noch heute mit dem Worldbuilding – keine Erfahrung nötig. Dieser Leitfaden führt dich durch die Erstellung deiner ersten Fantasywelt, vom Konzept bis zur spielbaren Umgebung.
-lead: Ob du dir ein Fantasiereich ausmalst, ein galaxienumspannendes Science-Fiction-Imperium aufbaust oder nur mit einer Storyidee spielst – Worldbuilding ist einfacher und befriedigender als du vielleicht denkst. Das Beste daran? Du machst es wahrscheinlich schon.
+title: "Wie fängst du mit deiner Welt an?"
+description: "Geh von einer Idee aus, wähle einen Ort und überlege dir, was dort passiert. So entsteht ein Schauplatz für die ersten Spielrunden."
+lead: "Hast du schon eine Stadt, eine Figur oder eine Geschichte im Kopf? Damit kannst du anfangen."
 author: Jay
 datePublished: "2026-03-03"
 tags:
   - beginner
   - worldbuilding
-cta: Deine Welt braucht ein Zuhause. Mit Kanka kannst du kostenlos starten.
+cta: "Kostenlos starten"
 tracking: start
 ---
 
