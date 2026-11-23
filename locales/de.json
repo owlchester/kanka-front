@@ -29,6 +29,8 @@
     "resources": {
       "title": "Ressourcen",
       "comparison": "Kanka und World Anvil im Vergleich",
+      "comparisonObsidian": "Kanka und Obsidian im Vergleich",
+      "comparisonLegendKeeper": "Kanka und LegendKeeper im Vergleich",
       "learn": "Anleitungen",
       "kb": "Häufige Fragen",
       "developerResources": "Für Entwickler",
@@ -201,20 +203,20 @@
     },
     "testimonials": {
       "t1": {
-        "quote": "«Kanka hat meine Spielrunden deutlich verbessert und mir geholfen, ein besserer Spielleiter zu werden.»",
-        "role": "Professioneller Spielleiter"
+        "quote": "«Mir ging Obsidians fehlender Fokus und World Anvils Sperrigkeit auf die Nerven. Also baue ich meine Welt jetzt hier auf – und bisher gefällt mir die App richtig gut.»",
+        "role": "Owlbear-Abonnent"
       },
       "t2": {
-        "quote": "«Mit Kanka fällt es mir als Spielleiter leicht, meine Kampagne zu organisieren und mitten im Spiel schnell etwas nachzuschlagen.»",
-        "role": "Community-Mitglied"
+        "quote": "«Mit dem Spielgefühl von LegendKeeper wurde ich nicht warm, und andere Tools waren unnötig kompliziert. Kanka hilft mir, meine Welt und Gedanken viel tiefer zu ordnen.»",
+        "role": "Weltenbauer & Spielleiter"
       },
       "t3": {
-        "quote": "«Geschichten zu erfinden ist meine grosse Leidenschaft. Kanka ist perfekt, um dabei den Überblick zu behalten.»",
-        "role": "Community-Mitglied"
+        "quote": "«Ich spiele und leite seit über 30 Jahren und habe nicht viel Freizeit, um mit noch einem Tool zu kämpfen. Kanka ist für mich und meine Gruppe deutlich zugänglicher.»",
+        "role": "Spielleiter seit 30+ Jahren & Abonnent"
       },
       "t4": {
-        "quote": "«Kanka ist einfach zu bedienen. Damit behalte ich die Details meiner Kampagne am besten im Blick. Besonders gut gefällt mir, dass ich Einträge miteinander verknüpfen kann.»",
-        "role": "Mitglied seit 2019"
+        "quote": "«Ich habe Kanka gefunden, als ich nach Alternativen gesucht habe, die dich nicht für jede Kleinigkeit extra zur Kasse bitten. Bisher liebe ich es – es beflügelt meine Kreativität beim Weltenbau.»",
+        "role": "Weltenbauer & Abonnent"
       }
     },
     "trust": {
@@ -233,7 +235,15 @@
     },
     "team": {
       "title": "Wer steckt hinter Kanka?",
-      "body": "Wir sind Jay und Jon. Jay leitet unsere Runde, Jon geht der Haupthandlung gekonnt aus dem Weg. Kanka entstand, weil Jay bei genau dieser Kampagne den Überblick behalten wollte. Heute nutzen wir Kanka immer noch für unsere eigenen Runden. Und wenn du uns schreibst, antworten wir dir selbst.",
+      "stat1Value": "Seit 2017",
+      "stat1Label": "Unabhängig & langfristig hier",
+      "stat2Value": "Kein VC",
+      "stat2Label": "100% durch Abos finanziert",
+      "stat3Value": "400.000+",
+      "stat3Label": "Kreative & 9M+ Einträge",
+      "stat4Value": "Quellcode offen",
+      "stat4Label": "Auf GitHub, jederzeit exportierbar",
+      "body": "Kanka begann 2017, weil Jay unsere Kampagne besser im Blick behalten wollte, während Jon der Haupthandlung weiter gekonnt aus dem Weg ging. Fast zehn Jahre später sind wir immer noch nur zu zweit – ohne Risikokapital, ohne Investoren-Vorgaben, zu 100% finanziert von Abonnenten, die das Tool mögen. Wenn du uns schreibst oder auf Discord vorbeischaust, sprichst du direkt mit den Menschen, die Kanka bauen. Wir bleiben hier und entwickeln das Zuhause für Welten, in dem wir selbst spielen wollen.",
       "cta": "Unsere Geschichte lesen"
     },
     "featured": {
@@ -568,9 +578,40 @@
       }
     }
   },
+  "comparisonCommon": {
+    "featureCol": "Kriterium",
+    "moreComparisons": "Weitere Vergleiche",
+    "vsWorldAnvil": "Kanka vs World Anvil",
+    "vsObsidian": "Kanka vs Obsidian",
+    "vsLegendKeeper": "Kanka vs LegendKeeper"
+  },
   "comparison": {
     "title": "Kanka und World Anvil im Vergleich",
-    "lead": "Leitest du jede Woche eine Runde oder schreibst du ein ausführliches Wiki für deine Welt? Kanka und World Anvil gehen diese Aufgaben unterschiedlich an.",
+    "lead": "Leitest du jede Woche eine Runde oder baust du eine strukturierte Welt, ohne für die Grundlagen zu zahlen? World Anvil glänzt für Romanautorinnen und -autoren mit Manuskript- und Publishing-Tools, während Kanka auf Tempo, Übersicht und standardmässig private Kampagnen mit unbegrenzten Einträgen setzt.",
+    "tableTitle": "Auf einen Blick: Kanka vs World Anvil",
+    "table": {
+      "freeTier": "Kostenlose Version",
+      "freeTierKanka": "Unbegrenzte Kampagnen & Einträge, standardmässig privat",
+      "freeTierComp": "Begrenzte Artikel & Welten, kostenlos nur öffentlich",
+      "learningCurve": "Einarbeitung",
+      "learningCurveKanka": "Klare, einheitliche Oberfläche, in Minuten startklar",
+      "learningCurveComp": "Sehr umfangreiche Oberfläche mit steilerer Lernkurve",
+      "bestFor": "Ideal für",
+      "bestForKanka": "Pen-&-Paper-Kampagnen & strukturierten Weltenbau",
+      "bestForComp": "Romanmanuskripte & Wiki-Publishing",
+      "permissions": "Spieler-Berechtigungen",
+      "permissionsKanka": "Feine Rollen & Sichtbarkeit pro Eintrag kostenlos",
+      "permissionsComp": "Private Welten & erweiterte Rechte nur im Abo",
+      "tools": "Integrierte Werkzeuge",
+      "toolsKanka": "20+ Kategorien, eigene Kategorien, Kalender, Zeitlinien, Karten, Quests",
+      "toolsComp": "Artikelvorlagen, Manuskripte, Zeitlinien, Karten",
+      "ownership": "Datenhoheit & Transparenz",
+      "ownershipKanka": "Kompletter Export jederzeit; Quellcode auf GitHub einsehbar",
+      "ownershipComp": "Closed Source; Exportmöglichkeiten je nach Tarif",
+      "price": "Einstiegspreis",
+      "priceKanka": "Dauerhaft kostenlos; optionale Abos ab 4,99 €/Monat",
+      "priceComp": "Bezahlte Tarife für private Welten nötig"
+    },
     "interfaceTitle": "Die ersten Schritte",
     "interfaceBody1": "In Kanka kannst du eine Kampagne anlegen und gleich die erste Figur eintragen. Welche Kategorien du brauchst und wer was sehen darf, kannst du auch später festlegen.",
     "interfaceBody2": "World Anvil bietet dir von Anfang an mehr Einstellungen. Plane etwas Zeit ein, um dich einzuarbeiten und die passende Struktur für deine Welt zu finden.",
@@ -592,6 +633,11 @@
     "collaborationTitle": "Gemeinsam spielen und schreiben",
     "collaborationBody1": "In Kanka kannst du pro Eintrag festlegen, wer ihn lesen oder bearbeiten darf. Lass deine Gruppe ihre Charakterbögen ergänzen und behalte deine Vorbereitungsnotizen für dich.",
     "collaborationBody2": "In World Anvil kannst du Artikel teilen und dich mit anderen austauschen, die eigene Welten schreiben.",
+    "ownershipTitle": "Datenhoheit & Transparenz",
+    "ownershipBody1": "Deine Welt gehört dir. In Kanka kannst du deine gesamte Kampagne jederzeit exportieren – ohne Paywall, die deine Notizen einsperrt. Ausserdem ist Kankas Quellcode auf GitHub öffentlich einsehbar, statt in einer Blackbox zu stecken, und wir sind seit 2017 unabhängig und durch Abos finanziert.",
+    "ownershipBody2": "World Anvil ist Closed Source, und private Welten sowie vollständige Exportfunktionen sind an bezahlte Tarife gebunden.",
+    "testimonialRole": "Weltenbauerin & Spielleiterin",
+    "testimonialQuote": "«Alles ist an einem logischen Platz und funktioniert auch logisch. Die Lernkurve ist so viel angenehmer.»",
     "strengthsTitle": "Was dir die beiden Werkzeuge bieten",
     "kankaSubtitle": "Kanka",
     "kankaStrength1": "Eigene Einträge für Figuren, Orte und andere Teile deiner Welt",
@@ -610,6 +656,126 @@
     "preview4Alt": "Kampagnen-Dashboard mit Einführung, Kalender und Berichten",
     "preview4Caption": "Auf dem Dashboard kannst du sammeln, was deine Gruppe am häufigsten nachschlägt.",
     "ctaLink": "Kostenlose Kampagne erstellen"
+  },
+  "comparisonObsidian": {
+    "title": "Kanka vs Obsidian für Weltenbau & Pen & Paper",
+    "lead": "Obsidian ist ein grossartiges, unabhängiges Markdown-Tool für persönliche Notizen. Kanka ist eine spezialisierte, webbasierte Plattform für Weltenbau und Rollenspiel-Kampagnen – sofort einsatzbereit mit Karten, Kalendern, Zeitlinien und Spieler-Berechtigungen, ohne dass du Wochenenden mit Plugin-Setup verbringst.",
+    "tableTitle": "Auf einen Blick: Kanka vs Obsidian",
+    "table": {
+      "purpose": "Zweck",
+      "purposeKanka": "Spezialisierte Plattform für Weltenbau & Pen-&-Paper-Kampagnen",
+      "purposeComp": "Allgemeine lokale Markdown-Wissensdatenbank",
+      "setup": "Einrichtung & Pflege",
+      "setupKanka": "In Minuten startklar; keine Plugins zu pflegen",
+      "setupComp": "Community-Plugins selbst suchen, einrichten und aktuell halten",
+      "sharing": "Teilen & Geheimnisse",
+      "sharingKanka": "Eingebaute Rollen, Berechtigungen & Spielervorschau",
+      "sharingComp": "Für Einzelpersonen gedacht; Teilen über Publish oder Umwege",
+      "visuals": "Karten, Kalender & Zeitlinien",
+      "visualsKanka": "Nativ integriert und mit allen Einträgen verknüpft",
+      "visualsComp": "Über Community-Plugins von Drittanbietern nachrüstbar",
+      "access": "Zugriff & Offline",
+      "accessKanka": "Web-basiert auf jedem Gerät; voller Export jederzeit",
+      "accessComp": "Offline-first als lokale Markdown-Dateien auf deinem Gerät",
+      "pricing": "Gratis-Version & Sync",
+      "pricingKanka": "Dauerhaft kostenlos mit unbegrenzten Kampagnen & Cloud-Sync",
+      "pricingComp": "App kostenlos; offizielles Sync und Publish kostenpflichtig",
+      "independence": "Unabhängigkeit",
+      "independenceKanka": "Unabhängig, kein VC, seit 2017 abo-finanziert; Quellcode einsehbar",
+      "independenceComp": "Unabhängig, kein VC, nutzerfinanziert; Closed Source"
+    },
+    "setupTitle": "Spezialisierte Plattform statt Plugin-Baukasten",
+    "setupBody1": "Obsidian kann fast alles, wenn du die richtigen Community-Plugins installierst und pflegst – Dataview, Kalender, Leaflet-Karten, Charakterbögen und CSS-Snippets. Diese Freiheit macht Spass, wenn du gerne bastelst, kann aber schnell zum Selbstzweck werden, bei dem du mehr am Tool schraubst als an deiner Welt.",
+    "setupBody2": "Kanka liefert dir ab Tag eins über 20 strukturierte Kategorien, {'@'}Erwähnungen, Beziehungen, Kalender, Zeitlinien und Quests fix und fertig verknüpft. Kampagne anlegen und in Minuten loslegen – am Desktop, Tablet oder Smartphone, ganz ohne Plugin-Wartung.",
+    "preview1Alt": "Kanka {'@'}Erwähnungen verknüpfen Charaktere, Orte und Lore automatisch",
+    "preview1Caption": "Verknüpfe Charaktere, Orte und Quests per {'@'}Erwähnung – ganz ohne Plugin-Setup.",
+    "sharingTitle": "Mit deiner Runde teilen & Geheimnisse wahren",
+    "sharingBody1": "Obsidian ist in erster Linie ein lokaler Einzelspieler-Arbeitsbereich. Teile deiner Welt für Spieler freizugeben und gleichzeitig SL-Geheimnisse zu verstecken, bedeutet meist Obsidian Publish, getrennte Vaults oder Git-Sync.",
+    "sharingBody2": "Kanka ist von Haus aus kollaborativ. Lade Spieler und Co-SLs kostenlos ein, vergib Rollen und steuere die Sichtbarkeit pro Eintrag, Beziehung oder Karten-Pin – inklusive Spielervorschau, damit sicher kein Spoiler sichtbar bleibt.",
+    "preview2Alt": "Feine Berechtigungen und Sichtbarkeitssteuerung für Spieler in Kanka",
+    "preview2Caption": "Steuere genau, was Spieler sehen und bearbeiten dürfen – bis zum einzelnen Eintrag und Karten-Pin.",
+    "visualTitle": "Karten, Kalender & Zeitlinien direkt eingebaut",
+    "visualBody1": "In Kanka sind interaktive Karten mit mehreren Ebenen und berechtigten Pins, eigene Fantasy-Kalender mit Monden und Jahreszeiten sowie Zeitlinien nach Epochen feste Kernfunktionen – keine Drittanbieter-Plugins, die nach einem Update brechen können.",
+    "preview3Alt": "Interaktive Kanka-Karte mit eigenen Pins und Ebenen",
+    "preview3Caption": "Interaktive Karten mit Ebenen, Polygonen und spielersicheren Pins direkt eingebaut.",
+    "preview4Alt": "Eigener Weltenbau-Kalender in Kanka mit Monden und Ereignissen",
+    "preview4Caption": "Eigene Kalender, die automatisch mit Logbüchern, Ereignissen und Charakteraltern verknüpft sind.",
+    "ownershipTitle": "Datenhoheit & Unabhängigkeit",
+    "ownershipBody1": "Obsidian und Kanka teilen einen wichtigen Wert: Beide kommen ohne Risikokapital aus. Obsidian speichert deine Notizen als lokale Markdown-Dateien auf deiner Festplatte – unschlagbar, wenn Offline-first für dich an erster Stelle steht.",
+    "ownershipBody2": "Kanka läuft im Web, damit deine ganze Gruppe überall zugreifen kann, und lässt dich deine gesamte Kampagne jederzeit ohne Lock-in exportieren. Zudem ist Kankas Quellcode auf GitHub einsehbar und seit 2017 zu 100% abo-finanziert.",
+    "decisionTitle": "Was passt besser zu dir?",
+    "chooseKankaTitle": "Wähle Kanka, wenn...",
+    "chooseKanka1": "Du eine sofort startklare Plattform für Weltenbau und Kampagnen ohne Setup willst",
+    "chooseKanka2": "Du für eine Gruppe leitest und eingebaute Rechte, Geheimnisse und Zusammenarbeit brauchst",
+    "chooseKanka3": "Du native Karten, Kalender, Zeitlinien und Quests auf jedem Gerät nutzen möchtest",
+    "chooseKanka4": "Du kostenlosen Web-Zugriff auf allen Geräten ohne Bezahl-Sync suchst",
+    "chooseObsidianTitle": "Wähle Obsidian, wenn...",
+    "chooseObsidian1": "Du 100% offline-first lokale Markdown-Dateien auf deiner eigenen Festplatte willst",
+    "chooseObsidian2": "Du Freude daran hast, deinen Workflow mit Plugins und Vorlagen selbst zu bauen",
+    "chooseObsidian3": "Du rein solo schreibst und keine Live-Rechte für Spieler brauchst",
+    "testimonialRole": "Owlbear-Abonnent",
+    "testimonialQuote": "«Mir ging Obsidians fehlender Fokus und World Anvils Sperrigkeit auf die Nerven. Also baue ich meine Welt jetzt hier auf – und bisher gefällt mir die App richtig gut.»",
+    "ctaLink": "Jetzt kostenlos deine Welt bauen"
+  },
+  "comparisonLegendKeeper": {
+    "title": "Kanka vs LegendKeeper: Weltenbau-Tools im Vergleich",
+    "lead": "LegendKeeper ist ein schickes, visuelles Atlas- und Whiteboard-Tool für Welten und Karten. Kanka ist eine dauerhaft kostenlose, strukturierte Plattform für Weltenbau und Pen-&-Paper-Kampagnen – mit Kalendern, Zeitlinien, Quests, 20+ Kategorien und fast zehn Jahren unabhängiger Entwicklung.",
+    "tableTitle": "Auf einen Blick: Kanka vs LegendKeeper",
+    "table": {
+      "freePlan": "Kostenloser Plan",
+      "freePlanKanka": "Dauerhaft kostenlos (unbegrenzte Kampagnen & Einträge)",
+      "freePlanComp": "Nur kurze Testphase; danach Abo nötig",
+      "pricing": "Preise",
+      "pricingKanka": "Kern kostenlos; optionale Abos ab 4,99 €/Monat",
+      "pricingComp": "Bezahltes Abo nach der Testphase nötig",
+      "visuals": "Oberfläche & Karten",
+      "visualsKanka": "Karten mit mehreren Ebenen, Pins, Polygonen & Spielersichtbarkeit",
+      "visualsComp": "Schlanke Atlas-Oberfläche mit integrierten Whiteboards",
+      "entities": "Strukturierter Weltenbau",
+      "entitiesKanka": "20+ eigene Kategorien plus benutzerdefinierte Kategorien",
+      "entitiesComp": "Flexible, freie Wiki-Seiten und Vorlagen",
+      "campaignTools": "Kalender, Zeitlinien & Quests",
+      "campaignToolsKanka": "Alles eingebaut und mit Einträgen verknüpft",
+      "campaignToolsComp": "Schlanke Zeitlinien; keine eigenen Kalender oder Quests",
+      "permissions": "Spieler-Berechtigungen",
+      "permissionsKanka": "Feine Rollen, Geheimnisse pro Eintrag & Spielervorschau",
+      "permissionsComp": "Freigabe auf Seiten- und Element-Ebene",
+      "languages": "Sprachen",
+      "languagesKanka": "Deutsch, Englisch, Französisch, Spanisch, Portugiesisch (BR)",
+      "languagesComp": "Fokus auf Englisch",
+      "stability": "Erfahrung & Transparenz",
+      "stabilityKanka": "Unabhängig seit 2017; Quellcode einsehbar; jederzeit exportierbar",
+      "stabilityComp": "Unabhängig; Closed Source"
+    },
+    "pricingTitle": "Dauerhaft kostenlos oder reines Abo-Modell",
+    "pricingBody1": "Einer der grössten Unterschiede liegt beim Einstieg. LegendKeeper ist ein reines Bezahlprodukt mit kurzer Testphase – kündigst du das Abo, verlierst du den Schreibzugriff auf deine Welt.",
+    "pricingBody2": "Kankas Kernplattform ist dauerhaft kostenlos: unbegrenzte Kampagnen, unbegrenzte Einträge, interaktive Karten, Kalender, Zeitlinien und volle Spieler-Berechtigungen ohne Kreditkarte. Die meisten Spielleitungen müssen nie zahlen, und optionale Abos (ab 4,99 €/Monat) bieten grössere Uploads, eigene Themes und Community-Plugins.",
+    "structureTitle": "Strukturierter Weltenbau vs. freier Atlas",
+    "structureBody1": "LegendKeeper glänzt, wenn du am liebsten mit einer visuellen Karte oder einem freien Whiteboard startest und Wiki-Seiten darauf verteilst.",
+    "structureBody2": "Kanka setzt auf Struktur und Verknüpfung. Charaktere, Orte, Organisationen, Familien, Gegenstände, Quests und eigene Kategorien haben feste Bereiche und verbinden sich automatisch über {'@'}Erwähnungen und Beziehungsnetze – so findest du jedes Detail in Sekunden, auch mitten in der Runde.",
+    "preview1Alt": "Kanka Kampagnen-Dashboard mit strukturierten Kategorien und Widgets",
+    "preview1Caption": "Anpassbare Dashboards halten Charaktere, Orte, Kalender und Berichte einen Klick entfernt.",
+    "campaignTitle": "Eingebaute Kampagnen-, Kalender- & Zeitlinien-Tools",
+    "campaignBody1": "Eine laufende Kampagne braucht mehr als Wiki-Seiten. Kanka bietet eigene Fantasy-Kalender (mit Monden, Jahreszeiten und automatischer Altersberechnung für Charaktere), Zeitlinien nach Epochen, Quest-Verwaltung, Inventare und Sitzungs-Logbücher – alle mit denselben Welteinträgen verknüpft.",
+    "preview2Alt": "Interaktive Kanka-Zeitlinie nach Epochen mit verknüpften Ereignissen",
+    "preview2Caption": "Verfolge die Geschichte deiner Welt über Epochen hinweg mit verknüpften Zeitlinien.",
+    "preview3Alt": "Interaktive Kanka-Karte mit Ebenen und berechtigten Pins",
+    "preview3Caption": "Interaktive Karten mit Ebenen, Polygonen und Sichtbarkeit pro Pin für deine Gruppe.",
+    "stabilityTitle": "Beständigkeit, Sprachen & Transparenz",
+    "stabilityBody1": "Wenn du Jahre in eine Welt investierst, willst du sicher sein, dass die Plattform bleibt. Kanka ist seit 2017 unabhängig, profitabel und zu 100% durch Abonnenten finanziert – ganz ohne Risikokapital. Unser Quellcode ist auf GitHub einsehbar, du kannst deine gesamte Kampagne jederzeit exportieren und Kanka ist auf Deutsch, Englisch, Französisch, Spanisch und Brasilianisches Portugiesisch verfügbar.",
+    "decisionTitle": "Was passt besser zu dir?",
+    "chooseKankaTitle": "Wähle Kanka, wenn...",
+    "chooseKanka1": "Du einen grosszügigen, dauerhaft kostenlosen Plan mit unbegrenzten Kampagnen und Einträgen willst",
+    "chooseKanka2": "Du strukturierte Kategorien, eigene Kalender, Zeitlinien, Quests und Inventare eingebaut brauchst",
+    "chooseKanka3": "Du oder deine Gruppe die App lieber auf Deutsch, Französisch, Spanisch oder Portugiesisch nutzt",
+    "chooseKanka4": "Dir eine Plattform mit einsehbarem Quellcode, vollem Export und Erfahrung seit 2017 wichtig ist",
+    "chooseLKTitle": "Wähle LegendKeeper, wenn...",
+    "chooseLK1": "Dein Workflow sich vor allem um einen visuellen Karten-Atlas und freie Whiteboards dreht",
+    "chooseLK2": "Du minimale Struktur gegenüber festen Rollenspiel-Kategorien bevorzugst",
+    "chooseLK3": "Ein bezahltes Abo von Tag eins an für dich passt",
+    "testimonialRole": "Weltenbauer & Spielleiter",
+    "testimonialQuote": "«Mit dem Spielgefühl von LegendKeeper wurde ich nicht warm, und andere Tools waren unnötig kompliziert. Kanka hilft mir, meine Welt und Gedanken viel tiefer zu ordnen.»",
+    "ctaLink": "Kostenlose Kampagne in Kanka starten"
   },
   "kb": {
     "title": "Häufige Fragen zu Kanka",
@@ -792,8 +958,16 @@
       "description": "Lerne die Welten aus der Community und die Menschen dahinter kennen."
     },
     "kanka-vs-worldanvil": {
-      "title": "Kanka und World Anvil im Vergleich",
-      "description": "Vergleiche, wie Kanka und World Anvil Kampagnennotizen und Artikel organisieren und wie du Inhalte mit deiner Gruppe teilen kannst."
+      "title": "Kanka vs World Anvil (2026): Ehrlicher Vergleich & kostenlose Alternative",
+      "description": "Vergleiche Kanka und World Anvil bei Gratis-Plan, Einarbeitung, Karten, Zeitlinien und Datenhoheit."
+    },
+    "kanka-vs-obsidian": {
+      "title": "Kanka vs Obsidian für Weltenbau & Pen & Paper (2026)",
+      "description": "Du magst Obsidians Verknüpfungen, willst aber kein Plugin-Setup, sondern eingebaute Karten, Kalender und Spieler-Rechte? Beide im Vergleich."
+    },
+    "kanka-vs-legendkeeper": {
+      "title": "Kanka vs LegendKeeper (2026): Weltenbau-Tools im Vergleich",
+      "description": "Vergleiche Kanka und LegendKeeper bei Preisen, Gratis-Plan, Karten, Kalendern, Zeitlinien und Kampagnen-Tools."
     },
     "kb": {
       "title": "Häufige Fragen zu Kanka",
