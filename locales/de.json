@@ -174,7 +174,7 @@
     "hero": {
       "title": "Führe deine Kampagne, ohne auch nur ein einziges Detail aus den Augen zu verlieren.",
       "lead": "Sammle deine Notizen zur Kampagne und verknüpfe Figuren mit Orten und Quests. Entscheide selbst, was deine Runde davon sieht. Kanka funktioniert mit D&D genauso wie mit deinen eigenen Regeln.",
-      "trailing": "Über 400’000 Menschen nutzen Kanka, um Rollenspiele zu leiten oder Welten zu entwerfen.",
+      "trailing": "Über 425’000 Menschen nutzen Kanka, um Rollenspiele zu leiten oder Welten zu entwerfen.",
       "cta": "Kostenlos starten",
       "videoCaption": "Kanka in 45 Sekunden",
       "dashboardAlt": "Ein Kampagnen-Dashboard auf Computer, Tablet und Smartphone",
@@ -445,7 +445,7 @@
       "l9": "Slowakisch"
     },
     "amounts": {
-      "users": "400’000+",
+      "users": "425’000+",
       "entries": "Über 9 Millionen",
       "missedPlotHooks": "150’000+",
       "campaigns": "350’000+",

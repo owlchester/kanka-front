@@ -174,7 +174,7 @@
       "hero": {
         "title": "Gère ta campagne sans perdre un seul détail.",
         "lead": "Prépare tes parties et garde sous la main les personnages, les lieux et l’histoire de ton monde. Que tu joues à D&D ou avec tes propres règles, tu peux organiser ta campagne à ta façon.",
-        "trailing": "Plus de 400 000 maîtres de jeu et créateurs de mondes utilisent Kanka.",
+        "trailing": "Plus de 425'000 maîtres de jeu et créateurs de mondes utilisent Kanka.",
         "cta": "Commencer gratuitement",
         "videoCaption": "Découvre Kanka en 45 secondes",
         "dashboardAlt": "Un tableau de bord Kanka sur ordinateur, tablette et téléphone",
@@ -445,7 +445,7 @@
         "l9": "Slovaque"
       },
       "amounts": {
-        "users": "400 000+",
+        "users": "425'000+",
           "entries": "9 millions+",
         "missedPlotHooks": "150 000+",
         "campaigns": "350 000+",

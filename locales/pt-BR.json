@@ -173,7 +173,7 @@
     "hero": {
       "title": "Gerencia a tua campanha sem perder nenhum detalhe.",
       "lead": "Kanka é um site de worldbuilding colaborativo. Tu estás criando a tua própria campanha homebrew de D&D ou usando outros sistemas de TTRPG? Nós te ajudamos a gerenciar, organizar e acompanhar as tuas ideias, as tuas criações e o teu mundo.",
-      "trailing": "Mais de 400.000 mestres e criadores de mundos chamam o Kanka de lar.",
+      "trailing": "Mais de 425.000 mestres e criadores de mundos chamam o Kanka de lar.",
       "cta": "Comece grátis",
       "videoCaption": "Assista a uma breve visão geral de 45 segundos do Kanka"
     },
@@ -194,7 +194,7 @@
     },
     "socialProof": {
       "title": "Tu estás em boa companhia",
-      "lead": "Mais de 400.000 mestres e criadores de mundos confiam no Kanka para suas necessidades de worldbuilding. Reunimos alguns dos seus depoimentos para mostrar o que o Kanka pode fazer por ti."
+      "lead": "Mais de 425.000 mestres e criadores de mundos confiam no Kanka para suas necessidades de worldbuilding. Reunimos alguns dos seus depoimentos para mostrar o que o Kanka pode fazer por ti."
     },
     "testimonials": {
       "t1": {
@@ -421,7 +421,7 @@
   },
   "worldbuilding": {
     "title": "Construa um mundo que finalmente se mantém consistente.",
-    "lead": "Kanka é a ferramenta de worldbuilding para D&D, RPGs de mesa e qualquer pessoa construindo um mundo que precisa se sustentar. Vincule cada personagem, local e facção com {'@'}menções, para que o teu lore permaneça consistente e tu possas encontrar qualquer coisa em segundos. Gratuito para começar, sem cartão de crédito. Confiado por mais de 400.000 criadores de mundos.",
+    "lead": "Kanka é a ferramenta de worldbuilding para D&D, RPGs de mesa e qualquer pessoa construindo um mundo que precisa se sustentar. Vincule cada personagem, local e facção com {'@'}menções, para que o teu lore permaneça consistente e tu possas encontrar qualquer coisa em segundos. Gratuito para começar, sem cartão de crédito. Confiado por mais de 425.000 criadores de mundos.",
     "startFree": "Comece grátis"
   },
   "premiumPage": {
@@ -524,7 +524,7 @@
     "conclusionBody": "Escolha o Kanka se tu quiseres uma plataforma moderna e intuitiva que combina perfeitamente o worldbuilding com o gerenciamento de campanhas de RPG, e se valorizas uma configuração rápida com ferramentas de organização consistentes.",
     "preview4Alt": "Painel do Kanka com introdução, calendário e resumos",
     "preview4Caption": "Foque no teu worldbuilding e deixa o Kanka cuidar do resto.",
-    "ctaLink": "Junte-se a 400.000 criadores de mundos que não queriam pagar por complexidade que nunca usariam."
+    "ctaLink": "Junte-se a 425.000 criadores de mundos que não queriam pagar por complexidade que nunca usariam."
   },
   "kb": {
     "title": "Base de conhecimento do Kanka",
@@ -621,12 +621,12 @@
   },
   "ttrpgTools": {
     "title": "Tudo o que um mestre precisa, em um só lugar.",
-    "lead": "Kanka é o kit de ferramentas completo para mestres de RPG de mesa: personagens, mapas, missões, linhas do tempo e lore, tudo vinculado com {'@'}menções e pronto no momento em que precisares. Funciona para D&D, qualquer TTRPG ou o teu homebrew. Gratuito para começar, sem cartão de crédito. Confiado por mais de 400.000 mestres.",
+    "lead": "Kanka é o kit de ferramentas completo para mestres de RPG de mesa: personagens, mapas, missões, linhas do tempo e lore, tudo vinculado com {'@'}menções e pronto no momento em que precisares. Funciona para D&D, qualquer TTRPG ou o teu homebrew. Gratuito para começar, sem cartão de crédito. Confiado por mais de 425.000 mestres.",
     "startFree": "Comece grátis"
   },
   "campaignManager": {
     "title": "Conduza a tua campanha de D&D sem o caos.",
-    "lead": "Kanka é o gerenciador de campanhas para mestres de D&D e RPG de mesa. Rastreie cada NPC, missão e fio de trama, vincule-os com {'@'}menções e acesse qualquer coisa no meio da sessão, da sessão um à sessão cinquenta. Menos preparação, mais jogo. Gratuito para começar, sem cartão de crédito. Confiado por mais de 400.000 mestres.",
+    "lead": "Kanka é o gerenciador de campanhas para mestres de D&D e RPG de mesa. Rastreie cada NPC, missão e fio de trama, vincule-os com {'@'}menções e acesse qualquer coisa no meio da sessão, da sessão um à sessão cinquenta. Menos preparação, mais jogo. Gratuito para começar, sem cartão de crédito. Confiado por mais de 425.000 mestres.",
     "startFree": "Comece grátis"
   },
   "useCasesIndex": {

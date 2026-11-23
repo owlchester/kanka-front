@@ -43,6 +43,8 @@
                 </BaseFooterSection>
                 <BaseFooterSection :title="$t('footer.resources.title')">
                     <NuxtLink :to="localePath('/kanka-vs-worldanvil')">{{ $t('footer.resources.comparison') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/kanka-vs-obsidian')">{{ $t('footer.resources.comparisonObsidian', 'Kanka vs Obsidian') }}</NuxtLink>
+                    <NuxtLink :to="localePath('/kanka-vs-legendkeeper')">{{ $t('footer.resources.comparisonLegendKeeper', 'Kanka vs LegendKeeper') }}</NuxtLink>
                     <NuxtLink :to="localePath('/learn')">{{ $t('footer.resources.learn') }}</NuxtLink>
                     <NuxtLink :to="localePath('/kb')">{{ $t('footer.resources.kb') }}</NuxtLink>
                     <NuxtLink :to="localePath('/developers')">{{ $t('footer.resources.developerResources') }}</NuxtLink>

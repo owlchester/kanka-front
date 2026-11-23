@@ -28,6 +28,8 @@
     "resources": {
       "title": "Resources",
       "comparison": "Kanka vs WorldAnvil",
+      "comparisonObsidian": "Kanka vs Obsidian",
+      "comparisonLegendKeeper": "Kanka vs LegendKeeper",
       "learn": "Learning hub",
       "kb": "Knowledge base",
       "developerResources": "Developer resources",
@@ -137,7 +139,7 @@
       "maxBookmarks": "Maximum number of bookmarks",
       "galleryStorage": "Storage for images and files in the gallery",
       "maxFileSize": "Maximum file and image upload size for members",
-      "maxFileAssets": "Maximum number of file assets per entity",
+      "maxFileAssets": "Maximum number of file assets per entry",
       "aliases": "Define aliases on entries that work with search and mentions",
       "adFreeMembers": "Ad-free experience for all members",
       "plugins": "Install plugins from the {plugins}",
@@ -173,7 +175,7 @@
     "hero": {
       "title": "Run your campaign without losing track of a single detail.",
       "lead": "Kanka is a community driven world building website. Are you making your own D&D homebrew campaign or using other TTRPG systems? We help you manage, organize, and keep track of your ideas, your creations, and your world.",
-      "trailing": "400,000+ game masters and worldbuilders call Kanka their home.",
+      "trailing": "425,000+ game masters and worldbuilders call Kanka their home.",
       "cta": "Start for free",
       "videoCaption": "Watch a short 45 second overview of Kanka"
     },
@@ -194,24 +196,24 @@
     },
     "socialProof": {
       "title": "You're in good company",
-      "lead": "400,000+ game masters and worldbuilders trust Kanka for their worldbuilding needs. We've gathered a few of their testimonials to show what Kanka can do for you."
+      "lead": "425,000+ game masters and worldbuilders trust Kanka for their worldbuilding needs. We've gathered a few of their testimonials to show what Kanka can do for you."
     },
     "testimonials": {
       "t1": {
-        "quote": "\"Kanka has genuinely brought my games to the next level and has made me a better DM.\"",
-        "role": "Professional DM"
+        "quote": "\"I got fed up with Obsidian's lack of focus and World Anvil's clunkiness, so here I am, building my own world—and so far I'm really liking the app.\"",
+        "role": "Owlbear subscriber"
       },
       "t2": {
-        "quote": "\"As a DM, Kanka makes it so easy to organize a campaign and look up information quickly in a session.\"",
-        "role": "Community member"
+        "quote": "\"Got annoyed with how LegendKeeper felt, and other tools seemed overly complicated for no good reason. Kanka has helped me organize my world and thoughts on a much deeper level.\"",
+        "role": "Worldbuilder & GM"
       },
       "t3": {
-        "quote": "\"I am obsessed with creating stories and Kanka is perfect to help keep track of everything.\"",
-        "role": "Community member"
+        "quote": "\"I've been playing and running games for over 30 years and don't have lots of free time to fight with another tool. Kanka is way more user friendly for both me and my players.\"",
+        "role": "30+ year GM & subscriber"
       },
       "t4": {
-        "quote": "\"It's easy and straightforward to use, and is the best way to keep track of the details of my campaign. I love the ability to link entries to each other\"",
-        "role": "Member since 2019"
+        "quote": "\"Found Kanka after looking for a website that doesn't nickel-and-dime you for every little thing. Loving it so far! It's really helping me release my creativity in worldbuilding.\"",
+        "role": "Worldbuilder & subscriber"
       }
     },
     "trust": {
@@ -230,7 +232,15 @@
     },
     "team": {
       "title": "Who we are",
-      "body": "Kanka is built and run by just two of us: one GM (Jay) and one player (Jon). The initial spark came because Jay needed a better way to keep track of our campaign so that Jon could keep ignoring the main plotline. Even all these years later, it's still just us answering your emails, Discord messages, and carrier pigeons. We're not trying to build the biggest worldbuilding platform, just the one we want to run our own games in.",
+      "stat1Value": "Since 2017",
+      "stat1Label": "Independent & here to stay",
+      "stat2Value": "No VC",
+      "stat2Label": "100% subscriber-funded",
+      "stat3Value": "425,000+",
+      "stat3Label": "Creators & 9M+ entries",
+      "stat4Value": "Source available",
+      "stat4Label": "Public code, export anytime",
+      "body": "Kanka started in 2017 when Jay needed a better way to track our campaign so Jon could keep ignoring the main plotline. Nearly a decade later, it's still just the two of us, no venture capital, no corporate roadmap, 100% funded by subscribers who love the tool. When you email support or hop into Discord, you're talking directly to the people building Kanka. We're not going anywhere, and we're building the worldbuilding home we want to run our own games in.",
       "cta": "Read our story"
     },
     "featured": {
@@ -421,7 +431,7 @@
   },
   "worldbuilding": {
     "title": "Build a world that finally stays consistent.",
-    "lead": "Kanka is the worldbuilding tool for D&D, tabletop RPGs, and anyone building a world that has to hold together. Link every character, location, and faction with {'@'}mentions, so your lore stays consistent and you can find anything in seconds. Free to start, no credit card. Trusted by 400,000+ worldbuilders.",
+    "lead": "Kanka is the worldbuilding tool for D&D, tabletop RPGs, and anyone building a world that has to hold together. Link every character, location, and faction with {'@'}mentions, so your lore stays consistent and you can find anything in seconds. Free to start, no credit card. Trusted by 425,000+ worldbuilders.",
     "startFree": "Start for free"
   },
   "premiumPage": {
@@ -443,11 +453,11 @@
       },
       "c2": {
         "title": "Better entries",
-        "body": "Set header images for entries, write custom tooltips, give them aliases for search and mentions, and upload more assets on each entity."
+        "body": "Set header images for entries, write custom tooltips, give them aliases for search and mentions, and upload more assets on each entry."
       },
       "c3": {
         "title": "Peace of mind",
-        "body": "Deleted an entity and changed your mind? No problem! Recover deleted entries for up to 30 days."
+        "body": "Deleted an entry and changed your mind? No problem! Recover deleted entries for up to 30 days."
       },
       "c4": {
         "title": "Unlimited",
@@ -455,7 +465,7 @@
       },
       "c5": {
         "title": "Better defaults",
-        "body": "Tired and confused by boring grey circles for entries with no image? Set default custom images for each entity type instead."
+        "body": "Tired and confused by boring grey circles for entries with no image? Set default custom images for each entry type instead."
       },
       "c6": {
         "title": "One for the gang",
@@ -467,11 +477,11 @@
       },
       "c8": {
         "title": "Web of connections",
-        "body": "Visually explore the web of relations and connections of a campaign's entity."
+        "body": "Visually explore the web of relations and connections of a world's content."
       },
       "c9": {
-        "title": "Campaign gallery",
-        "body": "Manage the campaign's images in a gallery, rather than uploading images individually to each entity."
+        "title": "Storage",
+        "body": "Massive storage space to hold all the images of your world."
       },
       "c10": {
         "title": "Achievements",
@@ -483,16 +493,52 @@
       }
     }
   },
+  "comparisonCommon": {
+    "featureCol": "Feature",
+    "moreComparisons": "More comparisons",
+    "vsWorldAnvil": "Kanka vs World Anvil",
+    "vsObsidian": "Kanka vs Obsidian",
+    "vsLegendKeeper": "Kanka vs LegendKeeper"
+  },
   "comparison": {
     "title": "Kanka vs World Anvil: Choosing Your Worldbuilding Platform",
-    "lead": "When looking for a worldbuilding tool, both Kanka and World Anvil offer robust solutions for writers, game masters, and worldbuilders. Each platform excels for different audiences - Kanka shines for tabletop RPG players, while World Anvil offers features for writers and worldbuilders focused on storytelling.",
+    "lead": "Both Kanka and World Anvil are built for creators crafting deep worlds, but they take very different approaches. World Anvil shines for novelists who want dedicated manuscript and publishing tools, while Kanka is built for game masters and worldbuilders who want a fast, structured, private-by-default world with unlimited entries, all without paying for core basics.",
+    "tableTitle": "At a glance: Kanka vs World Anvil",
+    "table": {
+      "freeTier": "Free tier",
+      "freeTierKanka": "Unlimited campaigns & entries, private by default",
+      "freeTierComp": "Limited articles & worlds, public-only on free tier",
+      "learningCurve": "Learning curve",
+      "learningCurveKanka": "Clean, consistent interface ready in minutes",
+      "learningCurveComp": "Feature-dense interface with steeper setup",
+      "bestFor": "Best for",
+      "bestForKanka": "TTRPG campaigns & structured worldbuilding",
+      "bestForComp": "Novel manuscripts & wiki-style publishing",
+      "permissions": "Player permissions",
+      "permissionsKanka": "Granular role & entry permissions free",
+      "permissionsComp": "Private worlds & advanced permissions require paid tiers",
+      "tools": "Built-in tools",
+      "toolsKanka": "20+ categories, custom categories, calendars, timelines, maps, quests",
+      "toolsComp": "Article templates, manuscripts, timelines, maps",
+      "ownership": "Data ownership & transparency",
+      "ownershipKanka": "Full campaign export anytime; source-available on GitHub",
+      "ownershipComp": "Closed-source; export options vary by tier",
+      "price": "Starting price",
+      "priceKanka": "Free forever; paid from $4.99/mo",
+      "priceComp": "Paid tiers required for private worlds"
+    },
+    "ownershipTitle": "Data Ownership & Transparency",
+    "ownershipBody1": "Your world is yours. Kanka lets you export your entire campaign whenever you want, with no paywall locking your lore inside. Kanka is also source-available on GitHub, meaning you can inspect how it works rather than trusting a closed black box. Oh, and we've been independent and subscriber-funded since 2017.",
+    "ownershipBody2": "World Anvil is closed-source, with private worlds and full export capabilities tied to paid subscription tiers.",
+    "testimonialRole": "Worldbuilder & GM",
+    "testimonialQuote": "\"Everything is in logical places and seems to be working in logical ways. The learning curve is much more friendly.\"",
     "interfaceTitle": "Interface and Learning Curve",
     "interfaceBody1": "Kanka focuses on an intuitive, clean interface that feels familiar to modern web users. The platform emphasizes getting started quickly with minimal setup time. All core features are accessible through a consistent, easy-to-navigate menu structure.",
     "interfaceBody2": "World Anvil offers a more elaborate interface with extensive customization options. While powerful, new users may need more time to learn the system and set up their world effectively.",
     "preview1Alt": "Kanka campaign dashboard showing characters and a calendar integrated in one view",
     "preview1Caption": "Kanka campaign dashboard showing characters and a calendar integrated in one view",
     "contentTitle": "Content Organization",
-    "contentBody1": "Kanka uses a flexible entity-based system where everything (characters, locations, organizations, etc.) is treated equally. This allows for natural interconnections between all elements of your world. The relationship system lets you create complex webs of connections while maintaining clarity.",
+    "contentBody1": "Kanka uses a flexible entry-based system where everything (characters, locations, organizations, etc.) is treated equally. This allows for natural interconnections between all elements of your world. The relationship system lets you create complex webs of connections while maintaining clarity.",
     "contentBody2": "World Anvil takes a more article-centric approach, with a focus on detailed wiki-style entries. This approach particularly benefits writers, offering robust tools for organizing lore, story arcs, and narrative elements. While connections between elements exist, they're structured more like traditional wiki links.",
     "preview2Alt": "Character's web of connections",
     "preview2Caption": "Characters come alive when they are connected to the rest of your world",
@@ -509,7 +555,7 @@
     "collaborationBody2": "World Anvil offers collaboration tools with a focus on community features and content sharing between different worldbuilders.",
     "strengthsTitle": "Unique Strengths",
     "kankaSubtitle": "Kanka",
-    "kankaStrength1": "Unified entity system that treats all content types equally",
+    "kankaStrength1": "Unified entry system that treats all content types equally",
     "kankaStrength2": "Intuitive relationship mapping between any elements",
     "kankaStrength3": "Consistent interface across all features",
     "kankaStrength4": "Strong integration between worldbuilding and campaign management",
@@ -524,7 +570,127 @@
     "conclusionBody": "Choose Kanka if you want a modern, intuitive platform that seamlessly blends worldbuilding with RPG campaign management, and value quick setup with consistent organization tools.",
     "preview4Alt": "Kanka dashboard with intro, calendar, recaps",
     "preview4Caption": "Focus on your worldbuilding and let Kanka handle the rest.",
-    "ctaLink": "Join 400,000 worldbuilders who didn't want to pay for complexity they'd never use."
+    "ctaLink": "Join 425,000 worldbuilders who didn't want to pay for complexity they'd never use."
+  },
+  "comparisonObsidian": {
+    "title": "Kanka vs Obsidian for Worldbuilding & TTRPGs",
+    "lead": "Obsidian is an awesome, independent Markdown vault for personal notes. Kanka is a purpose-built, web-native worldbuilding and campaign platform, ready out of the box with maps, calendars, timelines, and player permissions, without spending weekends configuring plugins.",
+    "tableTitle": "At a glance: Kanka vs Obsidian",
+    "table": {
+      "purpose": "Purpose",
+      "purposeKanka": "Purpose-built worldbuilding & TTRPG campaign manager",
+      "purposeComp": "General-purpose local Markdown knowledge base",
+      "setup": "Setup & maintenance",
+      "setupKanka": "Ready out of the box in minutes; zero plugin upkeep",
+      "setupComp": "Requires finding, configuring, and updating community plugins",
+      "sharing": "Player sharing & secrets",
+      "sharingKanka": "Built-in multi-user roles, permissions, and player preview",
+      "sharingComp": "Single-player by default; sharing requires Publish or workarounds",
+      "visuals": "Maps, calendars & timelines",
+      "visualsKanka": "Native, deeply integrated across all entries",
+      "visualsComp": "Available via third-party community plugins",
+      "access": "Access & offline",
+      "accessKanka": "Web-native across any device; full campaign export anytime",
+      "accessComp": "Offline-first local Markdown files on your device",
+      "pricing": "Free tier & sync",
+      "pricingKanka": "Free forever with unlimited campaigns & cloud sync",
+      "pricingComp": "Free app; official Sync and Publish are paid add-ons",
+      "independence": "Independence",
+      "independenceKanka": "Independent, no VC, subscriber-funded since 2017; source-available",
+      "independenceComp": "Independent, no VC, user-supported; closed-source"
+    },
+    "setupTitle": "Purpose-Built vs. DIY Plugin Stack",
+    "setupBody1": "Obsidian can do almost anything if you install and maintain the right community plugins: dataview, calendars, leaflet maps, fantasy statblocks, and CSS snippets. That flexibility is great if you love tinkering with your setup, though it can quickly turn into a kitchen-sink project where you spend more time configuring tools than building your world.",
+    "setupBody2": "Kanka gives you 20+ structured worldbuilding categories, {'@'}mentions, relations, calendars, timelines, and quests already wired together from day one. Create a campaign and start building in minutes (be it on desktop, tablet, or phone) with zero plugins to maintain.",
+    "preview1Alt": "Kanka {'@'}mentions linking characters, locations, and lore automatically",
+    "preview1Caption": "Link characters, locations, and quests with {'@'}mentions with absolutely no plugin configuration required.",
+    "sharingTitle": "Sharing With Your Table & Keeping Secrets",
+    "sharingBody1": "Obsidian is designed primarily as a local, single-player workspace. Sharing parts of your world with players while hiding GM spoilers usually means setting up Obsidian Publish, maintaining separate vaults, or syncing via Git.",
+    "sharingBody2": "Kanka is collaborative by default. Invite players and co-GMs for free, assign roles, and control visibility per entry, relation, or map pin. Not sure you set it up right? You can preview your campaign as a specific player to be 100% sure your secrets stay hidden.",
+    "preview2Alt": "Kanka granular permissions and visibility controls for players",
+    "preview2Caption": "Control exactly what players can see and edit, down to individual entries and map pins.",
+    "visualTitle": "Maps, Calendars & Timelines Out of the Box",
+    "visualBody1": "With Kanka, interactive multi-layer maps with permission-aware pins, custom fantasy calendars with moons and seasons, and era-based timelines are core features, not third-party plugins that might break on an update.",
+    "preview3Alt": "Kanka interactive map with custom pins and layers",
+    "preview3Caption": "Interactive maps with layers, polygons, and player-safe pins built right in.",
+    "preview4Alt": "Kanka custom worldbuilding calendar with moons and events",
+    "preview4Caption": "Custom calendars that automatically link to journals, events, and character ages.",
+    "ownershipTitle": "Data Ownership & Independence",
+    "ownershipBody1": "Both Obsidian and Kanka share an important value: neither is driven by venture capital. Obsidian keeps your notes as local Markdown files on your drive, which is unbeatable if offline-first local storage is your top priority.",
+    "ownershipBody2": "Kanka is web-native so your whole group can access it anywhere, and you can export your entire campaign anytime with no lock-in. Kanka's code is also source-available on GitHub and 100% subscriber-funded since 2017.",
+    "decisionTitle": "Which one should you choose?",
+    "chooseKankaTitle": "Choose Kanka if...",
+    "chooseKanka1": "You want a ready-to-use worldbuilding and campaign manager with zero setup",
+    "chooseKanka2": "You run games for players and need built-in permissions, secrets, and collaboration",
+    "chooseKanka3": "You want native maps, calendars, timelines, and quests that work together on any device",
+    "chooseKanka4": "You want free cross-device web access without paying for sync or hosting",
+    "chooseObsidianTitle": "Choose Obsidian if...",
+    "chooseObsidian1": "You want 100% offline-first local Markdown files on your own hard drive",
+    "chooseObsidian2": "You enjoy customizing your own workflow with community plugins and templates",
+    "chooseObsidian3": "You are building purely solo and rarely need live player permissions",
+    "testimonialRole": "Owlbear subscriber",
+    "testimonialQuote": "\"I got fed up with Obsidian's lack of focus and World Anvil's clunkiness, so here I am, building my own world—and so far I'm really liking the app.\"",
+    "ctaLink": "Start building your world for free"
+  },
+  "comparisonLegendKeeper": {
+    "title": "Kanka vs LegendKeeper: Worldbuilding Tool Comparison",
+    "lead": "LegendKeeper is a sleek, visual atlas and whiteboard tool for worlds and maps. Kanka is a free-forever, structured worldbuilding and TTRPG campaign platform with built-in calendars, timelines, quests, 20+ categories, and nearly a decade of independent development.",
+    "tableTitle": "At a glance: Kanka vs LegendKeeper",
+    "table": {
+      "freePlan": "Free plan",
+      "freePlanKanka": "Free forever (unlimited campaigns & entries)",
+      "freePlanComp": "Short free trial only; subscription required",
+      "pricing": "Pricing",
+      "pricingKanka": "Free core; optional tiers from $4.99/mo",
+      "pricingComp": "Paid subscription required after trial",
+      "visuals": "Visual UI & maps",
+      "visualsKanka": "Multi-layer maps with pins, polygons, and player visibility",
+      "visualsComp": "Sleek atlas-first UI with integrated whiteboards",
+      "entities": "Structured worldbuilding",
+      "entitiesKanka": "20+ dedicated categories plus custom categories",
+      "entitiesComp": "Flexible freeform wiki pages and templates",
+      "campaignTools": "Calendars, timelines & quests",
+      "campaignToolsKanka": "All built in and linked to entries",
+      "campaignToolsComp": "Lightweight timelines; no native custom calendars or quests",
+      "permissions": "Player permissions",
+      "permissionsKanka": "Granular roles, per-entry secrets, and player preview",
+      "permissionsComp": "Page and element-level sharing permissions",
+      "languages": "Languages",
+      "languagesKanka": "English, French, German, Spanish, Portuguese (BR)",
+      "languagesComp": "English-focused",
+      "stability": "Track record & transparency",
+      "stabilityKanka": "Independent since 2017; source-available; export anytime",
+      "stabilityComp": "Independent; closed-source"
+    },
+    "pricingTitle": "Free-Forever Plan vs. Subscription-Only",
+    "pricingBody1": "One of the biggest differences is how you get started. LegendKeeper is a paid product with a short free trial. If you stop subscribing, you lose edit access to your world.",
+    "pricingBody2": "Kanka's core platform is free forever: unlimited campaigns, unlimited entries, interactive maps, calendars, timelines, and full player permissions with no credit card required. Most game masters never need to pay, and optional subscriptions (from $4.99/mo) add larger uploads, custom themes, and community plugins.",
+    "structureTitle": "Structured Worldbuilding vs. Freeform Atlas",
+    "structureBody1": "LegendKeeper shines if you love starting from a visual map or freeform whiteboard canvas and dropping wiki pages onto it.",
+    "structureBody2": "Kanka takes a structured, relational approach. Characters, locations, organizations, families, items, quests, and custom categories all live in dedicated spaces and connect automatically via {'@'}mentions and relationship webs, making it effortless to find any detail in seconds, even mid-session.",
+    "preview1Alt": "Kanka campaign dashboard showing structured worldbuilding categories and widgets",
+    "preview1Caption": "Customizable dashboards keep your characters, locations, calendars, and recaps one click away.",
+    "campaignTitle": "Built-In Campaign, Calendar & Timeline Tools",
+    "campaignBody1": "Running an ongoing campaign takes more than wiki pages. Kanka includes custom fantasy calendars (with moons, seasons, and automatic character age calculation), era-based timelines, quest tracking, inventories, and session journals, all linked to the same world entries.",
+    "preview2Alt": "Kanka interactive timeline organized by eras and linked events",
+    "preview2Caption": "Track your world’s history across eras with interactive timelines linked directly to entries.",
+    "preview3Alt": "Kanka interactive map with layers and permission-controlled pins",
+    "preview3Caption": "Interactive maps with layers, polygons, and per-pin visibility controls for your players.",
+    "stabilityTitle": "Stability, Languages & Transparency",
+    "stabilityBody1": "When you invest years into a world, you want to know the platform won't disappear. Kanka has been independent, profitable, and 100% subscriber-funded since 2017 with no venture capital. Our code is source-available on GitHub, you can export your entire campaign anytime, and Kanka is localized into English, French, German, Spanish, Brazilian Portuguese, and more. Yes, even in Slovak!",
+    "decisionTitle": "Which one should you choose?",
+    "chooseKankaTitle": "Choose Kanka if...",
+    "chooseKanka1": "You want a generous free-forever plan with unlimited campaigns and entries",
+    "chooseKanka2": "You want structured categories, custom calendars, timelines, quests, and inventories built in",
+    "chooseKanka3": "You or your players prefer using the app in French, German, Spanish, or Portuguese",
+    "chooseKanka4": "You value a source-available platform with full campaign exports and a track record since 2017",
+    "chooseLKTitle": "Choose LegendKeeper if...",
+    "chooseLK1": "Your workflow centers primarily around a visual map atlas and freeform whiteboards",
+    "chooseLK2": "You prefer minimal structure over dedicated RPG and worldbuilding categories",
+    "chooseLK3": "You are comfortable with a paid-only subscription from day one",
+    "testimonialRole": "Worldbuilder & GM",
+    "testimonialQuote": "\"Got annoyed with how LegendKeeper felt, and other tools seemed overly complicated for no good reason. Kanka has helped me organize my world and thoughts on a much deeper level.\"",
+    "ctaLink": "Start your free campaign in Kanka"
   },
   "kb": {
     "title": "Kanka Knowledge Base",
@@ -550,7 +716,7 @@
     "responseHours": "24-48 hours",
     "responseBody2": "{fastest} Our Discord community is where we're most responsive. If you need urgent help, joining our {discordServer} is your best bet.",
     "responseFastest": "Fastest response:",
-    "responseBody3": "{allMethods} Email, Discord, or through any of our social channels. We understand not everyone wants to use Discord or social media, and that's perfectly fine—send us an email at {email} and we'll help.",
+    "responseBody3": "{allMethods} Email, Discord, or through any of our social channels. We understand not everyone wants to use Discord or social media, and that's perfectly fine! Send us an email at {email} and we'll help.",
     "responseAllMethods": "We accept all contact methods:",
     "beforeTitle": "Before You Contact Us",
     "downTitle": "Is Kanka down or having issues?",
@@ -621,12 +787,12 @@
   },
   "ttrpgTools": {
     "title": "Everything a game master needs, in one place.",
-    "lead": "Kanka is the all-in-one toolkit for tabletop RPG game masters: characters, maps, quests, timelines, and lore, all linked with {'@'}mentions and ready the moment you need them. Works for D&D, any TTRPG, or your own homebrew. Free to start, no credit card. Trusted by 400,000+ DMs.",
+    "lead": "Kanka is the all-in-one toolkit for tabletop RPG game masters: characters, maps, quests, timelines, and lore, all linked with {'@'}mentions and ready the moment you need them. Works for D&D, any TTRPG, or your own homebrew. Free to start, no credit card. Trusted by 425,000+ DMs.",
     "startFree": "Start for free"
   },
   "campaignManager": {
     "title": "Run your D&D campaign without the chaos.",
-    "lead": "Kanka is the campaign manager for D&D and tabletop RPG game masters. Track every NPC, quest, and plot thread, link them with {'@'}mentions, and pull up anything mid session, from session one to session fifty. Less prep, more play. Free to start, no credit card. Trusted by 400,000+ GMs.",
+    "lead": "Kanka is the campaign manager for D&D and tabletop RPG game masters. Track every NPC, quest, and plot thread, link them with {'@'}mentions, and pull up anything mid session, from session one to session fifty. Less prep, more play. Free to start, no credit card. Trusted by 425,000+ GMs.",
     "startFree": "Start for free"
   },
   "useCasesIndex": {

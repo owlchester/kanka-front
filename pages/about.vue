@@ -25,7 +25,7 @@
     <p>{{ $t('about.communityBody') }}</p>
 
     <div class="grid grid-cols-2 xl:grid-cols-4 gap-5 w-full">
-      <AboutStat :amount="$t('about.amounts.users', '400,000+')" :text="$t('about.stats.users')" />
+      <AboutStat :amount="$t('about.amounts.users', '425,000+')" :text="$t('about.stats.users')" />
       <AboutStat amount="90+" :text="$t('about.stats.countries')" />
       <AboutStat :amount="$t('about.amounts.entries', '9 million +')" :text="$t('about.stats.entries')" />
       <AboutStat :amount="$t('about.amounts.missedPlotHooks', '150,000+')" :text="$t('about.stats.missedPlotHooks')" />
@@ -68,7 +68,7 @@
 
 <script setup lang="ts">
 const localePath = useLocalePath()
-const title = 'About Kanka — 2-Person Team Behind 400K+ Worldbuilders'
+const title = 'About Kanka — 2-Person Team Behind 425K+ Worldbuilders'
 
 const { locale } = useI18n()
 const { teamCollection } = useLocaleData()
@@ -78,7 +78,7 @@ const { data: team } = await useAsyncData(`team-${locale.value}`, () =>
 
 useSeo({
   title,
-  description: "Kanka is a 3-person team from Geneva building the world's best TTRPG campaign manager and worldbuilding platform, used by 400,000+ creators in 90+ countries.",
+  description: "Kanka is a 2-person team from Geneva building the world's best TTRPG campaign manager and worldbuilding platform, used by 425,000+ creators in 90+ countries.",
   path: '/about',
   schemas: [
     {

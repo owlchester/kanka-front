@@ -390,7 +390,7 @@ import { SOFTWARE_APP_SCHEMA } from '~/composables/useSeo'
 
 const title = "Worldbuilding Tool Features: Maps, Timelines & More — Kanka";
 const metaDesc =
-    "Explore Kanka's worldbuilding tool features — maps, timelines, characters, and more. Trusted by 400,000+ creators. Free forever, no credit card required.";
+    "Explore Kanka's worldbuilding tool features — maps, timelines, characters, and more. Trusted by 425,000+ creators. Free forever, no credit card required.";
 
 useSeo({
     title,

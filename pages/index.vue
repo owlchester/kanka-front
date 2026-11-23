@@ -72,27 +72,60 @@
       <div class="overflow-auto">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
             <Testimonial
-                user="Charalampos"
-                :title="$t('index.testimonials.t1.role')"
-                img="/images/members/babis.png">
+                user="Phil"
+                :title="$t('index.testimonials.t1.role', 'Owlbear subscriber')">
                 {{ $t('index.testimonials.t1.quote') }}
             </Testimonial>
             <Testimonial
-                user="Steve D"
-                :title="$t('index.testimonials.t2.role')">
+                user="Tak"
+                :title="$t('index.testimonials.t2.role', 'Worldbuilder & GM')">
                 {{ $t('index.testimonials.t2.quote') }}
             </Testimonial>
             <Testimonial
-                user="Azukai"
-                :title="$t('index.testimonials.t3.role')">
+                user="Gaelyn"
+                :title="$t('index.testimonials.t3.role', '30+ year GM & subscriber')">
                 {{ $t('index.testimonials.t3.quote') }}
             </Testimonial>
             <Testimonial
-                user="Adam B"
-                :title="$t('index.testimonials.t4.role')">
+                user="Golden Spider"
+                :title="$t('index.testimonials.t4.role', 'Worldbuilder & subscriber')">
                 {{ $t('index.testimonials.t4.quote') }}
             </Testimonial>
           </div>
+      </div>
+  </Section>
+
+  <Section id="team">
+      <h2 class="text-purple">{{ $t('index.team.title') }}</h2>
+
+      <div class="flex items-center gap-12 justify-center">
+          <LazyNuxtImg src="/images/members/jay.png" class="rounded-full w-40 h-40" alt="Jay" />
+          <LazyNuxtImg src="/images/members/jon.png" class="rounded-full w-40 h-40" alt="Jon" />
+      </div>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 max-w-5xl mx-auto w-full">
+        <div class="rounded-xl border border-light/40 bg-purple/5 p-5 text-center flex flex-col justify-center gap-1.5">
+          <div class="font-bold text-purple text-[1.25rem] leading-snug">{{ $t('index.team.stat1Value', 'Since 2017') }}</div>
+          <div class="text-sm text-dark">{{ $t('index.team.stat1Label', 'Independent & here to stay') }}</div>
+        </div>
+        <div class="rounded-xl border border-light/40 bg-purple/5 p-5 text-center flex flex-col justify-center gap-1.5">
+          <div class="font-bold text-purple text-[1.25rem] leading-snug">{{ $t('index.team.stat2Value', 'No VC') }}</div>
+          <div class="text-sm text-dark">{{ $t('index.team.stat2Label', '100% subscriber-funded') }}</div>
+        </div>
+        <div class="rounded-xl border border-light/40 bg-purple/5 p-5 text-center flex flex-col justify-center gap-1.5">
+          <div class="font-bold text-purple text-[1.25rem] leading-snug">{{ $t('index.team.stat3Value', '425,000+') }}</div>
+          <div class="text-sm text-dark">{{ $t('index.team.stat3Label', 'Creators & 9M+ entries') }}</div>
+        </div>
+        <div class="rounded-xl border border-light/40 bg-purple/5 p-5 text-center flex flex-col justify-center gap-1.5">
+          <div class="font-bold text-purple text-[1.25rem] leading-snug">{{ $t('index.team.stat4Value', 'Source available') }}</div>
+          <div class="text-sm text-dark">{{ $t('index.team.stat4Label', 'Public code, export anytime') }}</div>
+        </div>
+      </div>
+
+      <p class="max-w-3xl mx-auto">{{ $t('index.team.body') }}</p>
+
+      <div class="text-center">
+        <NuxtLink :to="localePath('/about')" class="block-btn btn">{{ $t('index.team.cta') }}</NuxtLink>
       </div>
   </Section>
 
@@ -130,21 +163,6 @@
   <Section>
     <h2 class="text-purple">{{ $t('index.pricing.title') }}</h2>
     <PricingOverview />
-  </Section>
-
-
-  <Section id="team">
-      <h2 class="text-purple">{{ $t('index.team.title') }}</h2>
-
-      <div class="flex items-center gap-12 justify-center">
-          <LazyNuxtImg src="/images/members/jay.png" class="rounded-full w-40 h-40" alt="Jay" />
-          <LazyNuxtImg src="/images/members/jon.png" class="rounded-full w-40 h-40" alt="Jon" />
-      </div>
-      <p>{{ $t('index.team.body') }}</p>
-
-      <div class="text-center">
-        <NuxtLink :to="localePath('/about')" class="block-btn btn">{{ $t('index.team.cta') }}</NuxtLink>
-      </div>
   </Section>
 
 
@@ -229,7 +247,7 @@ const bottomRegisterUrl = useRegisterUrl('index_bottom')
 
 useSeo({
   title: 'Kanka — Worldbuilding & RPG Campaign Manager',
-  description: 'Organize your RPG campaigns, characters, maps, and timelines in one worldbuilding tool. Trusted by 400,000+ game masters, writers, and worldbuilders.',
+  description: 'Organize your RPG campaigns, characters, maps, and timelines in one worldbuilding tool. Trusted by 425,000+ game masters, writers, and worldbuilders.',
   path: '/',
   schemas: [
     {
