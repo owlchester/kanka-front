@@ -13,6 +13,7 @@
       <div class=" flex gap-6 min-w-fit mb-5">
         <Campaign
             v-for="campaign in setup.featured"
+            :key="campaign.id"
             :img="campaign.thumb"
             :id="campaign.id"
             :justify="campaign.justify"
@@ -61,6 +62,7 @@
         </p>
         <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
           <Campaign v-for="campaign in campaigns?.campaigns"
+                    :key="campaign.id"
                     :img="campaign.thumb"
                     :id="campaign.id"
                     :justify="campaign.justify"

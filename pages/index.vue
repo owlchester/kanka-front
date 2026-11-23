@@ -177,30 +177,30 @@
       <div class=" flex gap-3 min-w-fit mb-5 justify-center ">
         <Campaign
             :featured="true"
-            img="https://th.kanka.io/YKtg9EzWOn9T_3gQSzU5oiZtDSA=/283x212/smart/src/campaigns/2XJDh5zOxFe1DCiqtmXzo20WWJeb1Q2dvav8OQhH.jpeg"
-            link="https://app.kanka.io/w/36205"
-            title="The Odyssey">
+            img="https://th.kanka.io/8V_LwSCh8fjeqCawHQqRWVRp7zA=/320x240/smart/src/w/70580/KpeGHOktCLM6Qfynz4XYHRoWRDMr3HcZUFngS0Ur.png"
+            link="https://app.kanka.io/w/legends-of-iozaria"
+            title="The Legends of Iozaria ">
         </Campaign>
 
         <Campaign
             :featured="true"
-            img="https://th.kanka.io/UrqJb-7gR5k8_XB4qXO7cWVmjxg=/283x212/smart/src/campaigns/gDhOPs8kCuwjv8JWfUNm7S7pqzHFAJ9oiMKSzzQq.jpg"
-            link="https://app.kanka.io/w/52637"
-            title="What Lies Beneath">
+            img="https://th.kanka.io/sFlozVs6vpwta_uPzoKhJeUPIlw=/320x240/smart/src/w/163775/f2bAO5NJAKbX39sTwmZ8.webp"
+            link="https://app.kanka.io/w/163775"
+            title="Wrath of the Divine">
         </Campaign>
 
         <Campaign
             :featured="true"
-            img="https://th.kanka.io/G4WdG8U8_GC744xwNHQI4okr4Tk=/283x212/smart/src/campaigns/wY5eKlMDdQLJ5GIV99V0fN7zIjiU9mXyhAHWcLN4.jpeg"
+            img="https://th.kanka.io/Ked_BDQMH_z_tsIWBnA7WNONPcM=/320x240/smart/src/w/1/AmBUcBaAcPmJb7HTFnNvWQENwTCsHDJS8j4HTEda.jpg"
             link="https://app.kanka.io/w/thaelia"
             title="Thaelia">
         </Campaign>
 
         <Campaign
             :featured="true"
-            img="https://th.kanka.io/a4Pf49HUCryzVRllLWt08VyW8LM=/283x212/smart/src/campaigns/107_XtmEC4V.png"
-            link="https://app.kanka.io/w/107"
-            title="Devils and Dragons">
+            img="https://th.kanka.io/yK76V1wowmR5ayBs32IwDMjaWPk=/320x240/smart/src/w/32644/ljcjxCseu2IaI0nsxqYn.png"
+            link="https://app.kanka.io/w/32644"
+            title="Eredonia">
         </Campaign>
       </div>
     </div>

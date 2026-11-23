@@ -1,8 +1,10 @@
 <template>
-  <a :href="link" :class="boxCss()">
-    <img v-bind:src="img" v-bind:alt="title" width="283" height="212" loading="lazy">
+  <div :class="boxCss()">
+    <a :href="link" class="block">
+      <img v-bind:src="img" v-bind:alt="title" width="283" height="212" loading="lazy">
+    </a>
     <div class="flex flex-col gap-2">
-      <div class="flex gap-2">
+      <a :href="link" class="flex gap-2">
         <h3 class="grow" v-html="title"></h3>
         <span v-if="featured" :title="$t('campaigns.featuredLabel', 'This campaign is featured')">
           <svg class="w-7 h-7" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" :aria-label="$t('campaigns.featuredLabel', 'Featured campaign')">
@@ -12,7 +14,7 @@
               </g>
           </svg>
         </span>
-      </div>
+      </a>
 
       <a class="text-sm text-light hover:font-semibold" v-if="justify" :href="justify">{{ $t('campaigns.viewSpotlight', 'View spotlight') }}</a>
 
@@ -35,7 +37,7 @@
         </span>
       </div>
     </div>
-  </a>
+  </div>
 </template>
 
 <script>

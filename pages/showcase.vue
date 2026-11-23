@@ -27,6 +27,7 @@
         <div class="flex flex-wrap gap-4 md:gap-6">
           <Campaign
               v-for="campaign in campaigns.campaigns"
+              :key="campaign.id"
               :img="campaign.thumb"
               :id="campaign.id"
               :justify="campaign.justify"
